@@ -2,14 +2,13 @@
 
 Digital Scriptorium OpenRefine documentation and code snippets
 
-
 ## Data reconciliation
 
 ### First: Add an index column
 
 Create an index column:
 
-    - [`json/add_index_column.json`][add_index_column]
+- [`json/add_index_column.json`][add_index_column]
 
 [add_index_column]:   json/add_index_column.json    "Add index column"
 
