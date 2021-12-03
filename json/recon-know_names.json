@@ -1,0 +1,102 @@
+[
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Jastrow, Marcus, 1829-1903,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q556073",
+      "name": "Marcus Jastrow",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Marcus Jastrow (Q556073) for cells containing \"Jastrow, Marcus, 1829-1903,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Jastrow, Morris, Jr., 1861-1921,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q635773",
+      "name": "Morris Jastrow, Jr.",
+      "types": [
+        "Q5"
+      ],
+      "score": 77
+    },
+    "shareNewTopics": false,
+    "description": "Match item Morris Jastrow, Jr. (Q635773) for cells containing \"Jastrow, Morris, Jr., 1861-1921,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Brecher, Adolf,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15217756",
+      "name": "Adolf Brecher",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Adolf Brecher (Q15217756) for cells containing \"Brecher, Adolf,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Ebner von Eschenbach, Hieronymus Wilhelm, 1673-1752,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15452636",
+      "name": "Hieronymus Wilhelm Ebner von Eschenbach",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hieronymus Wilhelm Ebner von Eschenbach (Q15452636) for cells containing \"Ebner von Eschenbach, Hieronymus Wilhelm, 1673-1752,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Phillipps, Thomas, Sir, 1792-1872,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2147709",
+      "name": "Thomas Phillipps",
+      "types": [
+        "Q5"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Phillipps (Q2147709) for cells containing \"Phillipps, Thomas, Sir, 1792-1872,\" in column recon"
+  },
+]
