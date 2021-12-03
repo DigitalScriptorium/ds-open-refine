@@ -20,4 +20,10 @@
     "columnInsertIndex": 39,
     "description": "Extend data at index 39 based on column recon"
   },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Qid",
+    "newColumnName": "Qid-human",
+    "description": "Rename column Qid to Qid-human"
+  }
 ]
