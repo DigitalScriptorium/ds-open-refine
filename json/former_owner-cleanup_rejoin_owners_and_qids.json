@@ -10,7 +10,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "Qid",
+    "columnName": "qid",
     "expression": "value",
     "edits": [
       {
@@ -33,7 +33,7 @@
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "Qid",
+    "columnName": "qid",
     "keyColumnName": "row_index",
     "separator": "|",
     "description": "Join multi-valued cells in column Qid"
@@ -44,11 +44,17 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "Qid",
+    "columnName": "qid",
     "expression": "value.replace(/\\bUNRECONNED\\b/i,\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column Qid using expression value.replace(/\\bUNRECONNED\\b/i,\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "qid",
+    "newColumnName": "former_owner_qid",
+    "description": "Rename column qid to former_owner_qid"
   }
 ]
