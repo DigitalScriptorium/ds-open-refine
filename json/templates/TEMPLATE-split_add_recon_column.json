@@ -1,12 +1,12 @@
 [
   {
     "op": "core/multivalued-cell-split",
-    "columnName": "REPLACE_WITH_NAME_COLUMN",
+    "columnName": "REPLACE_WITH_AS_RECORDED_COLUMN_NAME",
     "keyColumnName": "row_index",
     "mode": "separator",
     "separator": "|",
     "regex": false,
-    "description": "Split multi-valued cells in column REPLACE_WITH_NAME_COLUMN"
+    "description": "Split multi-valued cells in column REPLACE_WITH_AS_RECORDED_COLUMN_NAME"
   },
   {
     "op": "core/column-addition",
@@ -14,12 +14,12 @@
       "facets": [],
       "mode": "record-based"
     },
-    "baseColumnName": "REPLACE_WITH_NAME_COLUMN",
+    "baseColumnName": "REPLACE_WITH_AS_RECORDED_COLUMN_NAME",
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon",
     "columnInsertIndex": 38,
-    "description": "Create column recon at index 38 based on column REPLACE_WITH_NAME_COLUMN using expression grel:value"
+    "description": "Create column recon at index 38 based on column REPLACE_WITH_AS_RECORDED_COLUMN_NAME using expression grel:value"
   },
   {
     "op": "core/recon",

@@ -10,7 +10,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "Qid",
+    "columnName": "qid",
     "expression": "value",
     "edits": [
       {
@@ -26,14 +26,14 @@
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "REPLACE_WITH_NAME_COLUMN",
+    "columnName": "REPLACE_WITH_AS_RECORDED_COLUMN_NAME",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column REPLACE_WITH_NAME_COLUMN"
+    "description": "Join multi-valued cells in column REPLACE_WITH_AS_RECORDED_COLUMN_NAME"
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "Qid",
+    "columnName": "qid",
     "keyColumnName": "row_index",
     "separator": "|",
     "description": "Join multi-valued cells in column Qid"
@@ -44,11 +44,17 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "Qid",
+    "columnName": "qid",
     "expression": "value.replace(/\\bUNRECONNED\\b/i,\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column Qid using expression value.replace(/\\bUNRECONNED\\b/i,\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "qid",
+    "newColumnName": "REPLACE_WITH_QID_COLUMN_NAME",
+    "description": "Rename column qid to REPLACE_WITH_QID_COLUMN_NAME; e.g., former_owner_qid"
   }
 ]
