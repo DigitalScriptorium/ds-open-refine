@@ -15,7 +15,7 @@ Create an index column:
 ### Reconciling former owners
 
 1. Split `former_owner_as_recorded` and set up reconciliation for owners:
-    - [`json/former_owner-cleanup_rejoin_owners_and_qids.json`][split_owner]
+    - [`json/former_owner-split-add-recon-column.json`][split_owner]
 2. Perform known name reconciliations:
     - [`json/recon-known_names.json`][known_names]
 3. Perform known extra reconciliations
@@ -25,7 +25,7 @@ Create an index column:
     - [`json/former_owner-cleanup_rejoin_owners_and_qids.json`][clean_owner]
 
 
-[split_owner]:        json/former_owner-cleanup_rejoin_owners_and_qids.json   "Split owner and reconcile"
+[split_owner]:        json/former_owner-split-add-recon-column.json           "Split owner and reconcile"
 [known_names]:        json/recon-known_names.json                             "Known name reconciliations"
 [add_reconned_qids]:  json/recon-add_recon_column_qids.json                   "Add QID column for reconciliations"
 [clean_owner]:        json/former_owner-cleanup_rejoin_owners_and_qids.json   "Cleanup and rejoin owners and QIDs"
