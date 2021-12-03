@@ -29,8 +29,3 @@ Create an index column:
 [known_names]:        json/recon-known_names.json                             "Known name reconciliations"
 [add_reconned_qids]:  json/recon-add_recon_column_qids.json                   "Add QID column for reconciliations"
 [clean_owner]:        json/former_owner-cleanup_rejoin_owners_and_qids.json   "Cleanup and rejoin owners and QIDs"
-
-
-TODO: Add reconciliation for non-human owners Q5; now only works for Q5 "humans"
-TODO: Add template for non-human owners
-TODO: Add step to rename QID column to column-specific name
