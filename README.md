@@ -20,12 +20,12 @@ Create an index column:
     - [`json/recon-known_names.json`][known_names]
 3. Perform known extra reconciliations
 4. Add QID column:
-    - [`json/recon-add_recon_column_quids.json`][add_reconned_qids]
+    - [`json/recon-add_recon_column_qids.json`][add_reconned_qids]
 5. Remove Recon column, rejoin split cells:
     - [`json/former_owner-cleanup_rejoin_owners_and_qids.json`][clean_owner]
 
 
 [split_owner]:        json/former_owner-cleanup_rejoin_owners_and_qids.json   "Split owner and reconcile"
 [known_names]:        json/recon-known_names.json                             "Known name reconciliations"
-[add_reconned_qids]:  json/recon-add_recon_column_quids.json                  "Add QID column for reconciliations"
+[add_reconned_qids]:  json/recon-add_recon_column_qids.json                   "Add QID column for reconciliations"
 [clean_owner]:        json/former_owner-cleanup_rejoin_owners_and_qids.json   "Cleanup and rejoin owners and QIDs"
