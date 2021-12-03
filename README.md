@@ -40,5 +40,5 @@ Create an index column:
 [orgn_recon]:         json/recon-organization_recon.json                      "Start recon for type org"
 [known_names_orgn]:   json/recon-known_names_organization.json                "Known organization name reconciliations"
 [add_reconned_qids]:  json/recon-add_recon_column_qid-orgn.json               "Add organization QID column for reconciliations"
-[merge_qid_cols]:     json/json/recon-merge_human_orgn_qid_columns.json       "Merge human, orgn QID columns"
+[merge_qid_cols]:     json/recon-merge_human_orgn_qid_columns.json            "Merge human, orgn QID columns"
 [cleanup_owner]:      json/former_owner-cleanup_rejoin_owners_and_qids.json   "Cleanup and rejoin owners and QIDs"
