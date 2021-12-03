@@ -22,7 +22,7 @@ Create an index column:
 4. Add human QID column:
     - [`json/recon-add_recon_column_qid-human.json`][add_reconned_qids]
 5. Change recon type to organization:
-    - [`json/recon-start_organization_recon.json`][orgn_recon]
+    - [`json/recon-organization_recon.json`][orgn_recon]
 6. Perform known name reconciliations (organization):
     - [`json/recon-known_names_organization.json`][known_names]
 7. Perform manual organization reconciliations
@@ -37,7 +37,7 @@ Create an index column:
 [split_owner]:        json/former_owner-split_add_recon_column.json           "Split owner and reconcile"
 [known_names]:        json/recon-known_names_human.json                       "Known human name reconciliations"
 [add_reconned_qids]:  json/recon-add_recon_column_qid-human.json              "Add human QID column for reconciliations"
-[orgn_recon]:         json/recon-start_organization_recon.json                "Start recon for type org"
+[orgn_recon]:         json/recon-organization_recon.json                      "Start recon for type org"
 [known_names_orgn]:   json/recon-known_names_organization.json                "Known organization name reconciliations"
 [add_reconned_qids]:  json/recon-add_recon_column_qid-orgn.json               "Add organization QID column for reconciliations"
 [merge_qid_cols]:     json/json/recon-merge_human_orgn_qid_columns.json       "Merge human, orgn QID columns"
