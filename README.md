@@ -24,7 +24,7 @@ Create an index column:
 5. Change recon type to organization:
     - [`json/recon-organization_recon.json`][orgn_recon]
 6. Perform known name reconciliations (organization):
-    - [`json/recon-known_names_organization.json`][known_names]
+    - [`json/recon-known_names_organization.json`][known_names_orgn]
 7. Perform manual organization reconciliations
 8. Add organization QID column:
     - [`json/recon-add_recon_column_qid-orgn.json`][add_reconned_qids]
