@@ -28,6 +28,30 @@
     "description": "Rename column Qid to Qid-organization"
   },
   {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+      ],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Qid-organization",
+    "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "qid",
+    "columnInsertIndex": 40,
+    "description": "Create column qid at index 40 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid-organization",
+    "description": "Remove column Qid-organization"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid-human",
+    "description": "Remove column Qid-human"
+  },
+  {
     "op": "core/column-removal",
     "columnName": "recon",
     "description": "Remove column recon"
