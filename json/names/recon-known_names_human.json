@@ -1,5 +1,5 @@
 [
-    {
+  {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
       "facets": [],
@@ -99,4 +99,144 @@
     "shareNewTopics": false,
     "description": "Match item Thomas Phillipps (Q2147709) for cells containing \"Phillipps, Thomas, Sir, 1792-1872,\" in column recon"
   },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Gorman, Pierre Patrick, 1924-,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1671373",
+      "name": "Pierre Gorman",
+      "types": [
+        "Q5"
+      ],
+      "score": 89
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pierre Gorman (Q1671373) for cells containing \"Gorman, Pierre Patrick, 1924-,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Pius VI, Pope, 1717-1799,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q128019",
+      "name": "Pius VI",
+      "types": [
+        "Q5"
+      ],
+      "score": 71
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pius VI (Q128019) for cells containing \"Pius VI, Pope, 1717-1799,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Beatty, A. Chester Sir, 1875-1968,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1387981",
+      "name": "Alfred Chester Beatty",
+      "types": [
+        "Q5"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfred Chester Beatty (Q1387981) for cells containing \"Beatty, A. Chester Sir, 1875-1968,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon",
+          "expression": "value",
+          "columnName": "recon",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Hoe, Robert, 1839-1909,",
+                "l": "Hoe, Robert, 1839-1909,"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Hoe, Robert, 1839-1909,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3663034",
+      "name": "Robert Hoe III",
+      "types": [
+        "Q5"
+      ],
+      "score": 67
+    },
+    "shareNewTopics": false,
+    "description": "Match item Robert Hoe III (Q3663034) for cells containing \"Hoe, Robert, 1839-1909,\" in column recon"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon",
+          "expression": "value",
+          "columnName": "recon",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tollemache, Bentley Lyonel John Tollemache, Baron, 1883-1955,",
+                "l": "Tollemache, Bentley Lyonel John Tollemache, Baron, 1883-1955,"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon",
+    "similarValue": "Dysart, Lionel Tollemache, Earl of, 1708-1770,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6555815",
+      "name": "Lionel Tollemache, 4th Earl of Dysart",
+      "types": [
+        "Q5"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lionel Tollemache, 4th Earl of Dysart (Q6555815) for cells containing \"Dysart, Lionel Tollemache, Earl of, 1708-1770,\" in column recon"
+  }
 ]
