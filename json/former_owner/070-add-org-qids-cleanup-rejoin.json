@@ -1,0 +1,88 @@
+[
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [
+      ],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "qid",
+          "name": "SPARQL: qid"
+        }
+      ]
+    },
+    "columnInsertIndex": 39,
+    "description": "Extend data at index 39 based on column recon"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Qid",
+    "newColumnName": "Qid-organization",
+    "description": "Rename column Qid to Qid-organization"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon",
+    "description": "Remove column recon"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "qid",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UNRECONNED"
+      }
+    ],
+    "description": "Mass edit cells in column Qid"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "former_owner_as_recorded",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column former_owner_as_recorded"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "qid",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column Qid"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "qid",
+    "expression": "value.replace(/\\bUNRECONNED\\b/i,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Qid using expression value.replace(/\\bUNRECONNED\\b/i,\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "qid",
+    "newColumnName": "former_owner_qid",
+    "description": "Rename column qid to former_owner_qid"
+  }
+]
