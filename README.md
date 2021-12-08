@@ -36,13 +36,13 @@ Create an index column:
     - [JSON][cleanup_owner]
 
 
-[split_owner]:              json/former_owner/010-split_add_recon_column.json       "Split owner and reconcile"
-[known_names]:              json/names/recon-known_names_human.json                 "Known human name reconciliations"
-[add_human_qids]:           json/former_owner/040-human-qid-then-orgn-recon.json    "Add human QID column for reconciliations"
-[orgn_recon]:               json/recon-organization_recon.json                      "Start recon for type org"
-[known_names_orgn]:         json/names/recon-known_names_organization.json          "Known organization name reconciliations"
-[orgn_qids_merge_cleanup]:  json/former_owner/070-add-org-qids-cleanup-rejoin.json  "Add organization QID column for reconciliations"
+[split_owner]:              json/former_owner/010-split_add_recon_column.json           "Split owner and reconcile"
+[known_names]:              json/former_owner/020-recon-known_names_human.json          "Known human name reconciliations"
+[add_human_qids]:           json/former_owner/040-human-qid-then-orgn-recon.json        "Add human QID column for reconciliations"
+[known_names_orgn]:         json/former_owner/050-recon-known_names_organization.json   "Known organization name reconciliations"
+[orgn_qids_merge_cleanup]:  json/former_owner/070-add-org-qids-cleanup-rejoin.json      "Add organization QID column for reconciliations"
 
 
+[orgn_recon]:               json/recon-organization_recon.json                          "Start recon for type org"
 [merge_qid_cols]:           json/recon-merge_human_orgn_qid_columns.json            "Merge human, orgn QID columns"
 [cleanup_owner]:            json/former_owner-cleanup_rejoin_owners_and_qids.json   "Cleanup and rejoin owners and QIDs"

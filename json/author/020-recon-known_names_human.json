@@ -1,1 +1,422 @@
-json/names/recon-known_names_human.json
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Aristotle.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q868",
+      "name": "Aristotle",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aristotle (Q868) for cells containing \"Aristotle.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Albertus, Magnus, Saint, 1193?-1280.",
+                "l": "Albertus, Magnus, Saint, 1193?-1280."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Albertus, Magnus, Saint, 1193?-1280.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q60059",
+      "name": "Albertus Magnus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Albertus Magnus (Q60059) for cells containing \"Albertus, Magnus, Saint, 1193?-1280.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Bigod, Roger, Earl of Norfolk, d. 1221.",
+                "l": "Bigod, Roger, Earl of Norfolk, d. 1221."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bigod, Roger, Earl of Norfolk, d. 1221.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3438704",
+      "name": "Roger Bigod, 2nd Earl of Norfolk",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roger Bigod, 2nd Earl of Norfolk (Q3438704) for cells containing \"Bigod, Roger, Earl of Norfolk, d. 1221.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Boccaccio, Giovanni, 1313-1375.",
+                "l": "Boccaccio, Giovanni, 1313-1375."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Boccaccio, Giovanni, 1313-1375.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1402",
+      "name": "Giovanni Boccaccio",
+      "types": [
+        "Q5"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovanni Boccaccio (Q1402) for cells containing \"Boccaccio, Giovanni, 1313-1375.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Boethius, -524.",
+                "l": "Boethius, -524."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Boethius, -524.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1174068",
+      "name": "Boethius",
+      "types": [
+        "Q5"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Boethius (Q1174068) for cells containing \"Boethius, -524.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "John XXI, Pope, -1277",
+                "l": "John XXI, Pope, -1277"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "John XXI, Pope, -1277",
+    "judgment": "matched",
+    "match": {
+      "id": "Q172916",
+      "name": "John XXI",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John XXI (Q172916) for cells containing \"John XXI, Pope, -1277\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Paolo, Veneto, approximately 1370-1428.",
+                "l": "Paolo, Veneto, approximately 1370-1428."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Paolo, Veneto, approximately 1370-1428.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2064265",
+      "name": "Paul of Venice",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paul of Venice (Q2064265) for cells containing \"Paolo, Veneto, approximately 1370-1428.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ptolemy, active 2nd century.",
+                "l": "Ptolemy, active 2nd century."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ptolemy, active 2nd century.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q34943",
+      "name": "Ptolemy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ptolemy (Q34943) for cells containing \"Ptolemy, active 2nd century.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sacro Bosco, Joannes de, active 1230.",
+                "l": "Sacro Bosco, Joannes de, active 1230."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Sacro Bosco, Joannes de, active 1230.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q433841",
+      "name": "Johannes de Sacrobosco",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Johannes de Sacrobosco (Q433841) for cells containing \"Sacro Bosco, Joannes de, active 1230.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Thomas, de Cantimpré, approximately 1200-approximately 1270.",
+                "l": "Thomas, de Cantimpré, approximately 1200-approximately 1270."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Thomas, de Cantimpré, approximately 1200-approximately 1270.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q572799",
+      "name": "Thomas of Cantimpré",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas of Cantimpré (Q572799) for cells containing \"Thomas, de Cantimpré, approximately 1200-approximately 1270.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human",
+          "expression": "value",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vincent, of Beauvais, -1264.",
+                "l": "Vincent, of Beauvais, -1264."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vincent, of Beauvais, -1264.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q455162",
+      "name": "Vincent of Beauvais",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vincent of Beauvais (Q455162) for cells containing \"Vincent, of Beauvais, -1264.\" in column recon-human"
+  }
+]
