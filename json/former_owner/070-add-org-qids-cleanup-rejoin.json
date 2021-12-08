@@ -6,7 +6,7 @@
       ],
       "mode": "record-based"
     },
-    "baseColumnName": "recon",
+    "baseColumnName": "recon-organization",
     "endpoint": "https://wikidata.reconci.link/en/api",
     "identifierSpace": "http://www.wikidata.org/entity/",
     "schemaSpace": "http://www.wikidata.org/prop/direct/",
@@ -53,7 +53,7 @@
   },
   {
     "op": "core/column-removal",
-    "columnName": "recon",
+    "columnName": "recon-organization",
     "description": "Remove column recon"
   },
   {

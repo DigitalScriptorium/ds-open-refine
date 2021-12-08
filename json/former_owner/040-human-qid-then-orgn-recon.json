@@ -5,7 +5,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "baseColumnName": "recon",
+    "baseColumnName": "recon-human",
     "endpoint": "https://wikidata.reconci.link/en/api",
     "identifierSpace": "http://www.wikidata.org/entity/",
     "schemaSpace": "http://www.wikidata.org/prop/direct/",
@@ -27,12 +27,30 @@
     "description": "Rename column Qid to Qid-human"
   },
   {
+    "op": "core/column-removal",
+    "columnName": "recon-human",
+    "description": "Remove column recon"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "former_owner_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-organization",
+    "columnInsertIndex": 38,
+    "description": "Create column recon at index 38 based on column former_owner_as_recorded using expression grel:value"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-organization",
     "config": {
       "mode": "standard-service",
       "service": "https://wikidata.reconci.link/en/api",

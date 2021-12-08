@@ -5,7 +5,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Jastrow, Marcus, 1829-1903,",
     "judgment": "matched",
     "match": {
@@ -25,7 +25,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Jastrow, Morris, Jr., 1861-1921,",
     "judgment": "matched",
     "match": {
@@ -45,7 +45,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Brecher, Adolf,",
     "judgment": "matched",
     "match": {
@@ -65,7 +65,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Ebner von Eschenbach, Hieronymus Wilhelm, 1673-1752,",
     "judgment": "matched",
     "match": {
@@ -85,7 +85,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Phillipps, Thomas, Sir, 1792-1872,",
     "judgment": "matched",
     "match": {
@@ -105,7 +105,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Gorman, Pierre Patrick, 1924-,",
     "judgment": "matched",
     "match": {
@@ -125,7 +125,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Pius VI, Pope, 1717-1799,",
     "judgment": "matched",
     "match": {
@@ -145,7 +145,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Beatty, A. Chester Sir, 1875-1968,",
     "judgment": "matched",
     "match": {
@@ -167,7 +167,7 @@
           "type": "list",
           "name": "recon",
           "expression": "value",
-          "columnName": "recon",
+          "columnName": "recon-human",
           "invert": false,
           "omitBlank": false,
           "omitError": false,
@@ -185,7 +185,7 @@
       ],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Hoe, Robert, 1839-1909,",
     "judgment": "matched",
     "match": {
@@ -207,7 +207,7 @@
           "type": "list",
           "name": "recon",
           "expression": "value",
-          "columnName": "recon",
+          "columnName": "recon-human",
           "invert": false,
           "omitBlank": false,
           "omitError": false,
@@ -225,7 +225,7 @@
       ],
       "mode": "record-based"
     },
-    "columnName": "recon",
+    "columnName": "recon-human",
     "similarValue": "Dysart, Lionel Tollemache, Earl of, 1708-1770,",
     "judgment": "matched",
     "match": {
