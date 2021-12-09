@@ -31,39 +31,57 @@
     "columnName": "recon-human",
     "description": "Remove column recon"
   },
-  {
-    "op": "core/column-addition",
+    {
+    "op": "core/mass-edit",
     "engineConfig": {
       "facets": [],
       "mode": "record-based"
     },
-    "baseColumnName": "author_as_recorded",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "recon-organization",
-    "columnInsertIndex": 26,
-    "description": "Create column recon at index 38 based on column author_as_recorded using expression grel:value"
+    "columnName": "Qid-human",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UNRECONNED"
+      }
+    ],
+    "description": "Mass edit cells in column Qid"
   },
   {
-    "op": "core/recon",
+    "op": "core/multivalued-cell-join",
+    "columnName": "author_as_recorded",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column author_as_recorded"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Qid-human",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column Qid"
+  },
+  {
+    "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "recon-organization",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wikidata.reconci.link/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q43229",
-        "name": "organization"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column recon to type Q43229"
+    "columnName": "Qid-human",
+    "expression": "value.replace(/\\bUNRECONNED\\b/i,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Qid using expression value.replace(/\\bUNRECONNED\\b/i,\"\")"
   },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Qid-human",
+    "newColumnName": "author_qid",
+    "description": "Rename column qid to author_qid"
+  }
 ]
