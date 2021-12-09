@@ -27,7 +27,7 @@ Create an index column:
 [fo_split_owner]:              json/former_owner/010-split_add_recon_column.json
 [fo_known_names_human]:        json/former_owner/020-recon-known_names_human.json
 [fo_add_human_qids]:           json/former_owner/050-human-qid-then-orgn-recon.json
-[fo_known_names_orgn]:         json/former_owner/060-recon-known_names_organization.json
+[fo_known_names_orgn]:         json/former_owner/060-recon-known-names-organization.json
 [fo_orgn_qids_merge_cleanup]:  json/former_owner/090-add-org-qids-cleanup-rejoin.json
 
 ### Reconciling authors
