@@ -21,10 +21,37 @@
     "description": "Extend data at index 39 based on column recon"
   },
   {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon-human",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P31",
+          "name": "instance of"
+        }
+      ]
+    },
+    "columnInsertIndex": 39,
+    "description": "Extend data at index 39 based on column recon-human"
+  }
+  {
     "op": "core/column-rename",
     "oldColumnName": "Qid",
     "newColumnName": "Qid-human",
     "description": "Rename column Qid to Qid-human"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "instance of",
+    "newColumnName": "instance of-human",
+    "description": "Rename column instance of to instance of-human"
   },
   {
     "op": "core/column-removal",
