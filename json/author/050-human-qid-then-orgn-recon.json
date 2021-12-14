@@ -1,0 +1,120 @@
+[
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon-human",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "qid",
+          "name": "SPARQL: qid"
+        }
+      ]
+    },
+    "columnInsertIndex": 27,
+    "description": "Extend data at index 39 based on column recon"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-human",
+    "expression": "grel:coalesce(cells[\"Qid\"].value, \"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Qid-human",
+    "columnInsertIndex": 28,
+    "description": "Create column Qid-human at index 28 based on column recon-human using expression grel:coalesce(cells[\"Qid\"].value, \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid",
+    "description": "Remove column Qid"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon-human",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P31",
+          "name": "instance of"
+        }
+      ]
+    },
+    "columnInsertIndex": 28,
+    "description": "Extend data at index 28 based on column recon-human"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-human",
+    "expression": "grel:coalesce(cells[\"instance of\"].value, \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "instance of-human",
+      "columnInsertIndex": 29,
+      "description": "Create column instance of-human at index 27 based on column recon-human using expression grel:coalesce(cells[\"instance of\"].value, \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance of",
+    "description": "Remove column recon-organization; should not fail even if column does not exist"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-human",
+    "description": "Remove column recon-human"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "author_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-organization",
+    "columnInsertIndex": 2,
+    "description": "Create column recon at index 38 based on column author_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-organization",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q43229",
+        "name": "organization"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon to type Q43229"
+  },
+]
