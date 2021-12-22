@@ -72,9 +72,9 @@
     "baseColumnName": "Qid-human",
     "expression": "grel:coalesce(cells[\"Qid-human\"].value, cells[\"Qid-organization\"].value, \"\")",
     "onError": "set-to-blank",
-    "newColumnName": "former_owner_wikibase",
+    "newColumnName": "former_owner_wikidata",
     "columnInsertIndex": 42,
-    "description": "Create column former_owner_wikibase, coalescing Qid-human and Qid-organization"
+    "description": "Create column former_owner_wikidata, coalescing Qid-human and Qid-organization"
   },
   {
     "op": "core/column-removal",
@@ -135,7 +135,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "former_owner_wikibase",
+    "columnName": "former_owner_wikidata",
     "expression": "value",
     "edits": [
       {
@@ -147,7 +147,7 @@
         "to": "UNRECONCILED"
       }
     ],
-    "description": "Mass edit cells in column former_owner_wikibase"
+    "description": "Mass edit cells in column former_owner_wikidata"
   },
   {
     "op": "core/multivalued-cell-join",
@@ -172,10 +172,10 @@
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "former_owner_wikibase",
+    "columnName": "former_owner_wikidata",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column former_owner_wikibase"
+    "description": "Join multi-valued cells in column former_owner_wikidata"
   },
   {
     "op": "core/text-transform",
@@ -196,11 +196,11 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "former_owner_wikibase",
+    "columnName": "former_owner_wikidata",
     "expression": "value.replace(/\\bUNRECONCILED\\b/,\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column former_owner_wikibase using expression value.replace(/\\bUNRECONCILED\\b/,\"\")"
+    "description": "Text transform on cells in column former_owner_wikidata using expression value.replace(/\\bUNRECONCILED\\b/,\"\")"
   }
 ]

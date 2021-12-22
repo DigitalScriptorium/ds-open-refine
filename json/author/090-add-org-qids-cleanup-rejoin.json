@@ -96,9 +96,9 @@
     "baseColumnName": "Qid-human",
     "expression": "grel:coalesce(cells[\"Qid-human\"].value, cells[\"Qid-organization\"].value, \"\")",
     "onError": "set-to-blank",
-    "newColumnName": "author_wikibase",
+    "newColumnName": "author_wikidata",
     "columnInsertIndex": 26,
-    "description": "Create column author_wikibase, coalescing Qid-human and Qid-organization"
+    "description": "Create column author_wikidata, coalescing Qid-human and Qid-organization"
   },
   {
     "op": "core/column-removal",
@@ -159,7 +159,7 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "author_wikibase",
+    "columnName": "author_wikidata",
     "expression": "value",
     "edits": [
       {
@@ -171,7 +171,7 @@
         "to": "UNRECONCILED"
       }
     ],
-    "description": "Mass edit cells in column author_wikibase"
+    "description": "Mass edit cells in column author_wikidata"
   },
   {
     "op": "core/multivalued-cell-join",
@@ -196,10 +196,10 @@
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "author_wikibase",
+    "columnName": "author_wikidata",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column author_wikibase"
+    "description": "Join multi-valued cells in column author_wikidata"
   },
   {
     "op": "core/text-transform",
@@ -220,11 +220,11 @@
       "facets": [],
       "mode": "record-based"
     },
-    "columnName": "author_wikibase",
+    "columnName": "author_wikidata",
     "expression": "value.replace(/\\bUNRECONCILED\\b/,\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column author_wikibase using expression value.replace(/\\bUNRECONCILED\\b/,\"\")"
+    "description": "Text transform on cells in column author_wikidata using expression value.replace(/\\bUNRECONCILED\\b/,\"\")"
   }
 ]
