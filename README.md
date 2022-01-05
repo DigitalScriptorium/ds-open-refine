@@ -30,14 +30,36 @@ Create an index column:
 [fo_known_names_orgn]:         json/former_owner/060-recon-known-names-organization.json
 [fo_orgn_qids_merge_cleanup]:  json/former_owner/090-add-org-qids-cleanup-rejoin.json
 
+```
+json/former_owner/010-split_add_recon_column.json
+json/former_owner/020-recon-known_names_human.json
+json/former_owner/050-human-qid-then-orgn-recon.json
+json/former_owner/060-recon-known-names-organization.json
+json/former_owner/090-add-org-qids-cleanup-rejoin.json
+```
+
 ### Reconciling authors
 
-1. Split `author_as_recorded` and set up reconciliation for authors:        [JSON][author_split_owner]
-2. Known name reconciliations (human):                                      [JSON][author_known_names_human]
+1. Split `author_as_recorded` and set up reconciliation for owners:       [JSON][author_split_owner]
+2. Known name reconciliations (human):                                    [JSON][author_known_names_human]
 3. Manual human reconciliations
-4. Add new human names to human known owners:                               [JSON][author_known_names_human]
-5. Add organization QID column, clean up and rejoin records:                [JSON][author_orgn_qids_merge_cleanup]
+4. Add new human names to human known owners:                             [JSON][author_known_names_human]
+5. Add human QID column:                                                  [JSON][author_add_human_qids]
+6. Known name reconciliations (organization):                             [JSON][author_known_names_orgn]
+7. Manual organization reconciliations
+8. Add new organization names to organization known owners:               [JSON][author_known_names_orgn]
+9. Add organization QID column, clean up and rejoin records:              [JSON][author_orgn_qids_merge_cleanup]
 
 [author_split_owner]:              json/author/010-split_add_recon_column.json
 [author_known_names_human]:        json/author/020-recon-known_names_human.json
-[author_orgn_qids_merge_cleanup]:  json/author/050-cleanup-rejoin-records.json
+[author_add_human_qids]:           json/author/050-human-qid-then-orgn-recon.json
+[author_known_names_orgn]:         json/author/060-recon-known-names-organization.json
+[author_orgn_qids_merge_cleanup]:  json/author/090-add-org-qids-cleanup-rejoin.json
+
+```
+json/author/010-split_add_recon_column.json
+json/author/020-recon-known_names_human.json
+json/author/050-human-qid-then-orgn-recon.json
+json/author/060-recon-known-names-organization.json
+json/author/090-add-org-qids-cleanup-rejoin.json
+```

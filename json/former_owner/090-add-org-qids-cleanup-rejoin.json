@@ -21,10 +21,22 @@
     "description": "Add Wikibase Qid column based on column column recon-organization; will not generate column if no recon values are are in recon-organization"
   },
   {
-    "op": "core/column-rename",
-    "oldColumnName": "Qid",
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:coalesce(cells[\"Qid\"].value, \"\")",
+    "onError": "set-to-blank",
     "newColumnName": "Qid-organization",
-    "description": "Rename column Qid to Qid-organization"
+    "columnInsertIndex": 40,
+    "description": "Create column Qid-organization at index 40 based on column recon-organization using expression grel:coalesce(cells[\"Qid\"].value, \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid",
+    "description": "Remove column Qid"
   },
   {
     "op": "core/extend-reconciled-data",
@@ -49,14 +61,26 @@
         }
       ]
     },
-    "columnInsertIndex": 39,
+    "columnInsertIndex": 40,
     "description": "Add Wikibase instance of column based on column column recon-organization; will not generate column if no recon values are are in recon-organization"
   },
   {
-    "op": "core/column-rename",
-    "oldColumnName": "instance of",
-    "newColumnName": "instance of-organization",
-    "description": "Rename column instance of to instance of-organization; WARNING: this step may fail if instance of does not exist"
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:coalesce(cells[\"instance of\"].value, \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "instance of-organization",
+      "columnInsertIndex": 41,
+      "description": "Create column instance of-organization at index 39 based on column recon-organization using expression grel:coalesce(cells[\"instance of\"].value, \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance of",
+    "description": "Remove column recon-organization; should not fail even if column does not exist"
   },
   {
     "op": "core/column-removal",
@@ -73,7 +97,7 @@
     "expression": "grel:coalesce(cells[\"Qid-human\"].value, cells[\"Qid-organization\"].value, \"\")",
     "onError": "set-to-blank",
     "newColumnName": "former_owner_wikidata",
-    "columnInsertIndex": 42,
+    "columnInsertIndex": 38,
     "description": "Create column former_owner_wikidata, coalescing Qid-human and Qid-organization"
   },
   {
@@ -96,7 +120,7 @@
     "expression": "grel:coalesce(cells[\"instance of-human\"].value, \nif(or(coalesce(cells[\"instance of-organization\"].value, \"\") == \"human\", \ncoalesce(cells[\"instance of-organization\"].value, \"\") == \"\"), \"\", \"organization\"))",
     "onError": "set-to-blank",
     "newColumnName": "former_owner_instance_of",
-    "columnInsertIndex": 40,
+    "columnInsertIndex": 39,
     "description": "Create column former_owner_instance_of at index 40 based on column instance of-human using expression grel:coalesce(cells[\"instance of-human\"].value, \nif(or(coalesce(cells[\"instance of-organization\"].value, \"\") == \"human\", \ncoalesce(cells[\"instance of-organization\"].value, \"\") == \"\"), \"\", \"organization\"))"
   },
   {
