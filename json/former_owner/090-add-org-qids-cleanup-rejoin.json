@@ -1,0 +1,230 @@
+[
+    {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon-organization",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "qid",
+          "name": "SPARQL: qid"
+        }
+      ]
+    },
+    "columnInsertIndex": 39,
+    "description": "Add Wikibase Qid column based on column column recon-organization; will not generate column if no recon values are are in recon-organization"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:coalesce(cells[\"Qid\"].value, \"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Qid-organization",
+    "columnInsertIndex": 40,
+    "description": "Create column Qid-organization at index 40 based on column recon-organization using expression grel:coalesce(cells[\"Qid\"].value, \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid",
+    "description": "Remove column Qid"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon-organization",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P31",
+          "name": "instance of",
+          "settings": {
+            "limit": "1",
+            "rank": "best",
+            "references": "any"
+          }
+        }
+      ]
+    },
+    "columnInsertIndex": 40,
+    "description": "Add Wikibase instance of column based on column column recon-organization; will not generate column if no recon values are are in recon-organization"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:coalesce(cells[\"instance of\"].value, \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "instance of-organization",
+      "columnInsertIndex": 41,
+      "description": "Create column instance of-organization at index 39 based on column recon-organization using expression grel:coalesce(cells[\"instance of\"].value, \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance of",
+    "description": "Remove column recon-organization; should not fail even if column does not exist"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-organization",
+    "description": "Remove column recon-organization; should not fail even if column does not exist"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Qid-human",
+    "expression": "grel:coalesce(cells[\"Qid-human\"].value, cells[\"Qid-organization\"].value, \"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "former_owner_wikidata",
+    "columnInsertIndex": 38,
+    "description": "Create column former_owner_wikidata, coalescing Qid-human and Qid-organization"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid-organization",
+    "description": "Remove column Qid-organization"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Qid-human",
+    "description": "Remove column Qid-human"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "instance of-human",
+    "expression": "grel:coalesce(cells[\"instance of-human\"].value, \nif(or(coalesce(cells[\"instance of-organization\"].value, \"\") == \"human\", \ncoalesce(cells[\"instance of-organization\"].value, \"\") == \"\"), \"\", \"organization\"))",
+    "onError": "set-to-blank",
+    "newColumnName": "former_owner_instance_of",
+    "columnInsertIndex": 39,
+    "description": "Create column former_owner_instance_of at index 40 based on column instance of-human using expression grel:coalesce(cells[\"instance of-human\"].value, \nif(or(coalesce(cells[\"instance of-organization\"].value, \"\") == \"human\", \ncoalesce(cells[\"instance of-organization\"].value, \"\") == \"\"), \"\", \"organization\"))"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance of-organization",
+    "description": "Remove column instance of-organization"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance of-human",
+    "description": "Remove column instance of-human"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "former_owner_instance_of",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UNRECONCILED"
+      }
+    ],
+    "description": "Mass edit cells in column former_owner_instance_of"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "former_owner_wikidata",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UNRECONCILED"
+      }
+    ],
+    "description": "Mass edit cells in column former_owner_wikidata"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "former_owner_as_recorded",
+    "keyColumnName": "ds_id",
+    "separator": "|",
+    "description": "Join multi-valued cells in column former_owner_as_recorded"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "former_owner_as_recorded",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column former_owner_as_recorded"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "former_owner_instance_of",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column former_owner_instance_of"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "former_owner_wikidata",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column former_owner_wikidata"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "former_owner_instance_of",
+    "expression": "value.replace(/\\bUNRECONCILED\\b/,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column former_owner_instance_of using expression value.replace(/\\bUNRECONCILED\\b/,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "former_owner_wikidata",
+    "expression": "value.replace(/\\bUNRECONCILED\\b/,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column former_owner_wikidata using expression value.replace(/\\bUNRECONCILED\\b/,\"\")"
+  }
+]
