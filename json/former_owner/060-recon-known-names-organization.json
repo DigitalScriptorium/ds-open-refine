@@ -1,1 +1,185 @@
-[]
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Saint-Benoît-sur-Loire (Abbey),",
+    "judgment": "matched",
+    "match": {
+      "id": "Q956741",
+      "name": "Fleury Abbey",
+      "types": [
+        "Q160742"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fleury Abbey (Q956741) for cells containing \"Saint-Benoît-sur-Loire (Abbey),\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Poblet (Monastery),",
+    "judgment": "matched",
+    "match": {
+      "id": "Q645157",
+      "name": "Poblet Monastery",
+      "types": [
+        "Q91315817",
+        "Q907116"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poblet Monastery (Q645157) for cells containing \"Poblet (Monastery),\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "J. Paul Getty Museum,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q731126",
+      "name": "J. Paul Getty Museum",
+      "types": [
+        "Q207694",
+        "Q2085381"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item J. Paul Getty Museum (Q731126) for cells containing \"J. Paul Getty Museum,\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Swarthmore College,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1378320",
+      "name": "Swarthmore College",
+      "types": [
+        "Q189004",
+        "Q3918",
+        "Q23002054"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Swarthmore College (Q1378320) for cells containing \"Swarthmore College,\" in column recon-organization"
+  }
+]
