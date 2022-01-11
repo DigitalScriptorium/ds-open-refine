@@ -558,5 +558,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Markus Fugger (Q115254) for cells containing \"Fugger, Marcus, 1529-1597,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Smith, David Eugene, 1860-1944,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1174369",
+      "name": "David Eugene Smith",
+      "types": [
+        "Q5"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item David Eugene Smith (Q1174369) for cells containing \"Smith, David Eugene, 1860-1944,\" in column recon-human"
   }
 ]
