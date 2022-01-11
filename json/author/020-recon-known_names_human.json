@@ -1618,5 +1618,125 @@
     },
     "shareNewTopics": false,
     "description": "Match item Autolycus of Pitane (Q451390) for cells containing \"Autolycus, active 2nd century.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Richard, of St. Victor, -1173.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1344799",
+      "name": "Richard of Saint Victor",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Richard of Saint Victor (Q1344799) for cells containing \"Richard, of St. Victor, -1173.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "James, of Viterbo, Archbishop of Naples, approximately 1255-1307 or 1308.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q352625",
+      "name": "James of Viterbo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item James of Viterbo (Q352625) for cells containing \"James, of Viterbo, Archbishop of Naples, approximately 1255-1307 or 1308.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Origen.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q170472",
+      "name": "Origen",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Origen (Q170472) for cells containing \"Origen.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Eutropius.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q314694",
+      "name": "Eutropius",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eutropius (Q314694) for cells containing \"Eutropius.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gervase, of Tilbury, approximately 1160-approximately 1211.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q531883",
+      "name": "Gervase of Tilbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gervase of Tilbury (Q531883) for cells containing \"Gervase, of Tilbury, approximately 1160-approximately 1211.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Valerius Maximus.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q379991",
+      "name": "Valerius Maximus",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Valerius Maximus (Q379991) for cells containing \"Valerius Maximus.\" in column recon-human"
   }
 ]
