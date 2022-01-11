@@ -1338,5 +1338,285 @@
     },
     "shareNewTopics": false,
     "description": "Match item Immanuel Bonfils (Q354517) for cells containing \"Bonfils, Immanuel ben Jacob, 14th cent.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "İbrahim Efendi, 1589-1654.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6073533",
+      "name": "İbrahim Efendi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item İbrahim Efendi (Q6073533) for cells containing \"İbrahim Efendi, 1589-1654.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻIyāḍ ibn Mūsá, 1083-1149.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3101035",
+      "name": "Qadi Ayyad",
+      "types": [
+        "Q5"
+      ],
+      "score": 68
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qadi Ayyad (Q3101035) for cells containing \"ʻIyāḍ ibn Mūsá, 1083-1149.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bayḍāwī, ʻAbd Allāh ibn ʻUmar, -1286.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q287573",
+      "name": "Baidawi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Baidawi (Q287573) for cells containing \"Bayḍāwī, ʻAbd Allāh ibn ʻUmar, -1286.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn al-Jazarī, Muḥammad ibn Muḥammad, 1350-1429.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4120093",
+      "name": "Ibn al-Jazari",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn al-Jazari (Q4120093) for cells containing \"Ibn al-Jazarī, Muḥammad ibn Muḥammad, 1350-1429.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ṭūsī, Naṣīr al-Dīn Muḥammad ibn Muḥammad, 1201-1274.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q302835",
+      "name": "Nasir al-Din al-Tusi",
+      "types": [
+        "Q5"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nasir al-Din al-Tusi (Q302835) for cells containing \"Ṭūsī, Naṣīr al-Dīn Muḥammad ibn Muḥammad, 1201-1274.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jighmīnī, Maḥmūd ibn Muḥammad, -1221?",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4060361",
+      "name": "Jaghmini",
+      "types": [
+        "Q5"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jaghmini (Q4060361) for cells containing \"Jighmīnī, Maḥmūd ibn Muḥammad, -1221?\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Theodosius, active 1st century B.C.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1266186",
+      "name": "Theodosius of Bithynia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Theodosius of Bithynia (Q1266186) for cells containing \"Theodosius, active 1st century B.C.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn, 1547-1621.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2658411",
+      "name": "Bahāʾ al-dīn al-ʿĀmilī",
+      "types": [
+        "Q5"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bahāʾ al-dīn al-ʿĀmilī (Q2658411) for cells containing \"ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn, 1547-1621.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Rajab ʻAlī Beg.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7512157",
+      "name": "Rajab ʻAlī Beg Surūr",
+      "types": [
+        "Q5"
+      ],
+      "score": 81
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rajab ʻAlī Beg Surūr (Q7512157) for cells containing \"Rajab ʻAlī Beg.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bhāskarācārya, 1114-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q213385",
+      "name": "Bhāskara II",
+      "types": [
+        "Q5"
+      ],
+      "score": 84
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bhāskara II (Q213385) for cells containing \"Bhāskarācārya, 1114-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jalāl al-Dīn Rūmī, Maulana, 1207-1273.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q43347",
+      "name": "Rumi",
+      "types": [
+        "Q5"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rumi (Q43347) for cells containing \"Jalāl al-Dīn Rūmī, Maulana, 1207-1273.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Hishām, ʻAbd Allāh ibn Yūsuf, 1309-1360.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6538102",
+      "name": "Ibn Hisham Al-Ansari",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn Hisham Al-Ansari (Q6538102) for cells containing \"Ibn Hishām, ʻAbd Allāh ibn Yūsuf, 1309-1360.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn al-Fāriḍ, ʻUmar ibn ʻAlī, 1181 or 1182-1235.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q203142",
+      "name": "Ibn al-Farid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn al-Farid (Q203142) for cells containing \"Ibn al-Fāriḍ, ʻUmar ibn ʻAlī, 1181 or 1182-1235.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Autolycus, active 2nd century.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q451390",
+      "name": "Autolycus of Pitane",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Autolycus of Pitane (Q451390) for cells containing \"Autolycus, active 2nd century.\" in column recon-human"
   }
 ]
