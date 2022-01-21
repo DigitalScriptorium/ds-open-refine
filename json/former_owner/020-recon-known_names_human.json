@@ -1118,5 +1118,225 @@
     },
     "shareNewTopics": false,
     "description": "Match item Samuel W. Pennypacker (Q540418) for cells containing \"Pennypacker, Samuel W. (Samuel Whitaker), 1843-1916\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Cockerell, Sydney Carlyle, Sir, 1867-1962",
+    "judgment": "matched",
+    "match": {
+      "id": "Q966843",
+      "name": "Sydney Cockerell",
+      "types": [
+        "Q5"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sydney Cockerell (Q966843) for cells containing \"Cockerell, Sydney Carlyle, Sir, 1867-1962\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Page-Turner, Gregory Osborne, Sir, 1785-1843",
+    "judgment": "matched",
+    "match": {
+      "id": "Q75874518",
+      "name": "Sir Gregory Osborne Page-Turner, 4th Bt.",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sir Gregory Osborne Page-Turner, 4th Bt. (Q75874518) for cells containing \"Page-Turner, Gregory Osborne, Sir, 1785-1843\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Harkness, Edward Stephen, 1874-1940",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5343311",
+      "name": "Edward Harkness",
+      "types": [
+        "Q5"
+      ],
+      "score": 82
+    },
+    "shareNewTopics": false,
+    "description": "Match item Edward Harkness (Q5343311) for cells containing \"Harkness, Edward Stephen, 1874-1940\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Livermore, George, 1809-1865",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16065893",
+      "name": "George Livermore",
+      "types": [
+        "Q5"
+      ],
+      "score": 76
+    },
+    "shareNewTopics": false,
+    "description": "Match item George Livermore (Q16065893) for cells containing \"Livermore, George, 1809-1865\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Phillips, Thomas, Sir, 1792-1872",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2147709",
+      "name": "Thomas Phillipps",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Phillipps (Q2147709) for cells containing \"Phillips, Thomas, Sir, 1792-1872\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Smith, Edgar F. 1854-1928,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3047451",
+      "name": "Edgar Fahs Smith",
+      "types": [
+        "Q5"
+      ],
+      "score": 72
+    },
+    "shareNewTopics": false,
+    "description": "Match item Edgar Fahs Smith (Q3047451) for cells containing \"Smith, Edgar F. 1854-1928,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hahn, Franz Joseph Anton von, 1699-1748,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55131021",
+      "name": "Franz Josef von Hahn",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Franz Josef von Hahn (Q55131021) for cells containing \"Hahn, Franz Joseph Anton von, 1699-1748,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Dysart, Lionel Tollemache, Earl of, 1708-1770,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6555815",
+      "name": "Lionel Tollemache, 4th Earl of Dysart",
+      "types": [
+        "Q5"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lionel Tollemache, 4th Earl of Dysart (Q6555815) for cells containing \"Dysart, Lionel Tollemache, Earl of, 1708-1770,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fiske, Willard, 1831-1904,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2047315",
+      "name": "Willard Fiske",
+      "types": [
+        "Q5"
+      ],
+      "score": 72
+    },
+    "shareNewTopics": false,
+    "description": "Match item Willard Fiske (Q2047315) for cells containing \"Fiske, Willard, 1831-1904,\" in column recon-human"
   }
 ]
