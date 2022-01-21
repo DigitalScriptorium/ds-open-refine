@@ -95,6 +95,15 @@
     "columnInsertIndex": 41,
     "description": "Create column recon at index 38 based on column former_owner_as_recorded using expression grel:value"
   },
+    {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-organization",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-organization"
+  },
   {
     "op": "core/recon",
     "engineConfig": {
