@@ -91,14 +91,14 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "Qid-human",
-    "expression": "grel:coalesce(cells[\"Qid-human\"].value, cells[\"Qid-organization\"].value, \"\")",
+    "expression": "grel:if(not(isBlank(cells[\"Qid-human\"].value.trim())), \n    cells[\"Qid-human\"].value, \n    if(not(isBlank(cells[\"Qid-organization\"].value.trim())), \n      cells[\"Qid-organization\"].value, \n      \"\"))",
     "onError": "set-to-blank",
     "newColumnName": "author_wikidata",
     "columnInsertIndex": 26,
-    "description": "Create column author_wikidata, coalescing Qid-human and Qid-organization"
+    "description": "Create column former_owner_wikidata at index 39 based on column Qid-human using expression grel:if(not(isBlank(cells[\"Qid-human\"].value.trim())), \n    cells[\"Qid-human\"].value, \n    if(not(isBlank(cells[\"Qid-organization\"].value.trim())), \n      cells[\"Qid-organization\"].value, \n      \"\"))"
   },
   {
     "op": "core/column-removal",
@@ -114,14 +114,14 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "instance of-human",
-    "expression": "grel:coalesce(cells[\"instance of-human\"].value, \nif(or(coalesce(cells[\"instance of-organization\"].value, \"\") == \"human\", \ncoalesce(cells[\"instance of-organization\"].value, \"\") == \"\"), \"\", \"organization\"))",
+    "expression": "grel:if(not(isBlank(cells[\"instance of-human\"].value.trim())), \n    cells[\"instance of-human\"].value, \n    if(not(isBlank(cells[\"instance of-organization\"].value.trim())), \n      \"organization\", \n      \"\"))",
     "onError": "set-to-blank",
     "newColumnName": "author_instance_of",
     "columnInsertIndex": 27,
-    "description": "Create column author_instance_of at index 40 based on column instance of-human using expression grel:coalesce(cells[\"instance of-human\"].value, \nif(or(coalesce(cells[\"instance of-organization\"].value, \"\") == \"human\", \ncoalesce(cells[\"instance of-organization\"].value, \"\") == \"\"), \"\", \"organization\"))"
+    "description": "Create column former_owner_wikidata at index 39 based on column Qid-human using expression grel:if(not(isBlank(cells[\"instance of-human\"].value.trim())), \n    cells[\"instance of-human\"].value, \n    if(not(isBlank(cells[\"instance of-organization\"].value.trim())), \n      \"organization\", \n      \"\"))"
   },
   {
     "op": "core/column-removal",
