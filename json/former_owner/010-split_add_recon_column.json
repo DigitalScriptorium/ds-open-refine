@@ -1,14 +1,5 @@
 [
   {
-    "op": "core/multivalued-cell-split",
-    "columnName": "former_owner_as_recorded",
-    "keyColumnName": "row_index",
-    "mode": "separator",
-    "separator": "|",
-    "regex": false,
-    "description": "Split multi-valued cells in column former_owner_as_recorded"
-  },
-  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
@@ -20,6 +11,15 @@
     "newColumnName": "recon-human",
     "columnInsertIndex": 38,
     "description": "Create column recon-human at index 38 based on column former_owner_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-human",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column former_owner_as_recorded"
   },
   {
     "op": "core/recon",
