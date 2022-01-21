@@ -1,14 +1,5 @@
 [
   {
-    "op": "core/multivalued-cell-split",
-    "columnName": "author_as_recorded",
-    "keyColumnName": "row_index",
-    "mode": "separator",
-    "separator": "|",
-    "regex": false,
-    "description": "Split multi-valued cells in column author_as_recorded"
-  },
-  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
@@ -20,6 +11,15 @@
     "newColumnName": "recon-human",
     "columnInsertIndex": 26,
     "description": "Create column recon-human at index 38 based on column author_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-human",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column author_as_recorded"
   },
   {
     "op": "core/recon",
