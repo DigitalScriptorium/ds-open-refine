@@ -40,14 +40,14 @@ json/former_owner/090-add-org-qids-cleanup-rejoin.json
 
 ### Reconciling authors
 
-1. Split `author_as_recorded` and set up reconciliation for owners:                 [JSON][author_split_owner]
+1. Split `author_as_recorded` and set up reconciliation for human authors:          [JSON][author_split_owner]
 2. Known name reconciliations (human):                                              [JSON][author_known_names_human]
 3. Manual human reconciliations
-4. Add new human names to human known owners:                                       [JSON][author_known_names_human]
+4. Add new human names to human known authors:                                      [JSON][author_known_names_human]
 5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][author_add_human_qids]
 6. Known name reconciliations (organization):                                       [JSON][author_known_names_orgn]
 7. Manual organization reconciliations
-8. Add new organization names to organization known owners:                         [JSON][author_known_names_orgn]
+8. Add new organization names to organization known authors:                        [JSON][author_known_names_orgn]
 9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][author_orgn_qids_merge_cleanup]
 
 [author_split_owner]:              json/author/010-split_add_recon_column.json
