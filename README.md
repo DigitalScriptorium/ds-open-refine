@@ -66,7 +66,7 @@ json/author/090-add-org-qids-cleanup-rejoin.json
 
 ### Reconciling places
 
-1. Clean and split production_place column and set up reconciliation for places:    [JSON][place_split]
+1. Clean and split `production_place_as_recorded` column and set up reconciliation: [JSON][place_split]
 2. Known name reconciliations (place):                                              [JSON][place_known_names]
 3. Manual place reconciliations
 4. Add new place names to known place names:                                        [JSON][place_known_names]
