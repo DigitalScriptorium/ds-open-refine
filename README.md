@@ -63,3 +63,22 @@ json/author/050-human-qid-then-orgn-recon.json
 json/author/060-recon-known-names-organization.json
 json/author/090-add-org-qids-cleanup-rejoin.json
 ```
+
+### Reconciling places
+
+1. Clean and split production_place column and set up reconciliation for places:    [JSON][place_split]
+2. Known name reconciliations (place):                                              [JSON][place_known_names]
+3. Manual place reconciliations
+4. Add new place names to known place names:                                        [JSON][place_known_names]
+5. Add TGN IDs, format, cleanup and rejoin:                                         [JSON][place_tgn_merge_cleanup]
+
+[place_split]:              json/place/010-clean_split_add_recon_column.json
+[place_known_names]:        json/place/020-recon-known_names_place.json
+[place_known_names]:        json/place/020-recon-known_names_place.json
+[place_tgn_merge_cleanup]:  json/place/090-format-tgn-cleanup.json
+
+```
+json/place/010-clean_split_add_recon_column.json
+json/place/020-recon-known_names_place.json
+json/place/090-format-tgn-cleanup.json
+```
