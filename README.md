@@ -34,7 +34,7 @@ Create an index column:
 json/former_owner/010-split_add_recon_column.json
 json/name/020-recon-known_names_human.json
 json/former_owner/050-human-qid-then-orgn-recon.json
-json/name/060-recon-known-names-organization.json
+json/name/060-recon-known_names_organization.json
 json/former_owner/090-add-org-qids-cleanup-rejoin.json
 ```
 
