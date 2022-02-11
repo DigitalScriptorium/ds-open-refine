@@ -7,7 +7,7 @@
           "type": "list",
           "name": "recon-human: judgment",
           "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-human",
+          "columnName": "recon-organization",
           "invert": false,
           "omitBlank": false,
           "omitError": false,
@@ -47,7 +47,7 @@
           "type": "list",
           "name": "recon-human: judgment",
           "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-human",
+          "columnName": "recon-organization",
           "invert": false,
           "omitBlank": false,
           "omitError": false,
@@ -86,7 +86,7 @@
       "facets": [
         {
           "type": "list",
-          "name": "recon-human: judgment",
+          "name": "recon-organization: judgment",
           "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "columnName": "recon-human",
           "invert": false,
@@ -127,9 +127,9 @@
       "facets": [
         {
           "type": "list",
-          "name": "recon-human: judgment",
+          "name": "recon-organization: judgment",
           "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-human",
+          "columnName": "recon-organization",
           "invert": false,
           "omitBlank": false,
           "omitError": false,
@@ -181,5 +181,109 @@
     },
     "shareNewTopics": false,
     "description": "Match item Swarthmore College (Q1378320) for cells containing \"Swarthmore College,\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "instance_of-human",
+          "expression": "value",
+          "columnName": "instance_of-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Spain. Sovereign (1516-1556 : Charles I)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29",
+      "name": "Spain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain (Q29) for cells containing \"Spain. Sovereign (1516-1556 : Charles I)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "instance_of-human",
+          "expression": "value",
+          "columnName": "instance_of-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Spain. Sovereign (1556-1598 : Philip II)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29",
+      "name": "Spain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain (Q29) for cells containing \"Spain. Sovereign (1556-1598 : Philip II)\" in column recon-organization"
   }
 ]
