@@ -2,7 +2,27 @@
   {
     "op": "core/extend-reconciled-data",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "record-based"
     },
     "baseColumnName": "recon-human",
@@ -18,69 +38,13 @@
       ]
     },
     "columnInsertIndex": 27,
-    "description": "Extend data at index 39 based on column recon"
+    "description": "Extend data at index 27 based on column recon-human"
   },
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "recon-human",
-    "expression": "grel:coalesce(cells[\"Qid\"].value, \"\")",
-    "onError": "set-to-blank",
+    "op": "core/column-rename",
+    "oldColumnName": "Qid",
     "newColumnName": "Qid-human",
-    "columnInsertIndex": 28,
-    "description": "Create column Qid-human at index 28 based on column recon-human using expression grel:coalesce(cells[\"Qid\"].value, \"\")"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "Qid",
-    "description": "Remove column Qid"
-  },
-  {
-    "op": "core/extend-reconciled-data",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "baseColumnName": "recon-human",
-    "endpoint": "https://wikidata.reconci.link/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "extension": {
-      "properties": [
-        {
-          "id": "P31",
-          "name": "instance of"
-        }
-      ]
-    },
-    "columnInsertIndex": 28,
-    "description": "Extend data at index 28 based on column recon-human"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "recon-human",
-    "expression": "grel:coalesce(cells[\"instance of\"].value, \"\")",
-      "onError": "set-to-blank",
-      "newColumnName": "instance of-human",
-      "columnInsertIndex": 29,
-      "description": "Create column instance of-human at index 27 based on column recon-human using expression grel:coalesce(cells[\"instance of\"].value, \"\")"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "instance of",
-    "description": "Remove column recon-organization; should not fail even if column does not exist"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "recon-human",
-    "description": "Remove column recon-human"
+    "description": "Rename column Qid to Qid-human"
   },
   {
     "op": "core/column-addition",
@@ -88,21 +52,28 @@
       "facets": [],
       "mode": "record-based"
     },
-    "baseColumnName": "author_as_recorded",
-    "expression": "grel:value",
+    "baseColumnName": "Qid-human",
+    "expression": "grel:if(isNonBlank(cells[\"Qid-human\"]), \"human\", \"\"))",
     "onError": "set-to-blank",
-    "newColumnName": "recon-organization",
-    "columnInsertIndex": 29,
-    "description": "Create column recon at index 38 based on column author_as_recorded using expression grel:value"
+    "newColumnName": "instance_of-human",
+    "columnInsertIndex": 28,
+    "description": "Create column instance_of-human at index 28 based on column Qid-human using expression grel:if(isNonBlank(cells[\"Qid-human\"]), \"human\", \"\"))"
   },
-    {
-    "op": "core/multivalued-cell-split",
-    "columnName": "recon-organization",
-    "keyColumnName": "row_index",
-    "mode": "separator",
-    "separator": "|",
-    "regex": false,
-    "description": "Split multi-valued cells in column author_as_recorded"
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-human",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column recon-human"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-human",
+    "newColumnName": "recon-organization",
+    "description": "Rename column recon-human to recon-organization"
   },
   {
     "op": "core/recon",
@@ -124,6 +95,6 @@
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column recon to type Q43229"
-  },
+    "description": "Reconcile cells in column recon-organization to type Q43229"
+  }
 ]
