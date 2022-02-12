@@ -66,6 +66,32 @@ json/name/060-recon-known_names_organization.json
 json/artist/090-add-org-qids-cleanup-rejoin.json
 ```
 
+#### Reconciling scribes
+
+1. Copy and split `scribe_as_recorded` and set up reconciliation for human scribes:          [JSON][scribe_split]
+2. Known name reconciliations (human):                                                       [JSON][known_names_human]
+3. Manual human reconciliations
+4. Add new human names to human known artists:                                               [JSON][known_names_human]
+5. Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][scribe_add_human_qids]
+6. Known name reconciliations (organization):                                                [JSON][known_names_orgn]
+7. Manual organization reconciliations
+8. Add new organization names to organization known scribes:                                 [JSON][known_names_orgn]
+9. Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][scribe_orgn_qids_merge_cleanup]
+
+[scribe_split]:                    json/scribe/010-split_add_recon_column.json
+[known_names_human]:               json/name/020-recon-known_names_human.json
+[scribe_add_human_qids]:           json/scribe/050-human-qid-then-orgn-recon.json
+[known_names_orgn]:                json/name/060-recon-known_names_organization.json
+[scribe_orgn_qids_merge_cleanup]:  json/scribe/090-add-org-qids-cleanup-rejoin.json
+
+```
+json/scribe/010-split_add_recon_column.json
+json/name/020-recon-known_names_human.json
+json/scribe/050-human-qid-then-orgn-recon.json
+json/name/060-recon-known_names_organization.json
+json/scribe/090-add-org-qids-cleanup-rejoin.json
+```
+
 #### Reconciling former owners
 
 1. Copy and split `former_owner_as_recorded` and set up reconciliation for human owners:     [JSON][fo_split]
