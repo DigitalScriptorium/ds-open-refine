@@ -1,0 +1,207 @@
+[
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "qid",
+          "name": "SPARQL: qid"
+        }
+      ]
+    },
+    "columnInsertIndex": 32,
+    "description": "Extend data at index 32 based on column recon-organization"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Qid",
+    "newColumnName": "Qid-organization",
+    "description": "Rename column Qid to Qid-organization"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Qid-organization",
+    "expression": "grel:if(isNonBlank(cells[\"Qid-organization\"]),\"organization\",\"\"))",
+    "onError": "set-to-blank",
+    "newColumnName": "instance_of-organization",
+    "columnInsertIndex": 33,
+    "description": "Create column instance_of-organization at index 33 based on column Qid-organization using expression grel:if(isNonBlank(cells[\"Qid-organization\"]),\"organization\",\"\"))"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Qid-organization",
+    "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'|')",
+    "onError": "keep-original",
+    "newColumnName": "artist_wikidata",
+    "columnInsertIndex": 33,
+    "description": "Create column artist_wikidata at index 33 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'|')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "row_index",
+      "ds_id",
+      "date_added",
+      "date_last_updated",
+      "source_type",
+      "holding_institution",
+      "holding_institution_as_recorded",
+      "holding_institution_id_number",
+      "link_to_holding_institution_record",
+      "iiif_manifest",
+      "production_place_as_recorded",
+      "production_place",
+      "production_date_as_recorded",
+      "production_date",
+      "century",
+      "dated",
+      "uniform_title",
+      "uniform_title_as_recorded",
+      "uniform_title_agr",
+      "title_as_recorded_245",
+      "title_as_recorded_245_agr",
+      "genre_as_recorded",
+      "genre",
+      "subject_as_recorded",
+      "subject",
+      "author_as_recorded",
+      "author_wikidata",
+      "author_instance_of",
+      "author_as_recorded_agr",
+      "author",
+      "artist_as_recorded",
+      "recon-organization",
+      "artist_wikidata",
+      "instance_of-organization",
+      "instance_of-human",
+      "artist_as_recorded_agr",
+      "artist",
+      "scribe_as_recorded",
+      "scribe_as_recorded_agr",
+      "scribe",
+      "language_as_recorded",
+      "language",
+      "former_owner_as_recorded",
+      "former_owner_as_recorded_agr",
+      "former_owner",
+      "material",
+      "material_placeholder",
+      "physical_description",
+      "acknowledgements",
+      "data_processed_at",
+      "data_source_modified"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "instance_of-organization",
+    "expression": "join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'|')",
+    "onError": "keep-original",
+    "newColumnName": "artist_instance_of",
+    "columnInsertIndex": 34,
+    "description": "Create column artist_instance_of at index 34 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'|')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "row_index",
+      "ds_id",
+      "date_added",
+      "date_last_updated",
+      "source_type",
+      "holding_institution",
+      "holding_institution_as_recorded",
+      "holding_institution_id_number",
+      "link_to_holding_institution_record",
+      "iiif_manifest",
+      "production_place_as_recorded",
+      "production_place",
+      "production_date_as_recorded",
+      "production_date",
+      "century",
+      "dated",
+      "uniform_title",
+      "uniform_title_as_recorded",
+      "uniform_title_agr",
+      "title_as_recorded_245",
+      "title_as_recorded_245_agr",
+      "genre_as_recorded",
+      "genre",
+      "subject_as_recorded",
+      "subject",
+      "author_as_recorded",
+      "author_wikidata",
+      "author_instance_of",
+      "author_as_recorded_agr",
+      "author",
+      "artist_as_recorded",
+      "recon-organization",
+      "artist_wikidata",
+      "artist_instance_of",
+      "artist_as_recorded_agr",
+      "artist",
+      "scribe_as_recorded",
+      "scribe_as_recorded_agr",
+      "scribe",
+      "language_as_recorded",
+      "language",
+      "former_owner_as_recorded",
+      "former_owner_as_recorded_agr",
+      "former_owner",
+      "material",
+      "material_placeholder",
+      "physical_description",
+      "acknowledgements",
+      "data_processed_at",
+      "data_source_modified"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-organization",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column recon-organization"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "artist_wikidata",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column artist_wikidata"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "artist_instance_of",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column artist_instance_of"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-organization",
+    "description": "Remove column recon-organization"
+  }
+]
