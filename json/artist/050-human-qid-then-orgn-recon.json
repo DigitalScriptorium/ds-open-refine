@@ -1,0 +1,144 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "artist-recon: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "artist-recon",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "artist_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-human",
+    "columnInsertIndex": 31,
+    "description": "Create column recon-human at index 31 based on column artist_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-human",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-human"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q5",
+        "name": "human"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-human to type Q5"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-human",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "qid",
+          "name": "SPARQL: qid"
+        }
+      ]
+    },
+    "columnInsertIndex": 32,
+    "description": "Extend data at index 32 based on column recon-human"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Qid",
+    "newColumnName": "Qid-human",
+    "description": "Rename column Qid to Qid-human"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Qid-human",
+    "expression": "grel:if(isNonBlank(cells[\"Qid-human\"]),\"human\",\"\"))",
+    "onError": "set-to-blank",
+    "newColumnName": "instance_of-human",
+    "columnInsertIndex": 33,
+    "description": "Create column instance_of-human at index 33 based on column Qid-human using expression grel:if(isNonBlank(cells[\"Qid-human\"]),\"human\",\"\"))"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column recon-human"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-human",
+    "newColumnName": "recon-organization",
+    "description": "Rename column recon-human to recon-organization"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q43229",
+        "name": "organization"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-organization to type Q43229"
+  }
+]
