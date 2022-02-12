@@ -123,7 +123,7 @@ json/place/090-format-tgn-cleanup.json
 [lang_iso_merge_cleanup]:  json/lang/090-format-iso-cleanup.json
 
 ```
-json/lang/010-clean_split_add_recon_column.json
-json/lang/020-recon-known_lang.json
-json/lang/090-format-iso-cleanup.json
+json/language/010-clean_split_add_recon_column.json
+json/language/020-recon-known_lang.json
+json/language/090-format-iso-cleanup.json
 ```
