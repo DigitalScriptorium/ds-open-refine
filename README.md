@@ -16,15 +16,15 @@ Create an index column:
 
 #### Reconciling authors
 
-1. Split `author_as_recorded` and set up reconciliation for human authors:          [JSON][author_split]
-2. Known name reconciliations (human):                                              [JSON][known_names_human]
+1. Copy and split `author_as_recorded` and set up reconciliation for human authors:          [JSON][author_split]
+2. Known name reconciliations (human):                                                       [JSON][known_names_human]
 3. Manual human reconciliations
-4. Add new human names to human known authors:                                      [JSON][known_names_human]
-5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][author_add_human_qids]
-6. Known name reconciliations (organization):                                       [JSON][known_names_orgn]
+4. Add new human names to human known authors:                                               [JSON][known_names_human]
+5. Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][author_add_human_qids]
+6. Known name reconciliations (organization):                                                [JSON][known_names_orgn]
 7. Manual organization reconciliations
-8. Add new organization names to organization known authors:                        [JSON][known_names_orgn]
-9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][author_orgn_qids_merge_cleanup]
+8. Add new organization names to organization known authors:                                 [JSON][known_names_orgn]
+9. Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][author_orgn_qids_merge_cleanup]
 
 [author_split]:                    json/author/010-split_add_recon_column.json
 [known_names_human]:               json/name/020-recon-known_names_human.json
@@ -42,15 +42,15 @@ json/author/090-add-org-qids-cleanup-rejoin.json
 
 #### Reconciling artists
 
-1. Split `artist_as_recorded` and set up reconciliation for human artists:          [JSON][artist_split]
-2. Known name reconciliations (human):                                              [JSON][known_names_human]
+1. Copy and split `artist_as_recorded` and set up reconciliation for human artists:          [JSON][artist_split]
+2. Known name reconciliations (human):                                                       [JSON][known_names_human]
 3. Manual human reconciliations
-4. Add new human names to human known artists:                                      [JSON][known_names_human]
-5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][artist_add_human_qids]
-6. Known name reconciliations (organization):                                       [JSON][known_names_orgn]
+4. Add new human names to human known artists:                                               [JSON][known_names_human]
+5. Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][artist_add_human_qids]
+6. Known name reconciliations (organization):                                                [JSON][known_names_orgn]
 7. Manual organization reconciliations
-8. Add new organization names to organization known artists:                        [JSON][known_names_orgn]
-9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][artist_orgn_qids_merge_cleanup]
+8. Add new organization names to organization known artists:                                 [JSON][known_names_orgn]
+9. Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][artist_orgn_qids_merge_cleanup]
 
 [artist_split]:                    json/artist/010-split_add_recon_column.json
 [known_names_human]:               json/name/020-recon-known_names_human.json
@@ -68,15 +68,15 @@ json/artist/090-add-org-qids-cleanup-rejoin.json
 
 #### Reconciling former owners
 
-1. Split `former_owner_as_recorded` and set up reconciliation for human owners:     [JSON][fo_split]
-2. Known name reconciliations (human):                                              [JSON][known_names_human]
+1. Copy and split `former_owner_as_recorded` and set up reconciliation for human owners:     [JSON][fo_split]
+2. Known name reconciliations (human):                                                       [JSON][known_names_human]
 3. Manual human reconciliations
-4. Add new human names to human known owners:                                       [JSON][known_names_human]
-5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][fo_add_human_qids]
-6. Known name reconciliations (organization):                                       [JSON][known_names_orgn]
+4. Add new human names to human known owners:                                                [JSON][known_names_human]
+5. Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][fo_add_human_qids]
+6. Known name reconciliations (organization):                                                [JSON][known_names_orgn]
 7. Manual organization reconciliations
-8. Add new organization names to organization known owners:                         [JSON][known_names_orgn]
-9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][fo_orgn_qids_merge_cleanup]
+8. Add new organization names to organization known owners:                                  [JSON][known_names_orgn]
+9. Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][fo_orgn_qids_merge_cleanup]
 
 [fo_split]:                    json/former_owner/010-split_add_recon_column.json
 [known_names_human]:           json/name/020-recon-known_names_human.json
@@ -94,11 +94,11 @@ json/former_owner/090-add-org-qids-cleanup-rejoin.json
 
 ### Reconciling places
 
-1. Clean and split `production_place_as_recorded` column and set up reconciliation: [JSON][place_split]
-2. Known name reconciliations (place):                                              [JSON][place_known_names]
+1. Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split]
+2. Known name reconciliations (place):                                                       [JSON][place_known_names]
 3. Manual place reconciliations
-4. Add new place names to known place names:                                        [JSON][place_known_names]
-5. Add TGN IDs, format, cleanup and rejoin:                                         [JSON][place_tgn_merge_cleanup]
+4. Add new place names to known place names:                                                 [JSON][place_known_names]
+5. Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup]
 
 [place_split]:              json/place/010-clean_split_add_recon_column.json
 [place_known_names]:        json/place/020-recon-known_names_place.json
@@ -112,11 +112,11 @@ json/place/090-format-tgn-cleanup.json
 
 ### Reconciling languages
 
-1. Clean and split `language_as_recorded` column and set up reconciliation:         [JSON][lang_split]
-2. Known reconciliations (language):                                                [JSON][lang_known]
+1. Copy, split, and clean `language_as_recorded` column and set up reconciliation:           [JSON][lang_split]
+2. Known reconciliations (language):                                                         [JSON][lang_known]
 3. Manual language reconciliations
-4. Add new languages to known languages:                                            [JSON][lang_known]
-5. Add ISO 369.3 codes, cleanup and rejoin:                                         [JSON][lang_iso_merge_cleanup]
+4. Add new languages to known languages:                                                     [JSON][lang_known]
+5. Add ISO 369.3 codes, cleanup and rejoin:                                                  [JSON][lang_iso_merge_cleanup]
 
 [lang_split]:              json/lang/010-clean_split_add_recon_column.json
 [lang_known]:              json/lang/020-recon-known_lang.json
