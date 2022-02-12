@@ -12,33 +12,9 @@ Create an index column:
 
 [add_index_column]:   json/add_index_column.json    "Add index column"
 
-### Reconciling former owners
+### Reconciling names
 
-1. Split `former_owner_as_recorded` and set up reconciliation for human owners:     [JSON][fo_split]
-2. Known name reconciliations (human):                                              [JSON][known_names_human]
-3. Manual human reconciliations
-4. Add new human names to human known owners:                                       [JSON][known_names_human]
-5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][fo_add_human_qids]
-6. Known name reconciliations (organization):                                       [JSON][known_names_orgn]
-7. Manual organization reconciliations
-8. Add new organization names to organization known owners:                         [JSON][known_names_orgn]
-9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][fo_orgn_qids_merge_cleanup]
-
-[fo_split]:                    json/former_owner/010-split_add_recon_column.json
-[known_names_human]:           json/name/020-recon-known_names_human.json
-[fo_add_human_qids]:           json/former_owner/050-human-qid-then-orgn-recon.json
-[known_names_orgn]:            json/name/060-recon-known_names_organization.json
-[fo_orgn_qids_merge_cleanup]:  json/former_owner/090-add-org-qids-cleanup-rejoin.json
-
-```
-json/former_owner/010-split_add_recon_column.json
-json/name/020-recon-known_names_human.json
-json/former_owner/050-human-qid-then-orgn-recon.json
-json/name/060-recon-known_names_organization.json
-json/former_owner/090-add-org-qids-cleanup-rejoin.json
-```
-
-### Reconciling authors
+#### Reconciling authors
 
 1. Split `author_as_recorded` and set up reconciliation for human authors:          [JSON][author_split]
 2. Known name reconciliations (human):                                              [JSON][known_names_human]
@@ -62,6 +38,58 @@ json/name/020-recon-known_names_human.json
 json/author/050-human-qid-then-orgn-recon.json
 json/name/060-recon-known_names_organization.json
 json/author/090-add-org-qids-cleanup-rejoin.json
+```
+
+#### Reconciling artists
+
+1. Split `artist_as_recorded` and set up reconciliation for human artists:          [JSON][artist_split]
+2. Known name reconciliations (human):                                              [JSON][known_names_human]
+3. Manual human reconciliations
+4. Add new human names to human known artists:                                      [JSON][known_names_human]
+5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][artist_add_human_qids]
+6. Known name reconciliations (organization):                                       [JSON][known_names_orgn]
+7. Manual organization reconciliations
+8. Add new organization names to organization known artists:                        [JSON][known_names_orgn]
+9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][artist_orgn_qids_merge_cleanup]
+
+[artist_split]:                    json/artist/010-split_add_recon_column.json
+[known_names_human]:               json/name/020-recon-known_names_human.json
+[artist_add_human_qids]:           json/artist/050-human-qid-then-orgn-recon.json
+[known_names_orgn]:                json/name/060-recon-known_names_organization.json
+[artist_orgn_qids_merge_cleanup]:  json/artist/090-add-org-qids-cleanup-rejoin.json
+
+```
+json/artist/010-split_add_recon_column.json
+json/name/020-recon-known_names_human.json
+json/artist/050-human-qid-then-orgn-recon.json
+json/name/060-recon-known_names_organization.json
+json/artist/090-add-org-qids-cleanup-rejoin.json
+```
+
+#### Reconciling former owners
+
+1. Split `former_owner_as_recorded` and set up reconciliation for human owners:     [JSON][fo_split]
+2. Known name reconciliations (human):                                              [JSON][known_names_human]
+3. Manual human reconciliations
+4. Add new human names to human known owners:                                       [JSON][known_names_human]
+5. Add human QID and instance_of columns, set up reconciliation for organizations:  [JSON][fo_add_human_qids]
+6. Known name reconciliations (organization):                                       [JSON][known_names_orgn]
+7. Manual organization reconciliations
+8. Add new organization names to organization known owners:                         [JSON][known_names_orgn]
+9. Add organization QID and instance_of columns, clean up and rejoin records:       [JSON][fo_orgn_qids_merge_cleanup]
+
+[fo_split]:                    json/former_owner/010-split_add_recon_column.json
+[known_names_human]:           json/name/020-recon-known_names_human.json
+[fo_add_human_qids]:           json/former_owner/050-human-qid-then-orgn-recon.json
+[known_names_orgn]:            json/name/060-recon-known_names_organization.json
+[fo_orgn_qids_merge_cleanup]:  json/former_owner/090-add-org-qids-cleanup-rejoin.json
+
+```
+json/former_owner/010-split_add_recon_column.json
+json/name/020-recon-known_names_human.json
+json/former_owner/050-human-qid-then-orgn-recon.json
+json/name/060-recon-known_names_organization.json
+json/former_owner/090-add-org-qids-cleanup-rejoin.json
 ```
 
 ### Reconciling places
