@@ -5798,5 +5798,205 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ibrāhīm Ibn-Aḥmad ar- Raqqī (Q60844447) for cells containing \"Raqqī, Ibrāhīm ibn Aḥmad, 1249 or 1250-1303 or 1304.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gioacchino, di Giovanni,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20830652",
+      "name": "Gioacchino di Giovanni",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gioacchino di Giovanni (Q20830652) for cells containing \"Gioacchino, di Giovanni,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "William, de Brailes, active 13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8020766",
+      "name": "William de Brailes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item William de Brailes (Q8020766) for cells containing \"William, de Brailes, active 13th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gherardo, del Fora, approximately 1444-1497",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3104832",
+      "name": "Gherardo di Giovanni del Fora",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gherardo di Giovanni del Fora (Q3104832) for cells containing \"Gherardo, del Fora, approximately 1444-1497\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Mariano, del Buono di Jacopo, 1433-1504",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16138117",
+      "name": "Mariano del Buono",
+      "types": [
+        "Q5"
+      ],
+      "score": 84
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mariano del Buono (Q16138117) for cells containing \"Mariano, del Buono di Jacopo, 1433-1504\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Follower of Birago, Giovan Pietro, active 1471-1513 and Master B. F. (sometimes identified as Francisco Binasco)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1901175",
+      "name": "Giovanni Pietro Birago",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovanni Pietro Birago (Q1901175) for cells containing \"Follower of Birago, Giovan Pietro, active 1471-1513 and Master B. F. (sometimes identified as Francisco Binasco)\" in column recon-human"
   }
 ]
