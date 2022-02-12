@@ -116,7 +116,7 @@ json/place/090-format-tgn-cleanup.json
 2. Known reconciliations (language):                                                         [JSON][lang_known]
 3. Manual language reconciliations
 4. Add new languages to known languages:                                                     [JSON][lang_known]
-5. Add ISO 369.3 codes, cleanup and rejoin:                                                  [JSON][lang_iso_merge_cleanup]
+5. Add ISO 369-3 codes, cleanup and rejoin:                                                  [JSON][lang_iso_merge_cleanup]
 
 [lang_split]:              json/language/010-clean_split_add_recon_column.json
 [lang_known]:              json/language/020-recon-known_lang.json
