@@ -71,7 +71,7 @@ json/artist/090-add-org-qids-cleanup-rejoin.json
 1. Copy and split `scribe_as_recorded` and set up reconciliation for human scribes:          [JSON][scribe_split]
 2. Known name reconciliations (human):                                                       [JSON][known_names_human]
 3. Manual human reconciliations
-4. Add new human names to human known artists:                                               [JSON][known_names_human]
+4. Add new human names to human known scribes:                                               [JSON][known_names_human]
 5. Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][scribe_add_human_qids]
 6. Known name reconciliations (organization):                                                [JSON][known_names_orgn]
 7. Manual organization reconciliations
