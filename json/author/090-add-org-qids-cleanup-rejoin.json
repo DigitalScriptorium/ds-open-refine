@@ -13,7 +13,7 @@
       "properties": [
         {
           "id": "qid",
-          "name": "SPARQL: qid"
+          "name": null
         }
       ]
     },
@@ -43,14 +43,14 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "Qid-organization",
-    "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'|')",
+    "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "author_wikidata",
     "columnInsertIndex": 28,
-    "description": "Create column author_wikidata at index 28 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'|')"
+    "description": "Create column author_wikidata at index 28 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')"
   },
   {
     "op": "core/column-reorder",
@@ -111,14 +111,14 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "instance_of-organization",
-    "expression": "join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'|')",
+    "expression": "join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "author_instance_of",
     "columnInsertIndex": 29,
-    "description": "Create column author_instance_of at index 29 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'|')"
+    "description": "Create column author_instance_of at index 29 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')"
   },
   {
     "op": "core/column-reorder",
@@ -194,10 +194,5 @@
     "keyColumnName": "row_index",
     "separator": "|",
     "description": "Join multi-valued cells in column author_instance_of"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "recon-organization",
-    "description": "Remove column recon-organization"
   }
 ]
