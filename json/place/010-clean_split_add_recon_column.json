@@ -3,14 +3,33 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "ds_id",
+    "expression": "grel:rowIndex + 1",
+    "onError": "set-to-blank",
+    "newColumnName": "row_index",
+    "columnInsertIndex": 1,
+    "description": "Create column row_index at index 1 based on column ds_id using expression grel:rowIndex + 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "row_index",
+    "index": 0,
+    "description": "Move column row_index to position 0"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
       "mode": "row-based"
     },
     "baseColumnName": "production_place_as_recorded",
-    "expression": "grel:value.replace(\"?\",\"\").replace(\"[\",\"\").replace(\"]\",\"\").replace(\"(\",\"\").replace(\")\",\"\")",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"(\",\"\").replace(\")\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-place",
     "columnInsertIndex": 11,
-    "description": "Create column recon-place at index 11 based on column production_place_as_recorded using expression grel:value.replace(\"?\",\"\").replace(\"[\",\"\").replace(\"]\",\"\").replace(\"(\",\"\").replace(\")\",\"\")"
+    "description": "Create column recon-place at index 11 based on column production_place_as_recorded using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"(\",\"\").replace(\")\",\"\")"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -58,17 +77,26 @@
     "description": "Split multi-valued cells in column recon-place"
   },
   {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "? ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
-    "expression": "grel:value.replace(\",\",\"\").replace(\";\",\"\")",
+    "expression": "grel:value.replace(\",\",\"\").replace(\";\",\"\").replace(\"?\",\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column recon-place using expression grel:value.replace(\",\",\"\").replace(\";\",\"\")"
+    "description": "Text transform on cells in column recon-place using expression grel:value.replace(\",\",\"\").replace(\";\",\"\").replace(\"?\",\"\")"
   },
   {
     "op": "core/text-transform",
