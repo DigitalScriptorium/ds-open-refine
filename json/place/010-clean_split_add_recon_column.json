@@ -3,25 +3,6 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
-    },
-    "baseColumnName": "ds_id",
-    "expression": "grel:rowIndex + 1",
-    "onError": "set-to-blank",
-    "newColumnName": "row_index",
-    "columnInsertIndex": 1,
-    "description": "Create column row_index at index 1 based on column ds_id using expression grel:rowIndex + 1"
-  },
-  {
-    "op": "core/column-move",
-    "columnName": "row_index",
-    "index": 0,
-    "description": "Move column row_index to position 0"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
       "mode": "row-based"
     },
     "baseColumnName": "production_place_as_recorded",
