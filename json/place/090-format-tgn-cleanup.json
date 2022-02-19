@@ -25,5 +25,10 @@
     "keyColumnName": "row_index",
     "separator": "|",
     "description": "Join multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-place",
+    "description": "Remove column recon-place"
   }
 ]
