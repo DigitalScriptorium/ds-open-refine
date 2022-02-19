@@ -185,40 +185,8 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-organization: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-organization",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        },
-        {
-          "type": "list",
-          "name": "instance_of-human",
-          "expression": "value",
-          "columnName": "instance_of-human",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [],
-          "selectBlank": true,
-          "selectError": false
-        }
-      ],
-      "mode": "record-based"
+      "facets": [],
+      "mode": "row-based"
     },
     "columnName": "recon-organization",
     "similarValue": "Spain. Sovereign (1516-1556 : Charles I)",
@@ -239,38 +207,16 @@
     "engineConfig": {
       "facets": [
         {
-          "type": "list",
-          "name": "recon-organization: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "type": "text",
+          "name": "recon-organization",
           "columnName": "recon-organization",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        },
-        {
-          "type": "list",
-          "name": "instance_of-human",
-          "expression": "value",
-          "columnName": "instance_of-human",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [],
-          "selectBlank": true,
-          "selectError": false
+          "query": "spain",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
         }
       ],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "columnName": "recon-organization",
     "similarValue": "Spain. Sovereign (1556-1598 : Philip II)",
