@@ -194,5 +194,10 @@
     "keyColumnName": "row_index",
     "separator": "|",
     "description": "Join multi-valued cells in column author_instance_of"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-organization",
+    "description": "Remove column recon-organization"
   }
 ]
