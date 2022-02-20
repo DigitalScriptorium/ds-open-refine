@@ -1,0 +1,73 @@
+[
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-language",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P220",
+          "name": null
+        }
+      ]
+    },
+    "columnInsertIndex": 43,
+    "description": "Extend data at index 43 based on column recon-language"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ISO 639-3 code",
+    "newColumnName": "language_iso_639-3",
+    "description": "Rename column ISO 639-3 code to language_iso_639-3"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language_iso_639-3",
+    "expression": "grel:if(cells[\"recon-language\"].value==\"No linguistic content\",\"zxx\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column language_iso_639-3 using expression grel:if(cells[\"recon-language\"].value==\"No linguistic content\",\"zxx\",value)"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "language-codes-for-recon",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column language-codes-for-recon"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "language_iso_639-3",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column language_iso_639-3"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "language-codes-for-recon",
+    "description": "Remove column language-codes-for-recon"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-language",
+    "description": "Remove column recon-language"
+  }
+]
