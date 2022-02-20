@@ -8,16 +8,16 @@
     "baseColumnName": "recon-place",
     "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "place_tgn",
+    "newColumnName": "production_place_tgn",
     "columnInsertIndex": 12,
-    "description": "Create column place_tgn at index 12 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "description": "Create column production_place_tgn at index 12 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "place_tgn",
+    "columnName": "production_place_tgn",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column place_tgn"
+    "description": "Join multi-valued cells in column production_place_tgn"
   },
   {
     "op": "core/multivalued-cell-join",
