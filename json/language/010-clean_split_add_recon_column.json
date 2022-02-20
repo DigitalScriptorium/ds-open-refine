@@ -1,0 +1,119 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+   },
+    "baseColumnName": "language_as_recorded",
+    "expression": "grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-language",
+    "columnInsertIndex": 42,
+    "description": "Create column recon-language at index 42 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "; ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": ", ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "/",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": " and ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": " with ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "language",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "language-codes-for-recon",
+    "columnInsertIndex": 44,
+    "description": "Create column language-codes-for-recon at index 44 based on column language using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "language-codes-for-recon",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column language-codes-for-recon"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q34770",
+        "name": "language"
+      },
+      "autoMatch": true,
+      "columnDetails": [
+        {
+          "column": "language-codes-for-recon",
+          "propertyName": "ISO 639-2 code",
+          "propertyID": "P219"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-language to type Q34770"
+  }
+]
