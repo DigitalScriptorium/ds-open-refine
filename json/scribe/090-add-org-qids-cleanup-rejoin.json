@@ -46,11 +46,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "Qid-organization",
-    "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'|')",
+    "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "scribe_wikidata",
     "columnInsertIndex": 38,
-    "description": "Create column scribe_wikidata at index 38 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'|')"
+    "description": "Create column scribe_wikidata at index 38 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')"
   },
   {
     "op": "core/column-reorder",
@@ -118,11 +118,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "instance_of-organization",
-    "expression": "join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'|')",
+    "expression": "join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "scribe_instance_of",
     "columnInsertIndex": 39,
-    "description": "Create column scribe_instance_of at index 39 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'|')"
+    "description": "Create column scribe_instance_of at index 39 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')"
   },
   {
     "op": "core/column-reorder",
