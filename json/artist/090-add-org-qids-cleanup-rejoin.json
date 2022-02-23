@@ -1,30 +1,16 @@
 [
   {
-    "op": "core/extend-reconciled-data",
+    "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
     "baseColumnName": "recon-organization",
-    "endpoint": "https://wikidata.reconci.link/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "extension": {
-      "properties": [
-        {
-          "id": "qid",
-          "name": "SPARQL: qid"
-        }
-      ]
-    },
-    "columnInsertIndex": 32,
-    "description": "Extend data at index 32 based on column recon-organization"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "Qid",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
     "newColumnName": "Qid-organization",
-    "description": "Rename column Qid to Qid-organization"
+    "columnInsertIndex": 32,
+    "description": "Create column Qid-organization at index 32 based on column recon-organization using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
