@@ -2,27 +2,7 @@
   {
     "op": "core/extend-reconciled-data",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-organization: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-organization",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "record-based"
     },
     "baseColumnName": "recon-human",
