@@ -153,3 +153,21 @@ json/language/010-clean_split_add_recon_column.json
 json/language/020-recon-known_lang.json
 json/language/090-format-iso-cleanup.json
 ```
+
+### Reconciling materials
+
+1. Copy and clean `material_placeholder` column for further evaluation:                      [JSON][material_copy_clean]
+2. Use text facet tool to survey range of data values
+4. Use cluster and merge functions to standardize data values
+5. Conduct known mass edits to clean and standardize values:                                 [JSON][material_edits]
+6. Manual mass edits to further standardize data values
+7. Add new mass edits to known mass edits:                                                   [JSON][material_edits]
+8. Split and create column for reconciliation:                                               [JSON][material_split]
+9. Add AAT IDs (from controlled list), format, cleanup and rejoin:                           [JSON][material_aat_merge_cleanup]
+
+```
+json/material/010-clean_add_column.json
+json/material/030-mass_edit.json
+json/material/050-split_add_column.json
+json/material/090-format-aat-cleanup.json
+```
