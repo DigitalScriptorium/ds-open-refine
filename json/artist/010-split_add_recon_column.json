@@ -2,23 +2,7 @@
   {
     "op": "core/column-addition",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "artist-recon: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "artist-recon",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
+      "facets": [],
           "selectBlank": false,
           "selectError": false
         }
