@@ -3,10 +3,6 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
       "mode": "row-based"
     },
     "baseColumnName": "artist_as_recorded",
