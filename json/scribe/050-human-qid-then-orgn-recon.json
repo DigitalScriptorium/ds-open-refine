@@ -1,30 +1,16 @@
 [
   {
-    "op": "core/extend-reconciled-data",
+    "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
     "baseColumnName": "recon-human",
-    "endpoint": "https://wikidata.reconci.link/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "extension": {
-      "properties": [
-        {
-          "id": "qid",
-          "name": null
-        }
-      ]
-    },
-    "columnInsertIndex": 37,
-    "description": "Extend data at index 37 based on column recon-human"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "Qid",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
     "newColumnName": "Qid-human",
-    "description": "Rename column Qid to Qid-human"
+    "columnInsertIndex": 37,
+    "description": "Create column Qid-human at index 37 based on column recon-human using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
