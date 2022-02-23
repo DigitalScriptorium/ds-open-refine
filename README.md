@@ -167,12 +167,12 @@ json/language/090-format-iso-cleanup.json
 
 [mat_copy_clean]:          json/material/010-clean_add_column.json
 [mat_edits]:               json/material/030-mass_edit.json
-[mat_split]:               json/material/050-split_add_column.json
+[mat_split]:               json/material/050-split_add_recon_column.json
 [mat_aat_merge_cleanup]:   json/material/090-format-aat-cleanup.json
 
 ```
 json/material/010-clean_add_column.json
 json/material/030-mass_edit.json
-json/material/050-split_add_column.json
+json/material/050-split_add_recon_column.json
 json/material/090-format-aat-cleanup.json
 ```
