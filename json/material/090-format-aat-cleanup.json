@@ -1,0 +1,255 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"amate paper\",\"http://vocab.getty.edu/aat/300264681\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"amate paper\",\"http://vocab.getty.edu/aat/300264681\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"bark\",\"http://vocab.getty.edu/aat/300011860\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"bark\",\"http://vocab.getty.edu/aat/300011860\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if (value==\"bamboo\",\"http://vocab.getty.edu/aat/300011873\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if (value==\"bamboo\",\"http://vocab.getty.edu/aat/300011873\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"clay\",\"http://vocab.getty.edu/aat/300010439\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"clay\",\"http://vocab.getty.edu/aat/300010439\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"leaf\",\"http://vocab.getty.edu/aat/300011892\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"leaf\",\"http://vocab.getty.edu/aat/300011892\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"leather\",\"http://vocab.getty.edu/aat/300011845\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"leather\",\"http://vocab.getty.edu/aat/300011845\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"mica\",\"http://vocab.getty.edu/aat/300011124\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"mica\",\"http://vocab.getty.edu/aat/300011124\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"mixed media\",\"http://vocab.getty.edu/aat/300163347\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"mixed media\",\"http://vocab.getty.edu/aat/300163347\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"palm leaf\",\"http://vocab.getty.edu/aat/300011894\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"palm leaf\",\"http://vocab.getty.edu/aat/300011894\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"paper\",\"http://vocab.getty.edu/aat/300014109\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"paper\",\"http://vocab.getty.edu/aat/300014109\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"papyrus\",\"http://vocab.getty.edu/aat/300014127\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"papyrus\",\"http://vocab.getty.edu/aat/300014127\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"parchment\",\"http://vocab.getty.edu/aat/300011851\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"parchment\",\"http://vocab.getty.edu/aat/300011851\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"silk\",\"http://vocab.getty.edu/aat/300243428\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"silk\",\"http://vocab.getty.edu/aat/300243428\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"skin\",\"http://vocab.getty.edu/aat/300011840\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"skin\",\"http://vocab.getty.edu/aat/300011840\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"stone\",\"http://vocab.getty.edu/aat/300011176\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"stone\",\"http://vocab.getty.edu/aat/300011176\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"support\",\"http://vocab.getty.edu/aat/300014844\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"support\",\"http://vocab.getty.edu/aat/300014844\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"wax\",\"http://vocab.getty.edu/aat/300014585\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"wax\",\"http://vocab.getty.edu/aat/300014585\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "material_aat",
+    "expression": "grel:if(value==\"wood\",\"http://vocab.getty.edu/aat/300011914\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column material_aat using expression grel:if(value==\"wood\",\"http://vocab.getty.edu/aat/300011914\",value)"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "material_aat",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column material_aat"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-material",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column recon-material"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-material",
+    "description": "Remove column recon-material"
+  }
+]
