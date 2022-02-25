@@ -1,0 +1,41 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "material_placeholder",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-material",
+    "columnInsertIndex": 47,
+    "description": "Create column recon-material at index 47 based on column material_placeholder using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"ill.\",\"\").replace(\"col.\",\"\").replace(\"color\",\"\").replace(\"translucent\",\"\").replace(\"tables\",\"\").replace(\"illuminations\",\"\").replace(\"illustrations\",\"\").replace(\";\",\"\").replace(\",\",\"\").replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"ill.\",\"\").replace(\"col.\",\"\").replace(\"color\",\"\").replace(\"translucent\",\"\").replace(\"tables\",\"\").replace(\"illuminations\",\"\").replace(\"illustrations\",\"\").replace(\";\",\"\").replace(\",\",\"\").replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression value.trim()"
+  }
+]
