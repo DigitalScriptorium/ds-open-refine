@@ -1,0 +1,33 @@
+[
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-material",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-material"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-material",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": " and ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-material"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-material",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "material_aat",
+    "columnInsertIndex": 48,
+    "description": "Create column material_aat at index 48 based on column recon-material using expression grel:value"
+  }
+]
