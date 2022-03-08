@@ -1,0 +1,233 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "marginalia (annotations)",
+          "Marginalia (annotations)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "marginalia (annotations)"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Codices (bound manuscripts)",
+          "codices (bound manuscripts)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "codices (bound manuscripts)"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Qurʼans",
+          "Qur'ans"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Qurʼans"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Treatises",
+          "treatises"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "treatises"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tables (documents)",
+          "tables (documents)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tables (documents)"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Manuals (instructional materials)",
+          "manuals (instructional materials)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manuals (instructional materials)"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Diagrams",
+          "diagrams"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "diagrams"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Annotations",
+          "annotations"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "annotations"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Commentaries",
+          "commentaries"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "commentaries"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Manuscripts (documents)",
+          "manuscripts (documents)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manuscripts (documents)"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Arabic",
+          "Arabic,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arabic"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  }
+]
