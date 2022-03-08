@@ -1,0 +1,68 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "genre_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-genre",
+    "columnInsertIndex": 22,
+    "description": "Create column recon-genre at index 22 based on column genre_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-genre"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "--",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-genre"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": ", ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-genre"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "grel:value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-genre using expression grel:value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-genre using expression value.trim()"
+  }
+]
