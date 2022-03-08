@@ -185,7 +185,7 @@ json/material/090-format-aat-cleanup.json
 5. Conduct known mass edits to clean and standardize values:                                 [JSON][genre_edits]
 6. Manual mass edits to further standardize data values
 7. Add new mass edits to known mass edits:                                                   [JSON][genre_edits]
-8. Split and create column for reconciliation:                                               [JSON][genre_split]
+8. Run reconciliation:                                                                       [JSON][genre_recon]
 9. Known reconciliations (genre):                                                            [JSON][genre_known]
 10. Manual genre reconcilations
 11. Add new genres to known genres:                                                          [JSON][genre_known]
@@ -193,14 +193,14 @@ json/material/090-format-aat-cleanup.json
 
 [genre_copy_clean]:          json/genre/010-clean_add_column.json
 [genre_edits]:               json/genre/020-mass_edit.json
-[genre_split]:               json/genre/040-split_add_recon_column.json
+[genre_recon]:               json/genre/040-genre_recon.json
 [genre_known]:               json/genre/050-genre_known.json
 [genre_aat_merge_cleanup]:   json/genre/090-format-aat-cleanup.json
 
 ```
 json/genre/010-clean_add_column.json
 json/genre/020-mass_edit.json
-json/genre/040-split_add_recon_column.json
+json/genre/040-genre_recon.json
 json/genre/050-genre_known.json
 json/genre/090-format-aat-cleanup.json
 ```
