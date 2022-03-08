@@ -1,0 +1,24 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://services.getty.edu/vocab/reconcile/",
+      "identifierSpace": "http://vocab.getty.edu/doc/#GVP_URLs_and_Prefixes",
+      "schemaSpace": "",
+      "type": {
+        "id": "/aat",
+        "name": "AAT search"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-genre to type /aat"
+  }
+]
