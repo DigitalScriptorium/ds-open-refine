@@ -46,11 +46,11 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "expression": "grel:value.replace(\".\",\"\")",
+    "expression": "grel:value.replace(\"etc\",\"\").replace(\".\",\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column recon-genre using expression grel:value.replace(\".\",\"\")"
+    "description": "Text transform on cells in column recon-genre using expression grel:value.replace(\"etc\",\"\").replace(\".\",\"\")"
   },
   {
     "op": "core/text-transform",
