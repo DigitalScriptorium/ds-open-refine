@@ -5238,5 +5238,245 @@
     },
     "shareNewTopics": false,
     "description": "Match item Giovanni Pietro Birago (Q1901175) for cells containing \"Follower of Birago, Giovan Pietro, active 1471-1513 and Master B. F. (sometimes identified as Francisco Binasco)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Macer, Floridus.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q41617302",
+      "name": "Odo of Meung",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Odo of Meung (Q41617302) for cells containing \"Macer, Floridus.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Augustine, of Hippo, Saint, 354-430,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8018",
+      "name": "Augustine of Hippo",
+      "types": [
+        "Q5"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item Augustine of Hippo (Q8018) for cells containing \"Augustine, of Hippo, Saint, 354-430,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jāmī, 1414-1492,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q312458",
+      "name": "Jami",
+      "types": [
+        "Q5"
+      ],
+      "score": 44
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jami (Q312458) for cells containing \"Jāmī, 1414-1492,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bernard, of Clairvaux, Saint, 1090 or 1091-1153,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q188411",
+      "name": "Bernard of Clairvaux",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bernard of Clairvaux (Q188411) for cells containing \"Bernard, of Clairvaux, Saint, 1090 or 1091-1153,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Plato,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q859",
+      "name": "Plato",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plato (Q859) for cells containing \"Plato,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Cicero, Marcus Tullius,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1541",
+      "name": "Cicero",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cicero (Q1541) for cells containing \"Cicero, Marcus Tullius,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gregory I, Pope, approximately 540-604.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q42827",
+      "name": "Gregory I",
+      "types": [
+        "Q5"
+      ],
+      "score": 56
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gregory I (Q42827) for cells containing \"Gregory I, Pope, approximately 540-604.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gregory IX, Pope, approximately 1170-1241,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124831",
+      "name": "Gregory IX",
+      "types": [
+        "Q5"
+      ],
+      "score": 56
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gregory IX (Q124831) for cells containing \"Gregory IX, Pope, approximately 1170-1241,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bonaventure, Saint, Cardinal, approximately 1217-1274,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q43746",
+      "name": "Bonaventure",
+      "types": [
+        "Q5"
+      ],
+      "score": 53
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bonaventure (Q43746) for cells containing \"Bonaventure, Saint, Cardinal, approximately 1217-1274,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Florus, Lucius Annaeus,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q316483",
+      "name": "Lucius Annaeus Florus",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lucius Annaeus Florus (Q316483) for cells containing \"Florus, Lucius Annaeus,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Rabanus Maurus, Archbishop of Mainz, 784?-856,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q160441",
+      "name": "Rabanus Maurus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rabanus Maurus (Q160441) for cells containing \"Rabanus Maurus, Archbishop of Mainz, 784?-856,\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Albertus, Magnus, Saint, 1193?-1280,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q60059",
+      "name": "Albertus Magnus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Albertus Magnus (Q60059) for cells containing \"Albertus, Magnus, Saint, 1193?-1280,\" in column recon-human"
   }
 ]
