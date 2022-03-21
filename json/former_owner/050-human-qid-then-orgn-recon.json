@@ -17,8 +17,8 @@
         }
       ]
     },
-    "columnInsertIndex": 38,
-    "description": "Extend data at index 38 based on column recon-human"
+    "columnInsertIndex": 44,
+    "description": "Extend data at index 44 based on column recon-human"
   },
   {
     "op": "core/column-rename",
@@ -36,7 +36,7 @@
     "expression": "grel:if(isNonBlank(cells[\"Qid-human\"]), \"human\", \"\"))",
     "onError": "set-to-blank",
     "newColumnName": "instance_of-human",
-    "columnInsertIndex": 39,
+    "columnInsertIndex": 45,
     "description": "Create column instance_of-human at index 39 based on column Qid-human using expression grel:if(isNonBlank(cells[\"Qid-human\"]), \"human\", \"\"))"
   },
   {
