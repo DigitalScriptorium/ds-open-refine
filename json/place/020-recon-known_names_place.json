@@ -3984,27 +3984,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4027,27 +4007,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4070,27 +4030,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4113,27 +4053,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4156,27 +4076,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4199,27 +4099,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4242,27 +4122,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4285,27 +4145,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4328,27 +4168,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4371,27 +4191,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4414,27 +4214,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4457,27 +4237,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4500,51 +4260,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "recon-place: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "recon-place",
-          "from": 8,
-          "to": 37,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        },
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        },
-        {
-          "type": "range",
-          "name": "recon-place: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "recon-place",
-          "from": 28.93,
-          "to": 34.04,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4567,51 +4283,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "recon-place: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "recon-place",
-          "from": 8,
-          "to": 37,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        },
-        {
-          "type": "list",
-          "name": "recon-place: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-place",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        },
-        {
-          "type": "range",
-          "name": "recon-place: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "recon-place",
-          "from": 28.93,
-          "to": 34.04,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-place",
@@ -4630,5 +4302,120 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ger (tgn/7647352) for cells containing \"Ger\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1000003",
+      "name": "Europe",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.296139
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (tgn/1000003) for cells containing \"Europe\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Franche Comté",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7645440",
+      "name": "Franche-Comté",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 20.961058
+    },
+    "shareNewTopics": false,
+    "description": "Match item Franche-Comté (tgn/7645440) for cells containing \"Franche Comté\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Fabriano",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7004004",
+      "name": "Fabriano",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 36.874943
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fabriano (tgn/7004004) for cells containing \"Fabriano\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "now Ger",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7647352",
+      "name": "Ger",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ger (tgn/7647352) for cells containing \"now Ger\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "near Brussels",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007868",
+      "name": "Brussels",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brussels (tgn/7007868) for cells containing \"near Brussels\" in column recon-place"
   }
 ]
