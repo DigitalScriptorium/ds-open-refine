@@ -9,8 +9,8 @@
     "expression": "grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")",
     "onError": "set-to-blank",
     "newColumnName": "recon-language",
-    "columnInsertIndex": 42,
-    "description": "Create column recon-language at index 42 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
+    "columnInsertIndex": 36,
+    "description": "Create column recon-language at index 36 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
   },
   {
     "op": "core/multivalued-cell-split",
