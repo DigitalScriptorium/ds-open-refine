@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "production_place_as_recorded",
-    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"(\",\"\").replace(\")\",\"\")",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-place",
     "columnInsertIndex": 11,
-    "description": "Create column recon-place at index 11 based on column production_place_as_recorded using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"(\",\"\").replace(\")\",\"\")"
+    "description": "Create column recon-place at index 11 based on column production_place_as_recorded using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -18,6 +18,15 @@
     "keyColumnName": "row_index",
     "mode": "separator",
     "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "(",
     "regex": false,
     "description": "Split multi-valued cells in column recon-place"
   },
