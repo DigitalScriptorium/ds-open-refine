@@ -9,7 +9,7 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-human",
-    "columnInsertIndex": 38,
+    "columnInsertIndex": 43,
     "description": "Create column recon-human at index 38 based on column former_owner_as_recorded using expression grel:value"
   },
   {
