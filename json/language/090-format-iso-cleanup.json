@@ -17,8 +17,8 @@
         }
       ]
     },
-    "columnInsertIndex": 37,
-    "description": "Extend data at index 37 based on column recon-language"
+    "columnInsertIndex": 44,
+    "description": "Extend data at index 44 based on column recon-language"
   },
   {
     "op": "core/column-rename",
