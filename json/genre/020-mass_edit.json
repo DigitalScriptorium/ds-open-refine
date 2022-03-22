@@ -57,7 +57,7 @@
         ],
         "fromBlank": false,
         "fromError": false,
-        "to": "Qurʼans"
+        "to": "Qur'ans"
       }
     ],
     "description": "Mass edit cells in column recon-genre"
