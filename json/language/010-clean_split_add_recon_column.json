@@ -9,8 +9,8 @@
     "expression": "grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")",
     "onError": "set-to-blank",
     "newColumnName": "recon-language",
-    "columnInsertIndex": 36,
-    "description": "Create column recon-language at index 36 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
+    "columnInsertIndex": 42,
+    "description": "Create column recon-language at index 42 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -76,8 +76,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "language-codes-for-recon",
-    "columnInsertIndex": 44,
-    "description": "Create column language-codes-for-recon at index 44 based on column language using expression grel:value"
+    "columnInsertIndex": 43,
+    "description": "Create column language-codes-for-recon at index 43 based on column language using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
