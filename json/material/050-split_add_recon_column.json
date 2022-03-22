@@ -27,7 +27,7 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "material_aat",
-    "columnInsertIndex": 48,
-    "description": "Create column material_aat at index 48 based on column recon-material using expression grel:value"
+    "columnInsertIndex": 52,
+    "description": "Create column material_aat at index 52 based on column recon-material using expression grel:value"
   }
 ]
