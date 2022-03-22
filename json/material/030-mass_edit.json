@@ -36,6 +36,99 @@
         ],
         "fromBlank": false,
         "fromError": false,
+        "to": "laid paper"
+      },
+      {
+        "from": [
+          "laid paper",
+          "Laid paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "laid paper"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "paper",
+          "Paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paper"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "paper and parchment",
+          "parchment and paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paper and parchment"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "parchment",
+          "Parchment"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "parchment"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "non-European laid paper",
+          "Non-European laid paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
         "to": "paper"
       },
       {
@@ -235,6 +328,146 @@
         "fromBlank": false,
         "fromError": false,
         "to": "mixed media"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "vellulm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vellum"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tinted smooth paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paper"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "rag paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paper"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "fine vellum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vellum"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "vellum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "parchment"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "paper and parchment"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paper|parchment"
+      }
+    ],
+    "description": "Mass edit cells in column recon-material"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "parchment|paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paper|parchment"
       }
     ],
     "description": "Mass edit cells in column recon-material"
