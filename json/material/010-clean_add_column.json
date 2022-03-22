@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-material",
-    "columnInsertIndex": 47,
-    "description": "Create column recon-material at index 47 based on column material_placeholder using expression grel:value"
+    "columnInsertIndex": 51,
+    "description": "Create column recon-material at index 51 based on column material_placeholder using expression grel:value"
   },
   {
     "op": "core/text-transform",
