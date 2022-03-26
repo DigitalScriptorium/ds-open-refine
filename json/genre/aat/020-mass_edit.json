@@ -1,0 +1,117 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Commentaries.",
+          "Commentaries",
+          "commentaries."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "commentaries"
+      },
+      {
+        "from": [
+          "Codices (bound manuscripts)",
+          "codices (bound manuscripts)",
+          "Codices (bound manuscripts)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "codices (bound manuscripts)"
+      },
+      {
+        "from": [
+          "Manuscripts (documents)",
+          "manuscripts (documents)",
+          "Manuscripts (documents)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manuscripts (documents)"
+      },
+      {
+        "from": [
+          "Manuals (instructional materials)",
+          "Manuals (instructional materials).",
+          "manuals (instructional materials)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manuals (instructional materials)"
+      },
+      {
+        "from": [
+          "Annotations.",
+          "annotations."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "annotations"
+      },
+      {
+        "from": [
+          "marginalia (annotations)",
+          "Marginalia (annotations)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "marginalia (annotations)"
+      },
+      {
+        "from": [
+          "Qurʼans.",
+          "Qur'ans."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Qur'ans"
+      },
+      {
+        "from": [
+          "Miniatures (paintings)",
+          "Miniatures (paintings)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "miniatures (paintings)"
+      },
+      {
+        "from": [
+          "Treatises.",
+          "treatises."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "treatises"
+      },
+      {
+        "from": [
+          "Diagrams.",
+          "diagrams."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "diagrams"
+      },
+      {
+        "from": [
+          "Tables (documents)",
+          "tables (documents)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tables (documents)"
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  }
+]
