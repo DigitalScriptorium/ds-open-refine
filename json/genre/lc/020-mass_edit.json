@@ -1,0 +1,42 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Manuscripts, Persian.|Manuscripts, 14th century.|Manuscripts, Medieval."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Manuscripts, Persian.|Manuscripts--14th century.|Manuscripts, Medieval."
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Manuscripts, Persian.|Manuscripts, 16th century.|Manuscripts, Renaissance."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Manuscripts, Persian.|Manuscripts--16th century.|Manuscripts, Renaissance."
+      }
+    ],
+    "description": "Mass edit cells in column recon-genre"
+  }
+]
