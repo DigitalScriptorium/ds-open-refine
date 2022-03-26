@@ -20,5 +20,14 @@
     "separator": "|",
     "regex": false,
     "description": "Split multi-valued cells in column recon-genre"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "--",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-genre"
   }
 ]
