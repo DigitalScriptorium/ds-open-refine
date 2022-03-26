@@ -1,0 +1,24 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "genre_as_recorded_aat",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-genre",
+    "columnInsertIndex": 24,
+    "description": "Create column recon-genre at index 24 based on column genre_as_recorded_aat using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-genre"
+  }
+]
