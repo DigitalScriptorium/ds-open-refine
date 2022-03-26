@@ -181,7 +181,7 @@ json/material/090-format-aat-cleanup.json
 
 #### Reconciling genre terms from AAT
 
-1. Copy and clean `genre_as_recorded_aat` column for further evaluation:                     [JSON][genre_aat_split]
+1. Copy `genre_as_recorded_aat` column for further evaluation:                               [JSON][genre_aat_split]
 2. Conduct known mass edits to clean and standardize values:                                 [JSON][genre_aat_edits]
 3. Use text facet tool to survey range of data values
 4. Use cluster and merge functions to standardize data values
@@ -207,9 +207,9 @@ json/genre/aat/050-genre_known.json
 json/genre/aat/090-format-aat-cleanup.json
 ```
 
-#### Reconciling genre terms from LoC
+#### Reconciling genre terms from LoC to FAST
 
-1. Copy and clean `genre_as_recorded_lcsh` column for further evaluation:                    [JSON][genre_lc_split]
+1. Copy `genre_as_recorded_lcsh` column for further evaluation:                              [JSON][genre_lc_split]
 2. Conduct known mass edits to clean and standardize values:                                 [JSON][genre_lc_edits]
 3. Use text facet tool to survey range of data values
 4. Use cluster and merge functions to standardize data values
@@ -219,19 +219,19 @@ json/genre/aat/090-format-aat-cleanup.json
 8. Known reconciliations (genre):                                                            [JSON][genre_lc_known]
 9. Manual genre reconcilations
 10. Add new genres to known genres:                                                          [JSON][genre_lc_known]
-11. Add AAT IDs, format, cleanup and rejoin:                                                 [JSON][genre_lc_merge_cleanup]
+11. Add FAST IDs, format, cleanup and rejoin:                                                [JSON][genre_lc_merge_cleanup]
 
-[genre_lc_split]:          json/genre/aat/010-split_add_column.json
-[genre_lc_edits]:          json/genre/aat/020-mass_edit.json
-[genre_lc_recon]:          json/genre/aat/040-genre_recon.json
-[genre_lc_known]:          json/genre/aat/050-genre_known.json
-[genre_lc_merge_cleanup]:  json/genre/aat/090-format-aat-cleanup.json
+[genre_lc_split]:          json/genre/lc/010-split_add_column.json
+[genre_lc_edits]:          json/genre/lc/020-mass_edit.json
+[genre_lc_recon]:          json/genre/lc/040-genre_recon.json
+[genre_lc_known]:          json/genre/lc/050-genre_known.json
+[genre_lc_merge_cleanup]:  json/genre/lc/090-format-fast-cleanup.json
 
 ```
 json/genre/lc/010-split_add_column.json
 json/genre/lc/020-mass_edit.json
 json/genre/lc/040-genre_recon.json
 json/genre/lc/050-genre_known.json
-json/genre/lc/090-format-aat-cleanup.json
+json/genre/lc/090-format-fast-cleanup.json
 ```
 
