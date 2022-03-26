@@ -10,11 +10,11 @@
     "edits": [
       {
         "from": [
-          "Manuscripts, Persian.|Manuscripts, 14th century.|Manuscripts, Medieval."
+          "Manuscripts, 14th century."
         ],
         "fromBlank": false,
         "fromError": false,
-        "to": "Manuscripts, Persian.|Manuscripts--14th century.|Manuscripts, Medieval."
+        "to": "Manuscripts--14th century."
       }
     ],
     "description": "Mass edit cells in column recon-genre"
@@ -30,13 +30,22 @@
     "edits": [
       {
         "from": [
-          "Manuscripts, Persian.|Manuscripts, 16th century.|Manuscripts, Renaissance."
+          "Manuscripts, 16th century."
         ],
         "fromBlank": false,
         "fromError": false,
-        "to": "Manuscripts, Persian.|Manuscripts--16th century.|Manuscripts, Renaissance."
+        "to": "Manuscripts--16th century."
       }
     ],
     "description": "Mass edit cells in column recon-genre"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "--",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-genre"
   }
 ]
