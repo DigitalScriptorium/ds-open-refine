@@ -1,0 +1,34 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
+    "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "genre_aat",
+    "columnInsertIndex": 25,
+    "description": "Create column genre_aat at index 25 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "genre_aat",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column genre_aat"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column recon-genre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-genre",
+    "description": "Remove column recon-genre"
+  }
+]
