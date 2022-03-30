@@ -261,7 +261,7 @@ json/genre/lc/090-format-fast-cleanup.json
 [subject_split]:            json/subject/010-split_add_column.json
 [subject_known]:            json/subject/020-subject_known.json
 [subject_column1-2]:        json/subject/030-add_first_second_column.json
-[subject_column1]:          json/subject/040-recon_first_second_column.json
+[subject_column1]:          json/subject/040-recon_first_column.json
 [subject_column2-3]:        json/subject/050-add_second_third_column.json
 [subject_column2]:          json/subject/060-recon_second_column.json
 [subject_column3-4]:        json/subject/070-add_third_fourth_column.json
@@ -273,7 +273,7 @@ json/genre/lc/090-format-fast-cleanup.json
 json/subject/010-split_add_column.json
 json/subject/020-subject_known.json
 json/subject/030-add_first_second_column.json
-json/subject/040-recon_first_second_column.json
+json/subject/040-recon_first_column.json
 json/subject/050-add_second_third_column.json
 json/subject/060-recon_second_column.json
 json/subject/070-add_third_fourth_column.json
