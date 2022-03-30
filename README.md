@@ -240,12 +240,20 @@ json/genre/lc/090-format-fast-cleanup.json
 #### Reconciling LCSH authorized headings and precoordinated terms with FAST equivalents
 
 1. Copy, clean, and split `subject_as_recorded` column and set up reconciliation for topical subjects:            [JSON][subject_split]
+2. Known reconciliations (subject):                                                                               [JSON][subject_known]
+3. Manual subject reconciliations
+4. Add new subjects to known subjects:                                                                            [JSON][subject_known]
+5. Add FAST IDs, set up reconciliation for second round of subjects:
 
-[subject_split]:            json/subject/precoord/010-split_add_column.json
+[subject_split]:            json/subject/010-split_add_column.json
+[subject_known]:            json/subject/030-subject_known.json
 
 ```
-json/subject/precoord/010-split_add_column.json
+json/subject/010-split_add_column.json
+json/subject/030-subject_known.json
 ```
+
+*PLACEHOLDER FOR ADDITIONAL INSTRUCTIONS AS WORKFLOW PROGRESSES*
 
 ##### Reconciling LCSH terms to FAST topicals
 
