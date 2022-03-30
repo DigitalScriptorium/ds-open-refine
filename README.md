@@ -249,17 +249,38 @@ json/genre/lc/090-format-fast-cleanup.json
 8. Add new subjects to known subjects:                                                                                 [JSON][subject_known]
 9. Add FAST IDs, set up reconciliation for first column of subjects:                                                   [JSON][subject_column1]
 10. Known reconciliations (subject):                                                                                   [JSON][subject_known]
+11. Manual subject reconciliations
+12. Add new subjects to known subjects:                                                                                [JSON][subject_known]
+13. Add FAST IDs, set up reconciliation for second and third columns of subjects:                                      [JSON][subject_column2-3]
+14. Known reconciliations (subject):
+15. Manual subject reconciliations
+16. Add new subjects to known subjects:                                                                                [JSON][subject_known]
+17. Add FAST IDs, set up reconciliation for second column of subjects:                                                 [JSON][subject_column2]
+18. TBD etc.
 
 [subject_split]:            json/subject/010-split_add_column.json
 [subject_known]:            json/subject/020-subject_known.json
 [subject_column1-2]:        json/subject/030-add_first_second_column.json
 [subject_column1]:          json/subject/040-recon_first_second_column.json
+[subject_column2-3]:        json/subject/050-add_second_third_column.json
+[subject_column2]:          json/subject/060-recon_second_column.json
+[subject_column3-4]:        json/subject/070-add_third_fourth_column.json
+[subject_column3]:          json/subject/080-recon_third_column.json
+
+[subject_merge_cleanup]:    json/subject/090-fast_cleanup_rejoin.json
 
 ```
 json/subject/010-split_add_column.json
 json/subject/020-subject_known.json
 json/subject/030-add_first_second_column.json
-json/subject/040-add_first_column.json
+json/subject/040-recon_first_second_column.json
+json/subject/050-add_second_third_column.json
+json/subject/060-recon_second_column.json
+json/subject/070-add_third_fourth_column.json
+json/subject/080-recon_third_column.json
+
+json/subject/090-fast_cleanup_rejoin.json
+
 ```
 
 *PLACEHOLDER FOR ADDITIONAL INSTRUCTIONS AS WORKFLOW PROGRESSES*
