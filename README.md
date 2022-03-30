@@ -247,7 +247,6 @@ json/genre/lc/090-format-fast-cleanup.json
 json/subject/precoord/010-split_add_column.json
 ```
 
-
 ##### Reconciling LCSH terms to FAST topicals
 
 2. Known subject reconciliations (topic):                                                                         [JSON][known_topic]
@@ -255,7 +254,7 @@ json/subject/precoord/010-split_add_column.json
 4. Add new topical subjects to known topical subjects:                                                            [JSON][known_topic]
 5. Add topical subject FAST IDs, set up reconciliation for geographic subjects:                                   [JSON][subject_add_topic_fast]
 
-[known topic]:              json/subject/topic/050-topic_known.json
+[known_topic]:              json/subject/topic/050-topic_known.json
 [subject_add_topic_fast]:   json/subject/topic/090-format-topic-fast.json
 
 ```
@@ -270,7 +269,7 @@ json/subject/topic/090-format-topic-fast.json
 8. Add new geographic subjects to known geographic subjects:                                                      [JSON][known_geo]
 9. Add geographic subject FAST IDs, set up reconciliation for event subjects:                                     [JSON][subject_add_geo_fast]
 
-[known geo]:              json/subject/geo/050-geo_known.json
+[known_geo]:              json/subject/geo/050-geo_known.json
 [subject_add_geo_fast]:   json/subject/geo/090-format-geo-fast.json
 
 ```
@@ -285,7 +284,7 @@ json/subject/geo/090-format-geo-fast.json
 12. Add new event subjects to known event subjects:                                                                [JSON][known_event]
 13. Add event subject FAST IDs, set up reconciliation for personal name subjects:                                  [JSON][subject_add_event_fast]
 
-[known event]:              json/subject/event/050-event_known.json
+[known_event]:              json/subject/event/050-event_known.json
 [subject_add_event_fast]:   json/subject/event/090-format-event-fast.json
 
 ```
@@ -300,7 +299,7 @@ json/subject/event/090-format-event-fast.json
 16. Add new personal name subjects to known personal name subjects:                                                [JSON][known_pers]
 17. Add personal name FAST IDs, set up reconciliation for corporate name subjects:                                 [JSON][subject_add_pers_fast]
 
-[known pers]:              json/subject/pers/050-pers_known.json
+[known_pers]:              json/subject/pers/050-pers_known.json
 [subject_add_pers_fast]:   json/subject/pers/090-format-pers-fast.json
 
 ```
@@ -315,7 +314,7 @@ json/subject/pers/090-format-pers-fast.json
 20. Add new corporate name subjects to known corporate name subjects:                                              [JSON][known_corp]
 21. Add corporate name FAST IDs, set up reconciliation for form subjects:                                          [JSON][subject_add_corp_fast]
 
-[known corp]:              json/subject/corp/050-corp_known.json
+[known_corp]:              json/subject/corp/050-corp_known.json
 [subject_add_corp_fast]:   json/subject/corp/090-format-corp-fast.json
 
 ```
@@ -330,7 +329,7 @@ json/subject/corp/090-format-corp-fast.json
 20. Add new form subjects to known form subjects:                                                                  [JSON][known_form]
 21. Add form subject FAST IDs, set up reconciliation for form subjects:                                            [JSON][subject_add_form_fast]
 
-[known form]:              json/subject/form/050-form_known.json
+[known_form]:              json/subject/form/050-form_known.json
 [subject_add_form_fast]:   json/subject/form/090-format-form-fast.json
 
 ```
