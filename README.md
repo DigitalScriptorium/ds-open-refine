@@ -247,7 +247,7 @@ json/genre/lc/090-format-fast-cleanup.json
 json/subject/precoord/010-split_add_column.json
 ```
 
-##### Reconciling LCSH terms to FAST topical concepts
+##### Reconciling LCSH terms to FAST topicals
 
 2. Known subject reconciliations (topic):                                                                         [JSON][known_topic]
 3. Manual topical subject reconciliations
@@ -262,7 +262,7 @@ json/subject/topic/050-topic_known.json
 json/subject/topic/090-format-topic-fast.json
 ```
 
-##### Reconciling LCSH terms to FAST geographic concepts
+##### Reconciling LCSH terms to FAST geographics
 
 6. Known subject reconciliations (geographic):                                                                    [JSON][known_geo]
 7. Manual geographic subject reconciliations
@@ -277,7 +277,7 @@ json/subject/geo/050-geo_known.json
 json/subject/geo/090-format-geo-fast.json
 ```
 
-##### Reconciling LCSH terms to FAST event concepts
+##### Reconciling LCSH terms to FAST events
 
 10. Known subject reconciliations (event):                                                                         [JSON][known_event]
 11. Manual event subject reconciliations
@@ -322,7 +322,7 @@ json/subject/corp/050-corp_known.json
 json/subject/corp/090-format-corp-fast.json
 ```
 
-##### Reconciling LCSH form terms to FAST form concepts
+##### Reconciling LCSH form terms to FAST forms
 
 18. Known subject reconciliation (form):                                                                           [JSON][known_form]
 19. Manual form subject reconciliations
