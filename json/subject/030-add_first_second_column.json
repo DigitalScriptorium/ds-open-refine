@@ -90,9 +90,27 @@
     "description": "Create column recon-subject at index 33 based on column subject-strings 1 using expression join ([cells['subject-strings 1'].value,cells['subject-strings 2'].value],'--')"
   },
   {
+    "op": "core/column-removal",
+    "columnName": "subject-string-placeholder",
+    "description": "Remove column subject-string-placeholder"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 45,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "recon-subject",
