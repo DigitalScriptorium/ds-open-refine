@@ -1,0 +1,53 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject-topic",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-topic_fast",
+    "columnInsertIndex": 31,
+    "description": "Create column subject-topic_fast at index 31 based on column recon-subject-topic using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject-topic",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column recon-subject-topic"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-subject-topic",
+    "newColumnName": "recon-subject-geo",
+    "description": "Rename column recon-subject-topic to recon-subject-geo"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject-geo",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/geographic",
+        "name": "/fast/geographic"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject-geo to type /fast/geographic"
+  }
+]
