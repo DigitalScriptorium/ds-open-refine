@@ -121,7 +121,7 @@ json/former_owner/090-add-org-qids-cleanup-rejoin.json
 ### Reconciling places
 
 1. Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split]
-2. Known name reconciliations (place):                                                       [JSON][place_known_names]
+2. Known reconciliations (place):                                                            [JSON][place_known_names]
 3. Manual place reconciliations
 4. Add new place names to known place names:                                                 [JSON][place_known_names]
 5. Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup]
@@ -235,3 +235,104 @@ json/genre/lc/050-genre_known.json
 json/genre/lc/090-format-fast-cleanup.json
 ```
 
+### Reconciling subjects
+
+#### Reconciling LCSH authorized headings and precoordinated terms with FAST equivalents
+
+1. Copy, clean, and split `subject_as_recorded` column and set up reconciliation for topical subjects:            [JSON][subject_split]
+
+[subject_split]:            json/subject/precoord/010-split_add_column.json
+
+```
+json/subject/precoord/010-split_add_column.json
+```
+
+##### Reconciling LCSH terms to FAST topical concepts
+
+2. Known subject reconciliations (topic):                                                                         [JSON][known_topic]
+3. Manual topical subject reconciliations
+4. Add new topical subjects to known topical subjects:                                                            [JSON][known_topic]
+5. Add topical subject FAST IDs, set up reconciliation for geographic subjects:                                   [JSON][subject_add_topic_fast]
+
+[known topic]:              json/subject/topic/050-topic_known.json
+[subject_add_topic_fast]:   json/subject/topic/090-format-topic-fast.json
+
+```
+json/subject/topic/050-topic_known.json
+json/subject/topic/090-format-topic-fast.json
+```
+
+##### Reconciling LCSH terms to FAST geographic concepts
+
+6. Known subject reconciliations (geographic):                                                                    [JSON][known_geo]
+7. Manual geographic subject reconciliations
+8. Add new geographic subjects to known geographic subjects:                                                      [JSON][known_geo]
+9. Add geographic subject FAST IDs, set up reconciliation for event subjects:                                     [JSON][subject_add_geo_fast]
+
+[known geo]:              json/subject/geo/050-geo_known.json
+[subject_add_geo_fast]:   json/subject/geo/090-format-geo-fast.json
+
+```
+json/subject/geo/050-geo_known.json
+json/subject/geo/090-format-geo-fast.json
+```
+
+##### Reconciling LCSH terms to FAST event concepts
+
+10. Known subject reconciliations (event):                                                                         [JSON][known_event]
+11. Manual event subject reconciliations
+12. Add new event subjects to known event subjects:                                                                [JSON][known_event]
+13. Add event subject FAST IDs, set up reconciliation for personal name subjects:                                  [JSON][subject_add_event_fast]
+
+[known event]:              json/subject/event/050-event_known.json
+[subject_add_event_fast]:   json/subject/event/090-format-event-fast.json
+
+```
+json/subject/event/050-event_known.json
+json/subject/event/090-format-event-fast.json
+```
+
+##### Reconciling LCSH personal names to FAST personal names
+
+14. Known subject reconciliation (personal names):                                                                 [JSON][known_pers]
+15. Manual personal name subject reconciliations
+16. Add new personal name subjects to known personal name subjects:                                                [JSON][known_pers]
+17. Add personal name FAST IDs, set up reconciliation for corporate name subjects:                                 [JSON][subject_add_pers_fast]
+
+[known pers]:              json/subject/pers/050-pers_known.json
+[subject_add_pers_fast]:   json/subject/pers/090-format-pers-fast.json
+
+```
+json/subject/pers/050-pers_known.json
+json/subject/pers/090-format-pers-fast.json
+```
+
+##### Reconciling LCSH corporate names to FAST corporate names
+
+18. Known subject reconciliation (corporate names):                                                                [JSON][known_corp]
+19. Manual corporate name subject reconciliations
+20. Add new corporate name subjects to known corporate name subjects:                                              [JSON][known_corp]
+21. Add corporate name FAST IDs, set up reconciliation for form subjects:                                          [JSON][subject_add_corp_fast]
+
+[known corp]:              json/subject/corp/050-corp_known.json
+[subject_add_corp_fast]:   json/subject/corp/090-format-corp-fast.json
+
+```
+json/subject/corp/050-corp_known.json
+json/subject/corp/090-format-corp-fast.json
+```
+
+##### Reconciling LCSH form terms to FAST form concepts
+
+18. Known subject reconciliation (form):                                                                           [JSON][known_form]
+19. Manual form subject reconciliations
+20. Add new form subjects to known form subjects:                                                                  [JSON][known_form]
+21. Add form subject FAST IDs, set up reconciliation for form subjects:                                            [JSON][subject_add_form_fast]
+
+[known form]:              json/subject/form/050-form_known.json
+[subject_add_form_fast]:   json/subject/form/090-format-form-fast.json
+
+```
+json/subject/form/050-form_known.json
+json/subject/form/090-format-form-fast.json
+```
