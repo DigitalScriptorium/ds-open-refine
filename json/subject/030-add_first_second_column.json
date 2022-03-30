@@ -15,8 +15,8 @@
   {
     "op": "core/column-rename",
     "oldColumnName": "recon-subject",
-    "newColumnName": "recon-subject-placeholder1",
-    "description": "Rename column recon-subject to recon-subject-placeholder1"
+    "newColumnName": "recon-subject-complete-string",
+    "description": "Rename column recon-subject to recon-subject-complete-string"
   },
   {
     "op": "core/column-addition",
@@ -24,12 +24,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "recon-subject-placeholder1",
+    "baseColumnName": "recon-subject-complete-string",
     "expression": "grel:if(isNonBlank(cells[\"subject_fast1\"]),\"\",value)",
     "onError": "set-to-blank",
-    "newColumnName": "recon-subject",
+    "newColumnName": "recon-subject-strings",
     "columnInsertIndex": 31,
-    "description": "Create column recon-subject at index 31 based on column recon-subject-placeholder1 using expression grel:if(isNonBlank(cells[\"subject_fast1\"]),\"\",value)"
+    "description": "Create column recon-subject-strings at index 31 based on column recon-subject-complete-string using expression grel:if(isNonBlank(cells[\"subject_fast1\"]),\"\",value)"
   },
   {
     "op": "core/column-split",
@@ -37,20 +37,14 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "recon-subject",
+    "columnName": "recon-subject-strings",
     "guessCellType": true,
     "removeOriginalColumn": false,
     "mode": "separator",
     "separator": "--",
     "regex": false,
     "maxColumns": 0,
-    "description": "Split column recon-subject by separator"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "recon-subject",
-    "newColumnName": "recon-subject-strings",
-    "description": "Rename column recon-subject to recon-subject-strings"
+    "description": "Split column recon-subject-strings by separator"
   },
   {
     "op": "core/column-addition",
@@ -58,12 +52,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "recon-subject 1",
-    "expression": "join ([cells['recon-subject 1'].value,cells['recon-subject 2'].value],'--')",
+    "baseColumnName": "recon-subject-strings 1",
+    "expression": "join ([cells['recon-subject-strings 1'].value,cells['recon-subject-strings 2'].value],'--')",
     "onError": "keep-original",
     "newColumnName": "recon-subject",
     "columnInsertIndex": 33,
-    "description": "Create column recon-subject at index 33 based on column recon-subject 1 using expression join ([cells['recon-subject 1'].value,cells['recon-subject 2'].value],'--')"
+    "description": "Create column recon-subject at index 33 based on column recon-subject-strings 1 using expression join ([cells['recon-subject-strings 1'].value,cells['recon-subject-strings 2'].value],'--')"
   },
   {
     "op": "core/recon",
