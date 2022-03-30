@@ -66,5 +66,27 @@
     "separator": "|",
     "regex": false,
     "description": "Split multi-valued cells in column recon-subject"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
   }
 ]
