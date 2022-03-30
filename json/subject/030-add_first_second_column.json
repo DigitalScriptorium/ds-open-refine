@@ -19,6 +19,36 @@
     "description": "Rename column recon-subject to recon-subject-complete-string"
   },
   {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject-complete-string",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column recon-subject-complete-string"
+  },
+  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
