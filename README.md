@@ -239,18 +239,27 @@ json/genre/lc/090-format-fast-cleanup.json
 
 #### Reconciling LCSH authorized headings and precoordinated terms with FAST equivalents
 
-1. Copy, clean, and split `subject_as_recorded` column and set up reconciliation for topical subjects:            [JSON][subject_split]
-2. Known reconciliations (subject):                                                                               [JSON][subject_known]
+1. Copy, clean, and split `subject_as_recorded` column and set up reconciliation for subjects:                         [JSON][subject_split]
+2. Known reconciliations (subject):                                                                                    [JSON][subject_known]
 3. Manual subject reconciliations
-4. Add new subjects to known subjects:                                                                            [JSON][subject_known]
-5. Add FAST IDs, set up reconciliation for second round of subjects:
+4. Add new subjects to known subjects:                                                                                 [JSON][subject_known]
+5. Add FAST IDs, split subject strings and set up reconciliation for first and second columns of subjects:             [JSON][subject_column1-2]
+6. Known reconciliations (subject):                                                                                    [JSON][subject_known]
+7. Manual subject reconciliations
+8. Add new subjects to known subjects:                                                                                 [JSON][subject_known]
+9. Add FAST IDs, set up reconciliation for first column of subjects:                                                   [JSON][subject_column1]
+10. Known reconciliations (subject):                                                                                   [JSON][subject_known]
 
 [subject_split]:            json/subject/010-split_add_column.json
-[subject_known]:            json/subject/030-subject_known.json
+[subject_known]:            json/subject/020-subject_known.json
+[subject_column1-2]:        json/subject/030-add_first_second_column.json
+[subject_column1]:          json/subject/040-recon_first_second_column.json
 
 ```
 json/subject/010-split_add_column.json
-json/subject/030-subject_known.json
+json/subject/020-subject_known.json
+json/subject/030-add_first_second_column.json
+json/subject/040-add_first_column.json
 ```
 
 *PLACEHOLDER FOR ADDITIONAL INSTRUCTIONS AS WORKFLOW PROGRESSES*
