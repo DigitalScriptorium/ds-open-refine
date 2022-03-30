@@ -15,8 +15,8 @@
   {
     "op": "core/column-rename",
     "oldColumnName": "recon-subject",
-    "newColumnName": "recon-subject-complete-string",
-    "description": "Rename column recon-subject to recon-subject-complete-string"
+    "newColumnName": "subject-string-placeholder",
+    "description": "Rename column recon-subject to subject-string-placeholder"
   },
   {
     "op": "core/recon-discard-judgments",
@@ -44,9 +44,9 @@
       ],
       "mode": "row-based"
     },
-    "columnName": "recon-subject-complete-string",
+    "columnName": "subject-string-placeholder",
     "clearData": true,
-    "description": "Discard recon judgments and clear recon data for cells in column recon-subject-complete-string"
+    "description": "Discard recon judgments and clear recon data for cells in column subject-string-placeholder"
   },
   {
     "op": "core/column-addition",
@@ -54,12 +54,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "recon-subject-complete-string",
+    "baseColumnName": "subject-string-placeholder",
     "expression": "grel:if(isNonBlank(cells[\"subject_fast1\"]),\"\",value)",
     "onError": "set-to-blank",
-    "newColumnName": "recon-subject-strings",
+    "newColumnName": "subject-strings",
     "columnInsertIndex": 31,
-    "description": "Create column recon-subject-strings at index 31 based on column recon-subject-complete-string using expression grel:if(isNonBlank(cells[\"subject_fast1\"]),\"\",value)"
+    "description": "Create column subject-strings at index 31 based on column subject-string-placeholder using expression grel:if(isNonBlank(cells[\"subject_fast1\"]),\"\",value)"
   },
   {
     "op": "core/column-split",
@@ -67,14 +67,14 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "recon-subject-strings",
+    "columnName": "subject-strings",
     "guessCellType": true,
     "removeOriginalColumn": false,
     "mode": "separator",
     "separator": "--",
     "regex": false,
     "maxColumns": 0,
-    "description": "Split column recon-subject-strings by separator"
+    "description": "Split column subject-strings by separator"
   },
   {
     "op": "core/column-addition",
@@ -82,12 +82,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "recon-subject-strings 1",
-    "expression": "join ([cells['recon-subject-strings 1'].value,cells['recon-subject-strings 2'].value],'--')",
+    "baseColumnName": "subject-strings 1",
+    "expression": "join ([cells['subject-strings 1'].value,cells['subject-strings 2'].value],'--')",
     "onError": "keep-original",
     "newColumnName": "recon-subject",
     "columnInsertIndex": 33,
-    "description": "Create column recon-subject at index 33 based on column recon-subject-strings 1 using expression join ([cells['recon-subject-strings 1'].value,cells['recon-subject-strings 2'].value],'--')"
+    "description": "Create column recon-subject at index 33 based on column subject-strings 1 using expression join ([cells['subject-strings 1'].value,cells['subject-strings 2'].value],'--')"
   },
   {
     "op": "core/recon",
