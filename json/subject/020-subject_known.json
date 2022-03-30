@@ -918,5 +918,125 @@
     },
     "shareNewTopics": false,
     "description": "Match item Shīʻah (http://id.worldcat.org/fast/1117946) for cells containing \"Shīʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Criticism, interpretation, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411635",
+      "name": "Criticism, interpretation, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Criticism, interpretation, etc. (http://id.worldcat.org/fast/1411635) for cells containing \"Criticism, interpretation, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Dictionaries--Turkish",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/909624",
+      "name": "Encyclopedias and dictionaries, Turkish",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 69
+    },
+    "shareNewTopics": false,
+    "description": "Match item Encyclopedias and dictionaries, Turkish (http://id.worldcat.org/fast/909624) for cells containing \"Dictionaries--Turkish\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Glossaries, vocabularies, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423786",
+      "name": "Glossaries, vocabularies, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Glossaries, vocabularies, etc. (http://id.worldcat.org/fast/1423786) for cells containing \"Glossaries, vocabularies, etc\" in column recon-subject"
   }
 ]
