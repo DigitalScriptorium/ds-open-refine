@@ -1,0 +1,53 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject-geo",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-geo_fast",
+    "columnInsertIndex": 31,
+    "description": "Create column subject-geo_fast at index 31 based on column recon-subject-geo using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject-geo",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column recon-subject-geo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-subject-geo",
+    "newColumnName": "recon-subject-event",
+    "description": "Rename column recon-subject-geo to recon-subject-event"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject-event",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/event",
+        "name": "/fast/event"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject-event to type /fast/event"
+  }
+]
