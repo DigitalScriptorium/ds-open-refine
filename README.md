@@ -317,3 +317,19 @@ json/subject/080-recon_third_column.json
 json/subject/090-recon_fourth_column.json
 json/subject/095-fast_cleanup_rejoin.json
 ```
+
+#### Reconciling named entity subjects to FAST
+
+1. Copy, clean, and split `named_subject_as_recorded` column and set up reconciliation:      [JSON][named_subject_split]
+2. Known reconciliations (subject):                                                          [JSON][named_subject_known]
+3. Manual subject reconciliations
+4. Add new subjects to known subjects:                                                       [JSON][named_subject_known]
+5. TBD.
+
+[named_subject_split]:            json/named_subject/010-split_add_column.json
+[named_subject_known]:            json/named_subject/020-subject_known.json
+
+```
+json/named_subject/010-split_add_column.json
+json/named_subject/020-subject_known.json
+```
