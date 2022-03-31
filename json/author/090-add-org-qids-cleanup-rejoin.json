@@ -74,13 +74,6 @@
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "author_instance_of",
-    "keyColumnName": "row_index",
-    "separator": "|",
-    "description": "Join multi-valued cells in column author_instance_of"
-  },
-  {
-    "op": "core/multivalued-cell-join",
     "columnName": "instance_of-organization",
     "keyColumnName": "row_index",
     "separator": "|",
