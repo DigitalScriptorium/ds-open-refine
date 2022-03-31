@@ -70,7 +70,7 @@
     "columnName": "artist_instance_of",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column author_instance_of"
+    "description": "Join multi-valued cells in column artist_instance_of"
   },
   {
     "op": "core/multivalued-cell-join",
@@ -84,7 +84,7 @@
     "columnName": "artist_wikidata",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column author_wikidata"
+    "description": "Join multi-valued cells in column artist_wikidata"
   },
   {
     "op": "core/multivalued-cell-join",
