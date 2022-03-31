@@ -1,0 +1,73 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject_fast6",
+    "columnInsertIndex": 38,
+    "description": "Create column subject_fast6 at index 38 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject",
+    "description": "Remove column recon-subject"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-strings 3",
+    "expression": "grel:if(isNonBlank(cells[\"subject_fast6\"]),\"\",value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-placeholder",
+    "columnInsertIndex": 34,
+    "description": "Create column subject-placeholder at index 34 based on column subject-strings 3 using expression grel:if(isNonBlank(cells[\"subject_fast6\"]),\"\",value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-placeholder",
+    "expression": "grel:if(isNonBlank(cells[\"subject_fast4\"]),\"\",value)",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 35,
+    "description": "Create column recon-subject at index 35 based on column subject-placeholder using expression grel:if(isNonBlank(cells[\"subject_fast4\"]),\"\",value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-placeholder",
+    "description": "Remove column subject-placeholder"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  }
+]
