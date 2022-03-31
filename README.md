@@ -207,7 +207,7 @@ json/genre/aat/050-genre_known.json
 json/genre/aat/090-format-aat-cleanup.json
 ```
 
-#### Reconciling genre terms from LoC to FAST
+#### Reconciling genre terms from LoC vocabularies to FAST
 
 1. Copy `genre_as_recorded_lcsh` column for further evaluation:                              [JSON][genre_lc_split]
 2. Conduct known mass edits to clean and standardize values:                                 [JSON][genre_lc_edits]
@@ -239,24 +239,60 @@ json/genre/lc/090-format-fast-cleanup.json
 
 #### Reconciling LCSH authorized headings and precoordinated terms with FAST equivalents
 
-1. Copy, clean, and split `subject_as_recorded` column and set up reconciliation for subjects:                         [JSON][subject_split]
+1. Copy, clean, and split `subject_as_recorded` column and set up reconciliation for subject headings and strings:     [JSON][subject_split]
 2. Known reconciliations (subject):                                                                                    [JSON][subject_known]
 3. Manual subject reconciliations
 4. Add new subjects to known subjects:                                                                                 [JSON][subject_known]
 5. Add FAST IDs, split subject strings and set up reconciliation for first and second columns of subjects:             [JSON][subject_column1-2]
+
+##### Reconciling first and second subject terms together in a precoordinated string
+
 6. Known reconciliations (subject):                                                                                    [JSON][subject_known]
 7. Manual subject reconciliations
 8. Add new subjects to known subjects:                                                                                 [JSON][subject_known]
 9. Add FAST IDs, set up reconciliation for first column of subjects:                                                   [JSON][subject_column1]
+
+##### Reconciling first subject terms in a precoordinated string
+
 10. Known reconciliations (subject):                                                                                   [JSON][subject_known]
 11. Manual subject reconciliations
 12. Add new subjects to known subjects:                                                                                [JSON][subject_known]
 13. Add FAST IDs, set up reconciliation for second and third columns of subjects:                                      [JSON][subject_column2-3]
-14. Known reconciliations (subject):
+
+##### Reconciling second and third subject terms together in a precoordinated string
+
+14. Known reconciliations (subject):                                                                                   [JSON][subject_known]
 15. Manual subject reconciliations
 16. Add new subjects to known subjects:                                                                                [JSON][subject_known]
 17. Add FAST IDs, set up reconciliation for second column of subjects:                                                 [JSON][subject_column2]
-18. TBD etc.
+
+##### Reconciling second subject terms in a precoordinated string
+
+18. Known reconciliations (subject):                                                                                   [JSON][subject_known]
+19. Manual subject reconciliations
+20. Add new subjects to known subjects:                                                                                [JSON][subject_known]
+21. Add FAST IDs, set up reconciliation for third and fourth columns of subjects:                                      [JSON][subject_column3-4]:
+
+##### Reconciling third and fourth subject terms together in a precoordinated string
+
+22. Known reconciliations (subject):                                                                                   [JSON][subject_known]
+23. Manual subject reconciliations
+24. Add new subjects to known subjects:                                                                                [JSON][subject_known]
+25. Add FAST IDs, set up reconciliation for third column of subjects:                                                  [JSON][subject_column3]
+
+##### Reconciling third subject terms in a precoordinated string
+
+26. Known reconcilations (subject):                                                                                    [JSON][subject_known]
+27. Manual subject reconciliations
+28. Add new subjects to known subjects:                                                                                [JSON][subject_known]
+29. Add FAST IDs, set up reconciliation for fourth column of subjects:                                                 [JSON][subject_column4]
+
+##### Reconciling fourth subject terms in a precoordinated string and finalizing process
+
+30. Known reconciliations (subject):                                                                                   [JSON][subject_known]
+31. Manual subject reconciliations
+32. Add new subjects to known subjects:                                                                                [JSON][subject_known]
+33. Add FAST IDs, format, cleanup and rejoin:                                                                          [JSON][subject_merge_cleanup]:
 
 [subject_split]:            json/subject/010-split_add_column.json
 [subject_known]:            json/subject/020-subject_known.json
@@ -266,8 +302,8 @@ json/genre/lc/090-format-fast-cleanup.json
 [subject_column2]:          json/subject/060-recon_second_column.json
 [subject_column3-4]:        json/subject/070-add_third_fourth_column.json
 [subject_column3]:          json/subject/080-recon_third_column.json
-
-[subject_merge_cleanup]:    json/subject/090-fast_cleanup_rejoin.json
+[subject_column4]:          json/subject/090-recon_fourth_column.json
+[subject_merge_cleanup]:    json/subject/095-fast_cleanup_rejoin.json
 
 ```
 json/subject/010-split_add_column.json
@@ -278,99 +314,7 @@ json/subject/050-add_second_third_column.json
 json/subject/060-recon_second_column.json
 json/subject/070-add_third_fourth_column.json
 json/subject/080-recon_third_column.json
+json/subject/090-recon_fourth_column.json
+json/subject/095-fast_cleanup_rejoin.json
 
-json/subject/090-fast_cleanup_rejoin.json
-
-```
-
-*PLACEHOLDER FOR ADDITIONAL INSTRUCTIONS AS WORKFLOW PROGRESSES*
-
-##### Reconciling LCSH terms to FAST topicals
-
-2. Known subject reconciliations (topic):                                                                         [JSON][known_topic]
-3. Manual topical subject reconciliations
-4. Add new topical subjects to known topical subjects:                                                            [JSON][known_topic]
-5. Add topical subject FAST IDs, set up reconciliation for geographic subjects:                                   [JSON][subject_add_topic_fast]
-
-[known_topic]:              json/subject/topic/050-topic_known.json
-[subject_add_topic_fast]:   json/subject/topic/090-format-topic-fast.json
-
-```
-json/subject/topic/050-topic_known.json
-json/subject/topic/090-format-topic-fast.json
-```
-
-##### Reconciling LCSH terms to FAST geographics
-
-6. Known subject reconciliations (geographic):                                                                    [JSON][known_geo]
-7. Manual geographic subject reconciliations
-8. Add new geographic subjects to known geographic subjects:                                                      [JSON][known_geo]
-9. Add geographic subject FAST IDs, set up reconciliation for event subjects:                                     [JSON][subject_add_geo_fast]
-
-[known_geo]:              json/subject/geo/050-geo_known.json
-[subject_add_geo_fast]:   json/subject/geo/090-format-geo-fast.json
-
-```
-json/subject/geo/050-geo_known.json
-json/subject/geo/090-format-geo-fast.json
-```
-
-##### Reconciling LCSH terms to FAST events
-
-10. Known subject reconciliations (event):                                                                         [JSON][known_event]
-11. Manual event subject reconciliations
-12. Add new event subjects to known event subjects:                                                                [JSON][known_event]
-13. Add event subject FAST IDs, set up reconciliation for personal name subjects:                                  [JSON][subject_add_event_fast]
-
-[known_event]:              json/subject/event/050-event_known.json
-[subject_add_event_fast]:   json/subject/event/090-format-event-fast.json
-
-```
-json/subject/event/050-event_known.json
-json/subject/event/090-format-event-fast.json
-```
-
-##### Reconciling LCSH personal names to FAST personal names
-
-14. Known subject reconciliation (personal names):                                                                 [JSON][known_pers]
-15. Manual personal name subject reconciliations
-16. Add new personal name subjects to known personal name subjects:                                                [JSON][known_pers]
-17. Add personal name FAST IDs, set up reconciliation for corporate name subjects:                                 [JSON][subject_add_pers_fast]
-
-[known_pers]:              json/subject/pers/050-pers_known.json
-[subject_add_pers_fast]:   json/subject/pers/090-format-pers-fast.json
-
-```
-json/subject/pers/050-pers_known.json
-json/subject/pers/090-format-pers-fast.json
-```
-
-##### Reconciling LCSH corporate names to FAST corporate names
-
-18. Known subject reconciliation (corporate names):                                                                [JSON][known_corp]
-19. Manual corporate name subject reconciliations
-20. Add new corporate name subjects to known corporate name subjects:                                              [JSON][known_corp]
-21. Add corporate name FAST IDs, set up reconciliation for form subjects:                                          [JSON][subject_add_corp_fast]
-
-[known_corp]:              json/subject/corp/050-corp_known.json
-[subject_add_corp_fast]:   json/subject/corp/090-format-corp-fast.json
-
-```
-json/subject/corp/050-corp_known.json
-json/subject/corp/090-format-corp-fast.json
-```
-
-##### Reconciling LCSH form terms to FAST forms
-
-18. Known subject reconciliation (form):                                                                           [JSON][known_form]
-19. Manual form subject reconciliations
-20. Add new form subjects to known form subjects:                                                                  [JSON][known_form]
-21. Add form subject FAST IDs, set up reconciliation for form subjects:                                            [JSON][subject_add_form_fast]
-
-[known_form]:              json/subject/form/050-form_known.json
-[subject_add_form_fast]:   json/subject/form/090-format-form-fast.json
-
-```
-json/subject/form/050-form_known.json
-json/subject/form/090-format-form-fast.json
 ```
