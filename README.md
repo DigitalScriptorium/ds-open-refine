@@ -321,9 +321,9 @@ json/subject/095-fast_cleanup_rejoin.json
 #### Reconciling named entity subjects to FAST
 
 1. Copy, clean, and split `named_subject_as_recorded` column and set up reconciliation:      [JSON][named_subject_split]
-2. Known reconciliations (subject):                                                          [JSON][named_subject_known]
-3. Manual subject reconciliations
-4. Add new subjects to known subjects:                                                       [JSON][named_subject_known]
+2. Known reconciliations (named subject):                                                    [JSON][named_subject_known]
+3. Manual named subject reconciliations
+4. Add new named subjects to known named subjects:                                           [JSON][named_subject_known]
 5. TBD.
 
 [named_subject_split]:            json/named_subject/010-split_add_column.json
