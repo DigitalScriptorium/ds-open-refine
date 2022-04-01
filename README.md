@@ -318,18 +318,55 @@ json/subject/090-recon_fourth_column.json
 json/subject/095-fast_cleanup_rejoin.json
 ```
 
-#### Reconciling named entity subjects to FAST
+#### Reconciling named entities as subjects to FAST
 
-1. Copy, clean, and split `named_subject_as_recorded` column and set up reconciliation:      [JSON][named_subject_split]
-2. Known reconciliations (named subject):                                                    [JSON][named_subject_known]
+1. Copy, clean, and split `named_subject_as_recorded` column and set up reconciliation:                                [JSON][named_subject_split]
+2. Known reconciliations (named subject):                                                                              [JSON][named_subject_known]
 3. Manual named subject reconciliations
-4. Add new named subjects to known named subjects:                                           [JSON][named_subject_known]
-5. TBD.
+4. Add new named subjects to known named subjects:                                                                     [JSON][named_subject_known]
+5. Add FAST IDs, set up reconciliation for first set, second column of named subjects:                                 [JSON][named_subject_set1_column2]
+
+##### Reconciling controlled names and titles used as subject terms
+
+6. Known reconciliations (named subject):                                                                              [JSON][named_subject_known]
+7. Manual named subject reconciliations
+8. Add new named subjects to known named subjects:                                                                     [JSON][named_subject_known]
+9. Add FAST IDs, set up reconciliation for first set, first column of named subjects:                                  [JSON][named_subject_set1_column1]
+10. Known reconciliations (named subject):                                                                             [JSON][named_subject_known]
+11. Manual named subject reconciliatons                 
+12. Add new named subjects to known named subjects:                                                                    [JSON][named_subject_known]
+13. Add FAST IDs, first set cleanup, and set up reconciliation for second set, first column of named subjects:         [JSON][named_subject_set2_column1]
+
+##### Reconciling other subject terms in a precoordinated string
+
+14. Known reconciliations (named subject):                                                                             [JSON][named_subject_known]
+15. Manual named subject reconciliations
+16. Add new named subjects to known named subjects:                                                                    [JSON][named_subject_known]
+17. Add FAST IDs, set up reconciliation for second set, second column of named subjects:                               [JSON][named_subject_set2_column2]
+18. Known reconciliations (named subject):                                                                             [JSON][named_subject_known]
+19. Manual named subject reconciliations
+20. Add new named subjects to known named subjects:                                                                    [JSON][named_subject_known]
+21. Add FAST IDs, set up reconciliation for second set, third column of named subjects:                                [JSON][named_subject_set2_column3]
+22. Known reconciliations (named subject):                                                                             [JSON][named_subject_known]
+23. Manual named subject reconciliations
+24. Add new named subjects to known named subjects:                                                                    [JSON][named_subject_known]
+25. Add FAST IDs, format, cleanup, and rejoin:                                                                         [JSON][named_subject_merge_cleanup]
 
 [named_subject_split]:            json/named_subject/010-split_add_column.json
-[named_subject_known]:            json/named_subject/020-subject_known.json
-
+[named_subject_known]:            json/named_subject/020-named_subject_known.json
+[named_subject_set1_column2]:     json/named_subject/030-recon_first_set_second_column.json
+[named_subject_set1_column1]:     json/named_subject/040-recon_first_set_first_column.json
+[named_subject_set2_column1]:     json/named_subject/050-recon_second_set_first_column.json
+[named_subject_set2_column2]:     json/named_subject/060-recon_second_set_second_column.json
+[named_subject_set2_column3]:     json/named_subject/070-recon_second_set_third_column.json
+[named_subject_merge_cleanup]:    json/named_subject/090-fast_cleanup_rejoin.json
 ```
 json/named_subject/010-split_add_column.json
-json/named_subject/020-subject_known.json
+json/named_subject/020-named_subject_known.json
+json/named_subject/030-recon_first_set_second_column.json
+json/named_subject/040-recon_first_set_first_column.json
+json/named_subject/050-recon_second_set_first_column.json
+json/named_subject/060-recon_second_set_second_column.json
+json/named_subject/070-recon_second_set_third_column.json
+json/named_subject/090-fast_cleanup_rejoin.json
 ```
