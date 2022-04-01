@@ -6,7 +6,7 @@ Digital Scriptorium OpenRefine documentation and code snippets
 
 ### First: Add an index column
 
-Create an index column:
+Create an index column and columns for documenting workflow steps:
 
 - [`json/add_index_column.json`][add_index_column]
 
