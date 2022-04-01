@@ -1,0 +1,53 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-fast3",
+    "columnInsertIndex": 33,
+    "description": "Create column named-subject-fast3 at index 33 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject",
+    "description": "Remove column recon-subject"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-strings 2",
+    "description": "Remove column named-subject-strings 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "named-subject-strings 1",
+    "newColumnName": "recon-subject",
+    "description": "Rename column named-subject-strings 1 to recon-subject"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  }
+]
