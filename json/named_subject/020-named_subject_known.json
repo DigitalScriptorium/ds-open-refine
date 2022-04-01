@@ -1038,5 +1038,405 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century (http://id.worldcat.org/fast/1825331) for cells containing \"Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥusayn ibn ʻAlī, -680",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1825184",
+      "name": "Ḥusayn ibn ʻAlī, -680",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ḥusayn ibn ʻAlī, -680 (http://id.worldcat.org/fast/1825184) for cells containing \"Ḥusayn ibn ʻAlī, -680\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1804105",
+      "name": "ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661 (http://id.worldcat.org/fast/1804105) for cells containing \"ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Taftāzānī, Masʻūd ibn ʻUmar, 1322-1389?",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/42667",
+      "name": "Taftāzānī, Masʻūd ibn ʻUmar, 1322-1389?",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Taftāzānī, Masʻūd ibn ʻUmar, 1322-1389? (http://id.worldcat.org/fast/42667) for cells containing \"Taftāzānī, Masʻūd ibn ʻUmar, 1322-1389?\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sharḥ al-ʻAqāʾid al-Nasafīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1365468",
+      "name": "Sharḥ al-ʻAqāʼid al-Nasafīyah (Taftāzānī, Masʻūd ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sharḥ al-ʻAqāʼid al-Nasafīyah (Taftāzānī, Masʻūd ibn ʻUmar) (http://id.worldcat.org/fast/1365468) for cells containing \"Sharḥ al-ʻAqāʾid al-Nasafīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Isrāʼ and Miʻrāj",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/994487",
+      "name": "Laylat al-Miʻrāj",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Laylat al-Miʻrāj (http://id.worldcat.org/fast/994487) for cells containing \"Isrāʼ and Miʻrāj\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mukhtaṣar",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363458",
+      "name": "Mukhtaṣar (Khalīl ibn Isḥāq al-Jundī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 41
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mukhtaṣar (Khalīl ibn Isḥāq al-Jundī) (http://id.worldcat.org/fast/1363458) for cells containing \"Mukhtaṣar\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Companions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352525",
+      "name": "Companions of the Prophet Muhammad",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Companions of the Prophet Muhammad (http://id.worldcat.org/fast/1352525) for cells containing \"Companions\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Annunciation",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1351679",
+      "name": "Annunciation to the Blessed Virgin Mary",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Annunciation to the Blessed Virgin Mary (http://id.worldcat.org/fast/1351679) for cells containing \"Annunciation\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tomb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1152439",
+      "name": "Tombs",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 89
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tombs (http://id.worldcat.org/fast/1152439) for cells containing \"Tomb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nativity",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353868",
+      "name": "Nativity of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nativity of Jesus Christ (http://id.worldcat.org/fast/1353868) for cells containing \"Nativity\" in column recon-subject"
   }
 ]
