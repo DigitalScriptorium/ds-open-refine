@@ -134,7 +134,7 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"RECON PLACE, STEP 1, \" + now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 1: PREP \" + now()"
   },
   {
     "op": "core/text-transform",
