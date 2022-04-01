@@ -17,7 +17,7 @@ Create an index column:
 1. Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split]
 2. Known reconciliations (place):                                                            [JSON][place_known_names]
 3. Manual place reconciliations
-4. Add new place names to known place names:                                                 [JSON][place_known_names]
+4. Add new place names to known place names:                                                 edit [JSON][place_known_names]
 5. Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup]
 
 [place_split]:              json/place/010-clean_split_add_recon_column.json
