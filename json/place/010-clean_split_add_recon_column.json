@@ -9,8 +9,8 @@
     "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-place",
-    "columnInsertIndex": 11,
-    "description": "Create column recon-place at index 11 based on column production_place_as_recorded using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")"
+    "columnInsertIndex": 13,
+    "description": "Create column recon-place at index 13 based on column production_place_as_recorded using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")"
   },
   {
     "op": "core/multivalued-cell-split",
