@@ -9,8 +9,8 @@
     "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "production_place_tgn",
-    "columnInsertIndex": 12,
-    "description": "Create column production_place_tgn at index 12 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "columnInsertIndex": 14,
+    "description": "Create column production_place_tgn at index 14 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
   },
   {
     "op": "core/multivalued-cell-join",
