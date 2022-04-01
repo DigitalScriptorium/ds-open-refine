@@ -1,0 +1,108 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-fast6",
+    "columnInsertIndex": 33,
+    "description": "Create column named-subject-fast6 at index 33 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-fast-1-2-3",
+    "expression": "join ([cells['named-subject-fast-1-2-3'].value,cells['named-subject-fast4'].value],'--')",
+    "onError": "keep-original",
+    "newColumnName": "named-subject-fast-1-2-3-4",
+    "columnInsertIndex": 35,
+    "description": "Create column named-subject-fast-1-2-3-4 at index 35 based on column named-subject-fast-1-2-3 using expression join ([cells['named-subject-fast-1-2-3'].value,cells['named-subject-fast4'].value],'--')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-fast-1-2-3-4",
+    "expression": "join ([cells['named-subject-fast-1-2-3-4'].value,cells['named-subject-fast5'].value],'--')",
+    "onError": "keep-original",
+    "newColumnName": "named-subject-fast1-2-3-4-5",
+    "columnInsertIndex": 36,
+    "description": "Create column named-subject-fast1-2-3-4-5 at index 36 based on column named-subject-fast-1-2-3-4 using expression join ([cells['named-subject-fast-1-2-3-4'].value,cells['named-subject-fast5'].value],'--')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-fast1-2-3-4-5",
+    "expression": "join ([cells['named-subject-fast1-2-3-4-5'].value,cells['named-subject-fast6'].value],'--')",
+    "onError": "keep-original",
+    "newColumnName": "named_subject_fast",
+    "columnInsertIndex": 37,
+    "description": "Create column named_subject_fast at index 37 based on column named-subject-fast1-2-3-4-5 using expression join ([cells['named-subject-fast1-2-3-4-5'].value,cells['named-subject-fast6'].value],'--')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast4",
+    "description": "Remove column named-subject-fast4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast5",
+    "description": "Remove column named-subject-fast5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast6",
+    "description": "Remove column named-subject-fast6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast-1-2-3",
+    "description": "Remove column named-subject-fast-1-2-3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast-1-2-3-4",
+    "description": "Remove column named-subject-fast-1-2-3-4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast1-2-3-4-5",
+    "description": "Remove column named-subject-fast1-2-3-4-5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject",
+    "description": "Remove column recon-subject"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "named-subject-strings",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column named-subject-strings"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "named_subject_fast",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column named_subject_fast"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-strings",
+    "description": "Remove column named-subject-strings"
+  }
+]
