@@ -1,0 +1,81 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-fast2",
+    "columnInsertIndex": 30,
+    "description": "Create column named-subject-fast2 at index 30 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-subject",
+    "newColumnName": "named-subject-strings",
+    "description": "Rename column recon-subject to named-subject-strings"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "named-subject-strings",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column named-subject-strings"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "named-subject-strings",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "_",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column named-subject-strings by separator"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-strings 2",
+    "expression": "grel:if(isNonBlank(cells[\"named-subject-fast2\"]),\"\",value)",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 32,
+    "description": "Create column recon-subject at index 32 based on column named-subject-strings 2 using expression grel:if(isNonBlank(cells[\"named-subject-fast2\"]),\"\",value)"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  }
+]
