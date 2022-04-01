@@ -1,0 +1,164 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-fast1",
+    "columnInsertIndex": 31,
+    "description": "Create column named-subject-fast1 at index 31 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-fast1",
+    "expression": "grel:if(cells[\"named-subject-fast1\"].value==cells[\"named-subject-fast2\"].value,\"\",value)",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-fast1clean",
+    "columnInsertIndex": 32,
+    "description": "Create column named-subject-fast1clean at index 32 based on column named-subject-fast1 using expression grel:if(cells[\"named-subject-fast1\"].value==cells[\"named-subject-fast2\"].value,\"\",value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-fast1clean",
+    "expression": "join ([cells['named-subject-fast1clean'].value,cells['named-subject-fast2'].value],'--')",
+    "onError": "keep-original",
+    "newColumnName": "named-subject-fast1-2",
+    "columnInsertIndex": 33,
+    "description": "Create column named-subject-fast1-2 at index 33 based on column named-subject-fast1clean using expression join ([cells['named-subject-fast1clean'].value,cells['named-subject-fast2'].value],'--')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-fast1-2",
+    "expression": "join ([cells['named-subject-fast1-2'].value,cells['named-subject-fast3'].value],'--')",
+    "onError": "keep-original",
+    "newColumnName": "named-subject-fast-1-2-3",
+    "columnInsertIndex": 34,
+    "description": "Create column named-subject-fast-1-2-3 at index 34 based on column named-subject-fast1-2 using expression join ([cells['named-subject-fast1-2'].value,cells['named-subject-fast3'].value],'--')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast1",
+    "description": "Remove column named-subject-fast1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast1clean",
+    "description": "Remove column named-subject-fast1clean"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast1-2",
+    "description": "Remove column named-subject-fast1-2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast2",
+    "description": "Remove column named-subject-fast2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-fast3",
+    "description": "Remove column named-subject-fast3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject",
+    "description": "Remove column recon-subject"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "named-subject-strings",
+    "newColumnName": "named-subject-strings-placeholder",
+    "description": "Rename column named-subject-strings to named-subject-strings-placeholder"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "named-subject-strings-placeholder",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-strings",
+    "columnInsertIndex": 30,
+    "description": "Create column named-subject-strings at index 30 based on column named-subject-strings-placeholder using expression grel:value"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "named-subject-strings",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "--",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column named-subject-strings by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "named-subject-strings 1",
+    "expression": "grel:if(cells[\"named-subject-strings 1\"].value==cells[\"named-subject-strings\"].value,\"\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column named-subject-strings 1 using expression grel:if(cells[\"named-subject-strings 1\"].value==cells[\"named-subject-strings\"].value,\"\",value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "named-subject-strings-placeholder",
+    "description": "Remove column named-subject-strings-placeholder"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "named-subject-strings 1",
+    "newColumnName": "recon-subject",
+    "description": "Rename column named-subject-strings 1 to recon-subject"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  }
+]
