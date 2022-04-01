@@ -1,0 +1,1042 @@
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle_Categoriae",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357313",
+      "name": "Categoriae (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Categoriae (Aristotle) (http://id.worldcat.org/fast/1357313) for cells containing \"Aristotle_Categoriae\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle_Posterior analytics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356595",
+      "name": "Posterior analytics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 97
+    },
+    "shareNewTopics": false,
+    "description": "Match item Posterior analytics (Aristotle) (http://id.worldcat.org/fast/1356595) for cells containing \"Aristotle_Posterior analytics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle_De interpretatione",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359296",
+      "name": "De interpretatione (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 96
+    },
+    "shareNewTopics": false,
+    "description": "Match item De interpretatione (Aristotle) (http://id.worldcat.org/fast/1359296) for cells containing \"Aristotle_De interpretatione\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle_Physics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356964",
+      "name": "Physics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Physics (Aristotle) (http://id.worldcat.org/fast/1356964) for cells containing \"Aristotle_Physics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Lefèvre d'Étaples, Jacques, d 1536",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1830400",
+      "name": "Lefèvre d'Étaples, Jacques, -1536",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 97
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lefèvre d'Étaples, Jacques, -1536 (http://id.worldcat.org/fast/1830400) for cells containing \"Lefèvre d'Étaples, Jacques, d 1536\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bādarāyaṇa_Brahmasūtra",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357925",
+      "name": "Brahmasūtra (Bādarāyaṇa)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brahmasūtra (Bādarāyaṇa) (http://id.worldcat.org/fast/1357925) for cells containing \"Bādarāyaṇa_Brahmasūtra\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Śaṅkarācārya_Śārīrakamīmāṃsābhāṣya",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1365134",
+      "name": "Śārīrakamīmāṃsābhāṣya (Śaṅkarācārya)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 97
+    },
+    "shareNewTopics": false,
+    "description": "Match item Śārīrakamīmāṃsābhāṣya (Śaṅkarācārya) (http://id.worldcat.org/fast/1365134) for cells containing \"Śaṅkarācārya_Śārīrakamīmāṃsābhāṣya\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Webster, Alexander",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/169468",
+      "name": "Webster, Alexander, 1707-1784",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 77
+    },
+    "shareNewTopics": false,
+    "description": "Match item Webster, Alexander, 1707-1784 (http://id.worldcat.org/fast/169468) for cells containing \"Webster, Alexander\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cicero, Marcus Tullius_Speeches",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357310",
+      "name": "Speeches (Cicero, Marcus Tullius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Match item Speeches (Cicero, Marcus Tullius) (http://id.worldcat.org/fast/1357310) for cells containing \"Cicero, Marcus Tullius_Speeches\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gregory I, Pope, approximately 540-604_Dialogi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362212",
+      "name": "Dialogi (Gregory I, Pope)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dialogi (Gregory I, Pope) (http://id.worldcat.org/fast/1362212) for cells containing \"Gregory I, Pope, approximately 540-604_Dialogi\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bukhārī, Muḥammad ibn Ismāʻīl, 810-870_Jāmiʻ al-ṣaḥīḥ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362378",
+      "name": "Jāmiʻ al-ṣaḥīḥ (Bukhārī, Muḥammad ibn Ismāʻīl)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jāmiʻ al-ṣaḥīḥ (Bukhārī, Muḥammad ibn Ismāʻīl) (http://id.worldcat.org/fast/1362378) for cells containing \"Bukhārī, Muḥammad ibn Ismāʻīl, 810-870_Jāmiʻ al-ṣaḥīḥ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Alfīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360506",
+      "name": "Alfīyah (Ibn Mālik, Muḥammad ibn ʻAbd Allāh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 30
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfīyah (Ibn Mālik, Muḥammad ibn ʻAbd Allāh) (http://id.worldcat.org/fast/1360506) for cells containing \"Alfīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shamsīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1916868",
+      "name": "Shamsīyah (Qazwīnī, ʻAlī ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 46
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shamsīyah (Qazwīnī, ʻAlī ibn ʻUmar) (http://id.worldcat.org/fast/1916868) for cells containing \"Shamsīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Isagoge",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356577",
+      "name": "Isagoge (Porphyry)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 61
+    },
+    "shareNewTopics": false,
+    "description": "Match item Isagoge (Porphyry) (http://id.worldcat.org/fast/1356577) for cells containing \"Isagoge\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Pañcapādikā",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1372822",
+      "name": "Pañcapādikā (Padmapādācārya)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 59
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pañcapādikā (Padmapādācārya) (http://id.worldcat.org/fast/1372822) for cells containing \"Pañcapādikā\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nahj al-balāghah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1368261",
+      "name": "Nahj al-balāghah (Sharīf al-Raḍī, Muḥammad ibn al-Ḥusayn)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 46
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nahj al-balāghah (Sharīf al-Raḍī, Muḥammad ibn al-Ḥusayn) (http://id.worldcat.org/fast/1368261) for cells containing \"Nahj al-balāghah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bahāristān",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1392675",
+      "name": "Bahāristān (Jāmī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bahāristān (Jāmī) (http://id.worldcat.org/fast/1392675) for cells containing \"Bahāristān\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sententiarum libri II",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356925",
+      "name": "Sententiarum libri IV (Peter Lombard, Bishop of Paris)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 58
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sententiarum libri IV (Peter Lombard, Bishop of Paris) (http://id.worldcat.org/fast/1356925) for cells containing \"Sententiarum libri II\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ayyuhā al-walad",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1368794",
+      "name": "Ayyuhā al-walad (Ghazzālī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 77
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ayyuhā al-walad (Ghazzālī) (http://id.worldcat.org/fast/1368794) for cells containing \"Ayyuhā al-walad\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Decretales D Gregorii Papæ IX",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1361356",
+      "name": "Decretales Gregorii IX (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Decretales Gregorii IX (Catholic Church) (http://id.worldcat.org/fast/1361356) for cells containing \"Decretales D Gregorii Papæ IX\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mas̲navī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362351",
+      "name": "Mas̲navī (Jalāl al-Dīn Rūmī, Maulana)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mas̲navī (Jalāl al-Dīn Rūmī, Maulana) (http://id.worldcat.org/fast/1362351) for cells containing \"Mas̲navī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "ʻAqāʼid",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1381144",
+      "name": "ʻAqāʼid (Nasafī, ʻUmar ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item ʻAqāʼid (Nasafī, ʻUmar ibn Muḥammad) (http://id.worldcat.org/fast/1381144) for cells containing \"ʻAqāʼid\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mawrid al-ẓamʼān",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1915240",
+      "name": "Mawrid al-ẓamʼān (Kharrāz, Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mawrid al-ẓamʼān (Kharrāz, Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1915240) for cells containing \"Mawrid al-ẓamʼān\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1825501",
+      "name": "Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274 (http://id.worldcat.org/fast/1825501) for cells containing \"Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Qazwīnī, ʻAlī ibn ʻUmar, 1203 or 1204-1276 or 1277",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1842683",
+      "name": "Qazwīnī, ʻAlī ibn ʻUmar, 1203 or 1204-1276 or 1277",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qazwīnī, ʻAlī ibn ʻUmar, 1203 or 1204-1276 or 1277 (http://id.worldcat.org/fast/1842683) for cells containing \"Qazwīnī, ʻAlī ibn ʻUmar, 1203 or 1204-1276 or 1277\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1825331",
+      "name": "Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century (http://id.worldcat.org/fast/1825331) for cells containing \"Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century\" in column recon-subject"
+  }
+]
