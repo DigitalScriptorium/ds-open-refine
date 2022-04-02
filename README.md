@@ -14,11 +14,11 @@ Digital Scriptorium OpenRefine documentation and code snippets
 
 ### 2.0 Reconciling places
 
-2.01 Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split]
-2.02 Known reconciliations (place):                                                            [JSON][place_known_names]
-2.03 Manual place reconciliations
-2.04 Add new place names to known place names:                                                 *edit* [JSON][place_known_names]
-2.05 Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup]
+2.01 Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split] <br>
+2.02 Known reconciliations (place):                                                            [JSON][place_known_names] <br>
+2.03 Manual place reconciliations <br>
+2.04 Add new place names to known place names:                                                 *edit* [JSON][place_known_names] <br>
+2.05 Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup] <br>
 
 [place_split]:              json/place/010-clean_split_add_recon_column.json
 [place_known_names]:        json/place/020-recon-known_names_place.json
