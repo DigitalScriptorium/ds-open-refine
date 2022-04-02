@@ -4,21 +4,21 @@ Digital Scriptorium OpenRefine documentation and code snippets
 
 ## Data reconciliation
 
-### First: Add an index column
+### 1.0 Add an index column
 
-Create an index column and columns for documenting workflow steps:
+1.01 Create an index column and columns for documenting workflow steps:
 
 - [`json/add_index_column.json`][add_index_column]
 
 [add_index_column]:   json/add_index_column.json    "Add index column"
 
-### Reconciling places
+### 2.0 Reconciling places
 
-1. Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split]
-2. Known reconciliations (place):                                                            [JSON][place_known_names]
-3. Manual place reconciliations
-4. Add new place names to known place names:                                                 edit [JSON][place_known_names]
-5. Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup]
+2.01 Copy, split, and clean `production_place_as_recorded` column and set up reconciliation:   [JSON][place_split]
+2.02 Known reconciliations (place):                                                            [JSON][place_known_names]
+2.03 Manual place reconciliations
+2.04 Add new place names to known place names:                                                 *edit* [JSON][place_known_names]
+2.05 Add TGN IDs, format, cleanup and rejoin:                                                  [JSON][place_tgn_merge_cleanup]
 
 [place_split]:              json/place/010-clean_split_add_recon_column.json
 [place_known_names]:        json/place/020-recon-known_names_place.json
