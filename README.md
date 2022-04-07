@@ -32,19 +32,47 @@ json/place/090-format-tgn-cleanup.json
 
 ### 3.0 Reconciling genres
 
-#### 3.1 Reconciling genre terms from AAT
+#### 3.1 Reconciling genre terms from LoC vocabularies to FAST
 
-3.1.01 Copy `genre_as_recorded_aat` column for further evaluation:                               [JSON][genre_aat_split] <br>
-3.1.02 Conduct known mass edits to clean and standardize values:                                 [JSON][genre_aat_edits] <br>
+3.1.01 Copy `genre_as_recorded_lcsh` column for further evaluation:                             [JSON][genre_lc_split] <br>
+3.1.02 Conduct known mass edits to clean and standardize values:                                [JSON][genre_lc_edits] <br>
 3.1.03 Use text facet tool to survey range of data values <br>
 3.1.04 Use cluster and merge functions to standardize data values <br>
 3.1.05 Manual mass edits to further standardize data values <br>
-3.1.06 Add new mass edits to known mass edits:                                                   [JSON][genre_aat_edits] <br>
-3.1.07 Run reconciliation:                                                                       [JSON][genre_aat_recon] <br>
-3.1.08 Known reconciliations (genre):                                                            [JSON][genre_aat_known] <br>
+3.1.06 Add new mass edits to known mass edits:                                                  [JSON][genre_lc_edits] <br>
+3.1.07 Run reconciliation:                                                                      [JSON][genre_lc_recon] <br>
+3.1.08 Known reconciliations (genre):                                                           [JSON][genre_lc_known] <br>
 3.1.09 Manual genre reconcilations <br>
-3.1.10 Add new genres to known genres:                                                          [JSON][genre_aat_known] <br>
-3.1.11 Add AAT IDs, format, cleanup and rejoin:                                                 [JSON][genre_aat_merge_cleanup] <br>
+3.1.10 Add new genres to known genres:                                                          [JSON][genre_lc_known] <br>
+3.1.11 Add FAST IDs, format, cleanup and rejoin:                                                [JSON][genre_lc_merge_cleanup] <br>
+
+[genre_lc_split]:          json/genre/lc/010-split_add_column.json
+[genre_lc_edits]:          json/genre/lc/020-mass_edit.json
+[genre_lc_recon]:          json/genre/lc/040-genre_recon.json
+[genre_lc_known]:          json/genre/lc/050-genre_known.json
+[genre_lc_merge_cleanup]:  json/genre/lc/090-format-fast-cleanup.json
+
+```
+json/genre/lc/010-split_add_column.json
+json/genre/lc/020-mass_edit.json
+json/genre/lc/040-genre_recon.json
+json/genre/lc/050-genre_known.json
+json/genre/lc/090-format-fast-cleanup.json
+```
+
+#### 3.2 Reconciling genre terms from AAT
+
+3.2.01 Copy `genre_as_recorded_aat` column for further evaluation:                               [JSON][genre_aat_split] <br>
+3.2.02 Conduct known mass edits to clean and standardize values:                                 [JSON][genre_aat_edits] <br>
+3.2.03 Use text facet tool to survey range of data values <br>
+3.2.04 Use cluster and merge functions to standardize data values <br>
+3.2.05 Manual mass edits to further standardize data values <br>
+3.2.06 Add new mass edits to known mass edits:                                                   [JSON][genre_aat_edits] <br>
+3.2.07 Run reconciliation:                                                                       [JSON][genre_aat_recon] <br>
+3.2.08 Known reconciliations (genre):                                                            [JSON][genre_aat_known] <br>
+3.2.09 Manual genre reconcilations <br>
+3.2.10 Add new genres to known genres:                                                          [JSON][genre_aat_known] <br>
+3.2.11 Add AAT IDs, format, cleanup and rejoin:                                                 [JSON][genre_aat_merge_cleanup] <br>
 
 [genre_aat_split]:          json/genre/aat/010-split_add_column.json
 [genre_aat_edits]:          json/genre/aat/020-mass_edit.json
@@ -60,33 +88,7 @@ json/genre/aat/050-genre_known.json
 json/genre/aat/090-format-aat-cleanup.json
 ```
 
-#### 3.2 Reconciling genre terms from LoC vocabularies to FAST
 
-3.2.01 Copy `genre_as_recorded_lcsh` column for further evaluation:                              [JSON][genre_lc_split] <br>
-3.2.02 Conduct known mass edits to clean and standardize values:                                 [JSON][genre_lc_edits] <br>
-3.2.03 Use text facet tool to survey range of data values <br>
-3.2.04 Use cluster and merge functions to standardize data values <br>
-3.2.05 Manual mass edits to further standardize data values <br>
-3.2.06 Add new mass edits to known mass edits:                                                   [JSON][genre_lc_edits] <br>
-3.2.07 Run reconciliation:                                                                       [JSON][genre_lc_recon] <br>
-3.2.08 Known reconciliations (genre):                                                            [JSON][genre_lc_known] <br>
-3.2.09 Manual genre reconcilations <br>
-3.2.10 Add new genres to known genres:                                                          [JSON][genre_lc_known] <br>
-3.2.11 Add FAST IDs, format, cleanup and rejoin:                                                [JSON][genre_lc_merge_cleanup] <br>
-
-[genre_lc_split]:          json/genre/lc/010-split_add_column.json
-[genre_lc_edits]:          json/genre/lc/020-mass_edit.json
-[genre_lc_recon]:          json/genre/lc/040-genre_recon.json
-[genre_lc_known]:          json/genre/lc/050-genre_known.json
-[genre_lc_merge_cleanup]:  json/genre/lc/090-format-fast-cleanup.json
-
-```
-json/genre/lc/010-split_add_column.json
-json/genre/lc/020-mass_edit.json
-json/genre/lc/040-genre_recon.json
-json/genre/lc/050-genre_known.json
-json/genre/lc/090-format-fast-cleanup.json
-```
 
 ### Reconciling names
 
