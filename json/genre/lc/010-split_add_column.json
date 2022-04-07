@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
-    "columnInsertIndex": 23,
-    "description": "Create column recon-genre at index 23 based on column genre_as_recorded_lcsh using expression grel:value"
+    "columnInsertIndex": 27,
+    "description": "Create column recon-genre at index 27 based on column genre_as_recorded_lcsh using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -29,5 +29,31 @@
     "separator": "--",
     "regex": false,
     "description": "Split multi-valued cells in column recon-genre"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"LC GENRE RECON, STEP 1: PREP \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"LC GENRE RECON, STEP 1: PREP \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
