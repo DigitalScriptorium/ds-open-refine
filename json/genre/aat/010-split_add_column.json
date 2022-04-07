@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
-    "columnInsertIndex": 26,
-    "description": "Create column recon-genre at index 26 based on column genre_as_recorded_aat using expression grel:value"
+    "columnInsertIndex": 27,
+    "description": "Create column recon-genre at index 27 based on column genre_as_recorded_aat using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
