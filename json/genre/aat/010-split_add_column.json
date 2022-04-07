@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
-    "columnInsertIndex": 27,
-    "description": "Create column recon-genre at index 27 based on column genre_as_recorded_aat using expression grel:value"
+    "columnInsertIndex": 30,
+    "description": "Create column recon-genre at index 30 based on column genre_as_recorded_aat using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -28,11 +28,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE RECON, STEP 1: PREP \" + now()",
+    "expression": "grel:\"AAT GENRE RECON, STEP 1: PREP \" + now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE RECON, STEP 1: PREP \" + now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"AAT GENRE RECON, STEP 1: PREP \" + now()"
   },
   {
     "op": "core/text-transform",
