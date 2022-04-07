@@ -39,11 +39,11 @@ json/place/090-format-tgn-cleanup.json
 3.1.03 Use text facet tool to survey range of data values <br>
 3.1.04 Use cluster and merge functions to standardize data values <br>
 3.1.05 Manual mass edits to further standardize data values <br>
-3.1.06 Add new mass edits to known mass edits:                                                  [JSON][genre_lc_edits] <br>
+3.1.06 Add new mass edits to known mass edits:                                                  *edit* [JSON][genre_lc_edits] <br>
 3.1.07 Run reconciliation:                                                                      [JSON][genre_lc_recon] <br>
 3.1.08 Known reconciliations (genre):                                                           [JSON][genre_lc_known] <br>
 3.1.09 Manual genre reconcilations <br>
-3.1.10 Add new genres to known genres:                                                          [JSON][genre_lc_known] <br>
+3.1.10 Add new genres to known genres:                                                          *edit* [JSON][genre_lc_known] <br>
 3.1.11 Add FAST IDs, format, cleanup and rejoin:                                                [JSON][genre_lc_merge_cleanup] <br>
 
 [genre_lc_split]:          json/genre/lc/010-split_add_column.json
