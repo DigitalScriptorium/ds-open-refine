@@ -161,7 +161,7 @@ json/named_subject/090-fast_cleanup_rejoin.json
 ##### *Reconciling first subject terms in a precoordinated string*
 
 4.2.10 Known reconciliations (subject):                                                                                    [JSON][subject_known] <br>
-4.2.11 Manual subject reconciliations
+4.2.11 Manual subject reconciliations <br>
 4.2.12 Add new subjects to known subjects:                                                                                 *edit* [JSON][subject_known] <br>
 4.2.13 Add FAST IDs, set up reconciliation for second and third columns of subjects:                                       [JSON][subject_column2-3] <br>
 
