@@ -96,29 +96,29 @@ json/genre/aat/090-format-aat-cleanup.json
 4.1.02 Known reconciliations (named subject):                                                                              [JSON][named_subject_known] <br>
 4.1.03 Manual named subject reconciliations <br>
 4.1.04 Add new named subjects to known named subjects:                                                                     *edit* [JSON][named_subject_known] <br>
-4.1.05 Add FAST IDs, set up reconciliation for first set, second column of named subjects:                                 [JSON][named_subject_set1_column2] <br>
+4.1.05 Add FAST IDs ('fast2'), set up reconciliation for first set, second column of named subjects:                       [JSON][named_subject_set1_column2] <br>
 
 ##### *Reconciling controlled names and titles used as subject terms*
 
 4.1.06 Known reconciliations (named subject):                                                                              [JSON][named_subject_known] <br>
 4.1.07 Manual named subject reconciliations <br>
 4.1.08 Add new named subjects to known named subjects:                                                                     *edit* [JSON][named_subject_known] <br>
-4.1.09 Add FAST IDs, set up reconciliation for first set, first column of named subjects:                                  [JSON][named_subject_set1_column1] <br>
+4.1.09 Add FAST IDs ('fast 3'), set up reconciliation for first set, first column of named subjects:                       [JSON][named_subject_set1_column1] <br>
 4.1.10 Known reconciliations (named subject):                                                                              [JSON][named_subject_known] <br>
 4.1.11 Manual named subject reconciliatons <br>
 4.1.12 Add new named subjects to known named subjects:                                                                     *edit* [JSON][named_subject_known] <br>
-4.1.13 Add FAST IDs, first set cleanup, and set up reconciliation for second set, first column of named subjects:          [JSON][named_subject_set2_column1] <br>
+4.1.13 Add FAST IDs ('fast 1-2-3'), cleanup, and set up reconciliation for second set, first column of named subjects:     [JSON][named_subject_set2_column1] <br>
 
 ##### *Reconciling other subject terms in a precoordinated string*
 
 4.1.14 Known reconciliations (named subject):                                                                              [JSON][named_subject_known] <br>
 4.1.15 Manual named subject reconciliations <br>
 4.1.16 Add new named subjects to known named subjects:                                                                     *edit* [JSON][named_subject_known] <br>
-4.1.17 Add FAST IDs, set up reconciliation for second set, second column of named subjects:                                [JSON][named_subject_set2_column2] <br>
+4.1.17 Add FAST IDs ('fast-4'), set up reconciliation for second set, second column of named subjects:                     [JSON][named_subject_set2_column2] <br>
 4.1.18 Known reconciliations (named subject):                                                                              [JSON][named_subject_known] <br>
 4.1.19 Manual named subject reconciliations <br>
 4.1.20 Add new named subjects to known named subjects:                                                                     *edit* [JSON][named_subject_known] <br>
-4.1.21 Add FAST IDs, set up reconciliation for second set, third column of named subjects:                                 [JSON][named_subject_set2_column3] <br>
+4.1.21 Add FAST IDs ('fast-5'), set up reconciliation for second set, third column of named subjects:                      [JSON][named_subject_set2_column3] <br>
 4.1.22 Known reconciliations (named subject):                                                                              [JSON][named_subject_known] <br>
 4.1.23 Manual named subject reconciliations <br>
 4.1.24 Add new named subjects to known named subjects:                                                                     *edit* [JSON][named_subject_known] <br>
