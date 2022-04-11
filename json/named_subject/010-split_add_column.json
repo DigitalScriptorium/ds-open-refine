@@ -2,35 +2,15 @@
   {
     "op": "core/column-addition",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-subject: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-subject",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "baseColumnName": "named_subject_as_recorded",
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-subject",
-    "columnInsertIndex": 29,
-    "description": "Create column recon-subject at index 29 based on column named_subject_as_recorded using expression grel:value"
+    "columnInsertIndex": 33,
+    "description": "Create column recon-subject at index 33 based on column named_subject_as_recorded using expression grel:value"
   },
   {
     "op": "core/text-transform",
@@ -179,5 +159,31 @@
       "limit": 0
     },
     "description": "Reconcile cells in column recon-subject to type /fast/all"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"NAMED SUBJECT RECON, STEP 1: PREP \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"NAMED SUBJECT RECON, STEP 1: PREP \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
