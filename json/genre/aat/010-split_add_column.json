@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
-    "columnInsertIndex": 30,
-    "description": "Create column recon-genre at index 30 based on column genre_as_recorded_aat using expression grel:value"
+    "columnInsertIndex": 29,
+    "description": "Create column recon-genre at index 29 based on column genre_as_recorded_aat using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -47,3 +47,4 @@
     "repeatCount": 10,
     "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
+]
