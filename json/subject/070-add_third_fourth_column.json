@@ -45,8 +45,8 @@
     "expression": "grel:if(isNonBlank(cells[\"subject_fast4\"]),\"\",value)",
     "onError": "set-to-blank",
     "newColumnName": "recon-subject",
-    "columnInsertIndex": 38,
-    "description": "Create column recon-subject at index 38 based on column subject-strings 3-4 using expression grel:if(isNonBlank(cells[\"subject_fast4\"]),\"\",value)"
+    "columnInsertIndex": 35,
+    "description": "Create column recon-subject at index 35 based on column subject-strings 3-4 using expression grel:if(isNonBlank(cells[\"subject_fast4\"]),\"\",value)"
   },
   {
     "op": "core/column-removal",
@@ -74,5 +74,31 @@
       "limit": 0
     },
     "description": "Reconcile cells in column recon-subject to type /fast/all"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SUBJECT RECON, STEP 21: COLUMN 'FAST-5' IDs ADDED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 21: COLUMN 'FAST-5' IDs ADDED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
