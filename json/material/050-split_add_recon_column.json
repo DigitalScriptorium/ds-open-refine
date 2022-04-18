@@ -27,7 +27,33 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "material_aat",
-    "columnInsertIndex": 52,
-    "description": "Create column material_aat at index 52 based on column recon-material using expression grel:value"
+    "columnInsertIndex": 63,
+    "description": "Create column material_aat at index 63 based on column recon-material using expression grel:value"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"MATERIAL RECON, STEP 7: SPLIT \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"MATERIAL RECON, STEP 7: SPLIT \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
