@@ -9,8 +9,8 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "Qid-human",
-    "columnInsertIndex": 37,
-    "description": "Create column Qid-human at index 37 based on column recon-human using expression grel:cell.recon.match.id"
+    "columnInsertIndex": 49,
+    "description": "Create column Qid-human at index 49 based on column recon-human using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
@@ -22,8 +22,8 @@
     "expression": "grel:if(isNonBlank(cells[\"Qid-human\"]),\"human\",\"\"))",
     "onError": "set-to-blank",
     "newColumnName": "instance_of-human",
-    "columnInsertIndex": 38,
-    "description": "Create column instance_of-human at index 38 based on column Qid-human using expression grel:if(isNonBlank(cells[\"Qid-human\"]),\"human\",\"\"))"
+    "columnInsertIndex": 50,
+    "description": "Create column instance_of-human at index 50 based on column Qid-human using expression grel:if(isNonBlank(cells[\"Qid-human\"]),\"human\",\"\"))"
   },
   {
     "op": "core/recon-discard-judgments",
@@ -62,5 +62,31 @@
       "limit": 0
     },
     "description": "Reconcile cells in column recon-organization to type Q43229"
+  },
+      {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SCRIBE NAME RECON, STEP 5: HUMAN QIDs ADDED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SCRIBE NAME RECON, STEP 5: HUMAN QIDs ADDED \"+now()"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
