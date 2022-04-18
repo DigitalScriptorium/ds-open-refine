@@ -9,8 +9,8 @@
     "expression": "grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")",
     "onError": "set-to-blank",
     "newColumnName": "recon-language",
-    "columnInsertIndex": 42,
-    "description": "Create column recon-language at index 42 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
+    "columnInsertIndex": 53,
+    "description": "Create column recon-language at index 53 based on column language_as_recorded using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -76,8 +76,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "language-codes-for-recon",
-    "columnInsertIndex": 43,
-    "description": "Create column language-codes-for-recon at index 43 based on column language using expression grel:value"
+    "columnInsertIndex": 54,
+    "description": "Create column language-codes-for-recon at index 54 based on column language using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -115,5 +115,31 @@
       "limit": 0
     },
     "description": "Reconcile cells in column recon-language to type Q34770"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"LANGUAGE RECON, STEP 1: PREP \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"LANGUAGE RECON, STEP 1: PREP \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
