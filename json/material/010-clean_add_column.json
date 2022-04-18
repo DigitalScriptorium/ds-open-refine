@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-material",
-    "columnInsertIndex": 51,
-    "description": "Create column recon-material at index 51 based on column material_placeholder using expression grel:value"
+    "columnInsertIndex": 62,
+    "description": "Create column recon-material at index 62 based on column material_placeholder using expression grel:value"
   },
   {
     "op": "core/text-transform",
@@ -37,5 +37,31 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column recon-material using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"MATERIAL RECON, STEP 1: PREP \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"MATERIAL RECON, STEP 1: PREP \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
