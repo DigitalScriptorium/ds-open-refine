@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-human",
-    "columnInsertIndex": 54,
-    "description": "Create column recon-human at index 54 based on column former_owner_as_recorded using expression grel:value"
+    "columnInsertIndex": 55,
+    "description": "Create column recon-human at index 55 based on column former_owner_as_recorded using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
