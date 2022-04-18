@@ -69,3 +69,4 @@
     "repeatCount": 10,
     "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
+]
