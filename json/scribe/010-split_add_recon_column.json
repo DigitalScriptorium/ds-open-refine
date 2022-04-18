@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-human",
-    "columnInsertIndex": 36,
-    "description": "Create column recon-human at index 36 based on column scribe_as_recorded using expression grel:value"
+    "columnInsertIndex": 48,
+    "description": "Create column recon-human at index 48 based on column scribe_as_recorded using expression grel:value"
   },
   {
     "op": "core/multivalued-cell-split",
@@ -42,5 +42,31 @@
       "limit": 0
     },
     "description": "Reconcile cells in column recon-human to type Q5"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SCRIBE NAME RECON, STEP 1: PREP \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SCRIBE NAME RECON, STEP 1: PREP \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
   }
 ]
