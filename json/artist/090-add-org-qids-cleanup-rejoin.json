@@ -9,8 +9,8 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "Qid-organization",
-    "columnInsertIndex": 32,
-    "description": "Create column Qid-organization at index 32 based on column recon-organization using expression grel:cell.recon.match.id"
+    "columnInsertIndex": 44,
+    "description": "Create column Qid-organization at index 44 based on column recon-organization using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
@@ -22,8 +22,8 @@
     "expression": "grel:if(isNonBlank(cells[\"Qid-organization\"]),\"organization\",\"\"))",
     "onError": "set-to-blank",
     "newColumnName": "instance_of-organization",
-    "columnInsertIndex": 33,
-    "description": "Create column instance_of-organization at index 33 based on column Qid-organization using expression grel:if(isNonBlank(cells[\"Qid-organization\"]),\"organization\",\"\"))"
+    "columnInsertIndex": 45,
+    "description": "Create column instance_of-organization at index 45 based on column Qid-organization using expression grel:if(isNonBlank(cells[\"Qid-organization\"]),\"organization\",\"\"))"
   },
   {
     "op": "core/column-addition",
@@ -35,8 +35,8 @@
     "expression": "join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "artist_wikidata",
-    "columnInsertIndex": 33,
-    "description": "Create column artist_wikidata at index 33 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')"
+    "columnInsertIndex": 46,
+    "description": "Create column artist_wikidata at index 46 based on column Qid-organization using expression join ([coalesce(cells['Qid-organization'].value,''),coalesce(cells['Qid-human'].value,'')],'')"
   },
   {
     "op": "core/column-addition",
@@ -48,8 +48,8 @@
     "expression": "join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "artist_instance_of",
-    "columnInsertIndex": 34,
-    "description": "Create column artist_instance_of at index 34 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')"
+    "columnInsertIndex": 47,
+    "description": "Create column artist_instance_of at index 47 based on column instance_of-organization using expression join ([coalesce(cells['instance_of-organization'].value,''),coalesce(cells['instance_of-human'].value,'')],'')"
   },
   {
     "op": "core/multivalued-cell-join",
@@ -117,5 +117,51 @@
     "op": "core/column-removal",
     "columnName": "instance_of-human",
     "description": "Remove column instance_of-human"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"ARTIST NAME RECON, STEP 9: ALL QIDs ADDED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"ARTIST NAME RECON, STEP 9: ALL QIDs ADDED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"\""
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "workflow_current",
+    "keyColumnName": "row_index",
+    "separator": "",
+    "description": "Join multi-valued cells in column workflow_current"
   }
 ]
