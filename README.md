@@ -231,11 +231,11 @@ json/subject/095-fast_cleanup_rejoin.json
 5.1.01 Copy and split `author_as_recorded` and set up reconciliation for human authors:          [JSON][author_split] <br>
 5.1.02 Known name reconciliations (human):                                                       [JSON][known_names_human] <br>
 5.1.03 Manual human reconciliations <br>
-5.1.04 Add new human names to human known authors:                                               [JSON][known_names_human] <br>
+5.1.04 Add new human names to human known authors:                                               *edit* [JSON][known_names_human] <br>
 5.1.05 Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][author_add_human_qids] <br>
 5.1.06 Known name reconciliations (organization):                                                [JSON][known_names_orgn] <br>
 5.1.07 Manual organization reconciliations <br>
-5.1.08 Add new organization names to organization known authors:                                 [JSON][known_names_orgn] <br>
+5.1.08 Add new organization names to organization known authors:                                 *edit* [JSON][known_names_orgn] <br>
 5.1.09 Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][author_orgn_qids_merge_cleanup] <br>
 
 [author_split]:                    json/author/010-split_add_recon_column.json
@@ -257,11 +257,11 @@ json/author/090-add-org-qids-cleanup-rejoin.json
 5.2.01 Copy and split `artist_as_recorded` and set up reconciliation for human artists:          [JSON][artist_split] <br>
 5.2.02 Known name reconciliations (human):                                                       [JSON][known_names_human] <br>
 5.2.03 Manual human reconciliations <br>
-5.2.04 Add new human names to human known artists:                                               [JSON][known_names_human] <br>
+5.2.04 Add new human names to human known artists:                                               *edit* [JSON][known_names_human] <br>
 5.2.05 Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][artist_add_human_qids] <br>
 5.2.06 Known name reconciliations (organization):                                                [JSON][known_names_orgn] <br>
 5.2.07 Manual organization reconciliations <br>
-5.2.08 Add new organization names to organization known artists:                                 [JSON][known_names_orgn] <br>
+5.2.08 Add new organization names to organization known artists:                                 *edit* [JSON][known_names_orgn] <br>
 5.2.09 Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][artist_orgn_qids_merge_cleanup] <br>
 
 [artist_split]:                    json/artist/010-split_add_recon_column.json
@@ -283,11 +283,11 @@ json/artist/090-add-org-qids-cleanup-rejoin.json
 5.3.01 Copy and split `scribe_as_recorded` and set up reconciliation for human scribes:          [JSON][scribe_split] <br>
 5.3.02 Known name reconciliations (human):                                                       [JSON][known_names_human] <br>
 5.3.03 Manual human reconciliations <br>
-5.3.04 Add new human names to human known scribes:                                               [JSON][known_names_human] <br>
+5.3.04 Add new human names to human known scribes:                                               *edit* [JSON][known_names_human] <br>
 5.3.05 Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][scribe_add_human_qids] <br>
 5.3.06 Known name reconciliations (organization):                                                [JSON][known_names_orgn] <br>
 5.3.07 Manual organization reconciliations <br>
-5.3.08 Add new organization names to organization known scribes:                                 [JSON][known_names_orgn] <br>
+5.3.08 Add new organization names to organization known scribes:                                 *edit* [JSON][known_names_orgn] <br>
 5.3.09 Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][scribe_orgn_qids_merge_cleanup] <br>
 
 [scribe_split]:                    json/scribe/010-split_add_recon_column.json
@@ -309,11 +309,11 @@ json/scribe/090-add-org-qids-cleanup-rejoin.json
 5.4.01 Copy and split `former_owner_as_recorded` and set up reconciliation for human owners:     [JSON][fo_split] <br>
 5.4.02 Known name reconciliations (human):                                                       [JSON][known_names_human] <br>
 5.4.03 Manual human reconciliations <br>
-5.4.04 Add new human names to human known owners:                                                [JSON][known_names_human] <br>
+5.4.04 Add new human names to human known owners:                                                *edit* [JSON][known_names_human] <br>
 5.4.05 Add human QID and instance_of columns, set up reconciliation for organizations:           [JSON][fo_add_human_qids] <br>
 5.4.06 Known name reconciliations (organization):                                                [JSON][known_names_orgn] <br>
 5.4.07 Manual organization reconciliations <br>
-5.4.08 Add new organization names to organization known owners:                                  [JSON][known_names_orgn] <br>
+5.4.08 Add new organization names to organization known owners:                                  *edit* [JSON][known_names_orgn] <br>
 5.4.09 Add organization QID and instance_of columns, clean up and rejoin records:                [JSON][fo_orgn_qids_merge_cleanup] <br>
 
 [fo_split]:                    json/former_owner/010-split_add_recon_column.json
@@ -335,7 +335,7 @@ json/former_owner/090-add-org-qids-cleanup-rejoin.json
 6.01 Copy, split, and clean `language_as_recorded` column and set up reconciliation:           [JSON][lang_split] <br>
 6.02 Known reconciliations (language):                                                         [JSON][lang_known] <br>
 6.03 Manual language reconciliations <br>
-6.04 Add new languages to known languages:                                                     [JSON][lang_known] <br>
+6.04 Add new languages to known languages:                                                     *edit* [JSON][lang_known] <br>
 6.05 Add ISO 369-3 codes, cleanup and rejoin:                                                  [JSON][lang_iso_merge_cleanup] <br>
 
 [lang_split]:              json/language/010-clean_split_add_recon_column.json
@@ -351,11 +351,11 @@ json/language/090-format-iso-cleanup.json
 ### 7.0 Reconciling materials
 
 7.01 Copy and clean `material_placeholder` column for further evaluation:                      [JSON][mat_copy_clean] <br>
-7.02 Use text facet tool to survey range of data values <br>
-7.03 Use cluster and merge functions to standardize data values <br>
-7.04 Conduct known mass edits to clean and standardize values:                                 [JSON][mat_edits] <br>
+7.02 Conduct known mass edits to clean and standardize values:                                 [JSON][mat_edits] <br>
+7.03 Use text facet tool to survey range of data values <br>
+7.04 Use cluster and merge functions to standardize data values <br>
 7.05 Manual mass edits to further standardize data values <br>
-7.06 Add new mass edits to known mass edits:                                                   [JSON][mat_edits] <br>
+7.06 Add new mass edits to known mass edits:                                                   *edit* [JSON][mat_edits] <br>
 7.07 Split and create column for reconciliation:                                               [JSON][mat_split] <br>
 7.08 Add AAT IDs (from controlled list), format, cleanup and rejoin:                           [JSON][mat_aat_merge_cleanup] <br>
 
