@@ -34,7 +34,7 @@ json/name/090-name-finalize.json
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
-5. Add `place-tgn` columns; add `place_reconciled` column: [JSON][place_finalize]
+5. Add `place-tgn` column; add `place_reconciled` column: [JSON][place_finalize]
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
