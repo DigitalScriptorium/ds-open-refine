@@ -4,7 +4,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 
 ## Reconciling names to Wikidata
 
-1. Load DATE-names-combined.CSV into OpenRefine
+1. Load `DATE-names-combined.csv` into OpenRefine
 2. Add workflow columns: [JSON][name_workflow]
 3. Copy `name` column and reconcile new `recon-human` column against human type (Q5): [JSON][name_recon_human]
 4. Apply list of previously reconciled or known human names: [JSON][name_known_human]
@@ -30,7 +30,7 @@ json/name/090-name-finalize.json
 
 ## Reconciling places to TGN
 
-1. Load DATE-places-combined.CSV into OpenRefine
+1. Load `DATE-places-combined.csv` into OpenRefine
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
