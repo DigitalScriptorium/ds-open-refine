@@ -1,0 +1,267 @@
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Saint-Benoît-sur-Loire (Abbey),",
+    "judgment": "matched",
+    "match": {
+      "id": "Q956741",
+      "name": "Fleury Abbey",
+      "types": [
+        "Q160742"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fleury Abbey (Q956741) for cells containing \"Saint-Benoît-sur-Loire (Abbey),\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Poblet (Monastery),",
+    "judgment": "matched",
+    "match": {
+      "id": "Q645157",
+      "name": "Poblet Monastery",
+      "types": [
+        "Q91315817",
+        "Q907116"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poblet Monastery (Q645157) for cells containing \"Poblet (Monastery),\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "J. Paul Getty Museum,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q731126",
+      "name": "J. Paul Getty Museum",
+      "types": [
+        "Q207694",
+        "Q2085381"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item J. Paul Getty Museum (Q731126) for cells containing \"J. Paul Getty Museum,\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Swarthmore College,",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1378320",
+      "name": "Swarthmore College",
+      "types": [
+        "Q189004",
+        "Q3918",
+        "Q23002054"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Swarthmore College (Q1378320) for cells containing \"Swarthmore College,\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Spain. Sovereign (1516-1556 : Charles I)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29",
+      "name": "Spain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain (Q29) for cells containing \"Spain. Sovereign (1516-1556 : Charles I)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "recon-organization",
+          "columnName": "recon-organization",
+          "query": "spain",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Spain. Sovereign (1556-1598 : Philip II)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29",
+      "name": "Spain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain (Q29) for cells containing \"Spain. Sovereign (1556-1598 : Philip II)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 5,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Santa María de Benevívere (Monastery : Spain)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6898311",
+      "name": "Monastery of Benevívere",
+      "types": [
+        "Q160742"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Monastery of Benevívere (Q6898311) for cells containing \"Santa María de Benevívere (Monastery : Spain)\" in column recon-organization"
+  }
+]
