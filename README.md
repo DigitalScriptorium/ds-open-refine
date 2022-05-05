@@ -67,25 +67,19 @@ json/place/090-place-finalize.json
 
 ### to FAST
 
-3. Copy `term` column and reconcile new `recon-genre` column against FAST form terms: [JSON][genre_fast_form_recon]
-4. Apply list of previously reconciled or known FAST form terms: [JSON][genre_fast_form_known]
-5. Add `genre-fast-form` column: [JSON][genre_fast_form]
-6. Copy `recon-genre` column and reconcile against all FAST terms: [JSON][genre_fast_all_recon]
-7. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_all_known]
-8. Add `genre_fast` column: [JSON][genre_fast]
+3. Copy `term` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
+4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
+5. Add `genre_fast` column: [JSON][genre_fast]
 
-[genre_fast_form_recon]:   json/genre/fast/020-genre-fast-form-recon.json
-[genre_fast_form_known]:   json/genre/fast/030-genre-fast-form-known.json
-[genre_fast_form]:         json/genre/fast/040-genre-fast-form.json
-[genre_fast_all_recon]:    json/genre/fast/050-genre-fast-all-recon.json
-[genre_fast_all_known]:    json/genre/fast/060-genre-fast-all-known.json
-[genre_fast]:              json/genre/fast/070-genre-fast.json
+[genre_fast_recon]:   json/genre/fast/020-genre-fast-recon.json
+[genre_fast_known]:   json/genre/fast/030-genre-fast-known.json
+[genre_fast]:         json/genre/fast/040-genre-fast.json
 
 #### *TBD instructions for other genres as needed*
 
 ### all genre terms: finalize
 
-9. Finalize workflow: [JSON][genre_finalize]
+6. Finalize workflow: [JSON][genre_finalize]
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
@@ -94,11 +88,8 @@ json/genre/010-genre-workflow.json
 json/genre/aat/020-genre-aat-recon.json
 json/genre/aat/030-genre-aat-known.json
 json/genre/aat/040-genre-aat.json
-json/genre/fast/020-genre-fast-form-recon.json
-json/genre/fast/030-genre-fast-form-known.json
-json/genre/fast/040-genre-fast-form.json
-json/genre/fast/050-genre-fast-all-recon.json
-json/genre/fast/060-genre-fast-all-known.json
-json/genre/fast/070-genre-fast.json
+json/genre/fast/020-genre-fast-recon.json
+json/genre/fast/030-genre-fast-known.json
+json/genre/fast/040-genre-fast.json
 json/genre/090-genre-finalize.json
 ```
