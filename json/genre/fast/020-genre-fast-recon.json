@@ -8,8 +8,34 @@
     "baseColumnName": "term",
     "expression": "grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")",
     "onError": "set-to-blank",
-    "newColumnName": "recon-genre",
-    "columnInsertIndex": 1,
-    "description": "Create column recon-genre at index 1 based on column term using expression grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")"
-  }
+    "newColumnName": "genre-recon",
+    "columnInsertIndex": 4,
+    "description": "Create column genre-recon at index 4 based on column term using expression grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"GENRE FAST RECON, STEP 2: START FAST RECON \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE FAST RECON, STEP 2: START FAST RECON \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
 ]
