@@ -8,16 +8,18 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 2. Add workflow columns: [JSON][name_workflow]
 3. Copy `name` column and reconcile new `recon-human` column against human type (Q5): [JSON][name_recon_human]
 4. Apply list of previously reconciled or known human names: [JSON][name_known_human]
-5. Add `human-qid` and `instance-of-human` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
-6. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
-7. Add `organization-qid` and `instance-of-organization` columns; consolidate `name_wikidata` and `name_instance_of` columns; finalize workflow: [JSON][name_finalize]
-8. Export as CSV file.
+5. Manually reconcile and update known human names: *edit [JSON][name_known_human]
+6. Add `human-qid` and `instance-of-human` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
+7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
+8. Manually reconcile and update known organization names:  *edit [JSON][name_known_org]
+9. Add `organization-qid` and `instance-of-organization` columns; consolidate `name_wikidata` and `name_instance_of` columns; finalize workflow: [JSON][name_finalize]
+10. Export from OpenRefine as CSV file.
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
 [name_known_human]: json/name/040-name-known-human.json
-[name_recon_org]:   json/name/050-name-recon-org.json
-[name_known_org]:   json/name/060-name-known-org.json
+[name_recon_org]:   json/name/060-name-recon-org.json
+[name_known_org]:   json/name/070-name-known-org.json
 [name_finalize]:    json/name/090-name-finalize.json
 
 ```
@@ -35,8 +37,9 @@ json/name/090-name-finalize.json
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
-5. Add `place_tgn` column; finalize workflow: [JSON][place_finalize]
-6. Export as CSV file.
+5. Manually reconcile and update known places:  *edit [JSON][place_known]
+6. Add `place_tgn` column; finalize workflow: [JSON][place_finalize]
+7. Export from OpenRefine as CSV file.
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
