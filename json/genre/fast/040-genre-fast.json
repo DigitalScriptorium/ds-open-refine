@@ -1,1 +1,60 @@
-
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "genre_fast",
+    "columnInsertIndex": 5,
+    "description": "Create column genre_fast at index 5 based on column recon-genre using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-genre",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column recon-genre"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "genre_fast",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column genre_fast"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-genre",
+    "description": "Remove column recon-genre"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"GENRE FAST RECON, STEP 5: FAST IDs ADDED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE FAST RECON, STEP 5: FAST IDs ADDED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  }
+]
