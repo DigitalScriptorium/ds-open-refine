@@ -15,16 +15,16 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
 [name_known_human]: json/name/040-name-known-human.json
-[name_recon_org]:   json/name/060-name-recon-org.json
-[name_known_org]:   json/name/070-name-known-org.json
+[name_recon_org]:   json/name/050-name-recon-org.json
+[name_known_org]:   json/name/060-name-known-org.json
 [name_finalize]:    json/name/090-name-finalize.json
 
 ```
 json/name/010-name-workflow.json
 json/name/030-name-recon-human.json
 json/name/040-name-known-human.json
-json/name/060-name-recon-org.json
-json/name/070-name-known-org.json
+json/name/050-name-recon-org.json
+json/name/060-name-known-org.json
 json/name/090-name-finalize.json
 ```
 
