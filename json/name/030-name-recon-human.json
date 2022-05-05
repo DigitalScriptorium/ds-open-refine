@@ -5,11 +5,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"RECON NAME STEP 3: START HUMAN RECON \"+now()",
+    "expression": "grel:\"NAME RECON STEP 3: START HUMAN RECON \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"RECON NAME STEP 3: START HUMAN RECON \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"NAME RECON STEP 3: START HUMAN RECON \"+now()"
   },
   {
     "op": "core/text-transform",
