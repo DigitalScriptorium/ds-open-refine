@@ -1,0 +1,66 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-human",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "human-qid",
+    "columnInsertIndex": 2,
+    "description": "Create column human-qid at index 2 based on column recon-human using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "human-qid",
+    "expression": "grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "instance-of-human",
+    "columnInsertIndex": 3,
+    "description": "Create column instance-of-human at index 3 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-human",
+    "newColumnName": "recon-organization",
+    "description": "Rename column recon-human to recon-organization"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column recon-organization"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q43229",
+        "name": "organization"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-organization to type Q43229"
+  }
+]
