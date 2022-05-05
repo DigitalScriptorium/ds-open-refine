@@ -11,6 +11,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 5. Add `human-qid` and `instance-of-human` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
 6. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 7. Add `organization-qid` and `instance-of-organization` columns; consolidate `name_wikidata` and `name_instance_of` columns; finalize workflow: [JSON][name_finalize]
+8. Export as CSV file.
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
@@ -35,6 +36,7 @@ json/name/090-name-finalize.json
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Add `place_tgn` column; finalize workflow: [JSON][place_finalize]
+6. Export as CSV file.
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
@@ -80,6 +82,7 @@ json/place/090-place-finalize.json
 ### all genre terms: finalize
 
 6. Finalize workflow: [JSON][genre_finalize]
+7. Export as CSV file.
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
@@ -93,3 +96,16 @@ json/genre/fast/040-genre-fast-known.json
 json/genre/fast/050-genre-fast.json
 json/genre/090-genre-finalize.json
 ```
+
+## Reconciling subjects to FAST
+
+### Reconciling named subjects
+
+1. TBD.
+
+
+
+
+### Reconciling subjects (topical, etc.)
+
+1. TBD.
