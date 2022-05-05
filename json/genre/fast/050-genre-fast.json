@@ -38,11 +38,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE FAST RECON, STEP 5: FAST IDs ADDED \"+now()",
+    "expression": "grel:\"GENRE FAST RECON, STEP 6: FAST IDs ADDED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE FAST RECON, STEP 5: FAST IDs ADDED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE FAST RECON, STEP 6: FAST IDs ADDED \"+now()"
   },
   {
     "op": "core/text-transform",
