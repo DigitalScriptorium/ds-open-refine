@@ -57,7 +57,7 @@ json/place/090-place-finalize.json
 
 ### to AAT
 
-3. Copy `term` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
+3. Copy filtered `term` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
 4. Apply list of previously reconciled or known AAT terms: [JSON][genre_aat_known]
 5. Add `genre_aat` column: [JSON][genre_aat]
 
@@ -67,7 +67,7 @@ json/place/090-place-finalize.json
 
 ### to FAST
 
-3. Copy `term` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
+3. Copy filtered `term` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
 4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
 5. Add `genre_fast` column: [JSON][genre_fast]
 
