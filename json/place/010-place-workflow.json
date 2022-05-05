@@ -25,11 +25,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "row_index",
-    "expression": "grel:\"RECON PLACE STEP 2: ROWS INDEXED, WORKFLOW STARTED \"+now()",
+    "expression": "grel:\"PLACE RECON STEP 2: ROWS INDEXED, WORKFLOW STARTED \"+now()",
     "onError": "set-to-blank",
     "newColumnName": "workflow_current",
     "columnInsertIndex": 1,
-    "description": "Create column workflow_current at index 1 based on column row_index using expression grel:\"RECON PLACE STEP 2: ROWS INDEXED, WORKFLOW STARTED \"+now()"
+    "description": "Create column workflow_current at index 1 based on column row_index using expression grel:\"PLACE RECON STEP 2: ROWS INDEXED, WORKFLOW STARTED \"+now()"
   },
   {
     "op": "core/column-addition",
