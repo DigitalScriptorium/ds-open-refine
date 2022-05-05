@@ -41,11 +41,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE RECON, STEP 3: START AAT RECON \" + now()",
+    "expression": "grel:\"GENRE AAT RECON, STEP 3: START AAT RECON \" + now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE RECON, STEP 3: START AAT RECON \" + now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE AAT RECON, STEP 3: START AAT RECON \" + now()"
   },
   {
     "op": "core/text-transform",
