@@ -45,11 +45,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE FAST RECON, STEP 2: START FAST RECON \"+now()",
+    "expression": "grel:\"GENRE FAST RECON, STEP 3: START FAST RECON \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE FAST RECON, STEP 2: START FAST RECON \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE FAST RECON, STEP 3: START FAST RECON \"+now()"
   },
   {
     "op": "core/text-transform",
