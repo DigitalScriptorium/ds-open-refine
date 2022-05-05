@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE RECON, STEP 6: FINALIZED \"+now()",
+    "expression": "grel:\"GENRE RECON, STEP 7: FINALIZED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE RECON, STEP 6: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE RECON, STEP 7: FINALIZED \"+now()"
   },
   {
     "op": "core/text-transform",
