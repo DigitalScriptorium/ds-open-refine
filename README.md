@@ -11,7 +11,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 5. Manually reconcile and update known human names: *edit [JSON][name_known_human]*
 6. Add `human-qid` and `instance-of-human` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
-8. Manually reconcile and update known organization names:  *edit [JSON][name_known_org]*
+8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-qid` and `instance-of-organization` columns; consolidate `name_wikidata` and `name_instance_of` columns; finalize workflow: [JSON][name_finalize]
 10. Export from OpenRefine as CSV file.
 
@@ -37,7 +37,7 @@ json/name/090-name-finalize.json
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
-5. Manually reconcile and update known places:  *edit [JSON][place_known]*
+5. Manually reconcile and update known places: *edit [JSON][place_known]*
 6. Add `place_tgn` column; finalize workflow: [JSON][place_finalize]
 7. Export from OpenRefine as CSV file.
 
@@ -64,8 +64,8 @@ json/place/090-place-finalize.json
 
 3. Copy filtered `term` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
 4. Apply list of previously reconciled or known AAT terms: [JSON][genre_aat_known]
-5. Add `genre_aat` column: [JSON][genre_aat]
-6. Manually reconcile and update known AAT genre terms:  *edit [JSON][genre_aat_known]*
+5. Manually reconcile and update known AAT genre terms: *edit [JSON][genre_aat_known]*
+6. Add `genre_aat` column: [JSON][genre_aat]
 
 [genre_aat_recon]:   json/genre/aat/030-genre-aat-recon.json
 [genre_aat_known]:   json/genre/aat/040-genre-aat-known.json
@@ -75,8 +75,8 @@ json/place/090-place-finalize.json
 
 3. Copy filtered `term` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
 4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
-5. Add `genre_fast` column: [JSON][genre_fast]
-6. Manually reconcile and update known FAST genre terms:  *edit [JSON][genre_fast_known]*
+5. Manually reconcile and update known FAST genre terms: *edit [JSON][genre_fast_known]*
+6. Add `genre_fast` column: [JSON][genre_fast]
 
 [genre_fast_recon]:   json/genre/fast/030-genre-fast-recon.json
 [genre_fast_known]:   json/genre/fast/040-genre-fast-known.json
