@@ -8082,5 +8082,1121 @@
     },
     "shareNewTopics": false,
     "description": "Match item Seneca (Q2054) for cells containing \"Seneca\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Battista Malatesta",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4869934",
+      "name": "Battista Malatesta",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Battista Malatesta (Q4869934) for cells containing \"Battista Malatesta\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Daniele Barbaro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q378870",
+      "name": "Daniele Barbaro",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Daniele Barbaro (Q378870) for cells containing \"Daniele Barbaro\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ælfric",
+    "judgment": "matched",
+    "match": {
+      "id": "Q271377",
+      "name": "Ælfric of Eynsham",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ælfric of Eynsham (Q271377) for cells containing \"Ælfric\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fenwick, Thomas Fitzroy Phillipps, 1856-1938",
+    "judgment": "matched",
+    "match": {
+      "id": "Q75889469",
+      "name": "Thomas FitzRoy Phillipps Fenwick",
+      "types": [
+        "Q5"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas FitzRoy Phillipps Fenwick (Q75889469) for cells containing \"Fenwick, Thomas Fitzroy Phillipps, 1856-1938\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Pedro de Valencia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3374154",
+      "name": "Pedro de Valencia",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pedro de Valencia (Q3374154) for cells containing \"Pedro de Valencia\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Peter Lombard",
+    "judgment": "matched",
+    "match": {
+      "id": "Q315347",
+      "name": "Peter Lombard",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Peter Lombard (Q315347) for cells containing \"Peter Lombard\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Henri, Duc de Rohan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q701048",
+      "name": "Henri II de Rohan",
+      "types": [
+        "Q5"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henri II de Rohan (Q701048) for cells containing \"Henri, Duc de Rohan\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hugh of Fouilloy (Hugo de Folieto)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5631",
+      "name": "Hugh of Fouilloy",
+      "types": [
+        "Q5"
+      ],
+      "score": 67
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hugh of Fouilloy (Q5631) for cells containing \"Hugh of Fouilloy (Hugo de Folieto)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gregory I, the Great.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q42827",
+      "name": "Gregory I",
+      "types": [
+        "Q5"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gregory I (Q42827) for cells containing \"Gregory I, the Great.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Horace (Quintus Horatius Flaccus)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6197",
+      "name": "Horace",
+      "types": [
+        "Q5"
+      ],
+      "score": 87
+    },
+    "shareNewTopics": false,
+    "description": "Match item Horace (Q6197) for cells containing \"Horace (Quintus Horatius Flaccus)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hugh de St Cher",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1365254",
+      "name": "Hugh of Saint-Cher",
+      "types": [
+        "Q5"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hugh of Saint-Cher (Q1365254) for cells containing \"Hugh de St Cher\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hugh of Fouilloi",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5631",
+      "name": "Hugh of Fouilloy",
+      "types": [
+        "Q5"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hugh of Fouilloy (Q5631) for cells containing \"Hugh of Fouilloi\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hugh of St. Victor (Hugo de Sancto Victore)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q317554",
+      "name": "Hugh of Saint Victor",
+      "types": [
+        "Q5"
+      ],
+      "score": 71
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hugh of Saint Victor (Q317554) for cells containing \"Hugh of St. Victor (Hugo de Sancto Victore)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Innocent VIII",
+    "judgment": "matched",
+    "match": {
+      "id": "Q161351",
+      "name": "Innocent VIII",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Innocent VIII (Q161351) for cells containing \"Innocent VIII\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hugh of St. Cher (Hugo de Sancto Caro)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1365254",
+      "name": "Hugh of Saint-Cher",
+      "types": [
+        "Q5"
+      ],
+      "score": 70
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hugh of Saint-Cher (Q1365254) for cells containing \"Hugh of St. Cher (Hugo de Sancto Caro)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Isidore (Isidorus Hispalensis)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q166876",
+      "name": "Isidore of Seville",
+      "types": [
+        "Q5"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Isidore of Seville (Q166876) for cells containing \"Isidore (Isidorus Hispalensis)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jerome",
+    "judgment": "matched",
+    "match": {
+      "id": "Q44248",
+      "name": "Jerome",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jerome (Q44248) for cells containing \"Jerome\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-human",
+          "expression": "value.length()",
+          "columnName": "recon-human",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Josephus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q134461",
+      "name": "Josephus",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Josephus (Q134461) for cells containing \"Josephus\" in column recon-human"
   }
 ]
