@@ -18,6 +18,32 @@
       "facets": [],
       "mode": "row-based"
     },
+    "columnName": "recon-genre",
+    "expression": "grel:value.replace(\" 14th century\",\"--14th century\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-genre using expression grel:value.replace(\" 14th century\",\"--14th century\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "grel:value.replace(\" 16th century\",\"--16th century\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-genre using expression grel:value.replace(\" 16th century\",\"--16th century\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
     "columnName": "workflow_current",
     "expression": "grel:\"GENRE FAST RECON, STEP 2: START FAST RECON \"+now()",
     "onError": "keep-original",
