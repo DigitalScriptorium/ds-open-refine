@@ -67,11 +67,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"NAME RECON STEP 5: START ORG RECON \"+now()",
+    "expression": "grel:\"NAME RECON STEP 6: START ORG RECON \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"NAME RECON STEP 5: START ORG RECON \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"NAME RECON STEP 6: START ORG RECON \"+now()"
   },
   {
     "op": "core/text-transform",
