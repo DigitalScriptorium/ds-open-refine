@@ -94,8 +94,11 @@ json/genre/010-genre-workflow.json
 json/genre/aat/020-genre-aat-recon.json
 json/genre/aat/030-genre-aat-known.json
 json/genre/aat/040-genre-aat.json
-json/genre/fast/020-genre-fast-recon.json
-json/genre/fast/030-genre-fast-known.json
-json/genre/fast/040-genre-fast.json
+json/genre/fast/020-genre-fast-form-recon.json
+json/genre/fast/030-genre-fast-form-known.json
+json/genre/fast/040-genre-fast-form.json
+json/genre/fast/050-genre-fast-all-recon.json
+json/genre/fast/060-genre-fast-all-known.json
+json/genre/fast/070-genre-fast.json
 json/genre/090-genre-finalize.json
 ```
