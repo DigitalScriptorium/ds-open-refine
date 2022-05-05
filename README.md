@@ -71,9 +71,9 @@ json/place/090-place-finalize.json
 4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
 5. Add `genre_fast` column: [JSON][genre_fast]
 
-[genre_fast_recon]:   json/genre/aat/020-genre-fast-recon.json
-[genre_fast_known]:   json/genre/aat/030-genre-fast-known.json
-[genre_fast]:         json/genre/aat/040-genre-fast.json
+[genre_fast_recon]:   json/genre/fast/020-genre-fast-recon.json
+[genre_fast_known]:   json/genre/fast/030-genre-fast-known.json
+[genre_fast]:         json/genre/fast/040-genre-fast.json
 
 #### *TBD instructions for other genres as needed*
 
