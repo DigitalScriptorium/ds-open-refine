@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE RECON, STEP 4: KNOWN AAT APPLIED \"+now()",
+    "expression": "grel:\"GENRE AAT RECON, STEP 4: KNOWN AAT APPLIED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE RECON, STEP 4: KNOWN AAT APPLIED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE AAT RECON, STEP 4: KNOWN AAT APPLIED \"+now()"
   },
   {
     "op": "core/text-transform",
