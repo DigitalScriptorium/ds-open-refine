@@ -61,9 +61,9 @@ json/place/090-place-finalize.json
 4. Apply list of previously reconciled or known AAT terms: [JSON][genre_aat_known]
 5. Add `genre_aat` column: [JSON][genre_aat]
 
-[genre_aat_recon]:   json/genre/aat/020-genre-aat-recon.json
-[genre_aat_known]:   json/genre/aat/030-genre-aat-known.json
-[genre_aat]:         json/genre/aat/040-genre-aat.json
+[genre_aat_recon]:   json/genre/aat/030-genre-aat-recon.json
+[genre_aat_known]:   json/genre/aat/040-genre-aat-known.json
+[genre_aat]:         json/genre/aat/050-genre-aat.json
 
 ### to FAST
 
@@ -71,9 +71,9 @@ json/place/090-place-finalize.json
 4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
 5. Add `genre_fast` column: [JSON][genre_fast]
 
-[genre_fast_recon]:   json/genre/fast/020-genre-fast-recon.json
-[genre_fast_known]:   json/genre/fast/030-genre-fast-known.json
-[genre_fast]:         json/genre/fast/040-genre-fast.json
+[genre_fast_recon]:   json/genre/fast/030-genre-fast-recon.json
+[genre_fast_known]:   json/genre/fast/040-genre-fast-known.json
+[genre_fast]:         json/genre/fast/050-genre-fast.json
 
 #### *TBD instructions for other genres as needed*
 
@@ -85,11 +85,11 @@ json/place/090-place-finalize.json
 
 ```
 json/genre/010-genre-workflow.json
-json/genre/aat/020-genre-aat-recon.json
-json/genre/aat/030-genre-aat-known.json
-json/genre/aat/040-genre-aat.json
-json/genre/fast/020-genre-fast-recon.json
-json/genre/fast/030-genre-fast-known.json
-json/genre/fast/040-genre-fast.json
+json/genre/aat/030-genre-aat-recon.json
+json/genre/aat/040-genre-aat-known.json
+json/genre/aat/050-genre-aat.json
+json/genre/fast/030-genre-fast-recon.json
+json/genre/fast/040-genre-fast-known.json
+json/genre/fast/050-genre-fast.json
 json/genre/090-genre-finalize.json
 ```
