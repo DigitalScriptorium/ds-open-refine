@@ -9,8 +9,8 @@
     "expression": "grel:if(cells[\"vocabulary\"].value==\"aat\",value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
-    "columnInsertIndex": 1,
-    "description": "Create column recon-genre at index 1 based on column term using expression grel:if(cells[\"vocabulary\"].value==\"aat\",value,\"\")"
+    "columnInsertIndex": 4,
+    "description": "Create column recon-genre at index 4 based on column term using expression grel:if(cells[\"vocabulary\"].value==\"aat\",value,\"\")"
   },
   {
     "op": "core/recon",
