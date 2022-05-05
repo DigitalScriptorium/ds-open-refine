@@ -1,0 +1,85 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-place",
+    "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "place_tgn",
+    "columnInsertIndex": 5,
+    "description": "Create column place_tgn at index 5 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "place_tgn",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column place_tgn"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-place",
+    "description": "Remove column recon-place"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"PLACE RECON, STEP 5: FINALIZED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 5: FINALIZED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"\""
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "workflow_current",
+    "keyColumnName": "row_index",
+    "separator": "",
+    "description": "Join multi-valued cells in column workflow_current"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "workflow_current",
+    "description": "Remove column workflow_current"
+  }
+]
