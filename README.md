@@ -87,7 +87,7 @@ json/place/090-place-finalize.json
 ### all genre terms: finalize
 
 7. Finalize workflow: [JSON][genre_finalize]
-8. Export as CSV file.
+8. Export from OpenRefine as CSV file.
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
@@ -107,7 +107,6 @@ json/genre/090-genre-finalize.json
 ### Reconciling named subjects
 
 1. TBD.
-
 
 
 
