@@ -4040,49 +4040,6 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "Marginal illustrations--Italy--15th century.",
-    "judgment": "matched",
-    "match": {
-      "id": "aat/300200658",
-      "name": "marginal illustrations",
-      "types": [
-        "/ulan",
-        "/tgn",
-        "/aat",
-        "/all"
-      ],
-      "score": 29.7304
-    },
-    "shareNewTopics": false,
-    "description": "Match item marginal illustrations (aat/300200658) for cells containing \"Marginal illustrations--Italy--15th century.\" in column recon-genre"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-genre: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-genre",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "recon-genre",
     "similarValue": "Receipts (financial records)",
     "judgment": "matched",
     "match": {
