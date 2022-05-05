@@ -38,11 +38,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"PLACE RECON, STEP 5: FINALIZED \"+now()",
+    "expression": "grel:\"PLACE RECON, STEP 6: FINALIZED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 5: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 6: FINALIZED \"+now()"
   },
   {
     "op": "core/text-transform",
