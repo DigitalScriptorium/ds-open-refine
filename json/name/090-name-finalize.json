@@ -77,6 +77,11 @@
     "description": "Remove column recon-organization"
   },
   {
+    "op": "core/column-removal",
+    "columnName": "recon-human",
+    "description": "Remove column recon-human"
+  },
+  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
