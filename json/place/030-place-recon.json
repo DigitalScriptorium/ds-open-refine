@@ -1,0 +1,165 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-place",
+    "columnInsertIndex": 4,
+    "description": "Create column recon-place at index 4 based on column place_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-place using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")\""
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "(",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": " or ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": " and ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": ", ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "; ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "? ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "expression": "grel:value.replace(\",\",\"\").replace(\";\",\"\").replace(\"?\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-place using expression grel:value.replace(\",\",\"\").replace(\";\",\"\").replace(\"?\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-place using expression value.trim()"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://services.getty.edu/vocab/reconcile/",
+      "identifierSpace": "http://vocab.getty.edu/doc/#GVP_URLs_and_Prefixes",
+      "schemaSpace": "",
+      "type": {
+        "id": "/tgn",
+        "name": "TGN search"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-place to type /tgn"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"PLACE RECON, STEP 3: START RECON \" + now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 3: START RECON \" + now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  }
+]
