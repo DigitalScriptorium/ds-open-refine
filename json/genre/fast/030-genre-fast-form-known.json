@@ -1,1 +1,782 @@
-
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Annals and chronicles.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1919892",
+      "name": "Annals and chronicles",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Annals and chronicles (http://id.worldcat.org/fast/1919892) for cells containing \"Annals and chronicles.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Art.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423702",
+      "name": "Art",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Art (http://id.worldcat.org/fast/1423702) for cells containing \"Art.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Commentaries.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423723",
+      "name": "Commentaries",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Commentaries (http://id.worldcat.org/fast/1423723) for cells containing \"Commentaries.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Early works.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Fiction.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423787",
+      "name": "Fiction",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fiction (http://id.worldcat.org/fast/1423787) for cells containing \"Fiction.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "History.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411628",
+      "name": "History",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item History (http://id.worldcat.org/fast/1411628) for cells containing \"History.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Manuscripts.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1424060",
+      "name": "Manuscripts",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts (http://id.worldcat.org/fast/1424060) for cells containing \"Manuscripts.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Pictorial works.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423874",
+      "name": "Pictorial works",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pictorial works (http://id.worldcat.org/fast/1423874) for cells containing \"Pictorial works.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Poetry.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423828",
+      "name": "Poetry",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poetry (http://id.worldcat.org/fast/1423828) for cells containing \"Poetry.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Prayers and devotions.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423909",
+      "name": "Prayers and devotions",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prayers and devotions (http://id.worldcat.org/fast/1423909) for cells containing \"Prayers and devotions.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Prayers.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1939841",
+      "name": "Prayers",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prayers (http://id.worldcat.org/fast/1939841) for cells containing \"Prayers.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Recipes.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1424190",
+      "name": "Recipes",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Recipes (http://id.worldcat.org/fast/1424190) for cells containing \"Recipes.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Sacred books.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423905",
+      "name": "Sacred books",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sacred books (http://id.worldcat.org/fast/1423905) for cells containing \"Sacred books.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Sermons.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423904",
+      "name": "Sermons",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sermons (http://id.worldcat.org/fast/1423904) for cells containing \"Sermons.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 42,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Speeches.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1774286",
+      "name": "Speeches",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Speeches (http://id.worldcat.org/fast/1774286) for cells containing \"Speeches.\" in column recon-genre"
+  }
+]
