@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"RECON PLACE, STEP 4: KNOWN PLACE APPLIED \"+now()",
+    "expression": "grel:\"PLACE RECON, STEP 4: KNOWN PLACE APPLIED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"RECON PLACE, STEP 4: KNOWN PLACE APPLIED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 4: KNOWN PLACE APPLIED \"+now()"
   },
   {
     "op": "core/text-transform",
