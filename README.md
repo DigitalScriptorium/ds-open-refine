@@ -77,7 +77,7 @@ json/place/090-place-finalize.json
 
 #### *TBD instructions for other genres as needed*
 
-### all genres: finalize
+### all genre terms: finalize
 
 6. Finalize workflow: [JSON][genre_finalize]
 
