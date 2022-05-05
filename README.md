@@ -75,7 +75,7 @@ json/place/090-place-finalize.json
 [genre_fast_known]:   json/genre/aat/030-genre-fast-known.json
 [genre_fast]:         json/genre/aat/040-genre-fast.json
 
-*TBD instructions for other genres as needed*
+#### *TBD instructions for other genres as needed*
 
 ### all genres: finalize
 
