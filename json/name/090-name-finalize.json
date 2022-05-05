@@ -1,0 +1,110 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "organization-qid",
+    "columnInsertIndex": 2,
+    "description": "Create column organization-qid at index 2 based on column recon-organization using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "organization-qid",
+    "expression": "grel:if(isNonBlank(cells[\"organization-qid\"]),\"organization\",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "instance-of-organization",
+    "columnInsertIndex": 3,
+    "description": "Create column instance-of-organization at index 3 based on column organization-qid using expression grel:if(isNonBlank(cells[\"organization-qid\"]),\"organization\",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "organization-qid",
+    "expression": "join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "name_wikidata",
+    "columnInsertIndex": 3,
+    "description": "Create column name_wikidata at index 3 based on column organization-qid using expression join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "instance-of-organization",
+    "expression": "join ([coalesce(cells['instance-of-organization'].value,''),coalesce(cells['instance-of-human'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "name_instance_of",
+    "columnInsertIndex": 5,
+    "description": "Create column name_instance_of at index 5 based on column instance-of-organization using expression join ([coalesce(cells['instance-of-organization'].value,''),coalesce(cells['instance-of-human'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance-of-human",
+    "description": "Remove column instance-of-human"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "human-qid",
+    "description": "Remove column human-qid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "instance-of-organization",
+    "description": "Remove column instance-of-organization"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "organization-qid",
+    "description": "Remove column organization-qid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-organization",
+    "description": "Remove column recon-organization"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"RECON NAME STEP 7: FINALIZED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"RECON NAME STEP 7: FINALIZED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "workflow_current",
+    "description": "Remove column workflow_current"
+  },
+]
