@@ -1,0 +1,15 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "term",
+    "expression": "grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-genre",
+    "columnInsertIndex": 1,
+    "description": "Create column recon-genre at index 1 based on column term using expression grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")"
+  }
+]
