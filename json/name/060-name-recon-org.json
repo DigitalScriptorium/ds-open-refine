@@ -26,20 +26,17 @@
     "description": "Create column instance-of-human at index 3 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
   },
   {
-    "op": "core/column-rename",
-    "oldColumnName": "recon-human",
-    "newColumnName": "recon-organization",
-    "description": "Rename column recon-human to recon-organization"
-  },
-  {
-    "op": "core/recon-discard-judgments",
+    "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "recon-organization",
-    "clearData": true,
-    "description": "Discard recon judgments and clear recon data for cells in column recon-organization"
+    "baseColumnName": "recon-human",
+    "expression": "grel:if(isBlank(cells[\"human-qid\"]),value,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-organization",
+    "columnInsertIndex": 2,
+    "description": "Create column recon-organization at index 2 based on column recon-human using expression grel:if(isBlank(cells[\"human-qid\"]),value,\"\")"
   },
   {
     "op": "core/recon",
