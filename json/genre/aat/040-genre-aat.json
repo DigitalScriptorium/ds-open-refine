@@ -9,8 +9,8 @@
     "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "genre_aat",
-    "columnInsertIndex": 2,
-    "description": "Create column genre_aat at index 2 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "columnInsertIndex": 5,
+    "description": "Create column genre_aat at index 5 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
   },
   {
     "op": "core/column-removal",
@@ -24,11 +24,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE RECON, STEP 4: AAT IDs ADDED \"+now()",
+    "expression": "grel:\"GENRE AAT RECON, STEP 5: AAT IDs ADDED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE RECON, STEP 4: AAT IDs ADDED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"GENRE AAT RECON, STEP 5: AAT IDs ADDED \"+now()"
   },
   {
     "op": "core/text-transform",
