@@ -4443,5 +4443,71 @@
     },
     "shareNewTopics": false,
     "description": "Match item Brussels (tgn/7007868) for cells containing \"near Brussels\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-place: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-place",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Croatia",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7006663",
+      "name": "Croatia",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 20.712368
+    },
+    "shareNewTopics": false,
+    "description": "Match item Croatia (tgn/7006663) for cells containing \"Croatia\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Šibenik",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7015447",
+      "name": "Šibenik",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Šibenik (tgn/7015447) for cells containing \"Šibenik\" in column recon-place"
   }
 ]
