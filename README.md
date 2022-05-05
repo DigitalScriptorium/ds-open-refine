@@ -37,7 +37,7 @@ json/name/090-name-finalize.json
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
-5. Manually reconcile and update known places:  *edit [JSON][place_known]
+5. Manually reconcile and update known places:  *edit [JSON][place_known]*
 6. Add `place_tgn` column; finalize workflow: [JSON][place_finalize]
 7. Export from OpenRefine as CSV file.
 
