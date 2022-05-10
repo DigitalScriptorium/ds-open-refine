@@ -1,0 +1,83 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-fast-1",
+    "columnInsertIndex": 5,
+    "description": "Create column named-subject-fast-1 at index 5 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "recon-subject",
+    "newColumnName": "recon-subject-placeholder",
+    "description": "Rename column recon-subject to recon-subject-placeholder"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject-placeholder",
+    "expression": "grel:if(value.contains(\"_\"),value,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 5,
+    "description": "Create column recon-subject at index 5 based on column recon-subject-placeholder using expression grel:if(value.contains(\"_\"),value,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "expression": "grel:value.replace(\"_Physics\",\"\").replace(\"_Speeches\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"_Physics\",\"\").replace(\"_Speeches\",\"\")"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-subject",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": "_",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-subject"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject-placeholder",
+    "description": "Remove column recon-subject-placeholder"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  }
+]
