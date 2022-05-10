@@ -87,11 +87,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"NAMED SUBJECT RECON, STEP 3: START NAMED SUBJECT RECON 2 \"+now()",
+    "expression": "grel:\"NAMED SUBJECT RECON, STEP 6: START NAMED SUBJECT RECON 2 \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"NAMED SUBJECT RECON, STEP 3: START NAMED SUBJECT RECON 2 \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"NAMED SUBJECT RECON, STEP 6: START NAMED SUBJECT RECON 2 \"+now()"
   },
   {
     "op": "core/text-transform",
