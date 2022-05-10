@@ -106,9 +106,22 @@ json/genre/090-genre-finalize.json
 
 ### Reconciling named subjects
 
-1. TBD.
+1. Load `DATE-named-subjects-combined.csv` into OpenRefine; rename `DATE-named-subjects-combined-enriched.csv`
+2. Add workflow columns: [JSON][named_subject_workflow]
+3. Copy `subject_as_recorded` column, clean, and reconcile new `recon-subject` column against FAST terms: [JSON][named_subject_recon]
+4. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
+5. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
+6. Add `named-subject-fast-1` column, reconcile next `recon-subject` column: [JSON][named_subject_fast-2]
+7. 
 
+```
+json/subject/named/010-named-subject-workflow.json
+json/subject/named/030-named-subject-recon.json
+json/subject/named/040-named-subject-known.json
+json/subject/named/050-named-subject-fast-1.json
 
+json/genre/090-genre-finalize.json
+```
 
 ### Reconciling subjects (topical, etc.)
 
