@@ -129,7 +129,7 @@ json/genre/090-genre-finalize.json
 1. Load `DATE-subjects-combined.csv` into OpenRefine; rename `DATE-subjects-combined-enriched.csv`
 2. Add workflow columns: [JSON][subject_workflow]
 3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][subject_recon-1]
-4. 
+4. Apply list of previously reconciled or known FAST terms: [JSON][subject_known]
 
 [subject_recon-1]:    json/subject/topic/030-subject-recon-1.json
 [subject_known]:      json/subject/topic/040-subject-known.json
