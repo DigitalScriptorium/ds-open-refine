@@ -107,7 +107,7 @@ json/genre/090-genre-finalize.json
 ### Reconciling named subjects
 
 1. Load `DATE-named-subjects-combined.csv` into OpenRefine; rename `DATE-named-subjects-combined-enriched.csv`
-2. Add workflow columns: [JSON][named_subject_workflow]
+2. Add workflow columns: [JSON][subject_workflow]
 3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][named_subject_recon-1]
 4. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
 5. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
@@ -117,11 +117,11 @@ json/genre/090-genre-finalize.json
 9. Add `names-subject-fast-2` column; consolidate `named_subject_fast` column; finalize workflow: [JSON][named_subject_finalize]
 10. Export from OpenRefine as CSV file.
 
-[named_subject_workflow]:   json/subject/named/010-named-subject-workflow.json
+[subject_workflow]:         json/subject/010-subject-workflow.json
 [named_subject_recon-1]:    json/subject/named/030-named-subject-recon-1.json
 [named_subject_known]:      json/subject/named/040-named-subject-known.json
 [named_subject_recon-2]:    json/subject/named/060-named-subject-recon-2.json
-[named_subject_finalize]:   json/subject/named/090-subject-finalize.json
+[named_subject_finalize]:   json/subject/named/090-named-subject-finalize.json
 
 
 ### Reconciling subjects (topical, etc.)
@@ -131,17 +131,15 @@ json/genre/090-genre-finalize.json
 3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][subject_recon-1]
 4. 
 
-[subject_workflow]:   json/subject/topic/010-subject-workflow.json
 [subject_recon-1]:    json/subject/topic/030-subject-recon-1.json
 [subject_known]:      json/subject/topic/040-subject-known.json
 
 ```
-json/subject/named/010-named-subject-workflow.json
+json/subject/010-subject-workflow.json
 json/subject/named/030-named-subject-recon-1.json
 json/subject/named/040-named-subject-known.json
 json/subject/named/060-named-subject-recon-2.json
-json/subject/named/090-subject-finalize.json
-json/subject/topic/010-subject-workflow.json
+json/subject/named/090-named-subject-finalize.json
 json/subject/topic/030-subject-recon-1.json
 json/subject/topic/040-subject-known.json
 ```
