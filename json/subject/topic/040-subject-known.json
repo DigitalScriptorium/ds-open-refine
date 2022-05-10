@@ -1111,5 +1111,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Croatia--Šibenik (http://id.worldcat.org/fast/1224473) for cells containing \"Šibenik (Croatia)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204500",
+      "name": "Italy--Rome",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 57
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Rome (http://id.worldcat.org/fast/1204500) for cells containing \"Rome\" in column recon-subject"
   }
 ]
