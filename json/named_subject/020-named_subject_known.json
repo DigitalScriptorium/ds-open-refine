@@ -1504,5 +1504,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Latin language (http://id.worldcat.org/fast/993125) for cells containing \"Latin\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rome (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204500",
+      "name": "Italy--Rome",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Rome (http://id.worldcat.org/fast/1204500) for cells containing \"Rome (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Webster, Alexander",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/169468",
+      "name": "Webster, Alexander, 1707-1784",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 77
+    },
+    "shareNewTopics": false,
+    "description": "Match item Webster, Alexander, 1707-1784 (http://id.worldcat.org/fast/169468) for cells containing \"Webster, Alexander\" in column recon-subject"
   }
 ]
