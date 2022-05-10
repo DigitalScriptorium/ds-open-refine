@@ -212,46 +212,6 @@
       "mode": "record-based"
     },
     "columnName": "recon-subject",
-    "similarValue": "Rome",
-    "judgment": "matched",
-    "match": {
-      "id": "http://id.worldcat.org/fast/1204885",
-      "name": "Rome (Empire)",
-      "types": [
-        "/fast/all"
-      ],
-      "score": 53
-    },
-    "shareNewTopics": false,
-    "description": "Match item Rome (Empire) (http://id.worldcat.org/fast/1204885) for cells containing \"Rome\" in column recon-subject"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-subject: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-subject",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "record-based"
-    },
-    "columnName": "recon-subject",
     "similarValue": "Glossaries, vocabularies, etc",
     "judgment": "matched",
     "match": {
