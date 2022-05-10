@@ -1,1 +1,103 @@
-
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-fast-1",
+    "columnInsertIndex": 5,
+    "description": "Create column subject-fast-1 at index 5 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:if(isBlank(cells[\"subject-fast-1\"]),value,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-strings",
+    "columnInsertIndex": 5,
+    "description": "Create column subject-strings at index 5 based on column recon-subject using expression grel:if(isBlank(cells[\"subject-fast-1\"]),value,\"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject",
+    "description": "Remove column recon-subject"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject-strings",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "--",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column subject-strings by separator"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-strings 1",
+    "expression": "grel:join([cells[\"subject-strings 1\"].value,cells[\"subject-strings 2\"].value],\"--\")",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 6,
+    "description": "Create column recon-subject at index 6 based on column subject-strings 1 using expression grel:join([cells[\"subject-strings 1\"].value,cells[\"subject-strings 2\"].value],\"--\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-strings 1",
+    "description": "Remove column subject-strings 1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-strings 2",
+    "description": "Remove column subject-strings 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-strings 3",
+    "description": "Remove column subject-strings 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-strings 4",
+    "description": "Remove column subject-strings 4"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  }
+]
