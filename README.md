@@ -108,21 +108,40 @@ json/genre/090-genre-finalize.json
 
 1. Load `DATE-named-subjects-combined.csv` into OpenRefine; rename `DATE-named-subjects-combined-enriched.csv`
 2. Add workflow columns: [JSON][named_subject_workflow]
-3. Copy `subject_as_recorded` column, clean, and reconcile new `recon-subject` column against FAST terms: [JSON][named_subject_recon]
+3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][named_subject_recon-1]
 4. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
 5. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
-6. Add `named-subject-fast-1` column, reconcile next `recon-subject` column: [JSON][named_subject_fast-2]
-7. 
+6. Add `named-subject-fast-1` column, reconcile next `recon-subject` column: [JSON][named_subject_recon-2]
+7. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
+8. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
+9. Add `names-subject-fast-2` column; consolidate `named_subject_fast` column; finalize workflow: [JSON][named_subject_finalize]
+10. Export from OpenRefine as CSV file.
 
-```
-json/subject/named/010-named-subject-workflow.json
-json/subject/named/030-named-subject-recon.json
-json/subject/named/040-named-subject-known.json
-json/subject/named/050-named-subject-fast-1.json
+[named_subject_workflow]:   json/subject/named/010-named-subject-workflow.json
+[named_subject_recon-1]:    json/subject/named/030-named-subject-recon-1.json
+[named_subject_known]:      json/subject/named/040-named-subject-known.json
+[named_subject_recon-2]:    json/subject/named/060-named-subject-recon-2.json
+[named_subject_finalize]:   json/subject/named/090-subject-finalize.json
 
-json/genre/090-genre-finalize.json
-```
 
 ### Reconciling subjects (topical, etc.)
 
-1. TBD.
+1. Load `DATE-subjects-combined.csv` into OpenRefine; rename `DATE-subjects-combined-enriched.csv`
+2. Add workflow columns: [JSON][subject_workflow]
+3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][subject_recon-1]
+4. 
+
+[subject_workflow]:   json/subject/topic/010-subject-workflow.json
+[subject_recon-1]:    json/subject/topic/030-subject-recon-1.json
+[subject_known]:      json/subject/topic/040-subject-known.json
+
+```
+json/subject/named/010-named-subject-workflow.json
+json/subject/named/030-named-subject-recon-1.json
+json/subject/named/040-named-subject-known.json
+json/subject/named/060-named-subject-recon-2.json
+json/subject/named/090-subject-finalize.json
+json/subject/topic/010-subject-workflow.json
+json/subject/topic/030-subject-recon-1.json
+json/subject/topic/040-subject-known.json
+```
