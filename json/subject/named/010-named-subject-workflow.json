@@ -1,0 +1,47 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "subject_as_recorded",
+    "expression": "grel:rowIndex + 1",
+    "onError": "set-to-blank",
+    "newColumnName": "row_index",
+    "columnInsertIndex": 1,
+    "description": "Create column row_index at index 1 based on column subject_as_recorded using expression grel:rowIndex + 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "row_index",
+    "index": 0,
+    "description": "Move column row_index to position 0"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "row_index",
+    "expression": "grel:\"NAMED SUBJECT RECON STEP 2: ROWS INDEXED, WORKFLOW STARTED \"+now()",
+    "onError": "set-to-blank",
+    "newColumnName": "workflow_current",
+    "columnInsertIndex": 1,
+    "description": "Create column workflow_current at index 1 based on column row_index using expression grel:\"NAMED SUBJECT RECON STEP 2: ROWS INDEXED, WORKFLOW STARTED \"+now()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "workflow_current",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "workflow_history",
+    "columnInsertIndex": 2,
+    "description": "Create column workflow_history at index 2 based on column workflow_current using expression grel:value"
+  }
+]
