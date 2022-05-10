@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()",
+    "expression": "grel:\"KNOWN SUBJECT RECON APPLIED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN SUBJECT RECON APPLIED \"+now()"
   },
   {
     "op": "core/text-transform",
@@ -384,5 +384,805 @@
     },
     "shareNewTopics": false,
     "description": "Match item Italy--Sermoneta (http://id.worldcat.org/fast/1267886) for cells containing \"Sermoneta (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204885",
+      "name": "Rome (Empire)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 53
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rome (Empire) (http://id.worldcat.org/fast/1204885) for cells containing \"Rome\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Glossaries, vocabularies, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423786",
+      "name": "Glossaries, vocabularies, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Glossaries, vocabularies, etc. (http://id.worldcat.org/fast/1423786) for cells containing \"Glossaries, vocabularies, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Barga (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1235479",
+      "name": "Italy--Barga",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Barga (http://id.worldcat.org/fast/1235479) for cells containing \"Barga (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cesena (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205413",
+      "name": "Italy--Cesena",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Cesena (http://id.worldcat.org/fast/1205413) for cells containing \"Cesena (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Handbooks, manuals, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423877",
+      "name": "Handbooks and manuals",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Handbooks and manuals (http://id.worldcat.org/fast/1423877) for cells containing \"Handbooks, manuals, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rebellion, 66-73",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1404530",
+      "name": "Jewish Rebellion (66-73 A.D.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jewish Rebellion (66-73 A.D.) (http://id.worldcat.org/fast/1404530) for cells containing \"Rebellion, 66-73\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tuscany (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204477",
+      "name": "Italy--Tuscany",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Tuscany (http://id.worldcat.org/fast/1204477) for cells containing \"Tuscany (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Warwickshire (England)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1212375",
+      "name": "England--Warwickshire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Warwickshire (http://id.worldcat.org/fast/1212375) for cells containing \"Warwickshire (England)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Winchester (England)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1207401",
+      "name": "England--Winchester",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Winchester (http://id.worldcat.org/fast/1207401) for cells containing \"Winchester (England)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Republic, 510-30 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204885",
+      "name": "Rome (Empire)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 84
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rome (Empire) (http://id.worldcat.org/fast/1204885) for cells containing \"Republic, 510-30 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Criticism, interpretation, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411635",
+      "name": "Criticism, interpretation, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Criticism, interpretation, etc. (http://id.worldcat.org/fast/1411635) for cells containing \"Criticism, interpretation, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Eugene",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205922",
+      "name": "Oregon--Eugene",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 63
+    },
+    "shareNewTopics": false,
+    "description": "Match item Oregon--Eugene (http://id.worldcat.org/fast/1205922) for cells containing \"Eugene\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "New York",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204333",
+      "name": "New York (State)--New York",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 52
+    },
+    "shareNewTopics": false,
+    "description": "Match item New York (State)--New York (http://id.worldcat.org/fast/1204333) for cells containing \"New York\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mecca (Saudi Arabia)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204780",
+      "name": "Saudi Arabia--Mecca",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saudi Arabia--Mecca (http://id.worldcat.org/fast/1204780) for cells containing \"Mecca (Saudi Arabia)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medina (Saudi Arabia)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1213531",
+      "name": "Saudi Arabia--Medina",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saudi Arabia--Medina (http://id.worldcat.org/fast/1213531) for cells containing \"Medina (Saudi Arabia)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Suffolk",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1212535",
+      "name": "England--Suffolk",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 64
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Suffolk (http://id.worldcat.org/fast/1212535) for cells containing \"Suffolk\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Warwickshire",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1212375",
+      "name": "England--Warwickshire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Warwickshire (http://id.worldcat.org/fast/1212375) for cells containing \"Warwickshire\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Civil War, 43-31 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352313",
+      "name": "Roman Civil War (Rome : 43-31 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roman Civil War (Rome : 43-31 B.C.) (http://id.worldcat.org/fast/1352313) for cells containing \"Civil War, 43-31 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Conspiracy of Catiline, 65-62 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352536",
+      "name": "Conspiracy of Catiline (Rome : 65-62 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conspiracy of Catiline (Rome : 65-62 B.C.) (http://id.worldcat.org/fast/1352536) for cells containing \"Conspiracy of Catiline, 65-62 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rome (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204500",
+      "name": "Italy--Rome",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Rome (http://id.worldcat.org/fast/1204500) for cells containing \"Rome (Italy)\" in column recon-subject"
   }
 ]
