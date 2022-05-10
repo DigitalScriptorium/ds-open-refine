@@ -465,7 +465,6 @@
     "shareNewTopics": false,
     "description": "Match item Jāmiʻ al-ṣaḥīḥ (Bukhārī, Muḥammad ibn Ismāʻīl) (http://id.worldcat.org/fast/1362378) for cells containing \"Bukhārī, Muḥammad ibn Ismāʻīl, 810-870_Jāmiʻ al-ṣaḥīḥ\" in column recon-subject"
   },
-  [
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
