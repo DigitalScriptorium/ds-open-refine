@@ -1804,5 +1804,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item New York (State) (http://id.worldcat.org/fast/1210280) for cells containing \"New York (State)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkish",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1159411",
+      "name": "Turkish language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkish language (http://id.worldcat.org/fast/1159411) for cells containing \"Turkish\" in column recon-subject"
   }
 ]
