@@ -60,30 +60,30 @@
     },
     "description": "Reconcile cells in column recon-subject to type /fast/all"
   },
-    {
-    "op": "core/column-addition",
+  {
+    "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "row_index",
+    "columnName": "workflow_current",
     "expression": "grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()",
-    "onError": "set-to-blank",
-    "newColumnName": "workflow_current",
-    "columnInsertIndex": 1,
-    "description": "Create column workflow_current at index 1 based on column row_index using expression grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()"
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()"
   },
   {
-    "op": "core/column-addition",
+    "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "workflow_current",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "workflow_history",
-    "columnInsertIndex": 2,
-    "description": "Create column workflow_history at index 2 based on column workflow_current using expression grel:value"
-  }
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
 ]
