@@ -33,6 +33,13 @@
     "description": "Create column subject_fast at index 8 based on column subject-fast-1 using expression grel:join([cells[\"subject-fast-1\"].value,cells[\"subject-fast-2\"].value,cells[\"subject-fast-3\"].value],\"|\")"
   },
   {
+    "op": "core/multivalued-cell-join",
+    "columnName": "subject_fast",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column subject_fast"
+  },
+  {
     "op": "core/column-removal",
     "columnName": "subject-fast-3",
     "description": "Remove column subject-fast-3"
