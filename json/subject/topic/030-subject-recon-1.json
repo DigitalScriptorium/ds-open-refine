@@ -67,11 +67,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "row_index",
-    "expression": "grel:\"SUBJECT RECON STEP 3: START SUBJECT RECON 1 \"+now()",
+    "expression": "grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()",
     "onError": "set-to-blank",
     "newColumnName": "workflow_current",
     "columnInsertIndex": 1,
-    "description": "Create column workflow_current at index 1 based on column row_index using expression grel:\"SUBJECT RECON STEP 3: START SUBJECT RECON 1 \"+now()"
+    "description": "Create column workflow_current at index 1 based on column row_index using expression grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()"
   },
   {
     "op": "core/column-addition",
