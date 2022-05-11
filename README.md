@@ -142,7 +142,7 @@ json/genre/090-genre-finalize.json
 [subject_recon_1]:    json/subject/topic/030-subject-recon-1.json
 [subject_known]:      json/subject/topic/040-subject-known.json
 [subject_recon_2]:    json/subject/topic/060-subject-recon-2.json
-[subject_recon_3]:    json/subject/topic/090-subject_recon-3.json
+[subject_recon_3]:    json/subject/topic/090-subject-recon-3.json
 [subject_finalize]:   json/subject/topic/120-subject-finalize.json
 
 ```
