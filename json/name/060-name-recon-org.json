@@ -9,8 +9,8 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "human-qid",
-    "columnInsertIndex": 2,
-    "description": "Create column human-qid at index 2 based on column recon-human using expression grel:cell.recon.match.id"
+    "columnInsertIndex": 5,
+    "description": "Create column human-qid at index 5 based on column recon-human using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
@@ -22,8 +22,21 @@
     "expression": "grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "instance-of-human",
-    "columnInsertIndex": 3,
-    "description": "Create column instance-of-human at index 3 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
+    "columnInsertIndex": 6,
+    "description": "Create column instance-of-human at index 6 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-human",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "human-name",
+    "columnInsertIndex": 7,
+    "description": "Create column human-name at index 7 based on column recon-human using expression grel:cell.recon.match.name"
   },
   {
     "op": "core/column-addition",
@@ -35,8 +48,8 @@
     "expression": "grel:if(isBlank(cells[\"human-qid\"]),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-organization",
-    "columnInsertIndex": 2,
-    "description": "Create column recon-organization at index 2 based on column recon-human using expression grel:if(isBlank(cells[\"human-qid\"]),value,\"\")"
+    "columnInsertIndex": 5,
+    "description": "Create column recon-organization at index 5 based on column recon-human using expression grel:if(isBlank(cells[\"human-qid\"]),value,\"\")"
   },
   {
     "op": "core/recon",
