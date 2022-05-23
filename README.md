@@ -13,7 +13,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-qid` and `instance-of-organization` columns; consolidate `structured_value` and `instance_of` columns; finalize workflow: [JSON][name_finalize]
-10. Export from OpenRefine as CSV file.
+10. Filter for rows with structured values; export from OpenRefine as CSV file.
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
@@ -38,7 +38,7 @@ json/name/090-name-finalize.json
 3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
-6. Add `place_tgn` column; finalize workflow: [JSON][place_finalize]
+6. Add `structured_value` column; finalize workflow: [JSON][place_finalize]
 7. Export from OpenRefine as CSV file.
 
 [place_workflow]:    json/place/010-place-workflow.json
@@ -86,7 +86,7 @@ json/place/090-place-finalize.json
 
 ### all genre terms: finalize
 
-7. Finalize workflow: [JSON][genre_finalize]
+7. Finalize workflow; consolidate `structured_value` column: [JSON][genre_finalize]
 8. Export from OpenRefine as CSV file.
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
@@ -114,7 +114,7 @@ json/genre/090-genre-finalize.json
 6. Add `named-subject-fast-1` column, reconcile next `recon-subject` column: [JSON][named_subject_recon_2]
 7. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
 8. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
-9. Add `names-subject-fast-2` column; consolidate `named_subject_fast` column; finalize workflow: [JSON][named_subject_finalize]
+9. Add `names-subject-fast-2` column; consolidate `structured_value` column; finalize workflow: [JSON][named_subject_finalize]
 10. Export from OpenRefine as CSV file.
 
 [subject_workflow]:         json/subject/010-subject-workflow.json
@@ -137,7 +137,7 @@ json/genre/090-genre-finalize.json
 9. Add `subject-fast-2` column, reconcile next `recon-subject` column: [JSON][subject_recon_3]
 10. Apply list of previously reconciled or known FAST terms: [JSON][subject_known]
 11. Manually reconcile and update known FAST terms: *edit [JSON][subject_known]*
-12. Add `subject-fast-3` column; consolidate `subject_fast` column; finalize workflow: [JSON][subject_finalize]
+12. Add `subject-fast-3` column; consolidate `structured_value` column; finalize workflow: [JSON][subject_finalize]
 
 [subject_recon_1]:    json/subject/topic/030-subject-recon-1.json
 [subject_known]:      json/subject/topic/040-subject-known.json
