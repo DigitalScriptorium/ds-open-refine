@@ -35,7 +35,7 @@ json/name/090-name-finalize.json
 
 1. Load `DATE-places-combined.csv` into OpenRefine; rename `DATE-places-combined-enriched.csv`
 2. Add workflow columns: [JSON][place_workflow]
-3. Copy `place` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
+3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
 6. Add `structured_value` column; finalize workflow: [JSON][place_finalize]
@@ -62,7 +62,7 @@ json/place/090-place-finalize.json
 
 ### to AAT
 
-3. Copy filtered `term` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
+3. Copy filtered `genre_as_recorded` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
 4. Apply list of previously reconciled or known AAT terms: [JSON][genre_aat_known]
 5. Manually reconcile and update known AAT genre terms: *edit [JSON][genre_aat_known]*
 6. Add `genre_aat` column: [JSON][genre_aat]
@@ -73,7 +73,7 @@ json/place/090-place-finalize.json
 
 ### to FAST
 
-3. Copy filtered `term` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
+3. Copy filtered `genre_as_recorded` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
 4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
 5. Manually reconcile and update known FAST genre terms: *edit [JSON][genre_fast_known]*
 6. Add `genre_fast` column: [JSON][genre_fast]
