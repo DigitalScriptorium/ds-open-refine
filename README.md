@@ -9,10 +9,10 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 3. Copy `name_as_recorded` column and reconcile new `recon-human` column against human type (Q5): [JSON][name_recon_human]
 4. Apply list of previously reconciled or known human names: [JSON][name_known_human]
 5. Manually reconcile and update known human names: *edit [JSON][name_known_human]*
-6. Add `human-qid` and `instance-of-human` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
+6. Add `human-qid`, `instance-of-human`, and `human-name` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
-9. Add `organization-qid` and `instance-of-organization` columns; consolidate `structured_value` and `instance_of` columns; finalize workflow: [JSON][name_finalize]
+9. Add `organization-qid`, `instance-of-organization`, `organization-name` columns; consolidate `structured_value` and `instance_of` columns; finalize workflow: [JSON][name_finalize]
 10. Filter for rows with structured values; export from OpenRefine as CSV file.
 
 [name_workflow]:    json/name/010-name-workflow.json
