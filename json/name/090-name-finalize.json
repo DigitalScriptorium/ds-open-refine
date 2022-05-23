@@ -34,9 +34,9 @@
     "baseColumnName": "organization-qid",
     "expression": "join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')",
     "onError": "keep-original",
-    "newColumnName": "name_wikidata",
+    "newColumnName": "structured_value",
     "columnInsertIndex": 3,
-    "description": "Create column name_wikidata at index 3 based on column organization-qid using expression join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')"
+    "description": "Create column structured_value at index 3 based on column organization-qid using expression join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')"
   },
   {
     "op": "core/column-addition",
@@ -47,9 +47,9 @@
     "baseColumnName": "instance-of-organization",
     "expression": "join ([coalesce(cells['instance-of-organization'].value,''),coalesce(cells['instance-of-human'].value,'')],'')",
     "onError": "keep-original",
-    "newColumnName": "name_instance_of",
+    "newColumnName": "instance_of",
     "columnInsertIndex": 5,
-    "description": "Create column name_instance_of at index 5 based on column instance-of-organization using expression join ([coalesce(cells['instance-of-organization'].value,''),coalesce(cells['instance-of-human'].value,'')],'')"
+    "description": "Create column instance_of at index 5 based on column instance-of-organization using expression join ([coalesce(cells['instance-of-organization'].value,''),coalesce(cells['instance-of-human'].value,'')],'')"
   },
   {
     "op": "core/column-removal",
