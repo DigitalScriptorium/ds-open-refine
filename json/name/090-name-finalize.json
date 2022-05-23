@@ -9,8 +9,8 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "organization-qid",
-    "columnInsertIndex": 2,
-    "description": "Create column organization-qid at index 2 based on column recon-organization using expression grel:cell.recon.match.id"
+    "columnInsertIndex": 6,
+    "description": "Create column organization-qid at index 6 based on column recon-organization using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
@@ -22,8 +22,21 @@
     "expression": "grel:if(isNonBlank(cells[\"organization-qid\"]),\"organization\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "instance-of-organization",
-    "columnInsertIndex": 3,
-    "description": "Create column instance-of-organization at index 3 based on column organization-qid using expression grel:if(isNonBlank(cells[\"organization-qid\"]),\"organization\",\"\")"
+    "columnInsertIndex": 7,
+    "description": "Create column instance-of-organization at index 7 based on column organization-qid using expression grel:if(isNonBlank(cells[\"organization-qid\"]),\"organization\",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "organization-name",
+    "columnInsertIndex": 8,
+    "description": "Create column organization-name at index 8 based on column recon-organization using expression grel:cell.recon.match.name"
   },
   {
     "op": "core/column-addition",
@@ -35,8 +48,8 @@
     "expression": "join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "structured_value",
-    "columnInsertIndex": 3,
-    "description": "Create column structured_value at index 3 based on column organization-qid using expression join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')"
+    "columnInsertIndex": 4,
+    "description": "Create column structured_value at index 4 based on column organization-qid using expression join ([coalesce(cells['organization-qid'].value,''),coalesce(cells['human-qid'].value,'')],'')"
   },
   {
     "op": "core/column-addition",
@@ -50,6 +63,19 @@
     "newColumnName": "instance_of",
     "columnInsertIndex": 5,
     "description": "Create column instance_of at index 5 based on column instance-of-organization using expression join ([coalesce(cells['instance-of-organization'].value,''),coalesce(cells['instance-of-human'].value,'')],'')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "organization-name",
+    "expression": "join ([coalesce(cells['organization-name'].value,''),coalesce(cells['human-name'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "authorized_name",
+    "columnInsertIndex": 6,
+    "description": "Create column authorized_name at index 6 based on column organization-name using expression join ([coalesce(cells['organization-name'].value,''),coalesce(cells['human-name'].value,'')],'')"
   },
   {
     "op": "core/column-removal",
@@ -70,6 +96,16 @@
     "op": "core/column-removal",
     "columnName": "organization-qid",
     "description": "Remove column organization-qid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "human-name",
+    "description": "Remove column human-name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "organization-name",
+    "description": "Remove column organization-name"
   },
   {
     "op": "core/column-removal",
