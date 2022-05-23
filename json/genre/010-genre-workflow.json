@@ -5,12 +5,12 @@
       "facets": [],
       "mode": "record-based"
     },
-    "baseColumnName": "term",
+    "baseColumnName": "genre_as_recorded",
     "expression": "grel:rowIndex + 1",
     "onError": "set-to-blank",
     "newColumnName": "row_index",
     "columnInsertIndex": 1,
-    "description": "Create column row_index at index 1 based on column term using expression grel:rowIndex + 1"
+    "description": "Create column row_index at index 1 based on column genre_as_recorded using expression grel:rowIndex + 1"
   },
   {
     "op": "core/column-move",
