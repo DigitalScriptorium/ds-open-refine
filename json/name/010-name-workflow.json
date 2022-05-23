@@ -5,12 +5,12 @@
       "facets": [],
       "mode": "record-based"
     },
-    "baseColumnName": "name",
+    "baseColumnName": "name_as_recorded",
     "expression": "grel:rowIndex + 1",
     "onError": "set-to-blank",
     "newColumnName": "row_index",
     "columnInsertIndex": 1,
-    "description": "Create column row_index at index 1 based on column name using expression grel:rowIndex + 1"
+    "description": "Create column row_index at index 1 based on column name_as_recorded using expression grel:rowIndex + 1"
   },
   {
     "op": "core/column-move",
