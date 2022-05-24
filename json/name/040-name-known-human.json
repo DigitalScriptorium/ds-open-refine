@@ -29,6 +29,45 @@
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
       "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Aga Khan, Sadruddin, Prince, 1933-2003",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123987",
+      "name": "Prince Sadruddin Aga Khan",
+      "types": [
+        "Q5"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prince Sadruddin Aga Khan (Q123987) for cells containing \"Aga Khan, Sadruddin, Prince, 1933-2003\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Brecher, Adolf",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15217756",
+      "name": "Adolf Brecher",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Adolf Brecher (Q15217756) for cells containing \"Brecher, Adolf\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
       "mode": "record-based"
     },
     "columnName": "recon-human",
