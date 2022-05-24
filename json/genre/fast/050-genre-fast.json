@@ -6,11 +6,24 @@
       "mode": "row-based"
     },
     "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "fast-label",
+    "columnInsertIndex": 7,
+    "description": "Create column fast-label at index 7 based on column recon-genre using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "genre_fast",
-    "columnInsertIndex": 5,
-    "description": "Create column genre_fast at index 5 based on column recon-genre using expression grel:cell.recon.match.id"
+    "newColumnName": "genre-fast",
+    "columnInsertIndex": 8,
+    "description": "Create column genre-fast at index 8 based on column recon-genre using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/multivalued-cell-join",
@@ -21,10 +34,17 @@
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "genre_fast",
+    "columnName": "genre-fast",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column genre_fast"
+    "description": "Join multi-valued cells in column genre-fast"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "fast-label",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column fast-label"
   },
   {
     "op": "core/column-removal",
