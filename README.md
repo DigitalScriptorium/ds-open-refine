@@ -9,11 +9,11 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 3. Copy `name_as_recorded` column and reconcile new `recon-human` column against human type (Q5): [JSON][name_recon_human]
 4. Apply list of previously reconciled or known human names: [JSON][name_known_human]
 5. Manually reconcile and update known human names: *edit [JSON][name_known_human]*
-6. Add `human-qid`, `instance-of-human`, and `human-name` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
+6. Add `human-label`, `instance-of-human`, and `human-qid` columns; rename reconciliation column to `recon-organization` to reconcile against organization type (Q43229): [JSON][name_recon_org]
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
-9. Add `organization-qid`, `instance-of-organization`, `organization-name` columns; consolidate `structured_value`, `instance_of`, and `authorized_name` columns; finalize workflow: [JSON][name_finalize]
-10. Filter for rows with structured values; export from OpenRefine as CSV file.
+9. Add `organization-label`, `instance-of-organization`, and `organization-qid` columns; consolidate `authorized_label`, `instance_of`, and `structured_value` columns; finalize workflow: [JSON][name_finalize]
+10. Export three versions from OpenRefine as CSV file: full document, filtered for `structured_value` = true, filtered for `structured_value` = false
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
@@ -38,7 +38,7 @@ json/name/090-name-finalize.json
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
-6. Add `structured_value` column; finalize workflow: [JSON][place_finalize]
+6. Add `structured_value` and `authorized label column; finalize workflow: [JSON][place_finalize]
 7. Export from OpenRefine as CSV file.
 
 [place_workflow]:    json/place/010-place-workflow.json
