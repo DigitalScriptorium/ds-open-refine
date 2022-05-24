@@ -9,7 +9,7 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "human-qid",
-    "columnInsertIndex": 5,
+    "columnInsertIndex": 8,
     "description": "Create column human-qid at index 5 based on column recon-human using expression grel:cell.recon.match.id"
   },
   {
@@ -22,7 +22,7 @@
     "expression": "grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "instance-of-human",
-    "columnInsertIndex": 6,
+    "columnInsertIndex": 9,
     "description": "Create column instance-of-human at index 6 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
   },
   {
@@ -35,7 +35,7 @@
     "expression": "grel:cell.recon.match.name",
     "onError": "set-to-blank",
     "newColumnName": "human-name",
-    "columnInsertIndex": 7,
+    "columnInsertIndex": 10,
     "description": "Create column human-name at index 7 based on column recon-human using expression grel:cell.recon.match.name"
   },
   {
@@ -48,8 +48,8 @@
     "expression": "grel:if(isBlank(cells[\"human-qid\"]),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-organization",
-    "columnInsertIndex": 5,
-    "description": "Create column recon-organization at index 5 based on column recon-human using expression grel:if(isBlank(cells[\"human-qid\"]),value,\"\")"
+    "columnInsertIndex": 8,
+    "description": "Create column recon-organization at index 8 based on column recon-human using expression grel:if(isBlank(cells[\"human-qid\"]),value,\"\")"
   },
   {
     "op": "core/recon",
