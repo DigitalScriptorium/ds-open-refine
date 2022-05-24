@@ -8,22 +8,9 @@
     "baseColumnName": "recon-human",
     "expression": "grel:cell.recon.match.name",
     "onError": "set-to-blank",
-    "newColumnName": "human-name",
+    "newColumnName": "human-label",
     "columnInsertIndex": 8,
-    "description": "Create column human-name at index 8 based on column recon-human using expression grel:cell.recon.match.name"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "recon-human",
-    "expression": "grel:cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "human-qid",
-    "columnInsertIndex": 9,
-    "description": "Create column human-qid at index 9 based on column recon-human using expression grel:cell.recon.match.id"
+    "description": "Create column human-label at index 8 based on column recon-human using expression grel:cell.recon.match.name"
   },
   {
     "op": "core/column-addition",
@@ -35,10 +22,22 @@
     "expression": "grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")",
     "onError": "set-to-blank",
     "newColumnName": "instance-of-human",
-    "columnInsertIndex": 10,
-    "description": "Create column instance-of-human at index 10 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
+    "columnInsertIndex": 9,
+    "description": "Create column instance-of-human at index 9 based on column human-qid using expression grel:if(isNonBlank(cells[\"human-qid\"]),\"human\",\"\")"
   },
-
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-human",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "human-qid",
+    "columnInsertIndex": 10,
+    "description": "Create column human-qid at index 10 based on column recon-human using expression grel:cell.recon.match.id"
+  },
   {
     "op": "core/column-addition",
     "engineConfig": {
