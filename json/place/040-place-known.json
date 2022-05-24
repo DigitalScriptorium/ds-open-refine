@@ -4509,5 +4509,28 @@
     },
     "shareNewTopics": false,
     "description": "Match item Šibenik (tgn/7015447) for cells containing \"Šibenik\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Nola",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7004644",
+      "name": "Nola",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 28.482567
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nola (tgn/7004644) for cells containing \"Nola\" in column recon-place"
   }
 ]
