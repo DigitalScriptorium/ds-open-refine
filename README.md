@@ -13,7 +13,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-label`, `instance-of-organization`, and `organization-qid` columns; consolidate `authorized_label`, `instance_of`, and `structured_value` columns; finalize workflow: [JSON][name_finalize]
-10. Export three versions from OpenRefine as CSV file: full document, filtered for `structured_value` = true, filtered for `structured_value` = false
+10. Export three versions from OpenRefine as CSV file: 1) full document, 2) filtered for `structured_value` = true, 3) filtered for `structured_value` = false
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
@@ -38,8 +38,8 @@ json/name/090-name-finalize.json
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
-6. Add `structured_value` and `authorized label column; finalize workflow: [JSON][place_finalize]
-7. Export from OpenRefine as CSV file.
+6. Add `structured_value` and `authorized label` columns; finalize workflow: [JSON][place_finalize]
+7. Export two versions from OpenRefine as CSV file: 1) full document, 2) filtered for `structured_value` = true
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
