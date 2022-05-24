@@ -47,7 +47,8 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "engineConfig": {],
+    "engineConfig": {
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-human",
