@@ -39,28 +39,6 @@
     "description": "Text transform on cells in column recon-genre using expression grel:value.replace(\" 16th century\",\"--16th century\")"
   },
   {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "recon-genre",
-    "config": {
-      "mode": "standard-service",
-      "service": "http://localhost:5000/reconcile",
-      "identifierSpace": "http://localhost/identifier",
-      "schemaSpace": "http://localhost/schema",
-      "type": {
-        "id": "/fast/all",
-        "name": "/fast/all"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column recon-genre to type /fast/all"
-  },
-  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
