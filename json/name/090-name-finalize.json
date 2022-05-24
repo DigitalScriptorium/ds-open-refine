@@ -18,6 +18,19 @@
       "facets": [],
       "mode": "row-based"
     },
+    "baseColumnName": "recon-organization",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "organization-qid",
+    "columnInsertIndex": 9,
+    "description": "Create column organization-qid at index 9 based on column recon-organization using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
     "baseColumnName": "organization-qid",
     "expression": "grel:if(isNonBlank(cells[\"organization-qid\"]),\"organization\",\"\")",
     "onError": "set-to-blank",
@@ -31,25 +44,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "recon-organization",
-    "expression": "grel:cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "organization-qid",
-    "columnInsertIndex": 10,
-    "description": "Create column organization-qid at index 10 based on column recon-organization using expression grel:cell.recon.match.id"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "organization-name",
-    "expression": "join ([coalesce(cells['organization-name'].value,''),coalesce(cells['human-name'].value,'')],'')",
+    "baseColumnName": "organization-label",
+    "expression": "join ([coalesce(cells['organization-label'].value,''),coalesce(cells['human-label'].value,'')],'')",
     "onError": "keep-original",
     "newColumnName": "authorized_label",
     "columnInsertIndex": 7,
-    "description": "Create column authorized_name at index 7 based on column organization-name using expression join ([coalesce(cells['organization-name'].value,''),coalesce(cells['human-name'].value,'')],'')"
+    "description": "Create column authorized_label at index 7 based on column organization-label using expression join ([coalesce(cells['organization-label'].value,''),coalesce(cells['human-label'].value,'')],'')"
   },
   {
     "op": "core/column-addition",
