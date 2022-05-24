@@ -6,18 +6,38 @@
       "mode": "row-based"
     },
     "baseColumnName": "recon-place",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "authorized_label",
+    "columnInsertIndex": 5,
+    "description": "Create column authorized_label at index 5 based on column recon-place using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-place",
     "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "place_tgn",
-    "columnInsertIndex": 5,
-    "description": "Create column place_tgn at index 5 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "newColumnName": "structured_value",
+    "columnInsertIndex": 6,
+    "description": "Create column structured_value at index 6 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "place_tgn",
+    "columnName": "authorized_label",
     "keyColumnName": "row_index",
     "separator": "|",
-    "description": "Join multi-valued cells in column place_tgn"
+    "description": "Join multi-valued cells in column authorized_label"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "structured_value",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column structured_value"
   },
   {
     "op": "core/multivalued-cell-join",
