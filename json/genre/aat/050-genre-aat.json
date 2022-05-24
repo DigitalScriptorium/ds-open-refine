@@ -6,11 +6,24 @@
       "mode": "row-based"
     },
     "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "aat-label",
+    "columnInsertIndex": 7,
+    "description": "Create column aat-label at index 7 based on column recon-genre using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
     "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "genre_aat",
-    "columnInsertIndex": 5,
-    "description": "Create column genre_aat at index 5 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "columnInsertIndex": 8,
+    "description": "Create column genre_aat at index 8 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
   },
   {
     "op": "core/column-removal",
