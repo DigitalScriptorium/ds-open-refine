@@ -1,5 +1,51 @@
 [
   {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "fast-label",
+    "expression": "join ([coalesce(cells['fast-label'].value,''),coalesce(cells['aat-label'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "authorized_label",
+    "columnInsertIndex": 7,
+    "description": "Create column authorized_label at index 7 based on column fast-label using expression join ([coalesce(cells['fast-label'].value,''),coalesce(cells['aat-label'].value,'')],'')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "genre-fast",
+    "expression": "join ([coalesce(cells['genre-fast'].value,''),coalesce(cells['genre-aat'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "structured_value",
+    "columnInsertIndex": 9,
+    "description": "Create column structured_value at index 9 based on column genre-fast using expression join ([coalesce(cells['genre-fast'].value,''),coalesce(cells['genre-aat'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "fast-label",
+    "description": "Remove column fast-label"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "genre-fast",
+    "description": "Remove column genre-fast"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "aat-label",
+    "description": "Remove column aat-label"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "genre-aat",
+    "description": "Remove column genre-aat"
+  },
+  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
