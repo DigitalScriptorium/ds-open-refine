@@ -9,8 +9,8 @@
     "expression": "grel:value",
     "onError": "set-to-blank",
     "newColumnName": "recon-human",
-    "columnInsertIndex": 4,
-    "description": "Create column recon-human at index 4 based on column name_as_recorded using expression grel:value"
+    "columnInsertIndex": 7,
+    "description": "Create column recon-human at index 7 based on column name_as_recorded using expression grel:value"
   },
   {
     "op": "core/recon",
