@@ -21,9 +21,9 @@
     "baseColumnName": "recon-genre",
     "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "genre_aat",
+    "newColumnName": "genre-aat",
     "columnInsertIndex": 8,
-    "description": "Create column genre_aat at index 8 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "description": "Create column genre-aat at index 8 based on column recon-genre using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
   },
   {
     "op": "core/column-removal",
