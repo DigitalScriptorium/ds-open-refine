@@ -72,6 +72,16 @@
     "description": "Text transform on cells in column structured_value using expression join ([coalesce(cells['structured_value'].value,''),coalesce(cells['structured_value_add'].value,'')],'|')"
   },
   {
+    "op": "core/column-removal",
+    "columnName": "authorized_label_add",
+    "description": "Remove column authorized_label_add"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "structured_value_add",
+    "description": "Remove column structured_value_add"
+  },
+  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
