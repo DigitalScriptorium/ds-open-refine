@@ -1393,7 +1393,6 @@
     "shareNewTopics": false,
     "description": "Match item Ninth century (http://id.worldcat.org/fast/1037854) for cells containing \"9th century\" in column recon-genre"
   },
-  [
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
