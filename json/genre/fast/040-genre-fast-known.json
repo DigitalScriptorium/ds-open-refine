@@ -1180,7 +1180,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "11th century.",
+    "similarValue": "11th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/908096",
@@ -1191,7 +1191,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Eleventh century (http://id.worldcat.org/fast/908096) for cells containing \"11th century.\" in column recon-genre"
+    "description": "Match item Eleventh century (http://id.worldcat.org/fast/908096) for cells containing \"11th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1200,7 +1200,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "14th century.",
+    "similarValue": "14th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/933420",
@@ -1211,7 +1211,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Fourteenth century (http://id.worldcat.org/fast/933420) for cells containing \"14th century.\" in column recon-genre"
+    "description": "Match item Fourteenth century (http://id.worldcat.org/fast/933420) for cells containing \"14th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1220,7 +1220,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "16th century.",
+    "similarValue": "16th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1119851",
@@ -1231,7 +1231,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Sixteenth century (http://id.worldcat.org/fast/1119851) for cells containing \"16th century.\" in column recon-genre"
+    "description": "Match item Sixteenth century (http://id.worldcat.org/fast/1119851) for cells containing \"16th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1240,7 +1240,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "17th century.",
+    "similarValue": "17th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1113663",
@@ -1251,7 +1251,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Seventeenth century (http://id.worldcat.org/fast/1113663) for cells containing \"17th century.\" in column recon-genre"
+    "description": "Match item Seventeenth century (http://id.worldcat.org/fast/1113663) for cells containing \"17th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1260,7 +1260,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "18th century.",
+    "similarValue": "18th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/904058",
@@ -1271,7 +1271,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Eighteenth century (http://id.worldcat.org/fast/904058) for cells containing \"18th century.\" in column recon-genre"
+    "description": "Match item Eighteenth century (http://id.worldcat.org/fast/904058) for cells containing \"18th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1280,7 +1280,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "15th century.",
+    "similarValue": "15th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/923962",
@@ -1291,7 +1291,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Fifteenth century (http://id.worldcat.org/fast/923962) for cells containing \"15th century.\" in column recon-genre"
+    "description": "Match item Fifteenth century (http://id.worldcat.org/fast/923962) for cells containing \"15th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1300,7 +1300,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "19th century.",
+    "similarValue": "19th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1037841",
@@ -1311,7 +1311,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Nineteenth century (http://id.worldcat.org/fast/1037841) for cells containing \"19th century.\" in column recon-genre"
+    "description": "Match item Nineteenth century (http://id.worldcat.org/fast/1037841) for cells containing \"19th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1320,7 +1320,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "20th century.",
+    "similarValue": "20th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1159810",
@@ -1331,7 +1331,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Twentieth century (http://id.worldcat.org/fast/1159810) for cells containing \"20th century.\" in column recon-genre"
+    "description": "Match item Twentieth century (http://id.worldcat.org/fast/1159810) for cells containing \"20th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1340,7 +1340,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "12th century.",
+    "similarValue": "12th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1159791",
@@ -1351,7 +1351,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Twelfth century (http://id.worldcat.org/fast/1159791) for cells containing \"12th century.\" in column recon-genre"
+    "description": "Match item Twelfth century (http://id.worldcat.org/fast/1159791) for cells containing \"12th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1360,7 +1360,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "13th century.",
+    "similarValue": "13th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1150138",
@@ -1371,7 +1371,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Thirteenth century (http://id.worldcat.org/fast/1150138) for cells containing \"13th century.\" in column recon-genre"
+    "description": "Match item Thirteenth century (http://id.worldcat.org/fast/1150138) for cells containing \"13th century\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1380,7 +1380,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-genre",
-    "similarValue": "9th century.",
+    "similarValue": "9th century",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1037854",
@@ -1391,6 +1391,27 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Ninth century (http://id.worldcat.org/fast/1037854) for cells containing \"9th century.\" in column recon-genre"
+    "description": "Match item Ninth century (http://id.worldcat.org/fast/1037854) for cells containing \"9th century\" in column recon-genre"
+  },
+  [
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Criticism, interpretation, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411635",
+      "name": "Criticism, interpretation, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Criticism, interpretation, etc. (http://id.worldcat.org/fast/1411635) for cells containing \"Criticism, interpretation, etc\" in column recon-genre"
   }
 ]
