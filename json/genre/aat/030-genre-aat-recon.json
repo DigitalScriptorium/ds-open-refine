@@ -13,6 +13,19 @@
     "description": "Create column recon-genre at index 6 based on column term using expression grel:if(cells[\"vocabulary\"].value==\"aat\",value,\"\")"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "grel:if(isBlank(cells[\"structured_value\"]),value,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-genre using expression grel:if(isBlank(cells[\"structured_value\"]),value,\"\")"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
