@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "name_as_recorded",
-    "expression": "grel:value",
+    "expression": "grel:if(isBlank(cells[\"structured_value_existing\"]),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-human",
     "columnInsertIndex": 7,
-    "description": "Create column recon-human at index 7 based on column name_as_recorded using expression grel:value"
+    "description": "Create column recon-human at index 7 based on column name_as_recorded using expression grel:if(isBlank(cells[\"structured_value_existing\"]),value,\"\")"
   },
   {
     "op": "core/recon",
