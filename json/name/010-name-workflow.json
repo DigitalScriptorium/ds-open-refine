@@ -19,6 +19,24 @@
     "description": "Move column row_index to position 0"
   },
   {
+    "op": "core/column-rename",
+    "oldColumnName": "structured_value",
+    "newColumnName": "structured_value_existing",
+    "description": "Rename column structured_value to structured_value_existing"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "instance_of",
+    "newColumnName": "instance_of_existing",
+    "description": "Rename column instance_of to instance_of_existing"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "authorized_label",
+    "newColumnName": "authorized_label_existing",
+    "description": "Rename column authorized_label to authorized_label_existing"
+  },
+  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
