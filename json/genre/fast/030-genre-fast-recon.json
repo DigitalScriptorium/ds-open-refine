@@ -6,7 +6,7 @@
       "mode": "row-based"
     },
     "baseColumnName": "genre_as_recorded",
-    "expression": "grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")",
+    "expression": "grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"gsafd\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\"),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
     "columnInsertIndex": 6,
