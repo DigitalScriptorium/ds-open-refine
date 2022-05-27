@@ -8,9 +8,9 @@
     "baseColumnName": "fast-label",
     "expression": "join ([coalesce(cells['fast-label'].value,''),coalesce(cells['aat-label'].value,'')],'')",
     "onError": "keep-original",
-    "newColumnName": "authorized_label",
+    "newColumnName": "authorized_label_add",
     "columnInsertIndex": 7,
-    "description": "Create column authorized_label at index 7 based on column fast-label using expression join ([coalesce(cells['fast-label'].value,''),coalesce(cells['aat-label'].value,'')],'')"
+    "description": "Create column authorized_label_add at index 7 based on column fast-label using expression join ([coalesce(cells['fast-label'].value,''),coalesce(cells['aat-label'].value,'')],'')"
   },
   {
     "op": "core/column-addition",
@@ -21,9 +21,9 @@
     "baseColumnName": "genre-fast",
     "expression": "join ([coalesce(cells['genre-fast'].value,''),coalesce(cells['genre-aat'].value,'')],'')",
     "onError": "keep-original",
-    "newColumnName": "structured_value",
+    "newColumnName": "structured_value_add",
     "columnInsertIndex": 9,
-    "description": "Create column structured_value at index 9 based on column genre-fast using expression join ([coalesce(cells['genre-fast'].value,''),coalesce(cells['genre-aat'].value,'')],'')"
+    "description": "Create column structured_value_add at index 9 based on column genre-fast using expression join ([coalesce(cells['genre-fast'].value,''),coalesce(cells['genre-aat'].value,'')],'')"
   },
   {
     "op": "core/column-removal",
