@@ -38,7 +38,7 @@ json/name/090-name-finalize.json
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
-6. Add `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
+6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
 7. Export two versions from OpenRefine as CSV file: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`
 
 [place_workflow]:    json/place/010-place-workflow.json
