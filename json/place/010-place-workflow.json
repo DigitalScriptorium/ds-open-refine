@@ -19,12 +19,6 @@
     "description": "Move column row_index to position 0"
   },
   {
-    "op": "core/column-rename",
-    "oldColumnName": "structured_value",
-    "newColumnName": "structured_value_previous",
-    "description": "Rename column structured_value to structured_value_previous"
-  },
-  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
