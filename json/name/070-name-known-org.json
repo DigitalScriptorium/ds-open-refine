@@ -289,5 +289,48 @@
     },
     "shareNewTopics": false,
     "description": "Match item Monastery of Benevívere (Q6898311) for cells containing \"Santa María de Benevívere (Monastery : Spain)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Iceland",
+    "judgment": "matched",
+    "match": {
+      "id": "Q189",
+      "name": "Iceland",
+      "types": [
+        "Q112099",
+        "Q3624078",
+        "Q6256"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iceland (Q189) for cells containing \"Iceland\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Saint-Benoît-sur-Loire (Abbey)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q956741",
+      "name": "Fleury Abbey",
+      "types": [
+        "Q160742",
+        "Q2742167"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fleury Abbey (Q956741) for cells containing \"Saint-Benoît-sur-Loire (Abbey)\" in column recon-organization"
   }
 ]
