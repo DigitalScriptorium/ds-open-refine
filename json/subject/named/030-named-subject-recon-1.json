@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "subject_as_recorded",
-    "expression": "grel:value",
+    "expression": "grel:if(isBlank(cells[\"structured_value\"]),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-subject",
-    "columnInsertIndex": 4,
-    "description": "Create column recon-subject at index 4 based on column subject_as_recorded using expression grel:value"
+    "columnInsertIndex": 5,
+    "description": "Create column recon-subject at index 5 based on column subject_as_recorded using expression grel:if(isBlank(cells[\"structured_value\"]),value,\"\")"
   },
   {
     "op": "core/text-transform",
@@ -19,11 +19,11 @@
       "mode": "row-based"
     },
     "columnName": "recon-subject",
-    "expression": "grel:value.replace(\"--Early works to 1900.\",\"\").replace(\"--Early works to 1800.\",\"\").replace(\"--Early works to 1700.\",\"\").replace(\"--Early works to 1600.\",\"\").replace(\"--Early works to 1500.\",\"\").replace(\"--Pre-Linnean works.\",\"\")",
+    "expression": "grel:value.replace(\"--Early works to 1900\",\"\").replace(\"--Early works to 1800\",\"\").replace(\"--Early works to 1700\",\"\").replace(\"--Early works to 1600\",\"\").replace(\"--Early works to 1500\",\"\").replace(\"--Pre-Linnean works\",\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"--Early works to 1900.\",\"\").replace(\"--Early works to 1800.\",\"\").replace(\"--Early works to 1700.\",\"\").replace(\"--Early works to 1600.\",\"\").replace(\"--Early works to 1500.\",\"\").replace(\"--Pre-Linnean works.\",\"\")"
+    "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"--Early works to 1900\",\"\").replace(\"--Early works to 1800\",\"\").replace(\"--Early works to 1700\",\"\").replace(\"--Early works to 1600\",\"\").replace(\"--Early works to 1500\",\"\").replace(\"--Pre-Linnean works\",\"\")"
   },
   {
     "op": "core/text-transform",
