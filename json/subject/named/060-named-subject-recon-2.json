@@ -9,9 +9,22 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "named-subject-fast-1",
-    "columnInsertIndex": 5,
-    "description": "Create column named-subject-fast-1 at index 5 based on column recon-subject using expression grel:cell.recon.match.id"
+    "columnInsertIndex": 6,
+    "description": "Create column named-subject-fast-1 at index 6 based on column recon-subject using expression grel:cell.recon.match.id"
   },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "named-subject-label-1",
+    "columnInsertIndex": 6,
+    "description": "Create column named-subject-label-1 at index 6 based on column recon-subject using expression grel:cell.recon.match.name"
+  }
   {
     "op": "core/column-rename",
     "oldColumnName": "recon-subject",
