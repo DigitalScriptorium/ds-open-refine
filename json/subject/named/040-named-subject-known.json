@@ -1384,5 +1384,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item ʻAqāʼid (Nasafī, ʻUmar ibn Muḥammad) (http://id.worldcat.org/fast/1381144) for cells containing \"ʻAqāʼid\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Doctrines",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1149617",
+      "name": "Theology, Doctrinal",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Theology, Doctrinal (http://id.worldcat.org/fast/1149617) for cells containing \"Doctrines\" in column recon-subject"
   }
 ]
