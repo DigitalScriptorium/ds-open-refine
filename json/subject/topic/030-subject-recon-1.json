@@ -19,11 +19,11 @@
       "mode": "row-based"
     },
     "columnName": "recon-subject",
-    "expression": "grel:value.replace(\"--Early works to 1900.\",\"\").replace(\"--Early works to 1800.\",\"\").replace(\"--Early works to 1700.\",\"\").replace(\"--Early works to 1600.\",\"\").replace(\"--Early works to 1500.\",\"\").replace(\"--Pre-Linnean works.\",\"\")",
+    "expression": "grel:value.replace(\"--Early works to 1900\",\"\").replace(\"--Early works to 1800\",\"\").replace(\"--Early works to 1700\",\"\").replace(\"--Early works to 1600\",\"\").replace(\"--Early works to 1500\",\"\").replace(\"--Pre-Linnean works\",\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"--Early works to 1900.\",\"\").replace(\"--Early works to 1800.\",\"\").replace(\"--Early works to 1700.\",\"\").replace(\"--Early works to 1600.\",\"\").replace(\"--Early works to 1500.\",\"\").replace(\"--Pre-Linnean works.\",\"\")"
+    "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"--Early works to 1900\",\"\").replace(\"--Early works to 1800\",\"\").replace(\"--Early works to 1700\",\"\").replace(\"--Early works to 1600\",\"\").replace(\"--Early works to 1500\",\"\").replace(\"--Pre-Linnean works\",\"\")"
   },
   {
     "op": "core/text-transform",
@@ -85,5 +85,5 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
-  },
+  }
 ]
