@@ -1804,5 +1804,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Turkish language (http://id.worldcat.org/fast/1159411) for cells containing \"Turkish\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Adriatic Sea",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1239504",
+      "name": "Mediterranean Sea--Adriatic Sea",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 57
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mediterranean Sea--Adriatic Sea (http://id.worldcat.org/fast/1239504) for cells containing \"Adriatic Sea\" in column recon-subject"
   }
 ]
