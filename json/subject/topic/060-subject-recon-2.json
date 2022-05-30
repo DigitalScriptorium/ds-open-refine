@@ -19,6 +19,19 @@
       "mode": "row-based"
     },
     "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-1",
+    "columnInsertIndex": 6,
+    "description": "Create column subject-label-1 at index 6 based on column recon-subject using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
     "expression": "grel:if(isBlank(cells[\"subject-fast-1\"]),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "subject-strings",
