@@ -9,8 +9,8 @@
     "expression": "grel:cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "subject-fast-1",
-    "columnInsertIndex": 5,
-    "description": "Create column subject-fast-1 at index 5 based on column recon-subject using expression grel:cell.recon.match.id"
+    "columnInsertIndex": 6,
+    "description": "Create column subject-fast-1 at index 6 based on column recon-subject using expression grel:cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
