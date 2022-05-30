@@ -13,7 +13,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-label`, `instance-of-organization`, and `organization-qid` columns; consolidate `authorized_label`, `instance_of`, and `structured_value` columns; finalize workflow: [JSON][name_finalize]
-10. Export three versions from OpenRefine as CSV file: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
+10. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
@@ -39,7 +39,7 @@ json/name/090-name-finalize.json
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
 6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
-7. Export two versions from OpenRefine as CSV file: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`
+7. Export two versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
@@ -87,7 +87,7 @@ json/place/090-place-finalize.json
 ### all genre terms: finalize
 
 7. Finalize workflow; consolidate `authorized_label` and `structured_value` columns: [JSON][genre_finalize]
-8. Export from OpenRefine as CSV file.
+8. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
@@ -111,11 +111,11 @@ json/genre/090-genre-finalize.json
 3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][named_subject_recon_1]
 4. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
 5. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
-6. Add `named-subject-fast-1` column, reconcile next `recon-subject` column: [JSON][named_subject_recon_2]
+6. Add `named-subject-label-1` and `named-subject-fast-1` columns, reconcile next `recon-subject` column: [JSON][named_subject_recon_2]
 7. Apply list of previously reconciled or known FAST terms: [JSON][named_subject_known]
 8. Manually reconcile and update known FAST terms: *edit [JSON][named_subject_known]*
-9. Add `names-subject-fast-2` column; consolidate `structured_value` column; finalize workflow: [JSON][named_subject_finalize]
-10. Export from OpenRefine as CSV file.
+9. Add `named-subject-label-2` and `named-subject-fast-2` columns; consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][named_subject_finalize]
+10. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
 
 [subject_workflow]:         json/subject/010-subject-workflow.json
 [named_subject_recon_1]:    json/subject/named/030-named-subject-recon-1.json
@@ -131,13 +131,14 @@ json/genre/090-genre-finalize.json
 3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][subject_recon_1]
 4. Apply list of previously reconciled or known FAST terms: [JSON][subject_known]
 5. Manually reconcile and update known FAST terms: *edit [JSON][subject_known]*
-6. Add `subject-fast-1` column, reconcile next `recon-subject` column: [JSON][subject_recon_2]
+6. Add `subject-label-1` and `subject-fast-1` columns, reconcile next `recon-subject` column: [JSON][subject_recon_2]
 7. Apply list of previously reconciled or known FAST terms: [JSON][subject_known]
 8. Manually reconcile and update known FAST terms: *edit [JSON][subject_known]*
-9. Add `subject-fast-2` column, reconcile next `recon-subject` column: [JSON][subject_recon_3]
+9. Add `subject-label-2` and `subject-fast-2` columns, reconcile next `recon-subject` column: [JSON][subject_recon_3]
 10. Apply list of previously reconciled or known FAST terms: [JSON][subject_known]
 11. Manually reconcile and update known FAST terms: *edit [JSON][subject_known]*
-12. Add `subject-fast-3` column; consolidate `structured_value` column; finalize workflow: [JSON][subject_finalize]
+12. Add `subject-label-3` and `subject-fast-3` columns; consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][subject_finalize]
+13. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
 
 [subject_recon_1]:    json/subject/topic/030-subject-recon-1.json
 [subject_known]:      json/subject/topic/040-subject-known.json
