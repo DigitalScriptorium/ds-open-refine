@@ -58,13 +58,13 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "named-subject-label-2",
-    "expression": "join ([coalesce(cells['named-subject-label-2'].value,''),coalesce(cells['named-subject-label-1'].value,'')],'|')",
-    "onError": "keep-original",
+    "baseColumnName": "named-subject-fast-2",
+    "expression": "grel:join([cells[\"named-subject-label-2\"].value,cells[\"named-subject-label-1\"].value],\"|\")",
+    "onError": "set-to-blank",
     "newColumnName": "authorized_label_add",
     "columnInsertIndex": 6,
-    "description": "Create column authorized_label_add at index 6 based on column named-subject-label-2 using expression join ([coalesce(cells['named-subject-label-2'].value,''),coalesce(cells['named-subject-label-1'].value,'')],'|')"
-  }, 
+    "description": "Create column authorized_label_add at index 6 based on column named-subject-label-2 using expression grel:join([cells[\"named-subject-label-2\"].value,cells[\"named-subject-label-1\"].value],\"|\")"
+  },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "structured_value_add",
