@@ -1464,5 +1464,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Śārīrakamīmāṃsābhāṣya (Śaṅkarācārya) (http://id.worldcat.org/fast/1365134) for cells containing \"Śārīrakamīmāṃsābhāṣya\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nasafī, ʻUmar ibn Muḥammad, 1068?-1142",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/42663",
+      "name": "Nasafī, ʻUmar ibn Muḥammad, 1068?-1142",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nasafī, ʻUmar ibn Muḥammad, 1068?-1142 (http://id.worldcat.org/fast/42663) for cells containing \"Nasafī, ʻUmar ibn Muḥammad, 1068?-1142\" in column recon-subject"
   }
 ]
