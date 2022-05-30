@@ -1448,26 +1448,6 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "recon-subject",
-    "similarValue": "Śārīrakamīmāṃsābhāṣya",
-    "judgment": "matched",
-    "match": {
-      "id": "http://id.worldcat.org/fast/1365134",
-      "name": "Śārīrakamīmāṃsābhāṣya (Śaṅkarācārya)",
-      "types": [
-        "/fast/all"
-      ],
-      "score": 76
-    },
-    "shareNewTopics": false,
-    "description": "Match item Śārīrakamīmāṃsābhāṣya (Śaṅkarācārya) (http://id.worldcat.org/fast/1365134) for cells containing \"Śārīrakamīmāṃsābhāṣya\" in column recon-subject"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
       "facets": [
         {
           "type": "list",
