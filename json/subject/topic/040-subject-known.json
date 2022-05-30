@@ -1824,5 +1824,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Mediterranean Sea--Adriatic Sea (http://id.worldcat.org/fast/1239504) for cells containing \"Adriatic Sea\" in column recon-subject"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Dutch War, 1672-1678",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/899702",
+      "name": "Dutch War (1672-1678)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dutch War (1672-1678) (http://id.worldcat.org/fast/899702) for cells containing \"Dutch War, 1672-1678\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nola (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1217539",
+      "name": "Italy--Nola",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Nola (http://id.worldcat.org/fast/1217539) for cells containing \"Nola (Italy)\" in column recon-subject"
   }
 ]
