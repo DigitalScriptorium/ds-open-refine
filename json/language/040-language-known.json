@@ -708,7 +708,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-language",
-    "similarValue": "with some French translations in the first conjugation table (f 8r-9r)",
+    "similarValue": "with some French translations in the first conjugation table",
     "judgment": "matched",
     "match": {
       "id": "Q150",
@@ -719,7 +719,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item French (Q150) for cells containing \"with some French translations in the first conjugation table (f 8r-9r)\" in column recon-language"
+    "description": "Match item French (Q150) for cells containing \"with some French translations in the first conjugation table\" in column recon-language"
   },
   {
     "op": "core/recon-judge-similar-cells",
