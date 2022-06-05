@@ -1,1 +1,824 @@
-
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Anglo-Norman",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35214",
+      "name": "Anglo-Norman",
+      "types": [
+        "Q45762",
+        "Q2315359"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anglo-Norman (Q35214) for cells containing \"Anglo-Norman\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Catalan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7026",
+      "name": "Catalan",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catalan (Q7026) for cells containing \"Catalan\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Danish",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9035",
+      "name": "Danish",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Danish (Q9035) for cells containing \"Danish\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Flemish",
+    "judgment": "matched",
+    "match": {
+      "id": "Q34147",
+      "name": "Flemish",
+      "types": [
+        "Q34770",
+        "Q33384"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Flemish (Q34147) for cells containing \"Flemish\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Old Norse",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35505",
+      "name": "Old Norse",
+      "types": [
+        "Q45762",
+        "Q2315359",
+        "Q38058796"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Old Norse (Q35505) for cells containing \"Old Norse\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Middle High German (ca 1050-1500)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q837985",
+      "name": "Middle High German",
+      "types": [
+        "Q34770",
+        "Q2315359"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middle High German (Q837985) for cells containing \"Middle High German (ca 1050-1500)\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Chinese",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7850",
+      "name": "Chinese",
+      "types": [
+        "Q25295",
+        "Q152559",
+        "Q1288568"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chinese (Q7850) for cells containing \"Chinese\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "xno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35214",
+      "name": "Anglo-Norman",
+      "types": [
+        "Q45762",
+        "Q2315359"
+      ],
+      "score": 40
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anglo-Norman (Q35214) for cells containing \"xno\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "ger",
+    "judgment": "matched",
+    "match": {
+      "id": "Q188",
+      "name": "German",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 67
+    },
+    "shareNewTopics": false,
+    "description": "Match item German (Q188) for cells containing \"ger\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "san",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11059",
+      "name": "Sanskrit",
+      "types": [
+        "Q34770",
+        "Q436240"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sanskrit (Q11059) for cells containing \"san\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "dan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9035",
+      "name": "Danish",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Danish (Q9035) for cells containing \"dan\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Tashelhit Shilha",
+    "judgment": "matched",
+    "match": {
+      "id": "Q34152",
+      "name": "Shilha",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shilha (Q34152) for cells containing \"Tashelhit Shilha\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "fre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q150",
+      "name": "French",
+      "types": [
+        "Q1288568",
+        "Q33742",
+        "Q34770"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item French (Q150) for cells containing \"fre\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "ita",
+    "judgment": "matched",
+    "match": {
+      "id": "Q652",
+      "name": "Italian",
+      "types": [
+        "Q34770",
+        "Q661936",
+        "Q1288568"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italian (Q652) for cells containing \"ita\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "chi",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7850",
+      "name": "Chinese",
+      "types": [
+        "Q25295",
+        "Q152559",
+        "Q1288568"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chinese (Q7850) for cells containing \"chi\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "dut",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7411",
+      "name": "Dutch",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dutch (Q7411) for cells containing \"dut\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "gre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9129",
+      "name": "Greek",
+      "types": [
+        "Q34770",
+        "Q1288568"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item Greek (Q9129) for cells containing \"gre\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "with some French translations in the first conjugation table (f 8r-9r)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q150",
+      "name": "French",
+      "types": [
+        "Q34770"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item French (Q150) for cells containing \"with some French translations in the first conjugation table (f 8r-9r)\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "ber",
+    "judgment": "matched",
+    "match": {
+      "id": "Q25448",
+      "name": "Berber",
+      "types": [
+        "Q34770"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Berber (Q25448) for cells containing \"ber\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "East Middle Dutch",
+    "judgment": "matched",
+    "match": {
+      "id": "Q178806",
+      "name": "Middle Dutch",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middle Dutch (Q178806) for cells containing \"East Middle Dutch\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "per",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9168",
+      "name": "Persian",
+      "types": [
+        ""
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Persian (Q9168) for cells containing \"per\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "No linguistic content",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22282939",
+      "name": "no linguistic content",
+      "types": [
+        ""
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item no linguistic content (Q22282939) for cells containing \"No linguistic content\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "zxx",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22282939",
+      "name": "no linguistic content",
+      "types": [
+        ""
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item no linguistic content (Q22282939) for cells containing \"zxx\" in column recon-language"
+  }
+]
