@@ -193,6 +193,35 @@
     "description": "Text transform on cells in column recon-language using expression grel:if(cells[\"recon-language\"].value.contains(\"Old French\"),\"Old French\",value)"
   },
   {
+    "op": "core/multivalued-cell-join",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "separator": ",",
+    "description": "Join multi-valued cells in column recon-language"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "expression": "jython:deduped_list = list(set(value.split(\",\")))\nreturn ','.join(map(str, deduped_list))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-language using expression jython:deduped_list = list(set(value.split(\",\")))\nreturn ','.join(map(str, deduped_list))"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-language",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-language"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
