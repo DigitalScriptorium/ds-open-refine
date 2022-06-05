@@ -171,12 +171,12 @@ json/subject/topic/120-subject-finalize.json
 
 [language_workflow]:  json/language/010-language-workflow.json
 [language_recon]:     json/language/030-language-recon.json
-[language_known]:     json/language/040-language-recon.json
+[language_known]:     json/language/040-language-known.json
 [language_finalize]:  json/language/090-language-finalize.json
 
 ```
 json/language/010-language-workflow.json
 json/language/030-language-recon.json
-json/language/040-language-recon.json
+json/language/040-language-known.json
 json/language/090-language-finalize.json
 ```
