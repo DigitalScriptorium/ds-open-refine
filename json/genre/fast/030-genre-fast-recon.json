@@ -102,7 +102,7 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"GENRE FAST RECON, STEP 3: START FAST RECON \"+now()",
+    "expression": "grel:\"GENRE FAST RECON STEP 3: START FAST RECON \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
