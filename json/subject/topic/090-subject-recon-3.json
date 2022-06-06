@@ -78,11 +78,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "subject-strings 1",
-    "expression": "grel:join([cells[\"subject-strings 1\"].value,cells[\"subject-strings 2\"].value,cells[\"subject-strings 3\"].value,cells[\"subject-strings 4\"].value],\"--\")",
+    "expression": "grel:join([cells[\"subject-strings 1\"].value,cells[\"subject-strings 2\"].value,cells[\"subject-strings 3\"].value,cells[\"subject-strings 4\"].value,cells[\"subject-strings 5\"].value],\"--\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-subject",
     "columnInsertIndex": 6,
-    "description": "Create column recon-subject at index 6 based on column subject-strings 1 using expression grel:join([cells[\"subject-strings 1\"].value,cells[\"subject-strings 2\"].value,cells[\"subject-strings 3\"].value,cells[\"subject-strings 4\"].value],\"--\")"
+    "description": "Create column recon-subject at index 6 based on column subject-strings 1 using expression grel:join([cells[\"subject-strings 1\"].value,cells[\"subject-strings 2\"].value,cells[\"subject-strings 3\"].value,cells[\"subject-strings 4\"].value,cells[\"subject-strings 5\"].value],\"--\")"
   },
   {
     "op": "core/column-removal",
@@ -103,6 +103,11 @@
     "op": "core/column-removal",
     "columnName": "subject-strings 4",
     "description": "Remove column subject-strings 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-strings 5",
+    "description": "Remove column subject-strings 5"
   },
   {
     "op": "core/column-removal",
