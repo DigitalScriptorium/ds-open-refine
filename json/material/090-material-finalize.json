@@ -646,11 +646,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"MATERIAL RECON STEP 3: FINALIZED \"+now()",
+    "expression": "grel:\"MATERIAL RECON, STEP 3: FINALIZED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"MATERIAL RECON STEP 3: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"MATERIAL RECON, STEP 3: FINALIZED \"+now()"
   },
   {
     "op": "core/text-transform",
