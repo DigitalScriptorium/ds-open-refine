@@ -263,11 +263,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"LANGUAGE RECON STEP 3: START LANGUAGE RECON \" + now()",
+    "expression": "grel:\"LANGUAGE RECON, STEP 3: START LANGUAGE RECON \" + now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"LANGUAGE RECON STEP 3: START LANGUAGE RECON \" + now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"LANGUAGE RECON, STEP 3: START LANGUAGE RECON \" + now()"
   },
   {
     "op": "core/text-transform",
