@@ -185,19 +185,13 @@ json/language/090-language-finalize.json
 
 1. Load `DATE-materials-combined.csv` into OpenRefine; rename `DATE-materials-combined-enriched.csv`
 2. Add workflow columns: [JSON][material_workflow]
-3. Copy `material_as_recorded` column and match new `recon-material` column against fixed list from AAT: [JSON][material_match]
-5. Update known materials, if necessary: *edit [JSON][material_list]*
-6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][material_finalize]
-7. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
+3. Copy `material_as_recorded` column, match new `recon-material` column against fixed list from AAT, consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][material_finalize]
+4. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
 
 [material_workflow]:  json/material/010-material-workflow.json
-[material_match]:     json/material/030-material-match.json
-[material_list]:      json/material/040-material-list.json
 [material_finalize]:  json/material/090-material-finalize.json
 
 ```
 json/material/010-material-workflow.json
-json/material/030-material-match.json
-json/material/040-material-list.json
 json/material/090-material-finalize.json
 ```
