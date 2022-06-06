@@ -3,7 +3,7 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "recon-subject",
     "expression": "grel:cell.recon.match.id",
@@ -16,7 +16,7 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "recon-subject",
     "expression": "grel:cell.recon.match.name",
@@ -43,7 +43,7 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "subject-fast-1",
     "expression": "grel:join([cells[\"subject-fast-1\"].value,cells[\"subject-fast-2\"].value,cells[\"subject-fast-3\"].value],\"|\")",
@@ -56,7 +56,7 @@
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
-      "mode": "record-based"
+      "mode": "row-based"
     },
     "baseColumnName": "subject-label-1",
     "expression": "grel:join([cells[\"subject-label-1\"].value,cells[\"subject-label-2\"].value,cells[\"subject-label-3\"].value],\"|\")",
@@ -154,11 +154,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"SUBJECT RECON STEP 12: FINALIZED \"+now()",
+    "expression": "grel:\"SUBJECT RECON, STEP 12: FINALIZED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON STEP 12: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 12: FINALIZED \"+now()"
   },
   {
     "op": "core/text-transform",
