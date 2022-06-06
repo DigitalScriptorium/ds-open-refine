@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()",
+    "expression": "grel:\"NAMED SUBJECT RECON, STEP 4: KNOWN NAMED SUBJECT RECON APPLIED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"NAMED SUBJECT RECON, STEP 4: KNOWN NAMED SUBJECT RECON APPLIED \"+now()"
   },
   {
     "op": "core/text-transform",
@@ -1484,5 +1484,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Nasafī, ʻUmar ibn Muḥammad, 1068?-1142 (http://id.worldcat.org/fast/42663) for cells containing \"Nasafī, ʻUmar ibn Muḥammad, 1068?-1142\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Early works to 1800",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works to 1800\" in column recon-subject"
   }
 ]
