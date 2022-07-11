@@ -588,14 +588,14 @@
     "op": "core/multivalued-cell-join",
     "columnName": "authorized_label_add",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column authorized_label_add"
   },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "recon-material",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column recon-material"
   },
   {
