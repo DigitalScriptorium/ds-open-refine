@@ -48,7 +48,7 @@
     "columnName": "recon-place",
     "keyColumnName": "row_index",
     "mode": "separator",
-    "separator": "or ",
+    "separator": " or ",
     "regex": false,
     "description": "Split multi-valued cells in column recon-place"
   },
@@ -57,7 +57,7 @@
     "columnName": "recon-place",
     "keyColumnName": "row_index",
     "mode": "separator",
-    "separator": "and ",
+    "separator": " and ",
     "regex": false,
     "description": "Split multi-valued cells in column recon-place"
   },
