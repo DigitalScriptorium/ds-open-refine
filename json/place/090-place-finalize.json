@@ -55,21 +55,21 @@
     "op": "core/multivalued-cell-join",
     "columnName": "authorized_label",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column authorized_label"
   },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "structured_value",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column structured_value"
   },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "recon-place",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column recon-place"
   },
   {
