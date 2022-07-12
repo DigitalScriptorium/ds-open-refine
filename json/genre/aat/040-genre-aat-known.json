@@ -7237,5 +7237,48 @@
     },
     "shareNewTopics": false,
     "description": "Match item Qur'ans (aat/300265128) for cells containing \"Qurʼans\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Notarial documents",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300164785",
+      "name": "notarial documents",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 28.417494
+    },
+    "shareNewTopics": false,
+    "description": "Match item notarial documents (aat/300164785) for cells containing \"Notarial documents\" in column recon-genre"
   }
 ]
