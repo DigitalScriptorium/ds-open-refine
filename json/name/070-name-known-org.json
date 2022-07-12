@@ -332,5 +332,153 @@
     },
     "shareNewTopics": false,
     "description": "Match item Fleury Abbey (Q956741) for cells containing \"Saint-Benoît-sur-Loire (Abbey)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "name_as_recorded",
+          "expression": "value.length()",
+          "columnName": "name_as_recorded",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Auchinleck Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q62631900",
+      "name": "Auchinleck Community Library",
+      "types": [
+        "Q28564"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Auchinleck Community Library (Q62631900) for cells containing \"Auchinleck Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "name_as_recorded",
+          "expression": "value.length()",
+          "columnName": "name_as_recorded",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Brunner Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26454778",
+      "name": "Northwich Library",
+      "types": [
+        "Q28564"
+      ],
+      "score": 81
+    },
+    "shareNewTopics": false,
+    "description": "Match item Northwich Library (Q26454778) for cells containing \"Brunner Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bernard Quaritch (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q65034936",
+      "name": "Bernard Quaritch Ltd",
+      "types": [
+        "Q4830453"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bernard Quaritch Ltd (Q65034936) for cells containing \"Bernard Quaritch (Firm)\" in column recon-organization"
   }
 ]
