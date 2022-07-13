@@ -1504,5 +1504,97 @@
     },
     "shareNewTopics": false,
     "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works to 1800\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "France_Marine",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/572933",
+      "name": "France. Marine",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item France. Marine (http://id.worldcat.org/fast/572933) for cells containing \"France_Marine\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 54,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Lamoignon de Basville, M de",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/195069",
+      "name": "Lamoignon de Basville, M. de (Nicolas), 1648-1724",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lamoignon de Basville, M. de (Nicolas), 1648-1724 (http://id.worldcat.org/fast/195069) for cells containing \"Lamoignon de Basville, M de\" in column recon-subject"
   }
 ]
