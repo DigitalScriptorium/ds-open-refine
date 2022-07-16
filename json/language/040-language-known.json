@@ -867,5 +867,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Icelandic (Q294) for cells containing \"ice\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Aramaic",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28602",
+      "name": "Aramaic",
+      "types": [
+        "Q34770"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aramaic (Q28602) for cells containing \"Aramaic\" in column recon-language"
   }
 ]
