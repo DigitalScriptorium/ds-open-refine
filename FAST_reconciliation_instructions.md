@@ -21,6 +21,6 @@ https://www.python.org/downloads/release/python-2718/
 7. From drop-down menu, choose `Reconcile` -> `Start reconciling`
 8. In the reconciliation service pop-up window, click the `Add Standard Service...` button
 9. Enter URL for the reconciliation service running locally (should run at `http://0.0.0.0:5000/`)
-10. Once setup, `Fast Reconciliation Service` should appear in the left-hand `Services` column
-11. Select reconciliation parameters and preferences
-12. Click `Start Reconciling...` button to begin reconciliation
+11. Select `Fast Reconciliation Service` from options in the left-hand `Services` column of pop-up window
+12. Select reconciliation parameters and preferences (e.g., entity types, details from other columns)
+13. Click `Start Reconciling...` button to begin reconciliation
