@@ -1676,5 +1676,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century (http://id.worldcat.org/fast/1825331) for cells containing \"Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1825501",
+      "name": "Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274 (http://id.worldcat.org/fast/1825501) for cells containing \"Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mas̲navī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362351",
+      "name": "Mas̲navī (Jalāl al-Dīn Rūmī, Maulana)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mas̲navī (Jalāl al-Dīn Rūmī, Maulana) (http://id.worldcat.org/fast/1362351) for cells containing \"Mas̲navī\" in column recon-subject"
   }
 ]
