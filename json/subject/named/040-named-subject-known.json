@@ -1596,5 +1596,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item Lamoignon de Basville, M. de (Nicolas), 1648-1724 (http://id.worldcat.org/fast/195069) for cells containing \"Lamoignon de Basville, M de\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century_Risālah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1376274",
+      "name": "Risālah (Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Risālah (Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān) (http://id.worldcat.org/fast/1376274) for cells containing \"Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century_Risālah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ayyuhā al-walad",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1368794",
+      "name": "Ayyuhā al-walad (Ghazzālī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 77
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ayyuhā al-walad (Ghazzālī) (http://id.worldcat.org/fast/1368794) for cells containing \"Ayyuhā al-walad\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1825331",
+      "name": "Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century (http://id.worldcat.org/fast/1825331) for cells containing \"Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century\" in column recon-subject"
   }
 ]
