@@ -13882,5 +13882,105 @@
     },
     "shareNewTopics": false,
     "description": "Match item Vernon James Watney (Q75333510) for cells containing \"Watney, Vernon James, 1860-1928\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Bashkuwāl, Khalaf ibn ʻAbd al-Malik, 1101-1183",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1655886",
+      "name": "Ḫalaf Ibn-ʿAbd-al-Malik Ibn-Baškuwāl",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ḫalaf Ibn-ʿAbd-al-Malik Ibn-Baškuwāl (Q1655886) for cells containing \"Ibn Bashkuwāl, Khalaf ibn ʻAbd al-Malik, 1101-1183\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Ghānim, ʻIzz al-Dīn ʻAbd al-Salām ibn Aḥmad, -1279",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15930652",
+      "name": "Izz al-Din al-Mosadeqi",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Izz al-Din al-Mosadeqi (Q15930652) for cells containing \"Ibn Ghānim, ʻIzz al-Dīn ʻAbd al-Salām ibn Aḥmad, -1279\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Qayyim al-Jawzīyah, Muḥammad ibn Abī Bakr, 1292-1350",
+    "judgment": "matched",
+    "match": {
+      "id": "Q119679",
+      "name": "Ibn Qayyim Al-Jawziy",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibn Qayyim Al-Jawziy (Q119679) for cells containing \"Ibn Qayyim al-Jawzīyah, Muḥammad ibn Abī Bakr, 1292-1350\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn al-Jawzī, Abū al-Faraj ʻAbd al-Raḥmān ibn ʻAlī, approximately 1116-1201",
+    "judgment": "matched",
+    "match": {
+      "id": "Q731866",
+      "name": "Abu'l-Faraj ibn al-Jawzi",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abu'l-Faraj ibn al-Jawzi (Q731866) for cells containing \"Ibn al-Jawzī, Abū al-Faraj ʻAbd al-Raḥmān ibn ʻAlī, approximately 1116-1201\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Raqqī, Ibrāhīm ibn Aḥmad, 1249 or 1250-1303 or 1304",
+    "judgment": "matched",
+    "match": {
+      "id": "Q60844447",
+      "name": "Ibrāhīm Ibn-Aḥmad ar- Raqqī",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ibrāhīm Ibn-Aḥmad ar- Raqqī (Q60844447) for cells containing \"Raqqī, Ibrāhīm ibn Aḥmad, 1249 or 1250-1303 or 1304\" in column recon-human"
   }
 ]
