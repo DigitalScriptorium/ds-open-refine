@@ -1750,5 +1750,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Biography (http://id.worldcat.org/fast/832149) for cells containing \"Biography\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Portraits",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1072324",
+      "name": "Portraits",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Portraits (http://id.worldcat.org/fast/1072324) for cells containing \"Portraits\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Correspondence",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/996779",
+      "name": "Letters",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Letters (http://id.worldcat.org/fast/996779) for cells containing \"Correspondence\" in column recon-subject"
   }
 ]
