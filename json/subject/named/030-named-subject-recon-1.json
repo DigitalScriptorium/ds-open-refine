@@ -139,6 +139,19 @@
     "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"History and criticism\",\"Criticism and Interpretation\")"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-subject",
+    "expression": "grel:value.replace(\"Spurious and doubtful works\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-subject using expression grel:value.replace(\"Spurious and doubtful works\",\"\")"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
