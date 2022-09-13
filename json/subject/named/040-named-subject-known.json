@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"KNOWN SUBJECT RECON APPLIED \"+now()",
+    "expression": "grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN SUBJECT RECON APPLIED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()"
   },
   {
     "op": "core/text-transform",
