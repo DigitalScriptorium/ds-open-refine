@@ -1,31 +1,5 @@
 [
   {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "workflow_current",
-    "expression": "grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "workflow_history",
-    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
-  },
-  {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
       "facets": [
@@ -995,7 +969,7 @@
     "similarValue": "In art",
     "judgment": "matched",
     "match": {
-      "id": "http://id.worldcat.org/fast/815177",
+      "id": "http://id.worldcat.org/fast/817721",
       "name": "Art",
       "types": [
         "/fast/all"
@@ -1003,7 +977,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Art (http://id.worldcat.org/fast/815177) for cells containing \"In art\" in column recon-subject"
+    "description": "Match item Art (http://id.worldcat.org/fast/817721) for cells containing \"In art\" in column recon-subject"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -1488,26 +1462,6 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "recon-subject",
-    "similarValue": "Early works to 1800",
-    "judgment": "matched",
-    "match": {
-      "id": "http://id.worldcat.org/fast/1411636",
-      "name": "Early works",
-      "types": [
-        "/fast/all"
-      ],
-      "score": 0
-    },
-    "shareNewTopics": false,
-    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works to 1800\" in column recon-subject"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
       "facets": [
         {
           "type": "list",
@@ -1716,5 +1670,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item Mas̲navī (Jalāl al-Dīn Rūmī, Maulana) (http://id.worldcat.org/fast/1362351) for cells containing \"Mas̲navī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Prayers and devotions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1935484",
+      "name": "Prayers and devotions",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prayers and devotions (http://id.worldcat.org/fast/1935484) for cells containing \"Prayers and devotions\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Art",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/817721",
+      "name": "Art",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Art (http://id.worldcat.org/fast/817721) for cells containing \"Art\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "History",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/958235",
+      "name": "History",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item History (http://id.worldcat.org/fast/958235) for cells containing \"History\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Biography",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/832149",
+      "name": "Biography",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biography (http://id.worldcat.org/fast/832149) for cells containing \"Biography\" in column recon-subject"
   }
 ]
