@@ -5268,46 +5268,6 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "recon-human: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-human",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "recon-human",
-    "similarValue": "Follower of Birago, Giovan Pietro, active 1471-1513 and Master B. F. (sometimes identified as Francisco Binasco)",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1901175",
-      "name": "Giovanni Pietro Birago",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Giovanni Pietro Birago (Q1901175) for cells containing \"Follower of Birago, Giovan Pietro, active 1471-1513 and Master B. F. (sometimes identified as Francisco Binasco)\" in column recon-human"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
