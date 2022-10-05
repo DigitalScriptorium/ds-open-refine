@@ -13946,51 +13946,7 @@
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "name_as_recorded",
-          "expression": "value.length()",
-          "columnName": "name_as_recorded",
-          "from": 0,
-          "to": 100,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        },
-        {
-          "type": "list",
-          "name": "recon-human: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "recon-human",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        },
-        {
-          "type": "range",
-          "name": "recon-human: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "recon-human",
-          "from": 54,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": false,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
     "columnName": "recon-human",
