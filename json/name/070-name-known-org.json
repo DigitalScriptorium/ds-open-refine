@@ -481,7 +481,6 @@
     "shareNewTopics": false,
     "description": "Match item Bernard Quaritch Ltd (Q65034936) for cells containing \"Bernard Quaritch (Firm)\" in column recon-organization"
   },
-  [
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
