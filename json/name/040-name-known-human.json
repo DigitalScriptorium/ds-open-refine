@@ -13942,5 +13942,69 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ibrāhīm Ibn-Aḥmad ar- Raqqī (Q60844447) for cells containing \"Raqqī, Ibrāhīm ibn Aḥmad, 1249 or 1250-1303 or 1304\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "name_as_recorded",
+          "expression": "value.length()",
+          "columnName": "name_as_recorded",
+          "from": 0,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-human: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-human",
+          "from": 54,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Carter, A. C. R",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15627125",
+      "name": "Albert Charles Robinson Carter",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Albert Charles Robinson Carter (Q15627125) for cells containing \"Carter, A. C. R\" in column recon-human"
   }
 ]
