@@ -5,7 +5,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 ## Reconciling names to Wikidata
 
 1. Load `DATE-names-combined.csv` into OpenRefine; rename `DATE-names-combined-enriched.csv`
-2. Add workflow columns: [JSON][name_workflow]
+2. Add workflow columns: [JSON][name_workflow] (On the left, go to `Undo/Redo`, `Apply` and paste the JSON code)
 3. Copy `name_as_recorded` column and reconcile new `recon-human` column against human type (Q5): [JSON][name_recon_human]
 4. Apply list of previously reconciled or known human names: [JSON][name_known_human]
 5. Manually reconcile and update known human names: *edit [JSON][name_known_human]*
@@ -13,7 +13,8 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 7. Apply list of previously reconciled or known organization names: [JSON][name_known_org]
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-label`, `instance-of-organization`, and `organization-qid` columns; consolidate `authorized_label`, `instance_of`, and `structured_value` columns; finalize workflow: [JSON][name_finalize]
-10. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
+10. Do not forget to close all facets
+11. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true` and rename it  `names-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `names`
 
 [name_workflow]:    json/name/010-name-workflow.json
 [name_recon_human]: json/name/030-name-recon-human.json
