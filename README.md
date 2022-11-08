@@ -40,7 +40,8 @@ json/name/090-name-finalize.json
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
 6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
-7. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
+7. Do not forget to close all facets
+8. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
