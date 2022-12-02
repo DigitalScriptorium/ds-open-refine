@@ -84,15 +84,6 @@
     "columnName": "recon-language",
     "keyColumnName": "row_index",
     "mode": "separator",
-    "separator": " (",
-    "regex": false,
-    "description": "Split multi-valued cells in column recon-language"
-  },
-  {
-    "op": "core/multivalued-cell-split",
-    "columnName": "recon-language",
-    "keyColumnName": "row_index",
-    "mode": "separator",
     "separator": ";",
     "regex": false,
     "description": "Split multi-valued cells in column recon-language"
