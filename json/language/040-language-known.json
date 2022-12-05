@@ -1371,5 +1371,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Valencian (Q32641) for cells containing \"Spanish (Valencian dialect)\n\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "[no text]",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22282939",
+      "name": "no linguistic content",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item no linguistic content (Q22282939) for cells containing \"[no text]\" in column recon-language"
   }
 ]
