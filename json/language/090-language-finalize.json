@@ -112,10 +112,5 @@
     "keyColumnName": "row_index",
     "separator": "|",
     "description": "Join multi-valued cells in column workflow_current"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "workflow_current",
-    "description": "Remove column workflow_current"
   }
 ]
