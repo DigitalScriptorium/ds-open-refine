@@ -1391,5 +1391,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item no linguistic content (Q22282939) for cells containing \"[no text]\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Provençal",
+    "judgment": "matched",
+    "match": {
+      "id": "Q241243",
+      "name": "Provençal",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Provençal (Q241243) for cells containing \"Provençal\" in column recon-language"
   }
 ]
