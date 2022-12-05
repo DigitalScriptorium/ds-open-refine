@@ -1351,5 +1351,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Rhine Franconian (Q707007) for cells containing \"Rhenish\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Spanish (Valencian dialect)\n",
+    "judgment": "matched",
+    "match": {
+      "id": "Q32641",
+      "name": "Valencian",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Valencian (Q32641) for cells containing \"Spanish (Valencian dialect)\n\" in column recon-language"
   }
 ]
