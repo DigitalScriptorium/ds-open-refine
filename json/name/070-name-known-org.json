@@ -740,5 +740,130 @@
     },
     "shareNewTopics": false,
     "description": "Match item Basilica of Sant'Ambrogio (Q1071570) for cells containing \"Monastero di S. Ambrogio (Milan, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bibliothek von Portheim-Stiftung",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28738613",
+      "name": "Josefine und Eduard von Portheim-Stiftung, Bibliothek",
+      "types": [
+        "Q7075"
+      ],
+      "score": 76
+    },
+    "shareNewTopics": false,
+    "description": "Match item Josefine und Eduard von Portheim-Stiftung, Bibliothek (Q28738613) for cells containing \"Bibliothek von Portheim-Stiftung\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Catholic Church. Diocese of Laon (France).",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1503220",
+      "name": "Ancient Diocese of Laon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ancient Diocese of Laon (Q1503220) for cells containing \"Catholic Church. Diocese of Laon (France).\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Franciscans.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q165005",
+      "name": "Franciscans",
+      "types": [
+        "Q28653",
+        "Q15893266"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Franciscans (Q165005) for cells containing \"Franciscans.\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Santa Maria delle Grazie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q244952",
+      "name": "Santa Maria delle Grazie Church",
+      "types": [
+        "Q1128397",
+        "Q120560",
+        "Q16970"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Santa Maria delle Grazie Church (Q244952) for cells containing \"Santa Maria delle Grazie\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Free Library of Philadelphia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3087288",
+      "name": "Free Library of Philadelphia",
+      "types": [
+        "Q7075",
+        "Q26271642"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Free Library of Philadelphia (Q3087288) for cells containing \"Free Library of Philadelphia\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Free Library of Philadelphia.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3087288",
+      "name": "Free Library of Philadelphia",
+      "types": [
+        "Q7075",
+        "Q26271642"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Free Library of Philadelphia (Q3087288) for cells containing \"Free Library of Philadelphia.\" in column recon-organization"
   }
 ]
