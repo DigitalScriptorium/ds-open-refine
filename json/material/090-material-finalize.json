@@ -435,6 +435,19 @@
     "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"amate\"),\"amate paper\",value)"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "authorized_label_add",
+    "expression": "grel:if(cells[\"recon-material\"].value.contains(\"?\"),\"undetermined\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"?\"),\"undetermined\",value)"
+  },
+  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
@@ -680,6 +693,19 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column structured_value_add using expression grel:if(cells[\"authorized_label_add\"].value==\"wood\",\"http://vocab.getty.edu/aat/300011914\",value)"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "structured_value_add",
+    "expression": "grel:if(cells[\"authorized_label_add\"].value==\"undetermined\",\"http://vocab.getty.edu/aat/300379012\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column structured_value_add using expression grel:if(cells[\"authorized_label_add\"].value==\"wood\",\"http://vocab.getty.edu/aat/300379012\",value)"
   },
   {
     "op": "core/multivalued-cell-join",
