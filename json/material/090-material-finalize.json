@@ -194,6 +194,32 @@
       "mode": "row-based"
     },
     "columnName": "authorized_label_add",
+    "expression": "grel:if(cells[\"recon-material\"].value.contains(\"parchment\"),\"parchment\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"parchment\"),\"parchment\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "authorized_label_add",
+    "expression": "grel:if(cells[\"recon-material\"].value.contains(\"paper\"),\"paper\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"paper\"),\"paper\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "authorized_label_add",
     "expression": "grel:if(cells[\"recon-material\"].value.contains(\"bark\"),\"bark\",value)",
     "onError": "keep-original",
     "repeat": false,
@@ -285,11 +311,11 @@
       "mode": "row-based"
     },
     "columnName": "authorized_label_add",
-    "expression": "grel:if(cells[\"recon-material\"].value.contains(\"palm leaf\"),\"palm leaf\",value)",
+    "expression": "grel:if(cells[\"recon-material\"].value.contains(\"palm\"),\"palm leaf\",value)",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"palm leaf\"),\"palm leaf\",value)"
+    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"palm\"),\"palm leaf\",value)"
   },
   {
     "op": "core/text-transform",
@@ -394,6 +420,19 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"vellum\"),\"parchment\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "authorized_label_add",
+    "expression": "grel:if(cells[\"recon-material\"].value.contains(\"amate\"),\"amate paper\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"recon-material\"].value.contains(\"amate\"),\"amate paper\",value)"
   },
   {
     "op": "core/column-addition",
