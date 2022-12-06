@@ -13,6 +13,84 @@
     "description": "Create column recon-material at index 4 based on column material_as_recorded using expression grel:if(isBlank(cells[\"structured_value\"]),value,\"\")"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"vellulm\",\"vellum\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"vellulm\",\"vellum\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"parchement\",\"parchment\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"parchement\",\"parchment\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"parchemnt\",\"parchment\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"parchemnt\",\"parchment\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"parchmennt\",\"parchment\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"parchmennt\",\"parchment\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"parchmetn\",\"parchment\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"parchmetn\",\"parchment\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-material",
+    "expression": "grel:value.replace(\"palm (taliput) leaf\",\"palm leaf\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"palm (taliput) leaf\",\"palm leaf\")"
+  },
+  {
     "op": "core/multivalued-cell-split",
     "columnName": "recon-material",
     "keyColumnName": "row_index",
@@ -56,19 +134,6 @@
     "separator": " (",
     "regex": false,
     "description": "Split multi-valued cells in column recon-material"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "recon-material",
-    "expression": "grel:value.replace(\"vellulm\",\"vellum\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column recon-material using expression grel:value.replace(\"vellulm\",\"vellum\")"
   },
   {
     "op": "core/text-transform",
