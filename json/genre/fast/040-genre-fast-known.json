@@ -81,7 +81,7 @@
     "similarValue": "Art.",
     "judgment": "matched",
     "match": {
-      "id": "http://id.worldcat.org/fast/815177",
+      "id": "http://id.worldcat.org/fast/1423702",
       "name": "Art",
       "types": [
         "/fast/all"
@@ -89,7 +89,40 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Art (http://id.worldcat.org/fast/815177) for cells containing \"Art.\" in column recon-genre"
+    "description": "Match item Art (http://id.worldcat.org/fast/1423702) for cells containing \"Art.\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-genre: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-genre",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Art",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423702",
+      "name": "Art",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Art (http://id.worldcat.org/fast/1423702) for cells containing \"Art\" in column recon-genre"
   },
   {
     "op": "core/recon-judge-similar-cells",
