@@ -55,7 +55,7 @@
     "op": "core/multivalued-cell-join",
     "columnName": "authorized_label",
     "keyColumnName": "row_index",
-    "separator": ";",
+    "separator": "|",
     "description": "Join multi-valued cells in column authorized_label"
   },
   {
