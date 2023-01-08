@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"NAME RECON STEP 4.2: KNOWN HUMAN APPLIED \"+now()",
+    "expression": "grel:\"NAME RECON STEP 4.1: KNOWN HUMAN APPLIED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"NAME RECON STEP 4.2: KNOWN HUMAN APPLIED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"NAME RECON STEP 4.1: KNOWN HUMAN APPLIED \"+now()"
   },
   {
     "op": "core/text-transform",
