@@ -865,5 +865,1152 @@
     },
     "shareNewTopics": false,
     "description": "Match item Free Library of Philadelphia (Q3087288) for cells containing \"Free Library of Philadelphia.\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Abbadia San Salvatore (Siena, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q91096",
+      "name": "Abbadia San Salvatore",
+      "types": [
+        "Q747074"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abbadia San Salvatore (Q91096) for cells containing \"Abbadia San Salvatore (Siena, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Arles (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48292",
+      "name": "Arles",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arles (Q48292) for cells containing \"Arles (France)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Augustinians",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29075",
+      "name": "Augustinians",
+      "types": [
+        "Q28653"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Augustinians (Q29075) for cells containing \"Augustinians\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Benedictines",
+    "judgment": "matched",
+    "match": {
+      "id": "Q131132",
+      "name": "Benedictines",
+      "types": [
+        "Q3355750"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Benedictines (Q131132) for cells containing \"Benedictines\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Burg Kreuzenstein (Austria)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q669642",
+      "name": "Burg Kreuzenstein",
+      "types": [
+        "Q23413",
+        "Q33506"
+      ],
+      "score": 81
+    },
+    "shareNewTopics": false,
+    "description": "Match item Burg Kreuzenstein (Q669642) for cells containing \"Burg Kreuzenstein (Austria)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ancona (Italy). Anziani",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3891178",
+      "name": "Palazzo degli Anziani",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Palazzo degli Anziani (Q3891178) for cells containing \"Ancona (Italy). Anziani\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Castino (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19920",
+      "name": "Castino",
+      "types": [
+        "Q747074"
+      ],
+      "score": 70
+    },
+    "shareNewTopics": false,
+    "description": "Match item Castino (Q19920) for cells containing \"Castino (Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Catholic Church. Curia Romana",
+    "judgment": "matched",
+    "match": {
+      "id": "Q108169",
+      "name": "Roman Curia",
+      "types": [
+        "Q51041800",
+        "Q35798"
+      ],
+      "score": 60
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roman Curia (Q108169) for cells containing \"Catholic Church. Curia Romana\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Catholic Church. Diocese of Regensburg (Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q258606",
+      "name": "Roman Catholic Diocese of Regensburg",
+      "types": [
+        "Q3146899"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roman Catholic Diocese of Regensburg (Q258606) for cells containing \"Catholic Church. Diocese of Regensburg (Germany)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Catholic Church. Diocese of Toul (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q328001",
+      "name": "Prince-Bishopric of Toul",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prince-Bishopric of Toul (Q328001) for cells containing \"Catholic Church. Diocese of Toul (France)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Catholic Church. Pope",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19546",
+      "name": "pope",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item pope (Q19546) for cells containing \"Catholic Church. Pope\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Cavalli family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2943239",
+      "name": "Cavalli",
+      "types": [
+        "Q8436",
+        "Q58481200"
+      ],
+      "score": 90
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cavalli (Q2943239) for cells containing \"Cavalli family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Dropsie College for Hebrew and Cognate Learning",
+    "judgment": "matched",
+    "match": {
+      "id": "Q65088719",
+      "name": "Dropsie College for Hebrew and Cognate Learning",
+      "types": [
+        "Q2385804"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dropsie College for Hebrew and Cognate Learning (Q65088719) for cells containing \"Dropsie College for Hebrew and Cognate Learning\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Dropsie College of Hebrew and Cognate Learning",
+    "judgment": "matched",
+    "match": {
+      "id": "Q65088719",
+      "name": "Dropsie College for Hebrew and Cognate Learning",
+      "types": [
+        "Q2385804"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dropsie College for Hebrew and Cognate Learning (Q65088719) for cells containing \"Dropsie College of Hebrew and Cognate Learning\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "England and Wales. Privy Council",
+    "judgment": "matched",
+    "match": {
+      "id": "Q683120",
+      "name": "Privy Council of the United Kingdom",
+      "types": [
+        "Q6528244"
+      ],
+      "score": 59
+    },
+    "shareNewTopics": false,
+    "description": "Match item Privy Council of the United Kingdom (Q683120) for cells containing \"England and Wales. Privy Council\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Fürstlich Fürstenbergische Hofbibliothek (Donaueschingen, Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q176893",
+      "name": "Donaueschingen court library",
+      "types": [
+        "Q7075"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Donaueschingen court library (Q176893) for cells containing \"Fürstlich Fürstenbergische Hofbibliothek (Donaueschingen, Germany)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Piccolomini family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q611733",
+      "name": "Piccolomini",
+      "types": [
+        "Q13417114"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Piccolomini (Q611733) for cells containing \"Piccolomini family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Pontificio Collegio germanico ungarico",
+    "judgment": "matched",
+    "match": {
+      "id": "Q868294",
+      "name": "Collegium Germanicum et Hungaricum",
+      "types": [
+        "Q1322589"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Collegium Germanicum et Hungaricum (Q868294) for cells containing \"Pontificio Collegio germanico ungarico\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Sette Comuni",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5404684",
+      "name": "Federation of the Seven Communities",
+      "types": [
+        "Q3024240"
+      ],
+      "score": 72
+    },
+    "shareNewTopics": false,
+    "description": "Match item Federation of the Seven Communities (Q5404684) for cells containing \"Sette Comuni\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Spain. Chancillería de Granada",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1095017",
+      "name": "Royal Chancellery of Granada",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Royal Chancellery of Granada (Q1095017) for cells containing \"Spain. Chancillería de Granada\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ventimiglia family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1069657",
+      "name": "House of Ventimiglia",
+      "types": [
+        "Q13417114"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item House of Ventimiglia (Q1069657) for cells containing \"Ventimiglia family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-organization: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-organization",
+          "from": 18,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Vigliano d'Asti (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17880",
+      "name": "Vigliano d'Asti",
+      "types": [
+        "Q747074"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vigliano d'Asti (Q17880) for cells containing \"Vigliano d'Asti (Italy)\" in column recon-organization"
   }
 ]
