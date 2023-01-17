@@ -4684,5 +4684,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item Spanish literature--Classical period (http://id.worldcat.org/fast/1711000) for cells containing \"Spanish literature--Classical period, 1500-1700\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Church history--Middle Ages, 600-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1710943",
+      "name": "Church history--Middle Ages",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Church history--Middle Ages (http://id.worldcat.org/fast/1710943) for cells containing \"Church history--Middle Ages, 600-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "English literature--Middle English, 1100-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1710961",
+      "name": "English literature--Middle English",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item English literature--Middle English (http://id.worldcat.org/fast/1710961) for cells containing \"English literature--Middle English, 1100-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "English poetry--Middle English, 1100-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1710964",
+      "name": "English poetry--Middle English",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item English poetry--Middle English (http://id.worldcat.org/fast/1710964) for cells containing \"English poetry--Middle English, 1100-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "German poetry--Middle High German, 1050-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1710979",
+      "name": "German poetry--Middle High German",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item German poetry--Middle High German (http://id.worldcat.org/fast/1710979) for cells containing \"German poetry--Middle High German, 1050-1500\" in column recon-subject"
   }
 ]
