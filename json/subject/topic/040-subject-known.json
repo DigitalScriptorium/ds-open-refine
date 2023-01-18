@@ -15856,5 +15856,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item 1479-1516 (http://id.worldcat.org/fast/1355554) for cells containing \"Ferdinand and Isabella, 1479-1516\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Martyrdom (Christianity) in literature",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1010914",
+      "name": "Martyrdom in literature",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Martyrdom in literature (http://id.worldcat.org/fast/1010914) for cells containing \"Martyrdom (Christianity) in literature\" in column recon-subject"
   }
 ]
