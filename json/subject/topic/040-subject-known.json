@@ -15876,5 +15876,605 @@
     },
     "shareNewTopics": false,
     "description": "Match item Martyrdom in literature (http://id.worldcat.org/fast/1010914) for cells containing \"Martyrdom (Christianity) in literature\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "18th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/904058",
+      "name": "Eighteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eighteenth century (http://id.worldcat.org/fast/904058) for cells containing \"18th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Franconia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1244296",
+      "name": "Germany--Franconia",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Germany--Franconia (http://id.worldcat.org/fast/1244296) for cells containing \"Franconia\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charters, grants, privileges",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1774239",
+      "name": "Charters and articles of incorporation",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charters and articles of incorporation (http://id.worldcat.org/fast/1774239) for cells containing \"Charters, grants, privileges\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Henry IV, 1454-1474",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355543",
+      "name": "1454-1474",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1454-1474 (http://id.worldcat.org/fast/1355543) for cells containing \"Henry IV, 1454-1474\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkish rule, 1571-1878",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355617",
+      "name": "1571-1878",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1571-1878 (http://id.worldcat.org/fast/1355617) for cells containing \"Turkish rule, 1571-1878\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Venetian rule, 1474-1570",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355553",
+      "name": "1474-1570",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1474-1570 (http://id.worldcat.org/fast/1355553) for cells containing \"Venetian rule, 1474-1570\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bourbons, 1589-1789",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355633",
+      "name": "1589-1789",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1589-1789 (http://id.worldcat.org/fast/1355633) for cells containing \"Bourbons, 1589-1789\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles IX, 1560-1574",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355610",
+      "name": "1560-1574",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1560-1574 (http://id.worldcat.org/fast/1355610) for cells containing \"Charles IX, 1560-1574\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles VIII, 1483-1498",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355559",
+      "name": "1483-1498",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1483-1498 (http://id.worldcat.org/fast/1355559) for cells containing \"Charles VIII, 1483-1498\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Henry II, 1547-1559",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355597",
+      "name": "1547-1559",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1547-1559 (http://id.worldcat.org/fast/1355597) for cells containing \"Henry II, 1547-1559\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Elizabeth, 1558-1603",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355606",
+      "name": "1558-1603",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1558-1603 (http://id.worldcat.org/fast/1355606) for cells containing \"Elizabeth, 1558-1603\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles IV, 1347-1378",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355488",
+      "name": "1347-1378",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1347-1378 (http://id.worldcat.org/fast/1355488) for cells containing \"Charles IV, 1347-1378\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles V, 1519-1556",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355581",
+      "name": "1519-1556",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1519-1556 (http://id.worldcat.org/fast/1355581) for cells containing \"Charles V, 1519-1556\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Maximilian I, 1493-1519",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355564",
+      "name": "1493-1519",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1493-1519 (http://id.worldcat.org/fast/1355564) for cells containing \"Maximilian I, 1493-1519\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rudolf II, 1576-1612",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355625",
+      "name": "1576-1612",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1576-1612 (http://id.worldcat.org/fast/1355625) for cells containing \"Rudolf II, 1576-1612\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medieval period, 987-1515",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356009",
+      "name": "987-1515",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 987-1515 (http://id.worldcat.org/fast/1356009) for cells containing \"Medieval period, 987-1515\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Germanic rule, 962-1268",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355999",
+      "name": "962-1268",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 962-1268 (http://id.worldcat.org/fast/1355999) for cells containing \"Germanic rule, 962-1268\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Latin Kingdom, 1099-1244",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355373",
+      "name": "1099-1244",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1099-1244 (http://id.worldcat.org/fast/1355373) for cells containing \"Latin Kingdom, 1099-1244\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medieval and early modern period, 425-1789",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355929",
+      "name": "425-1789",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 425-1789 (http://id.worldcat.org/fast/1355929) for cells containing \"Medieval and early modern period, 425-1789\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Spanish rule, 1442-1707",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355537",
+      "name": "1442-1707",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1442-1707 (http://id.worldcat.org/fast/1355537) for cells containing \"Spanish rule, 1442-1707\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Lists",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/999835",
+      "name": "Lists",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lists (http://id.worldcat.org/fast/999835) for cells containing \"Lists\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Süleyman I, 1520-1566",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355582",
+      "name": "1520-1566",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1520-1566 (http://id.worldcat.org/fast/1355582) for cells containing \"Süleyman I, 1520-1566\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Flavians, 69-96",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355957",
+      "name": "69-96",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 69-96 (http://id.worldcat.org/fast/1355957) for cells containing \"Flavians, 69-96\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Julio-Claudians, 30 BC-68 AD",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355909",
+      "name": "30 B.C.-68 A.D.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 30 B.C.-68 A.D. (http://id.worldcat.org/fast/1355909) for cells containing \"Julio-Claudians, 30 BC-68 AD\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Description and travel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1169308",
+      "name": "Voyages and travels",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Voyages and travels (http://id.worldcat.org/fast/1169308) for cells containing \"Description and travel\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Economic aspects",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/902116",
+      "name": "Economics",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Economics (http://id.worldcat.org/fast/902116) for cells containing \"Economic aspects\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Religious aspects",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1093763",
+      "name": "Religion",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Religion (http://id.worldcat.org/fast/1093763) for cells containing \"Religious aspects\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sigismund II Augustus, 1548-1572",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355598",
+      "name": "1548-1572",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1548-1572 (http://id.worldcat.org/fast/1355598) for cells containing \"Sigismund II Augustus, 1548-1572\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Early works to 1850",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works to 1850\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Religious life and customs",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1093763",
+      "name": "Religion",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Religion (http://id.worldcat.org/fast/1093763) for cells containing \"Religious life and customs\" in column recon-subject"
   }
 ]
