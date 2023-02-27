@@ -2012,7 +2012,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Vigliano d'Asti (Q17880) for cells containing \"Vigliano d'Asti (Italy)\" in column recon-organization"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
