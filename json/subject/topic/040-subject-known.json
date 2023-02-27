@@ -16476,5 +16476,145 @@
     },
     "shareNewTopics": false,
     "description": "Match item Religion (http://id.worldcat.org/fast/1093763) for cells containing \"Religious life and customs\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Latin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/993125",
+      "name": "Latin language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 53
+    },
+    "shareNewTopics": false,
+    "description": "Match item Latin language (http://id.worldcat.org/fast/993125) for cells containing \"Latin\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Assisi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1206046",
+      "name": "Italy--Assisi",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 67
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Assisi (http://id.worldcat.org/fast/1206046) for cells containing \"Assisi\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Leo III, Pope",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1830519",
+      "name": "Leo III, Pope, -816",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item Leo III, Pope, -816 (http://id.worldcat.org/fast/1830519) for cells containing \"Leo III, Pope\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Breviary",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/838495",
+      "name": "Breviaries",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Breviaries (http://id.worldcat.org/fast/838495) for cells containing \"Breviary\" in column recon-subject"
   }
 ]
