@@ -7824,8 +7824,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item William Harrison Woodward (Q47876566) for cells containing \"Woodward, William Harrison, 1856-1941\" in column recon-human"
-  }
-
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
