@@ -19,7 +19,7 @@ Notes on editing file name variables (use all lowercase letters where applicable
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-label`, `instance-of-organization`, and `organization-qid` columns; consolidate `authorized_label`, `instance_of`, and `structured_value` columns; finalize workflow: [JSON][name_finalize]
 10. Do not forget to close all facets
-11. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-names-DATATYPE-INSTITUTION-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-names-DATATYPE-INSTITUTION-reconciled`
+11. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-names-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-names-DATATYPE-INSTITUTION-reconciled.csv`
 
 [name_workflow]:      json/name/010-name-workflow.json
 [name_recon_human]:   json/name/030-name-recon-human.json
@@ -50,7 +50,7 @@ json/name/090-name-finalize.json
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
 6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
 7. Do not forget to close all facets
-8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-places-DATATYPE-INSTITUTION-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-places-DATATYPE-INSTITUTION-reconciled`
+8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-places-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-places-DATATYPE-INSTITUTION-reconciled.csv`
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
