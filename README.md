@@ -3,9 +3,9 @@
 Digital Scriptorium OpenRefine documentation and JSON recipes for data reconciliation
 
 Notes on editing file name variables (use all lowercase letters where applicable):
-  DATE = the date the file/dataset was generated/created/extracted in YYYYMMDD format \t
-  DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv` \t
-  INSTITUTION = the code for the name of the institutional source for the data, such as `penn` or `kansas` or `csl`
+- DATE = the date the file/dataset was generated/created/extracted in YYYYMMDD format
+- DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
+- INSTITUTION = the code for the name of the institutional source for the data, such as `penn` or `kansas` or `csl`
 
 ## Reconciling names to Wikidata
 
