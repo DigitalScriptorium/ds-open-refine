@@ -2,9 +2,14 @@
 
 Digital Scriptorium OpenRefine documentation and JSON recipes for data reconciliation
 
+Notes on editing file name variables (use all lowercase letters where applicable):
+  DATE = the date the file/dataset was generated/created/extracted in YYYYMMDD format
+  DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
+  INSTITUTION = the code for the name of the institutional source for the data, such as `penn` or `kansas` or `csl`
+
 ## Reconciling names to Wikidata
 
-1. Load `DATE-names-combined.csv` into OpenRefine; rename `DATE-names-combined-enriched.csv`
+1. Load `DATE-names-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-names-DATATYPE-INSTITUTION-enriched.csv`
 2. Add workflow columns: [JSON][name_workflow] (On the left, go to `Undo/Redo`, `Apply` and paste the JSON code)
 3. Copy `name_as_recorded` column and reconcile new `recon-human` column against human type (Q5): [JSON][name_recon_human]
 4. Apply list of previously reconciled or known human names: 0. [JSON][name_known_human_0], 1. [JSON][name_known_human_1], 2. [JSON][name_known_human_2]
@@ -14,7 +19,7 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 8. Manually reconcile and update known organization names: *edit [JSON][name_known_org]*
 9. Add `organization-label`, `instance-of-organization`, and `organization-qid` columns; consolidate `authorized_label`, `instance_of`, and `structured_value` columns; finalize workflow: [JSON][name_finalize]
 10. Do not forget to close all facets
-11. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true` and rename it  `names-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `names`
+11. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-names-DATATYPE-INSTITUTION-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-names-DATATYPE-INSTITUTION-reconciled`
 
 [name_workflow]:      json/name/010-name-workflow.json
 [name_recon_human]:   json/name/030-name-recon-human.json
@@ -38,14 +43,14 @@ json/name/090-name-finalize.json
 
 ## Reconciling places to TGN
 
-1. Load `DATE-places-combined.csv` into OpenRefine; rename `DATE-places-combined-enriched.csv`
+1. Load `DATE-places-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-places-DATATYPE-INSTITUTION.csv`
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
 5. Manually reconcile and update known places: *edit [JSON][place_known]*
 6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
 7. Do not forget to close all facets
-8. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
+8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-places-DATATYPE-INSTITUTION-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-places-DATATYPE-INSTITUTION-reconciled`
 
 [place_workflow]:    json/place/010-place-workflow.json
 [place_recon]:       json/place/030-place-recon.json
@@ -61,7 +66,7 @@ json/place/090-place-finalize.json
 
 ## Reconciling genres
 
-1. Load `DATE-genres-combined.csv` into OpenRefine; rename `DATE-genres-combined-enriched.csv`
+1. Load `DATE-genres-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-genres-DATATYPE-INSTITUTION.csv`
 2. Add workflow columns: [JSON][genre_workflow]
 
 [genre_workflow]: json/genre/010-genre-workflow.json
@@ -93,7 +98,7 @@ json/place/090-place-finalize.json
 ### all genre terms: finalize
 
 7. Finalize workflow; consolidate `authorized_label` and `structured_value` columns: [JSON][genre_finalize]
-8. Export three versions from OpenRefine as CSV files: 1) full document, 2) facet by `structured_value` blank (null/empty) = `true`, 3) facet by `structured_value` blank (null/empty) = `false`
+8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-genres-DATATYPE-INSTITUTION-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-genres-DATATYPE-INSTITUTION-reconciled`
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
