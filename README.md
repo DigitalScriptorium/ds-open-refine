@@ -98,7 +98,7 @@ json/place/090-place-finalize.json
 ### all genre terms: finalize
 
 7. Finalize workflow; consolidate `authorized_label` and `structured_value` columns: [JSON][genre_finalize]
-8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-genres-DATATYPE-INSTITUTION-unreconciled`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-genres-DATATYPE-INSTITUTION-reconciled`
+8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-genres-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-genres-DATATYPE-INSTITUTION-reconciled.csv`
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
