@@ -272,6 +272,26 @@
     "shareNewTopics": false,
     "description": "Match item Middle High German (Q837985) for cells containing \"Middle High German (ca 1050-1500)\" in column recon-language"
   },
+     {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Aramaic",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28602",
+      "name": "Aramaic languages",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aramaic languages (Q28602) for cells containing \"Aramaic\" in column recon-language"
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
