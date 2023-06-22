@@ -19,11 +19,11 @@
       "mode": "row-based"
     },
     "columnName": "recon-language",
-    "expression": "grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")",
+    "expression": "grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"accompanying materials in \",\"\").replace(\"later annotations in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column recon-language using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
+    "description": "Text transform on cells in column recon-language using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"accompanying materials in \",\"\").replace(\"later annotations in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
   },
   {
     "op": "core/multivalued-cell-split",
