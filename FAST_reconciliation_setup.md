@@ -15,7 +15,7 @@ https://www.python.org/downloads/release/python-2718/
 1. Open command line interface
 2. Navigate to file directory location for the `fast-reconcile` repository files on your local machine: `cd c:\path\to\fast-reconcile`
 3. Install requirements: `pip2.7 install -r requirements.txt`
-4. Edit the file 'reconcile.py' by changing the last line (line #235) to read: 'app.run(host='localhost', port='5432')'
+4. Edit the file 'reconcile.py' by changing the last line (line #235) to read: `app.run(host='localhost', port='5432')`
 5. Run and debug reconcile.py: `python reconcile.py --debug`
 6. Open/Run OpenRefine
 7. Click on down arrow of column to be reconciled
