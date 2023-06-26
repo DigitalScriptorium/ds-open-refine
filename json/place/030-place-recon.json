@@ -134,7 +134,7 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column recon-place to remove colon using expression grel:value.replace(\" :\",\"\")"
+    "description": "Text transform on cells in column recon-place to remove colon using expression grel:value.replace(\":\",\"\")"
   },
   {
     "op": "core/text-transform",
