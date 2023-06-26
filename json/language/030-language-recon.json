@@ -25,7 +25,20 @@
     "repeatCount": 10,
     "description": "Text transform on cells in column recon-language using expression grel:value.replace(\".\",\"\").replace(\"Text in \",\"\").replace(\"accompanying materials in \",\"\").replace(\"later annotations in \",\"\").replace(\"In \",\"\"). replace(\" / \",\" \")"
   },
-  {
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "expression": "grel:value.replace(\"French, Old (ca 842-1300)\",\"Old French\").replace(\"French, Middle (ca1300-1600)\",\"Middle French\").replace(\"French, Middle (ca 1300-1600)\",\"Middle French\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-language using expression grel:value.replace(\"French, Old (ca 842-1300)\",\"Old French\").replace(\"French, Middle (ca1300-1600)\",\"Middle French\")"
+  },
+   {
     "op": "core/multivalued-cell-split",
     "columnName": "recon-language",
     "keyColumnName": "row_index",
