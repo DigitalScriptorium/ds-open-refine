@@ -130,6 +130,19 @@
       "mode": "row-based"
     },
     "columnName": "recon-place",
+    "expression": "grel:value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-place to remove colon using expression grel:value.replace(\" :\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
