@@ -82,7 +82,7 @@
     "columnName": "recon-genre",
     "config": {
       "mode": "standard-service",
-      "service": "http://localhost:5000/reconcile",
+      "service": "http://localhost:5432/reconcile",
       "identifierSpace": "http://localhost/identifier",
       "schemaSpace": "http://localhost/schema",
       "type": {
