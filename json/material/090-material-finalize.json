@@ -570,12 +570,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "authorized_label_add",
+    "columnName": "structured_value_add",
     "expression": "grel:if(cells[\"authorized_label_add\"].value==\"papyrus\",\"http://vocab.getty.edu/aat/300014127\",value)",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column authorized_label_add using expression grel:if(cells[\"authorized_label_add\"].value==\"papyrus\",\"http://vocab.getty.edu/aat/300014127\",value)"
+    "description": "Text transform on cells in column structured_value_add using expression grel:if(cells[\"authorized_label_add\"].value==\"papyrus\",\"http://vocab.getty.edu/aat/300014127\",value)"
   },
   {
     "op": "core/text-transform",
