@@ -5806,5 +5806,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Sotheby's (Q654762) for cells containing \"Sotheby & Co. (London, England)\" in column recon-organization"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Benediktinerinnenabtei St. Walburg (Eichstätt, Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1776124",
+      "name": "Benediktinerinnenabtei St. Walburg",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Benediktinerinnenabtei St. Walburg (Q1776124) for cells containing \"Benediktinerinnenabtei St. Walburg (Eichstätt, Germany)\" in column recon-organization"
   }
 ]
