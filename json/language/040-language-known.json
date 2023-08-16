@@ -3577,5 +3577,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Church Slavonic (Q33251) for cells containing \"chu\" in column recon-language"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "myn",
+    "judgment": "matched",
+    "match": {
+      "id": "Q13354",
+      "name": "Yucatec Maya",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yucatec Maya (Q13354) for cells containing \"myn\" in column recon-language"
   }
 ]
