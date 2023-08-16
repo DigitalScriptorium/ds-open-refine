@@ -2,11 +2,17 @@
 
 Digital Scriptorium OpenRefine documentation and JSON recipes for data reconciliation
 
-Notes on editing file name variables (use all lowercase letters where applicable):
+## General instructions
+
+When utilizing the JSON instructions (also known as recipes) found in this repository for DS data in OpenRefine, find the left column, select the `Undo/Redo` tab, select `Apply`, paste the JSON code, and then select `Perform operations`. This will execute the prewritten commands which perform various actions on the data for the reconciliation process.
+
+Facets and filters can also be used on the data by using drop-down menus available on each column header and displayed in the left column when selecting the `Facet/Filter` tab.
+
+The following notes apply to file naming conventions for editing file name variables found in the [instructions in this repository](/instructions/) (use all lowercase letters where applicable):
 - DATE = the date the file/dataset was generated/created/extracted in `YYYYMMDD` format
 - INSTITUTION = the code for the name of the institutional source for the data, such as `penn` or `kansas` or `csl`
 - DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
-- A DIFFERENTIATOR may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc. 
+- A DIFFERENTIATOR may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc.
 
 
 ## Reconciling names to Wikidata
