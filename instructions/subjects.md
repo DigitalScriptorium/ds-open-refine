@@ -1,6 +1,6 @@
 ## Reconciling subjects to FAST (based on MARC-encoded data)
 
-Special note for this process: When manually reconciling and updating JSON instructions to add additional "known" subjects, retain those JSON instructions and update at the end of the process. Creating multiple pull requests branched from the same file will create multiple conflicts and prevent merging of JSON instructions.
+Special note for this process: When manually reconciling and updating JSON instructions to add additional "known" subjects, retain those JSON instructions and update at the end of the process. Creating multiple pull requests branched from the same file will create multiple conflicts and prevent successful merging of JSON instructions.
 
 ### Reconciling subjects of any type
 
