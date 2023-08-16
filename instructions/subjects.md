@@ -4,7 +4,7 @@ Special note for this process: When manually reconciling and updating JSON instr
 
 ### Reconciling subjects of any type
 
-1. Load `DATE-named-subjects-INSTITUTION-DATATYPE.csv` into OpenRefine; rename `DATE-named-subjects-INSTITUTION-DATATYPE-enriched.csv`
+1. Load `DATE-named-subjects-INSTITUTION-DATATYPE.csv` OR `DATE-subjects-INSTITUTION-DATATYPE.csv` into OpenRefine; rename `DATE-named-subjects-INSTITUTION-DATATYPE-enriched.csv` OR `DATE-subjects-INSTITUTION-DATATYPE-enriched.csv`
 2. Add workflow columns: [JSON][subject_workflow]
 3. Copy `subject_as_recorded` column and reconcile new `recon-subject` column against FAST terms: [JSON][subject_recon_1]
 4. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
