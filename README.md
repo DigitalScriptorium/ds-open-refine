@@ -14,6 +14,21 @@ The following notes apply to file naming conventions for editing file name varia
 - DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
 - A DIFFERENTIATOR may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc.
 
+## Reconciliation Instructions by Metadata Authority Type
+
+### Languages
+
+[Language reconciliation instructions](/instructions/languages.md)
+
+### Materials
+
+[Material reconciliation instructions](/instructions/materials.md)
+
+### Places
+
+[Place reconciliation instructions](/instructions/places.md)
+
+
 
 ## Reconciling names to Wikidata
 
@@ -155,14 +170,4 @@ json/subject/topic/090-subject-recon-3.json
 json/subject/topic/120-subject-finalize.json
 ```
 
-## Languages
 
-[Language reconciliation instructions](/instructions/languages.md)
-
-## Materials
-
-[Material reconciliation instructions](/instructions/materials.md)
-
-## Places
-
-[Place reconciliation instructions](/instructions/places.md)
