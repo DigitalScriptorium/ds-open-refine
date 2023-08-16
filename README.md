@@ -170,41 +170,12 @@ json/subject/topic/090-subject-recon-3.json
 json/subject/topic/120-subject-finalize.json
 ```
 
-## Reconciling languages to Wikidata
+## Languages
 
 [Language reconciliation instructions](/instructions/languages.md)
 
-1. Load `DATE-languages-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-languages-DATATYPE-INSTITUTION-enriched.csv`
-2. Add workflow columns: [JSON][language_workflow]
-3. Copy and clean `language_as_recorded` column and reconcile new `recon-language` column against language type (Q34770): [JSON][language_recon]
-4. Apply list of previously reconciled or known languages: [JSON][language_known]
-5. Manually reconcile and update known languages: *edit [JSON][language_known]*
-6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][language_finalize]
-7. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-languages-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-languages-DATATYPE-INSTITUTION-reconciled.csv`
 
-[language_workflow]:  json/language/010-language-workflow.json
-[language_recon]:     json/language/030-language-recon.json
-[language_known]:     json/language/040-language-known.json
-[language_finalize]:  json/language/090-language-finalize.json
+## Materials
 
-```
-json/language/010-language-workflow.json
-json/language/030-language-recon.json
-json/language/040-language-known.json
-json/language/090-language-finalize.json
-```
+[Material reconciliation instructions](/instructions/materials.md)
 
-## Reconciling materials to AAT
-
-1. Load `DATE-materials-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-materials-DATATYPE-INSTITUTION-enriched.csv`
-2. Add workflow columns: [JSON][material_workflow]
-3. Copy `material_as_recorded` column, match new `recon-material` column against fixed list from AAT, consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][material_finalize]
-4. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-materials-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-materials-DATATYPE-INSTITUTION-reconciled.csv`
-
-[material_workflow]:  json/material/010-material-workflow.json
-[material_finalize]:  json/material/090-material-finalize.json
-
-```
-json/material/010-material-workflow.json
-json/material/090-material-finalize.json
-```
