@@ -22,7 +22,7 @@ Special note for this process: When manually reconciling and updating JSON instr
 16. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 17. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 18. Add `subject-label-5a` and `subject-id-5a` columns; reconcile next `recon-subject` column: [JSON][subject_recon_5b]
-19. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
+19. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
 20. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 21. 6
 22. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
@@ -31,7 +31,7 @@ Special note for this process: When manually reconciling and updating JSON instr
 25. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 26. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 27. 7b
-28. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
+28. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
 29. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 30. 8
 31. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
@@ -40,14 +40,14 @@ Special note for this process: When manually reconciling and updating JSON instr
 34. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 35. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 36. 9b
-37. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
+37. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
 38. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 39. 10a
 40. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 41. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 42. 10b
-43. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
-44. Manually reconcile and extract known FAST terms, retain for update at the end of the process
+43. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
+44. Manually reconcile and update known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 45. Finalize workflow: [JSON][subject_finalize]
 46. Remove any facets and filters
 47. Export full CSV from OpenRefine (retain file name)
