@@ -23,6 +23,10 @@ Examples of correctly formatted file names:
 
 ## Reconciliation instructions by metadata element / authority type
 
+### Genres
+
+[Genre reconciliation instructions](/instructions/genres.md)
+
 ### Languages
 
 [Language reconciliation instructions](/instructions/languages.md)
@@ -71,54 +75,6 @@ json/name/060-name-known-org.json
 json/name/090-name-finalize.json
 ```
 
-## Reconciling genres
-
-1. Load `DATE-genres-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-genres-DATATYPE-INSTITUTION-enriched.csv`
-2. Add workflow columns: [JSON][genre_workflow]
-
-[genre_workflow]: json/genre/010-genre-workflow.json
-
-### to AAT
-
-3. Copy filtered `genre_as_recorded` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
-4. Apply list of previously reconciled or known AAT terms: [JSON][genre_aat_known]
-5. Manually reconcile and update known AAT genre terms: *edit [JSON][genre_aat_known]*
-6. Add `aat-label` and `genre-aat` columns: [JSON][genre_aat]
-
-[genre_aat_recon]:   json/genre/aat/030-genre-aat-recon.json
-[genre_aat_known]:   json/genre/aat/040-genre-aat-known.json
-[genre_aat]:         json/genre/aat/050-genre-aat.json
-
-### to FAST
-
-3. Copy filtered `genre_as_recorded` column and reconcile new `recon-genre` column against FAST terms: [JSON][genre_fast_recon]
-4. Apply list of previously reconciled or known FAST terms: [JSON][genre_fast_known]
-5. Manually reconcile and update known FAST genre terms: *edit [JSON][genre_fast_known]*
-6. Add `fast-label` and `genre-fast` columns: [JSON][genre_fast]
-
-[genre_fast_recon]:   json/genre/fast/030-genre-fast-recon.json
-[genre_fast_known]:   json/genre/fast/040-genre-fast-known.json
-[genre_fast]:         json/genre/fast/050-genre-fast.json
-
-#### *TBD instructions for other genres as needed*
-
-### all genre terms: finalize
-
-7. Finalize workflow; consolidate `authorized_label` and `structured_value` columns: [JSON][genre_finalize]
-8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-genres-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-genres-DATATYPE-INSTITUTION-reconciled.csv`
-
-[genre_finalize]:    json/genre/090-genre-finalize.json
-
-```
-json/genre/010-genre-workflow.json
-json/genre/aat/030-genre-aat-recon.json
-json/genre/aat/040-genre-aat-known.json
-json/genre/aat/050-genre-aat.json
-json/genre/fast/030-genre-fast-recon.json
-json/genre/fast/040-genre-fast-known.json
-json/genre/fast/050-genre-fast.json
-json/genre/090-genre-finalize.json
-```
 
 ## Reconciling subjects to FAST
 
