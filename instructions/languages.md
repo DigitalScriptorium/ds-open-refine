@@ -1,6 +1,6 @@
 ## Reconciling languages to Wikidata
 
-1. Load `DATE-languages-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-languages-DATATYPE-INSTITUTION-enriched.csv`
+1. Load `DATE-languages-INSTITUTION-DATATYPE.csv` into OpenRefine; rename `DATE-languages-INSTITUTION-DATATYPE-enriched.csv`
 2. Add workflow columns: [JSON][language_workflow]
 3. Copy and clean `language_as_recorded` column and reconcile new `recon-language` column against language type (Q34770): [JSON][language_recon]
 4. Apply list of previously reconciled or known languages: [JSON][language_known]
