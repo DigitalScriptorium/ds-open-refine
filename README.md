@@ -12,9 +12,14 @@ The following notes apply to file naming conventions for editing file name varia
 - DATE = the date the file/dataset was generated/created/extracted in `YYYYMMDD` format
 - INSTITUTION = the code for the name of the institutional source for the data, such as `penn` or `kansas` or `csl`
 - DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
-- A DIFFERENTIATOR may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc.
+- One or more DIFFERENTIATORS may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc.
 
-Example file name (for processed and reconciled language data values): `20230816-languages-princeton-marcxml-batch-3-enriched.csv`
+Examples of correctly formatted file names:
+`20230518-materials-rome-mets-legacy-enriched.csv`
+`20230630-genres-penn-marcxml-bibliophilly-enriched.csv'
+`20230715-names-kansas-marc-enriched.csv`
+`20230816-languages-princeton-marcxml-batch-3-enriched.csv`
+`20230901-places-hrc-csv-fragments-batch-1-enriched.csv`
 
 ## Reconciliation instructions by metadata element / authority type
 
