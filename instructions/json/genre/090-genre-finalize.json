@@ -51,42 +51,6 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "structured_value",
-    "expression": "join ([coalesce(cells['structured_value'].value,''),coalesce(cells['structured_value_add'].value,'')],'')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column structured_value using expression join ([coalesce(cells['structured_value'].value,''),coalesce(cells['structured_value_add'].value,'')],'')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "authorized_label",
-    "expression": "join ([coalesce(cells['authorized_label'].value,''),coalesce(cells['authorized_label_add'].value,'')],'')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column authorized_label using expression join ([coalesce(cells['authorized_label'].value,''),coalesce(cells['authorized_label_add'].value,'')],'')"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "authorized_label_add",
-    "description": "Remove column authorized_label_add"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "structured_value_add",
-    "description": "Remove column structured_value_add"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
     "columnName": "workflow_current",
     "expression": "grel:\"GENRE RECON, STEP 7: FINALIZED \"+now()",
     "onError": "keep-original",
