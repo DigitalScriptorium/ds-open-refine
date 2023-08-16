@@ -24,16 +24,16 @@ Special note for this process: When manually reconciling and updating JSON instr
 18. Add `subject-label-5a` and `subject-id-5a` columns; reconcile next `recon-subject` column: [JSON][subject_recon_5b]
 19. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
 20. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-21. 6
+21. Add `subject-label-5b` and `subject-id-5b` columns; consolidate `subject-label-4-5` and `subject-id-4-5` columns; reconcile next `recon-subject` column: [JSON][subject_recon_6]
 22. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 23. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-24. 7a
+24. Add `subject-label-6` and `subject-id-6` columns; reconcile next `recon-subject` column: [JSON][subject_recon_7a]
 25. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 26. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-27. 7b
+27. Add `subject-label-7a` and `subject-id-7a` columns; reconcile next `recon-subject` column: [JSON][subject_recon_7b]
 28. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
 29. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-30. 8
+30. Add `subject-label-7b` and `subject-id-7b` columns; consolidate `subject-label-6-7` and `subject-id-6-7` columns; reconcile next `recon-subject` column: [JSON][subject_recon_8]
 31. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 32. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 33. 9a
