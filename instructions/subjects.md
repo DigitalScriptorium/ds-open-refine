@@ -47,7 +47,7 @@ Special note for this process: When manually reconciling and updating JSON instr
 41. Manually reconcile and extract known FAST terms, retain for update at the end of the process
 42. 10b
 43. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
-44. Manually reconcile and update known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
+44. Manually reconcile and update known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known] AND [Form Terms JSON][subject_form_known]
 45. Finalize workflow: [JSON][subject_finalize]
 46. Remove any facets and filters
 47. Export full CSV from OpenRefine (retain file name)
