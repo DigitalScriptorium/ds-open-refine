@@ -172,6 +172,8 @@ json/subject/topic/120-subject-finalize.json
 
 ## Reconciling languages to Wikidata
 
+[Language reconciliation instructions](instructions/languages.md) 
+
 1. Load `DATE-languages-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-languages-DATATYPE-INSTITUTION-enriched.csv`
 2. Add workflow columns: [JSON][language_workflow]
 3. Copy and clean `language_as_recorded` column and reconcile new `recon-language` column against language type (Q34770): [JSON][language_recon]
