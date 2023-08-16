@@ -43,6 +43,8 @@ json/name/090-name-finalize.json
 
 ## Reconciling places to TGN
 
+[Place reconciliation instructions](/instructions/places.md)
+
 1. Load `DATE-places-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-places-DATATYPE-INSTITUTION.csv`
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
