@@ -1,6 +1,6 @@
 ## Reconciling places to TGN
 
-1. Load `DATE-places-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-places-DATATYPE-INSTITUTION.csv`
+1. Load `DATE-places-INSTITUTION-DATATYPE.csv` into OpenRefine; rename `DATE-places-INSTITUTION-DATATYPE.csv`
 2. Add workflow columns: [JSON][place_workflow]
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Apply list of previously reconciled or known places: [JSON][place_known]
