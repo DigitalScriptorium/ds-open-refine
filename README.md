@@ -41,31 +41,6 @@ json/name/060-name-known-org.json
 json/name/090-name-finalize.json
 ```
 
-## Reconciling places to TGN
-
-[Place reconciliation instructions](/instructions/places.md)
-
-1. Load `DATE-places-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-places-DATATYPE-INSTITUTION.csv`
-2. Add workflow columns: [JSON][place_workflow]
-3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
-4. Apply list of previously reconciled or known places: [JSON][place_known]
-5. Manually reconcile and update known places: *edit [JSON][place_known]*
-6. Consolidate `authorized_label` and `structured_value` columns; finalize workflow: [JSON][place_finalize]
-7. Do not forget to close all facets
-8. Export three versions from OpenRefine as CSV files: 1) full document (retain file name), 2) facet by `structured_value` blank (null/empty) = `true` and rename it `DATE-places-DATATYPE-INSTITUTION-unreconciled.csv`, 3) facet by `structured_value` blank (null/empty) = `false` and rename it `DATE-places-DATATYPE-INSTITUTION-reconciled.csv`
-
-[place_workflow]:    json/place/010-place-workflow.json
-[place_recon]:       json/place/030-place-recon.json
-[place_known]:       json/place/040-place-known.json
-[place_finalize]:    json/place/090-place-finalize.json
-
-```
-json/place/010-place-workflow.json
-json/place/030-place-recon.json
-json/place/040-place-known.json
-json/place/090-place-finalize.json
-```
-
 ## Reconciling genres
 
 1. Load `DATE-genres-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-genres-DATATYPE-INSTITUTION-enriched.csv`
@@ -176,8 +151,10 @@ json/subject/topic/120-subject-finalize.json
 
 [Language reconciliation instructions](/instructions/languages.md)
 
-
 ## Materials
 
 [Material reconciliation instructions](/instructions/materials.md)
 
+## Places
+
+[Place reconciliation instructions](/instructions/places.md)
