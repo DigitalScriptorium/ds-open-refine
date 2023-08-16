@@ -43,6 +43,9 @@ Examples of correctly formatted file names:
 
 [Place reconciliation instructions](/instructions/places.md)
 
+### Subjects
+
+[Subject reconciliation instructions](/instructions/subjects.md)
 
 
 ## Reconciling subjects to FAST
