@@ -15,11 +15,11 @@ The following notes apply to file naming conventions for editing file name varia
 - One or more DIFFERENTIATORS may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc.
 
 Examples of correctly formatted file names:
-`20230518-materials-rome-mets-legacy-enriched.csv`
-`20230630-genres-penn-marcxml-bibliophilly-enriched.csv'
-`20230715-names-kansas-marc-enriched.csv`
-`20230816-languages-princeton-marcxml-batch-3-enriched.csv`
-`20230901-places-hrc-csv-fragments-batch-1-enriched.csv`
+- `20230518-materials-rome-mets-legacy-enriched.csv`
+- `20230630-genres-penn-marcxml-bibliophilly-enriched.csv'
+- `20230715-names-kansas-marc-enriched.csv`
+- `20230816-languages-princeton-marcxml-batch-3-enriched.csv`
+- `20230901-places-hrc-csv-fragments-batch-1-enriched.csv`
 
 ## Reconciliation instructions by metadata element / authority type
 
