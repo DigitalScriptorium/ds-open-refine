@@ -14,7 +14,7 @@ The following notes apply to file naming conventions for editing file name varia
 - DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
 - A DIFFERENTIATOR may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly`, or batch numbers, such as `batch-1`, `batch-2`, etc.
 
-Example file name: `20230816-princeton-marcxml-batch-3.csv`
+Example file name: `20230816-princeton-marcxml-batch-3-enriched.csv`
 
 ## Reconciliation instructions by metadata element / authority type
 
