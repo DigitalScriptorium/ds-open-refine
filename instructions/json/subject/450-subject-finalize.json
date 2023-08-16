@@ -166,7 +166,7 @@
     "baseColumnName": "subject-id-1-2-3",
     "expression": "join ([cells['subject-id-1-2-3'].value,cells['subject-id-4-5'].value,cells['subject-id-6-7'].value,cells['subject-id-8-9-10'].value],';')",
     "onError": "keep-original",
-    "newColumnName": "subject-id",
+    "newColumnName": "structured_value_add",
     "columnInsertIndex": 7,
     "description": "Create column subject-id at index 7 based on column subject-id-1-2-3 using expression join ([cells['subject-id-1-2-3'].value,cells['subject-id-4-5'].value,cells['subject-id-6-7'].value,cells['subject-id-8-9-10'].value],';')"
   },
@@ -179,7 +179,7 @@
     "baseColumnName": "subject-label-1-2-3",
     "expression": "join ([cells['subject-label-1-2-3'].value,cells['subject-label-4-5'].value,cells['subject-label-6-7'].value,cells['subject-label-8-9-10'].value],';')",
     "onError": "keep-original",
-    "newColumnName": "subject-label",
+    "newColumnName": "authorized_label_add",
     "columnInsertIndex": 6,
     "description": "Create column subject-label at index 6 based on column subject-label-1-2-3 using expression join ([cells['subject-label-1-2-3'].value,cells['subject-label-4-5'].value,cells['subject-label-6-7'].value,cells['subject-label-8-9-10'].value],';')"
   },
@@ -247,42 +247,6 @@
     "op": "core/column-removal",
     "columnName": "code-filter 1",
     "description": "Remove column code-filter 1"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "structured_value",
-    "expression": "grel:coalesce(cells[\"structured_value\"].value,cells[\"subject-id\"].value)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column structured_value using expression grel:coalesce(cells[\"structured_value\"].value,cells[\"subject-id\"].value)"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "authorized_label",
-    "expression": "grel:coalesce(cells[\"authorized_label\"].value,cells[\"subject-label\"].value)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column authorized_label using expression grel:coalesce(cells[\"authorized_label\"].value,cells[\"subject-label\"].value)"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "subject-id",
-    "description": "Remove column subject-id"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "subject-label",
-    "description": "Remove column subject-label"
   },
   {
     "op": "core/column-removal",
