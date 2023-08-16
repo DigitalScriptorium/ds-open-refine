@@ -16,7 +16,7 @@ The following notes apply to file naming conventions for editing file name varia
 
 Examples of correctly formatted file names:
 - `20230518-materials-rome-mets-legacy-enriched.csv`
-- `20230630-genres-penn-marcxml-bibliophilly-enriched.csv'
+- `20230630-genres-penn-marcxml-bibliophilly-enriched.csv`
 - `20230715-names-kansas-marc-enriched.csv`
 - `20230816-languages-princeton-marcxml-batch-3-enriched.csv`
 - `20230901-places-hrc-csv-fragments-batch-1-enriched.csv`
