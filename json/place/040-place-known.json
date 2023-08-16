@@ -20861,5 +20861,212 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ancrum (tgn/1050378) for cells containing \"Ancrum\" in column recon-place"
+  },
+   {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Copenhagen",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003474",
+      "name": "Copenhagen",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Copenhagen (tgn/7003474) for cells containing \"Copenhagen\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Moscow",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7012974",
+      "name": "Moscow",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Moscow (tgn/7012974) for cells containing \"Moscow\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Northwest Germany",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7000084",
+      "name": "Germany",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Germany (tgn/7000084) for cells containing \"Northwest Germany\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Philippines",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1000135",
+      "name": "Philippines",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Philippines (tgn/1000135) for cells containing \"Philippines\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Place not identified",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7544559",
+      "name": "undetermined",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item undetermined (tgn/7544559) for cells containing \"Place not identified\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Portland",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7014273",
+      "name": "Portland",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Portland (tgn/7014273) for cells containing \"Portland\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Oregon",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007708",
+      "name": "Oregon",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Oregon (tgn/7007708) for cells containing \"Oregon\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Princeton",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7016190",
+      "name": "Princeton",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item Princeton (tgn/7016190) for cells containing \"Princeton\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "NJ",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007565",
+      "name": "New Jersey",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.307594
+    },
+    "shareNewTopics": false,
+    "description": "Match item New Jersey (tgn/7007565) for cells containing \"NJ\" in column recon-place"
   }
 ]
