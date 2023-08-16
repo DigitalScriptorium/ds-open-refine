@@ -36,19 +36,19 @@ Special note for this process: When manually reconciling and updating JSON instr
 30. Add `subject-label-7b` and `subject-id-7b` columns; consolidate `subject-label-6-7` and `subject-id-6-7` columns; reconcile next `recon-subject` column: [JSON][subject_recon_8]
 31. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 32. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-33. 9a
+33. Add `subject-label-8` and `subject-id-8` columns; reconcile next `recon-subject` column: [JSON][subject_recon_9a]
 34. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 35. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-36. 9b
+36. Add `subject-label-9a` and `subject-id-9a` columns; reconcile next `recon-subject` column: [JSON][subject_recon_9b]
 37. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
 38. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-39. 10a
+39. Add `subject-label-9b` and `subject-id-9b` columns; consolidate `subject-label-8-9` and `subject-id-8-9` columns; reconcile next `recon-subject` column: [JSON][subject_recon_10a]
 40. Apply list of previously reconciled or known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known]
 41. Manually reconcile and extract known FAST terms, retain for update at the end of the process
-42. 10b
+42. Add `subject-label-9a` and `subject-id-9a` columns; reconcile next `recon-subject` column: [JSON][subject_recon_10b]
 43. Apply list of previously reconciled or known FAST terms: [Form Terms JSON][subject_form_known]
-44. Manually reconcile and update known FAST terms: [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known] AND [Form Terms JSON][subject_form_known]
-45. Finalize workflow: [JSON][subject_finalize]
+44. Manually reconcile and update known FAST terms: *edit [Named Subjects JSON][named_subject_known] OR [Subjects JSON][subject_known] AND [Form Terms JSON][subject_form_known] and submit pull requests*
+45. Add `subject-label-10b` and `subject-id-10b` columns; consolidate all columns into `authorized_label_add` and `structured_value_add`; finalize workflow: [JSON][subject_finalize]
 46. Remove any facets and filters
 47. Export full CSV from OpenRefine (retain file name)
 
