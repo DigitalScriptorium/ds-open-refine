@@ -33,7 +33,7 @@
 
 7. Finalize workflow; add `authorized_label_add` and `structured_value_add` columns: [JSON][genre_finalize]
 8. Remove any facets and filters
-9. Export full CSV file (retain file name)
+9. Export full CSV from OpenRefine (retain file name)
 
 [genre_finalize]:    json/genre/090-genre-finalize.json
 
