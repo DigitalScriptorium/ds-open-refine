@@ -6,8 +6,8 @@
 4. Remove any facets and filters
 5. Export full CSV from OpenRefine (retain file name)
 
-[material_workflow]:  json/material/010-material-workflow.json
-[material_finalize]:  json/material/090-material-finalize.json
+[material_workflow]:  /json/material/010-material-workflow.json
+[material_finalize]:  /json/material/090-material-finalize.json
 
 ```
 json/material/010-material-workflow.json
