@@ -1,0 +1,107 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-6",
+    "columnInsertIndex": 6,
+    "description": "Create column subject-id-6 at index 6 based on column recon-subject using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-subject",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-6",
+    "columnInsertIndex": 6,
+    "description": "Create column subject-label-6 at index 6 based on column recon-subject using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-subject",
+    "description": "Remove column recon-subject"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-term",
+    "expression": "grel:if(isBlank(cells[\"subject-id-6\"]),cells[\"subject-string 3\"].value,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-placeholder",
+    "columnInsertIndex": 5,
+    "description": "Create column subject-placeholder at index 5 based on column subject-term using expression grel:if(isBlank(cells[\"subject-id-6\"]),cells[\"subject-string 3\"].value,\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-placeholder",
+    "expression": "grel:if(cells[\"code-filter 3\"].value==\"v\",\"\",value)",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 6,
+    "description": "Create column recon-subject at index 6 based on column subject-placeholder using expression grel:if(cells[\"code-filter 3\"].value==\"v\",\"\",value)"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SUBJECT RECON, STEP 24: START SUBJECT RECON 7a \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 24: START SUBJECT RECON 7a \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  }
+]

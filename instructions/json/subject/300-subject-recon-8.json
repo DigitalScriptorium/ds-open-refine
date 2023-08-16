@@ -1,0 +1,196 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-7b",
+    "columnInsertIndex": 7,
+    "description": "Create column subject-id-7b at index 7 based on column recon-genre using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-7b",
+    "columnInsertIndex": 7,
+    "description": "Create column subject-label-7b at index 7 based on column recon-genre using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-7a",
+    "expression": "grel:coalesce(cells[\"subject-id-7a\"].value,cells[\"subject-id-7b\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-7",
+    "columnInsertIndex": 11,
+    "description": "Create column subject-id-7 at index 11 based on column subject-id-7a using expression grel:coalesce(cells[\"subject-id-7a\"].value,cells[\"subject-id-7b\"].value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-7a",
+    "expression": "grel:coalesce(cells[\"subject-label-7a\"].value,cells[\"subject-label-7b\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-7",
+    "columnInsertIndex": 11,
+    "description": "Create column subject-label-7 at index 11 based on column subject-id-7a using expression grel:coalesce(cells[\"subject-label-7a\"].value,cells[\"subject-label-7b\"].value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-4-5",
+    "expression": "grel:coalesce(cells[\"subject-id-6\"].value,cells[\"subject-id-7\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-6-7",
+    "columnInsertIndex": 22,
+    "description": "Create column subject-id-6-7 at index 22 based on column subject-id-4-5 using expression grel:coalesce(cells[\"subject-id-6\"].value,cells[\"subject-id-7\"].value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-4-5",
+    "expression": "grel:coalesce(cells[\"subject-label-6\"].value,cells[\"subject-label-7\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-6-7",
+    "columnInsertIndex": 22,
+    "description": "Create column subject-label-6-7 at index 22 based on column subject-id-4-5 using expression grel:coalesce(cells[\"subject-label-6\"].value,cells[\"subject-label-7\"].value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-6",
+    "description": "Remove column subject-id-6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-6",
+    "description": "Remove column subject-label-6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-7",
+    "description": "Remove column subject-id-7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-7",
+    "description": "Remove column subject-label-7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-7a",
+    "description": "Remove column subject-id-7a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-7a",
+    "description": "Remove column subject-label-7a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-7b",
+    "description": "Remove column subject-id-7b"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-7b",
+    "description": "Remove column subject-label-7b"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-genre",
+    "description": "Remove column recon-genre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-placeholder",
+    "description": "Remove column subject-placeholder"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-string 3",
+    "description": "Remove column subject-string 3"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-term",
+    "expression": "grel:cells[\"subject-string 4\"].value+\"--\"+cells[\"subject-string 5\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 5,
+    "description": "Create column recon-subject at index 5 based on column subject-term using expression grel:cells[\"subject-string 4\"].value+\"--\"+cells[\"subject-string 5\"].value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SUBJECT RECON, STEP 31: START SUBJECT RECON 8 \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 31: START SUBJECT RECON 8 \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  }
+]

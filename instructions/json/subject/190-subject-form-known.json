@@ -1,0 +1,248 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"KNOWN SUBJECT (FORM) RECON APPLIED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN SUBJECT (FORM) RECON APPLIED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Handbooks, manuals, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423877",
+      "name": "Handbooks and manuals",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Handbooks and manuals (http://id.worldcat.org/fast/1423877) for cells containing \"Handbooks, manuals, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Glossaries, vocabularies, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423786",
+      "name": "Glossaries, vocabularies, etc.",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Glossaries, vocabularies, etc. (http://id.worldcat.org/fast/1423786) for cells containing \"Glossaries, vocabularies, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Formulae, receipts, prescriptions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1424054",
+      "name": "Prescriptions, formulae, receipts, etc.",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prescriptions, formulae, receipts, etc. (http://id.worldcat.org/fast/1424054) for cells containing \"Formulae, receipts, prescriptions\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Quotations, maxims, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423792",
+      "name": "Quotations",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Quotations (http://id.worldcat.org/fast/1423792) for cells containing \"Quotations, maxims, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Early works to 1850",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works to 1850\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Paraphrases, Italian",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423839",
+      "name": "Paraphrases",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paraphrases (http://id.worldcat.org/fast/1423839) for cells containing \"Paraphrases, Italian\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Registers",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1919964",
+      "name": "Registers (Lists)",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Registers (Lists) (http://id.worldcat.org/fast/1919964) for cells containing \"Registers\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Calendar",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423764",
+      "name": "Calendars",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calendars (http://id.worldcat.org/fast/1423764) for cells containing \"Calendar\" in column recon-genre"
+  }
+]

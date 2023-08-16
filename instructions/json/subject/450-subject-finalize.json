@@ -1,0 +1,330 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-10b",
+    "columnInsertIndex": 6,
+    "description": "Create column subject-id-10b at index 6 based on column recon-genre using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "recon-genre",
+    "expression": "grel:cell.recon.match.name",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-10b",
+    "columnInsertIndex": 6,
+    "description": "Create column subject-label-10b at index 6 based on column recon-genre using expression grel:cell.recon.match.name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "recon-genre",
+    "description": "Remove column recon-genre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-placeholder",
+    "description": "Remove column subject-placeholder"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-9a",
+    "expression": "grel:coalesce(cells[\"subject-id-9a\"].value,cells[\"subject-id-9b\"].value,cells[\"subject-id-10a\"].value,cells[\"subject-id-10b\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-9-10",
+    "columnInsertIndex": 13,
+    "description": "Create column subject-id-9-10 at index 13 based on column subject-id-9a using expression grel:coalesce(cells[\"subject-id-9a\"].value,cells[\"subject-id-9b\"].value,cells[\"subject-id-10a\"].value,cells[\"subject-id-10b\"].value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-9a",
+    "expression": "grel:coalesce(cells[\"subject-label-9a\"].value,cells[\"subject-label-9b\"].value,cells[\"subject-label-10a\"].value,cells[\"subject-label-10b\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-9-10",
+    "columnInsertIndex": 13,
+    "description": "Create column subject-label-9-10 at index 13 based on column subject-id-9a using expression grel:coalesce(cells[\"subject-label-9a\"].value,cells[\"subject-label-9b\"].value,cells[\"subject-label-10a\"].value,cells[\"subject-label-10b\"].value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-9a",
+    "description": "Remove column subject-id-9a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-9a",
+    "description": "Remove column subject-label-9a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-9b",
+    "description": "Remove column subject-id-9b"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-9b",
+    "description": "Remove column subject-label-9b"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-10a",
+    "description": "Remove column subject-id-10a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-10a",
+    "description": "Remove column subject-label-10a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-10b",
+    "description": "Remove column subject-id-10b"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-10b",
+    "description": "Remove column subject-label-10b"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-6-7",
+    "expression": "grel:coalesce(cells[\"subject-id-8\"].value,cells[\"subject-id-9-10\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-id-8-9-10",
+    "columnInsertIndex": 17,
+    "description": "Create column subject-id-8-9-10 at index 17 based on column subject-id-6-7 using expression grel:coalesce(cells[\"subject-id-8\"].value,cells[\"subject-id-9-10\"].value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-6-7",
+    "expression": "grel:coalesce(cells[\"subject-label-8\"].value,cells[\"subject-label-9-10\"].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-label-8-9-10",
+    "columnInsertIndex": 17,
+    "description": "Create column subject-label-8-9-10 at index 17 based on column subject-id-6-7 using expression grel:coalesce(cells[\"subject-label-8\"].value,cells[\"subject-label-9-10\"].value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-8",
+    "description": "Remove column subject-id-8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-8",
+    "description": "Remove column subject-label-8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-9-10",
+    "description": "Remove column subject-id-9-10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-9-10",
+    "description": "Remove column subject-label-9-10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-string 4",
+    "description": "Remove column subject-string 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-string 5",
+    "description": "Remove column subject-string 5"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-id-1-2-3",
+    "expression": "join ([cells['subject-id-1-2-3'].value,cells['subject-id-4-5'].value,cells['subject-id-6-7'].value,cells['subject-id-8-9-10'].value],';')",
+    "onError": "keep-original",
+    "newColumnName": "subject-id",
+    "columnInsertIndex": 7,
+    "description": "Create column subject-id at index 7 based on column subject-id-1-2-3 using expression join ([cells['subject-id-1-2-3'].value,cells['subject-id-4-5'].value,cells['subject-id-6-7'].value,cells['subject-id-8-9-10'].value],';')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-label-1-2-3",
+    "expression": "join ([cells['subject-label-1-2-3'].value,cells['subject-label-4-5'].value,cells['subject-label-6-7'].value,cells['subject-label-8-9-10'].value],';')",
+    "onError": "keep-original",
+    "newColumnName": "subject-label",
+    "columnInsertIndex": 6,
+    "description": "Create column subject-label at index 6 based on column subject-label-1-2-3 using expression join ([cells['subject-label-1-2-3'].value,cells['subject-label-4-5'].value,cells['subject-label-6-7'].value,cells['subject-label-8-9-10'].value],';')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-8-9-10",
+    "description": "Remove column subject-id-8-9-10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-8-9-10",
+    "description": "Remove column subject-label-8-9-10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-6-7",
+    "description": "Remove column subject-id-6-7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-6-7",
+    "description": "Remove column subject-label-6-7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-4-5",
+    "description": "Remove column subject-id-4-5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-4-5",
+    "description": "Remove column subject-label-4-5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id-1-2-3",
+    "description": "Remove column subject-id-1-2-3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label-1-2-3",
+    "description": "Remove column subject-label-1-2-3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "code-filter 5",
+    "description": "Remove column code-filter 5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "code-filter 4",
+    "description": "Remove column code-filter 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "code-filter 3",
+    "description": "Remove column code-filter 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "code-filter 2",
+    "description": "Remove column code-filter 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "code-filter 1",
+    "description": "Remove column code-filter 1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "structured_value",
+    "expression": "grel:coalesce(cells[\"structured_value\"].value,cells[\"subject-id\"].value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column structured_value using expression grel:coalesce(cells[\"structured_value\"].value,cells[\"subject-id\"].value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "authorized_label",
+    "expression": "grel:coalesce(cells[\"authorized_label\"].value,cells[\"subject-label\"].value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column authorized_label using expression grel:coalesce(cells[\"authorized_label\"].value,cells[\"subject-label\"].value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-id",
+    "description": "Remove column subject-id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-label",
+    "description": "Remove column subject-label"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "subject-term",
+    "description": "Remove column subject-term"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SUBJECT RECON, STEP 46: FINALIZED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 46: FINALIZED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "workflow_current",
+    "keyColumnName": "row_index",
+    "separator": "|",
+    "description": "Join multi-valued cells in column workflow_current"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "workflow_current",
+    "description": "Remove column workflow_current"
+  }
+]

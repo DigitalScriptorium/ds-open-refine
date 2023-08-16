@@ -1,0 +1,5530 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"KNOWN NAMED SUBJECT RECON APPLIED \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "14th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/933420",
+      "name": "Fourteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fourteenth century (http://id.worldcat.org/fast/933420) for cells containing \"14th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1113663",
+      "name": "Seventeenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Seventeenth century (http://id.worldcat.org/fast/1113663) for cells containing \"17th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1119851",
+      "name": "Sixteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sixteenth century (http://id.worldcat.org/fast/1119851) for cells containing \"16th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "15th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/923962",
+      "name": "Fifteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fifteenth century (http://id.worldcat.org/fast/923962) for cells containing \"15th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1150138",
+      "name": "Thirteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thirteenth century (http://id.worldcat.org/fast/1150138) for cells containing \"13th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "12th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1159791",
+      "name": "Twelfth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Twelfth century (http://id.worldcat.org/fast/1159791) for cells containing \"12th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "18th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/904058",
+      "name": "Eighteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eighteenth century (http://id.worldcat.org/fast/904058) for cells containing \"18th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Republic, 510-30 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355940",
+      "name": "510-30 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 510-30 B.C. (http://id.worldcat.org/fast/1355940) for cells containing \"Republic, 510-30 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles IX, 1560-1574",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355610",
+      "name": "1560-1574",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1560-1574 (http://id.worldcat.org/fast/1355610) for cells containing \"Charles IX, 1560-1574\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Henry II, 1547-1559",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355597",
+      "name": "1547-1559",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1547-1559 (http://id.worldcat.org/fast/1355597) for cells containing \"Henry II, 1547-1559\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Elizabeth, 1558-1603",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355606",
+      "name": "1558-1603",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1558-1603 (http://id.worldcat.org/fast/1355606) for cells containing \"Elizabeth, 1558-1603\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles V, 1519-1556",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355581",
+      "name": "1519-1556",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1519-1556 (http://id.worldcat.org/fast/1355581) for cells containing \"Charles V, 1519-1556\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charles I, 1516-1556",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355580",
+      "name": "1516-1556",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1516-1556 (http://id.worldcat.org/fast/1355580) for cells containing \"Charles I, 1516-1556\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Maximilian I, 1493-1519",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355564",
+      "name": "1493-1519",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1493-1519 (http://id.worldcat.org/fast/1355564) for cells containing \"Maximilian I, 1493-1519\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rudolf II, 1576-1612",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355625",
+      "name": "1576-1612",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1576-1612 (http://id.worldcat.org/fast/1355625) for cells containing \"Rudolf II, 1576-1612\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Philip II, 1556-1598",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355603",
+      "name": "1556-1598",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1556-1598 (http://id.worldcat.org/fast/1355603) for cells containing \"Philip II, 1556-1598\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Early church, ca 30-600",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355906",
+      "name": "30-600",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 30-600 (http://id.worldcat.org/fast/1355906) for cells containing \"Early church, ca 30-600\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sigismund II Augustus, 1548-1572",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355598",
+      "name": "1548-1572",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1548-1572 (http://id.worldcat.org/fast/1355598) for cells containing \"Sigismund II Augustus, 1548-1572\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medieval, 500-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355938",
+      "name": "500-1500",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 500-1500 (http://id.worldcat.org/fast/1355938) for cells containing \"Medieval, 500-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Middle Ages, 600-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355938",
+      "name": "500-1500",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 500-1500 (http://id.worldcat.org/fast/1355938) for cells containing \"Middle Ages, 600-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Alexander Balas, King of Syria, -145 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1804028",
+      "name": "Alexander Balas, King of Syria, -145 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 96
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alexander Balas, King of Syria, -145 B.C. (http://id.worldcat.org/fast/1804028) for cells containing \"Alexander Balas, King of Syria, -145 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Alexander, the Great, 356 BC-323 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1800513",
+      "name": "Alexander, the Great, 356 B.C.-323 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alexander, the Great, 356 B.C.-323 B.C. (http://id.worldcat.org/fast/1800513) for cells containing \"Alexander, the Great, 356 BC-323 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Categoriae",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357313",
+      "name": "Categoriae (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Categoriae (Aristotle) (http://id.worldcat.org/fast/1357313) for cells containing \"Aristotle Categoriae\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De caelo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357825",
+      "name": "De caelo (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De caelo (Aristotle) (http://id.worldcat.org/fast/1357825) for cells containing \"Aristotle De caelo\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De interpretatione",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359296",
+      "name": "De interpretatione (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De interpretatione (Aristotle) (http://id.worldcat.org/fast/1359296) for cells containing \"Aristotle De interpretatione\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Nicomachean ethics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357515",
+      "name": "Nicomachean ethics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nicomachean ethics (Aristotle) (http://id.worldcat.org/fast/1357515) for cells containing \"Aristotle Nicomachean ethics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Physics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356964",
+      "name": "Physics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Physics (Aristotle) (http://id.worldcat.org/fast/1356964) for cells containing \"Aristotle Physics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Posterior analytics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356595",
+      "name": "Posterior analytics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Posterior analytics (Aristotle) (http://id.worldcat.org/fast/1356595) for cells containing \"Aristotle Posterior analytics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Benedict, Saint, Abbot of Monte Cassino Regula",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357012",
+      "name": "Regula (Benedict, Saint, Abbot of Monte Cassino)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Regula (Benedict, Saint, Abbot of Monte Cassino) (http://id.worldcat.org/fast/1357012) for cells containing \"Benedict, Saint, Abbot of Monte Cassino Regula\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Exodus",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892902",
+      "name": "Bible. Exodus",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Exodus (http://id.worldcat.org/fast/1892902) for cells containing \"Bible Exodus\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Genesis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808046",
+      "name": "Bible. Genesis",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Genesis (http://id.worldcat.org/fast/1808046) for cells containing \"Bible Genesis\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Gospels",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808065",
+      "name": "Bible. Gospels",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Gospels (http://id.worldcat.org/fast/1808065) for cells containing \"Bible Gospels\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible John",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1696638",
+      "name": "Bible. John",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. John (http://id.worldcat.org/fast/1696638) for cells containing \"Bible John\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkish Conquest, 1570-1571",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355175",
+      "name": "Turkish Conquest of Cyprus (Cyprus : 1570-1571)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkish Conquest of Cyprus (Cyprus : 1570-1571) (http://id.worldcat.org/fast/1355175) for cells containing \"Turkish Conquest, 1570-1571\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkish occupation, 1526-1699",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355176",
+      "name": "Turkish Occupation of Hungary (Hungary : 1526-1699)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkish Occupation of Hungary (Hungary : 1526-1699) (http://id.worldcat.org/fast/1355176) for cells containing \"Turkish occupation, 1526-1699\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Varro, Marcus Terentius Rerum rusticarum libri tres",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359505",
+      "name": "Rerum rusticarum libri tres (Varro, Marcus Terentius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rerum rusticarum libri tres (Varro, Marcus Terentius) (http://id.worldcat.org/fast/1359505) for cells containing \"Varro, Marcus Terentius Rerum rusticarum libri tres\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Venice (Republic : To 1797) Consiglio dei Dieci",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1512832",
+      "name": "Venice (Republic : To 1797). Consiglio dei Dieci",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Venice (Republic : To 1797). Consiglio dei Dieci (http://id.worldcat.org/fast/1512832) for cells containing \"Venice (Republic : To 1797) Consiglio dei Dieci\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Venice (Republic : To 1797) Esercito",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1974375",
+      "name": "Venice (Republic : To 1797). Esercito",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Venice (Republic : To 1797). Esercito (http://id.worldcat.org/fast/1974375) for cells containing \"Venice (Republic : To 1797) Esercito\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Virgil Georgica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356360",
+      "name": "Georgica (Virgil)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Georgica (Virgil) (http://id.worldcat.org/fast/1356360) for cells containing \"Virgil Georgica\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Terence Andria",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357161",
+      "name": "Andria (Terence)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Andria (Terence) (http://id.worldcat.org/fast/1357161) for cells containing \"Terence Andria\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Terence Eunuchus",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362775",
+      "name": "Eunuchus (Terence)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eunuchus (Terence) (http://id.worldcat.org/fast/1362775) for cells containing \"Terence Eunuchus\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Third Order Secular of St Francis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/655590",
+      "name": "Third Order Secular of St. Francis",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Third Order Secular of St. Francis (http://id.worldcat.org/fast/655590) for cells containing \"Third Order Secular of St Francis\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkic Mongol Domination, 1045-1522",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1907635",
+      "name": "Turkic Mongol Domination (Armenia : 1045-1522)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 89
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkic Mongol Domination (Armenia : 1045-1522) (http://id.worldcat.org/fast/1907635) for cells containing \"Turkic Mongol Domination, 1045-1522\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Seneca, Lucius Annaeus, approximately 4 BC-65 AD",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1846771",
+      "name": "Seneca, Lucius Annaeus, approximately 4 B.C.-65 A.D.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 96
+    },
+    "shareNewTopics": false,
+    "description": "Match item Seneca, Lucius Annaeus, approximately 4 B.C.-65 A.D. (http://id.worldcat.org/fast/1846771) for cells containing \"Seneca, Lucius Annaeus, approximately 4 BC-65 AD\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Matthew",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808086",
+      "name": "Bible. Matthew",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Matthew (http://id.worldcat.org/fast/1808086) for cells containing \"Bible Matthew\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Old Testament",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808092",
+      "name": "Bible. Old Testament",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Old Testament (http://id.worldcat.org/fast/1808092) for cells containing \"Bible Old Testament\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Pentateuch",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808093",
+      "name": "Bible. Pentateuch",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Pentateuch (http://id.worldcat.org/fast/1808093) for cells containing \"Bible Pentateuch\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Psalms",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808097",
+      "name": "Bible. Psalms",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Psalms (http://id.worldcat.org/fast/1808097) for cells containing \"Bible Psalms\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Romans",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892944",
+      "name": "Bible. Romans",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Romans (http://id.worldcat.org/fast/1892944) for cells containing \"Bible Romans\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Song of Solomon",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892948",
+      "name": "Bible. Song of Solomon",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Song of Solomon (http://id.worldcat.org/fast/1892948) for cells containing \"Bible Song of Solomon\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Wisdom of Solomon",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808021",
+      "name": "Bible. Wisdom of Solomon",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Wisdom of Solomon (http://id.worldcat.org/fast/1808021) for cells containing \"Bible Wisdom of Solomon\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Archdiocese of Cologne (Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/555160",
+      "name": "Catholic Church. Archdiocese of Cologne (Germany)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Archdiocese of Cologne (Germany) (http://id.worldcat.org/fast/555160) for cells containing \"Catholic Church Archdiocese of Cologne (Germany)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Archdiocese of Florence (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/609498",
+      "name": "Catholic Church. Archdiocese of Florence (Italy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Archdiocese of Florence (Italy) (http://id.worldcat.org/fast/609498) for cells containing \"Catholic Church Archdiocese of Florence (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Archdiocese of Reims (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/689248",
+      "name": "Catholic Church. Archdiocese of Reims (France)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Archdiocese of Reims (France) (http://id.worldcat.org/fast/689248) for cells containing \"Catholic Church Archdiocese of Reims (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Archdiocese of Siena (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/694547",
+      "name": "Catholic Church. Archdiocese of Siena (Italy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Archdiocese of Siena (Italy) (http://id.worldcat.org/fast/694547) for cells containing \"Catholic Church Archdiocese of Siena (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Cancellaria Apostolica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/622982",
+      "name": "Catholic Church. Cancellaria Apostolica",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Cancellaria Apostolica (http://id.worldcat.org/fast/622982) for cells containing \"Catholic Church Cancellaria Apostolica\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Diocese of Pistoia (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/671707",
+      "name": "Catholic Church. Diocese of Pistoia (Italy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Diocese of Pistoia (Italy) (http://id.worldcat.org/fast/671707) for cells containing \"Catholic Church Diocese of Pistoia (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Diocese of Sion (Switzerland)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1626430",
+      "name": "Catholic Church. Diocese of Sion (Switzerland)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Diocese of Sion (Switzerland) (http://id.worldcat.org/fast/1626430) for cells containing \"Catholic Church Diocese of Sion (Switzerland)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Diocese of Toul (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/534582",
+      "name": "Catholic Church. Diocese of Toul (France)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Diocese of Toul (France) (http://id.worldcat.org/fast/534582) for cells containing \"Catholic Church Diocese of Toul (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Profession of faith",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1375849",
+      "name": "Profession of faith (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Profession of faith (Catholic Church) (http://id.worldcat.org/fast/1375849) for cells containing \"Catholic Church Profession of faith\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catiline, approximately 108 BC-62 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1811802",
+      "name": "Catiline, approximately 108 B.C.-62 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catiline, approximately 108 B.C.-62 B.C. (http://id.worldcat.org/fast/1811802) for cells containing \"Catiline, approximately 108 BC-62 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cicero, Marcus Tullius Epistolae ad familiares",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360120",
+      "name": "Epistolae ad familiares (Cicero, Marcus Tullius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Epistolae ad familiares (Cicero, Marcus Tullius) (http://id.worldcat.org/fast/1360120) for cells containing \"Cicero, Marcus Tullius Epistolae ad familiares\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Convento di S Maria degli Angeli (Florence, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/626466",
+      "name": "Convento di S. Maria degli Angeli (Florence, Italy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Convento di S. Maria degli Angeli (Florence, Italy) (http://id.worldcat.org/fast/626466) for cells containing \"Convento di S Maria degli Angeli (Florence, Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Demetrius On style",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1367675",
+      "name": "On style (Demetrius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item On style (Demetrius) (http://id.worldcat.org/fast/1367675) for cells containing \"Demetrius On style\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Euclid Elements",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356952",
+      "name": "Elements (Euclid)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Elements (Euclid) (http://id.worldcat.org/fast/1356952) for cells containing \"Euclid Elements\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gebhard, Truchsess von Waldburg, Archbishop and Elector of Cologne, 1547-1601",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/252239",
+      "name": "Truchsess von Waldburg, Gebhard, Archbishop and Elector of Cologne, 1547-1601",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Truchsess von Waldburg, Gebhard, Archbishop and Elector of Cologne, 1547-1601 (http://id.worldcat.org/fast/252239) for cells containing \"Gebhard, Truchsess von Waldburg, Archbishop and Elector of Cologne, 1547-1601\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Hippocrates Aphorisms",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359727",
+      "name": "Aphorisms (Hippocrates)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aphorisms (Hippocrates) (http://id.worldcat.org/fast/1359727) for cells containing \"Hippocrates Aphorisms\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Holy Roman Empire Reichskammergericht",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/568782",
+      "name": "Holy Roman Empire. Reichskammergericht",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Holy Roman Empire. Reichskammergericht (http://id.worldcat.org/fast/568782) for cells containing \"Holy Roman Empire Reichskammergericht\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Holy Roman Empire Reichstag",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/592249",
+      "name": "Holy Roman Empire. Reichstag",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Holy Roman Empire. Reichstag (http://id.worldcat.org/fast/592249) for cells containing \"Holy Roman Empire Reichstag\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Baptism",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1351993",
+      "name": "Baptism of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Baptism of Jesus Christ (http://id.worldcat.org/fast/1351993) for cells containing \"Jesus Christ--Baptism\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Passion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353950",
+      "name": "Passion of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Passion of Jesus Christ (http://id.worldcat.org/fast/1353950) for cells containing \"Jesus Christ--Passion\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Resurrection",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1354440",
+      "name": "Resurrection of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Resurrection of Jesus Christ (http://id.worldcat.org/fast/1354440) for cells containing \"Jesus Christ--Resurrection\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jugurthine War (111-105 BC)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/984778",
+      "name": "Jugurthine War (111-105 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 98
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jugurthine War (111-105 B.C.) (http://id.worldcat.org/fast/984778) for cells containing \"Jugurthine War (111-105 BC)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Diocese of Cortona (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/688734",
+      "name": "Catholic Church. Diocese of Cortona (Italy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Diocese of Cortona (Italy) (http://id.worldcat.org/fast/688734) for cells containing \"Catholic Church Diocese of Cortona (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Curia Romana",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/572442",
+      "name": "Catholic Church. Curia Romana",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Curia Romana (http://id.worldcat.org/fast/572442) for cells containing \"Catholic Church Curia Romana\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Liber sextus decretalium",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1369655",
+      "name": "Liber sextus decretalium (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Liber sextus decretalium (Catholic Church) (http://id.worldcat.org/fast/1369655) for cells containing \"Catholic Church Liber sextus decretalium\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nicomachus, of Gerasa Encheiridion harmonikēs",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360028",
+      "name": "Encheiridion harmonikēs (Nicomachus, of Gerasa)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Encheiridion harmonikēs (Nicomachus, of Gerasa) (http://id.worldcat.org/fast/1360028) for cells containing \"Nicomachus, of Gerasa Encheiridion harmonikēs\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "SS Annunziata (Church : Florence, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/543673",
+      "name": "SS. Annunziata (Church : Florence, Italy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item SS. Annunziata (Church : Florence, Italy) (http://id.worldcat.org/fast/543673) for cells containing \"SS Annunziata (Church : Florence, Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Quintilian Institutiones oratoriae",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356357",
+      "name": "Institutiones oratoriae (Quintilian)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Institutiones oratoriae (Quintilian) (http://id.worldcat.org/fast/1356357) for cells containing \"Quintilian Institutiones oratoriae\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "St Jakob (Church : Regensburg, Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/701160",
+      "name": "St. Jakob (Church : Regensburg, Germany)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item St. Jakob (Church : Regensburg, Germany) (http://id.worldcat.org/fast/701160) for cells containing \"St Jakob (Church : Regensburg, Germany)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "SS Trinità e S Michele Arcangelo di Brondolo (Monastery)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/626754",
+      "name": "SS. Trinità e S. Michele Arcangelo di Brondolo (Monastery)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item SS. Trinità e S. Michele Arcangelo di Brondolo (Monastery) (http://id.worldcat.org/fast/626754) for cells containing \"SS Trinità e S Michele Arcangelo di Brondolo (Monastery)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De anima",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356409",
+      "name": "De anima (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De anima (Aristotle) (http://id.worldcat.org/fast/1356409) for cells containing \"Aristotle De anima\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De generatione et corruptione",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357327",
+      "name": "De generatione et corruptione (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De generatione et corruptione (Aristotle) (http://id.worldcat.org/fast/1357327) for cells containing \"Aristotle De generatione et corruptione\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De motu animalium",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1373852",
+      "name": "De motu animalium (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De motu animalium (Aristotle) (http://id.worldcat.org/fast/1373852) for cells containing \"Aristotle De motu animalium\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De mundo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1358012",
+      "name": "De mundo (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De mundo (Aristotle) (http://id.worldcat.org/fast/1358012) for cells containing \"Aristotle De mundo\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle De partibus animalium",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363141",
+      "name": "De partibus animalium (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De partibus animalium (Aristotle) (http://id.worldcat.org/fast/1363141) for cells containing \"Aristotle De partibus animalium\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Eudemian ethics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357093",
+      "name": "Eudemian ethics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eudemian ethics (Aristotle) (http://id.worldcat.org/fast/1357093) for cells containing \"Aristotle Eudemian ethics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Historia animalium",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363502",
+      "name": "Historia animalium (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Historia animalium (Aristotle) (http://id.worldcat.org/fast/1363502) for cells containing \"Aristotle Historia animalium\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Metaphysics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357149",
+      "name": "Metaphysics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Metaphysics (Aristotle) (http://id.worldcat.org/fast/1357149) for cells containing \"Aristotle Metaphysics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Meteorologica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359294",
+      "name": "Meteorologica (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Meteorologica (Aristotle) (http://id.worldcat.org/fast/1359294) for cells containing \"Aristotle Meteorologica\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle On the generation of animals",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363949",
+      "name": "On the generation of animals (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item On the generation of animals (Aristotle) (http://id.worldcat.org/fast/1363949) for cells containing \"Aristotle On the generation of animals\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Parva naturalia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357548",
+      "name": "Parva naturalia (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Parva naturalia (Aristotle) (http://id.worldcat.org/fast/1357548) for cells containing \"Aristotle Parva naturalia\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Poetics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356362",
+      "name": "Poetics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poetics (Aristotle) (http://id.worldcat.org/fast/1356362) for cells containing \"Aristotle Poetics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Aristotle Topics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357722",
+      "name": "Topics (Aristotle)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Topics (Aristotle) (http://id.worldcat.org/fast/1357722) for cells containing \"Aristotle Topics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Breviary",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357439",
+      "name": "Breviary (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Breviary (Catholic Church) (http://id.worldcat.org/fast/1357439) for cells containing \"Catholic Church Breviary\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 29,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Venice (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204473",
+      "name": "Italy--Venice",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Venice (http://id.worldcat.org/fast/1204473) for cells containing \"Venice (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Augustine, of Hippo, Saint, 354-430 Regula",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357235",
+      "name": "Regula (Augustine, of Hippo, Saint)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Regula (Augustine, of Hippo, Saint) (http://id.worldcat.org/fast/1357235) for cells containing \"Augustine, of Hippo, Saint, 354-430 Regula\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Peter Lombard, Bishop of Paris, approximately 1100-1160 Sententiarum libri IV",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356925",
+      "name": "Sententiarum libri IV (Peter Lombard, Bishop of Paris)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sententiarum libri IV (Peter Lombard, Bishop of Paris) (http://id.worldcat.org/fast/1356925) for cells containing \"Peter Lombard, Bishop of Paris, approximately 1100-1160 Sententiarum libri IV\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Archdiocese of Wrocław (Poland)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/582872",
+      "name": "Catholic Church. Archdiocese of Wrocław (Poland)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Archdiocese of Wrocław (Poland) (http://id.worldcat.org/fast/582872) for cells containing \"Catholic Church Archdiocese of Wrocław (Poland)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Dionysius, the Areopagite, Saint, active 1st century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1815965",
+      "name": "Dionysius, the Areopagite, Saint, active 1st century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dionysius, the Areopagite, Saint, active 1st century (http://id.worldcat.org/fast/1815965) for cells containing \"Dionysius, the Areopagite, Saint, active 1st century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Phalaris, Tyrant of Agrigentum, active 6th century BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1841192",
+      "name": "Phalaris, Tyrant of Agrigentum, active 6th century B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Phalaris, Tyrant of Agrigentum, active 6th century B.C. (http://id.worldcat.org/fast/1841192) for cells containing \"Phalaris, Tyrant of Agrigentum, active 6th century BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Council of Basel (1431-1449 : Basel, Switzerland)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1405584",
+      "name": "Council of Basel",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Council of Basel (http://id.worldcat.org/fast/1405584) for cells containing \"Council of Basel (1431-1449 : Basel, Switzerland)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Council of Trent (1545-1563 : Trento, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1405600",
+      "name": "Council of Trent",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Council of Trent (http://id.worldcat.org/fast/1405600) for cells containing \"Council of Trent (1545-1563 : Trento, Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Council of Vienne (1311-1312 : Vienne, France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1408837",
+      "name": "Council of Vienne",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Council of Vienne (http://id.worldcat.org/fast/1408837) for cells containing \"Council of Vienne (1311-1312 : Vienne, France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Avicenna, 980-1037 Qānūn fī al-ṭibb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363362",
+      "name": "Qānūn fī al-ṭibb (Avicenna)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qānūn fī al-ṭibb (Avicenna) (http://id.worldcat.org/fast/1363362) for cells containing \"Avicenna, 980-1037 Qānūn fī al-ṭibb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Boethius, -524 De institutione musica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362786",
+      "name": "De institutione musica (Boethius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item De institutione musica (Boethius) (http://id.worldcat.org/fast/1362786) for cells containing \"Boethius, -524 De institutione musica\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Qudāmah, Muwaffaq al-Dīn ʻAbd Allāh ibn Aḥmad, 1147-1223 Muqniʻ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057848",
+      "name": "Muqniʻ (Ibn Qudāmah, Muwaffaq al-Dīn ʻAbd Allāh ibn Aḥmad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muqniʻ (Ibn Qudāmah, Muwaffaq al-Dīn ʻAbd Allāh ibn Aḥmad) (http://id.worldcat.org/fast/2057848) for cells containing \"Ibn Qudāmah, Muwaffaq al-Dīn ʻAbd Allāh ibn Aḥmad, 1147-1223 Muqniʻ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Bannāʾ, Aḥmad ibn Muḥammad, 1256?-1321? Talkhīṣ aʻmāl al-ḥisāb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058978",
+      "name": "Talkhīṣ aʻmāl al-ḥisāb (Ibn al-Bannāʼ, Aḥmad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Talkhīṣ aʻmāl al-ḥisāb (Ibn al-Bannāʼ, Aḥmad ibn Muḥammad) (http://id.worldcat.org/fast/2058978) for cells containing \"Ibn al-Bannāʾ, Aḥmad ibn Muḥammad, 1256?-1321? Talkhīṣ aʻmāl al-ḥisāb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jacob ben Asher, approximately 1269-approximately 1340 Arbaʻah ṭurim",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1373192",
+      "name": "Arbaʻah ṭurim (Jacob ben Asher)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arbaʻah ṭurim (Jacob ben Asher) (http://id.worldcat.org/fast/1373192) for cells containing \"Jacob ben Asher, approximately 1269-approximately 1340 Arbaʻah ṭurim\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jaghmīnī, Maḥmūd ibn Muḥammad, -1221? Mulakhkhaṣ fī al-hayʼah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380591",
+      "name": "Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad) (http://id.worldcat.org/fast/1380591) for cells containing \"Jaghmīnī, Maḥmūd ibn Muḥammad, -1221? Mulakhkhaṣ fī al-hayʼah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Marghīnānī, ʻAlī ibn Abī Bakr, -1196 or 1197 Bidāyat al-mubtadī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2056651",
+      "name": "Bidāyat al-mubtadī (Marghīnānī, ʻAlī ibn Abī Bakr)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bidāyat al-mubtadī (Marghīnānī, ʻAlī ibn Abī Bakr) (http://id.worldcat.org/fast/2056651) for cells containing \"Marghīnānī, ʻAlī ibn Abī Bakr, -1196 or 1197 Bidāyat al-mubtadī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nasafī, ʻAbd Allāh ibn Aḥmad, -1310 Manār al-anwār fī al-uṣūl",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1383700",
+      "name": "Manār al-anwār fī al-uṣūl (Nasafī, ʻAbd Allāh ibn Aḥmad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manār al-anwār fī al-uṣūl (Nasafī, ʻAbd Allāh ibn Aḥmad) (http://id.worldcat.org/fast/1383700) for cells containing \"Nasafī, ʻAbd Allāh ibn Aḥmad, -1310 Manār al-anwār fī al-uṣūl\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sacro Bosco, Joannes de, active 1230 Sphaera mundi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1361687",
+      "name": "Sphaera mundi (Sacro Bosco, Joannes de)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sphaera mundi (Sacro Bosco, Joannes de) (http://id.worldcat.org/fast/1361687) for cells containing \"Sacro Bosco, Joannes de, active 1230 Sphaera mundi\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Peurbach, Georg von, 1423-1461 Theoricae novae planetarum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1365351",
+      "name": "Theoricae novae planetarum (Peurbach, Georg von)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Theoricae novae planetarum (Peurbach, Georg von) (http://id.worldcat.org/fast/1365351) for cells containing \"Peurbach, Georg von, 1423-1461 Theoricae novae planetarum\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Porphyry, approximately 234-approximately 305 Isagoge",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356577",
+      "name": "Isagoge (Porphyry)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Isagoge (Porphyry) (http://id.worldcat.org/fast/1356577) for cells containing \"Porphyry, approximately 234-approximately 305 Isagoge\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ptolemy, active 2nd century Almagest",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359711",
+      "name": "Almagest (Ptolemy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Almagest (Ptolemy) (http://id.worldcat.org/fast/1359711) for cells containing \"Ptolemy, active 2nd century Almagest\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ptolemy, active 2nd century Harmonics",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356354",
+      "name": "Harmonics (Ptolemy)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Harmonics (Ptolemy) (http://id.worldcat.org/fast/1356354) for cells containing \"Ptolemy, active 2nd century Harmonics\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad, active 12th century Farāʼiḍ al-Sirājīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1781891",
+      "name": "Farāʼiḍ al-Sirājīyah (Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Farāʼiḍ al-Sirājīyah (Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1781891) for cells containing \"Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad, active 12th century Farāʼiḍ al-Sirājīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ulugh Beg, 1394-1449 Zīj-i jadīd-i Sultānī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1796662",
+      "name": "Zij-i jadid-i Sultani (Ulugh Beg)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Zij-i jadid-i Sultani (Ulugh Beg) (http://id.worldcat.org/fast/1796662) for cells containing \"Ulugh Beg, 1394-1449 Zīj-i jadīd-i Sultānī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Seneca, Lucius Annaeus, approximately 4 BC-65 AD Tragedies",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357564",
+      "name": "Tragedies (Seneca, Lucius Annaeus)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tragedies (Seneca, Lucius Annaeus) (http://id.worldcat.org/fast/1357564) for cells containing \"Seneca, Lucius Annaeus, approximately 4 BC-65 AD Tragedies\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Corinthians, 2nd",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892892",
+      "name": "Bible. Corinthians, 2nd",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Corinthians, 2nd (http://id.worldcat.org/fast/1892892) for cells containing \"Bible Corinthians, 2nd\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Trial",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355166",
+      "name": "Trial of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trial of Jesus Christ (http://id.worldcat.org/fast/1355166) for cells containing \"Jesus Christ--Trial\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Childhood",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352277",
+      "name": "Childhood of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Childhood of Jesus Christ (http://id.worldcat.org/fast/1352277) for cells containing \"Jesus Christ--Childhood\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Divinity",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352802",
+      "name": "Divinity of Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Divinity of Christ (http://id.worldcat.org/fast/1352802) for cells containing \"Jesus Christ--Divinity\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "subject_as_recorded",
+          "columnName": "subject_as_recorded",
+          "query": "jesus christ",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Transfiguration",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355154",
+      "name": "Transfiguration of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Transfiguration of Jesus Christ (http://id.worldcat.org/fast/1355154) for cells containing \"Jesus Christ--Transfiguration\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bourbons, 1589-1789",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355633",
+      "name": "1589-1789",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1589-1789 (http://id.worldcat.org/fast/1355633) for cells containing \"Bourbons, 1589-1789\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cathédrale de Saint-Etienne (Toul, France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/624525",
+      "name": "Cathédrale Saint-Etienne (Toul, France)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cathédrale Saint-Etienne (Toul, France) (http://id.worldcat.org/fast/624525) for cells containing \"Cathédrale de Saint-Etienne (Toul, France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Constitutiones Clementis V",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363015",
+      "name": "Clementinae constitutiones (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clementinae constitutiones (Catholic Church) (http://id.worldcat.org/fast/1363015) for cells containing \"Catholic Church Constitutiones Clementis V\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Early works 1800",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works 1800\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Early works to 1850",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Early works to 1850\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Farāʼiḍ al-Sirājīyah (Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1781891",
+      "name": "Farāʼiḍ al-Sirājīyah (Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Farāʼiḍ al-Sirājīyah (Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1781891) for cells containing \"Farāʼiḍ al-Sirājīyah (Sajāwandī, Sirāj al-Dīn Muḥammad ibn Muḥammad)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ferdinand and Isabella, 1479-1516",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355554",
+      "name": "1479-1516",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1479-1516 (http://id.worldcat.org/fast/1355554) for cells containing \"Ferdinand and Isabella, 1479-1516\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Germanic rule, 962-1268",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355999",
+      "name": "962-1268",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 962-1268 (http://id.worldcat.org/fast/1355999) for cells containing \"Germanic rule, 962-1268\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medieval and early modern period, 425-1789",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355929",
+      "name": "425-1789",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 425-1789 (http://id.worldcat.org/fast/1355929) for cells containing \"Medieval and early modern period, 425-1789\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medieval period, 987-1515",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356009",
+      "name": "987-1515",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 987-1515 (http://id.worldcat.org/fast/1356009) for cells containing \"Medieval period, 987-1515\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380591",
+      "name": "Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad) (http://id.worldcat.org/fast/1380591) for cells containing \"Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Spanish rule, 1442-1707",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355537",
+      "name": "1442-1707",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1442-1707 (http://id.worldcat.org/fast/1355537) for cells containing \"Spanish rule, 1442-1707\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Süleyman I, 1520-1566",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355582",
+      "name": "1520-1566",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1520-1566 (http://id.worldcat.org/fast/1355582) for cells containing \"Süleyman I, 1520-1566\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkish rule, 1571-1878",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355617",
+      "name": "1571-1878",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1571-1878 (http://id.worldcat.org/fast/1355617) for cells containing \"Turkish rule, 1571-1878\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mary, Blessed Virgin, Saint--Assumption",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1351964",
+      "name": "Assumption of the Blessed Virgin Mary",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Assumption of the Blessed Virgin Mary (http://id.worldcat.org/fast/1351964) for cells containing \"Mary, Blessed Virgin, Saint--Assumption\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mary, Blessed Virgin, Saint--Annunciation",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1351679",
+      "name": "Annunciation to the Blessed Virgin Mary",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Annunciation to the Blessed Virgin Mary (http://id.worldcat.org/fast/1351679) for cells containing \"Mary, Blessed Virgin, Saint--Annunciation\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "English (Middle English)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1710955",
+      "name": "English language--Middle English",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item English language--Middle English (http://id.worldcat.org/fast/1710955) for cells containing \"English (Middle English)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Latin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/993125",
+      "name": "Latin language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 53
+    },
+    "shareNewTopics": false,
+    "description": "Match item Latin language (http://id.worldcat.org/fast/993125) for cells containing \"Latin\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Administration",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1351613",
+      "name": "Administration",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Administration (http://id.worldcat.org/fast/1351613) for cells containing \"Administration\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Family",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1728849",
+      "name": "Families",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 71
+    },
+    "shareNewTopics": false,
+    "description": "Match item Families (http://id.worldcat.org/fast/1728849) for cells containing \"Family\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Law and legislation",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/993678",
+      "name": "Law",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Law (http://id.worldcat.org/fast/993678) for cells containing \"Law and legislation\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Liturgy and ritual",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1000579",
+      "name": "Liturgics",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Liturgics (http://id.worldcat.org/fast/1000579) for cells containing \"Liturgy and ritual\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Customs and practices",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1007815",
+      "name": "Manners and customs",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manners and customs (http://id.worldcat.org/fast/1007815) for cells containing \"Customs and practices\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Societies, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1123785",
+      "name": "Societies",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Societies (http://id.worldcat.org/fast/1123785) for cells containing \"Societies, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Government",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1919741",
+      "name": "Politics and government",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Politics and government (http://id.worldcat.org/fast/1919741) for cells containing \"Government\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Influence",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/972484",
+      "name": "Influence (Literary, artistic, etc.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Influence (Literary, artistic, etc.) (http://id.worldcat.org/fast/972484) for cells containing \"Influence\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Holy Roman Empire",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205344",
+      "name": "Europe--Holy Roman Empire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe--Holy Roman Empire (http://id.worldcat.org/fast/1205344) for cells containing \"Holy Roman Empire\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "French",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/934333",
+      "name": "French language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item French language (http://id.worldcat.org/fast/934333) for cells containing \"French\" in column recon-subject"
+  }
+]

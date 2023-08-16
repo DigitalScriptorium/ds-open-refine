@@ -1,0 +1,130 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "subject-term",
+    "columnInsertIndex": 4,
+    "description": "Create column subject-term at index 4 based on column subject_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject-term",
+    "expression": "grel:value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject-term using expression grel:value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject-term",
+    "expression": "grel:value.replace(\" to 1900\",\"\").replace(\" to 1800\",\"\").replace(\" to 1700\",\"\").replace(\" to 1600\",\"\").replace(\" to 1500\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject-term using expression grel:value.replace(\" to 1900\",\"\").replace(\" to 1800\",\"\").replace(\" to 1700\",\"\").replace(\" to 1600\",\"\").replace(\" to 1500\",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subfield_codes",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "code-filter",
+    "columnInsertIndex": 6,
+    "description": "Create column code-filter at index 6 based on column subfield_codes using expression grel:value"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "code-filter",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "--",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column code-filter by separator"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "subject-term",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "recon-subject",
+    "columnInsertIndex": 5,
+    "description": "Create column recon-subject at index 5 based on column subject-term using expression grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:5000/reconcile",
+      "identifierSpace": "http://localhost/identifier",
+      "schemaSpace": "http://localhost/schema",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column recon-subject to type /fast/all"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_current",
+    "expression": "grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 3: START SUBJECT RECON 1 \"+now()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "workflow_history",
+    "expression": "grel:value + \" | \" + cells[\"workflow_current\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column workflow_history using expression grel:value + \" | \" + cells[\"workflow_current\"].value"
+  }
+]
