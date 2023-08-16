@@ -172,7 +172,7 @@ json/subject/topic/120-subject-finalize.json
 
 ## Reconciling languages to Wikidata
 
-[Language reconciliation instructions](instructions/languages.md) 
+[Language reconciliation instructions](/instructions/languages.md)
 
 1. Load `DATE-languages-DATATYPE-INSTITUTION.csv` into OpenRefine; rename `DATE-languages-DATATYPE-INSTITUTION-enriched.csv`
 2. Add workflow columns: [JSON][language_workflow]
