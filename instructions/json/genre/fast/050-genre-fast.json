@@ -29,21 +29,21 @@
     "op": "core/multivalued-cell-join",
     "columnName": "recon-genre",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column recon-genre"
   },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "genre-fast",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column genre-fast"
   },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "fast-label",
     "keyColumnName": "row_index",
-    "separator": "|",
+    "separator": ";",
     "description": "Join multi-valued cells in column fast-label"
   },
   {
