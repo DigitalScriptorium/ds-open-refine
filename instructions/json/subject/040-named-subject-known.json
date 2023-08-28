@@ -5526,5 +5526,165 @@
     },
     "shareNewTopics": false,
     "description": "Match item French language (http://id.worldcat.org/fast/934333) for cells containing \"French\" in column recon-subject"
-  }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Lamentations",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892924",
+      "name": "Bible. Lamentations",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Lamentations (http://id.worldcat.org/fast/1892924) for cells containing \"Bible Lamentations\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Brudenell family,",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/359051",
+      "name": "Brudenell family",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brudenell family (http://id.worldcat.org/fast/359051) for cells containing \"Brudenell family,\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Archdiocese of Lyon (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/550433",
+      "name": "Catholic Church. Archdiocese of Lyon (France)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catholic Church. Archdiocese of Lyon (France) (http://id.worldcat.org/fast/550433) for cells containing \"Catholic Church Archdiocese of Lyon (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tresham family,",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/303344",
+      "name": "Tresham family",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tresham family (http://id.worldcat.org/fast/303344) for cells containing \"Tresham family,\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Psalms, CXIX",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808097",
+      "name": "Bible. Psalms",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Psalms (http://id.worldcat.org/fast/1808097) for cells containing \"Bible Psalms, CXIX\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Hieron I, Tyrant of Syracuse, -467 BC or 466 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1823922",
+      "name": "Hieron I, Tyrant of Syracuse, -467 B.C. or 466 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 96
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hieron I, Tyrant of Syracuse, -467 B.C. or 466 B.C. (http://id.worldcat.org/fast/1823922) for cells containing \"Hieron I, Tyrant of Syracuse, -467 BC or 466 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sermons",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1113216",
+      "name": "Sermons",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sermons (http://id.worldcat.org/fast/1113216) for cells containing \"Sermons\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "History",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/958235",
+      "name": "History",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item History (http://id.worldcat.org/fast/958235) for cells containing \"History\" in column recon-subject"
+  },
 ]
