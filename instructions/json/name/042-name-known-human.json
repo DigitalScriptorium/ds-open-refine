@@ -11544,5 +11544,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item ʻAlī ibn Ibrāhīm Wāḥī (Q121502809) for cells containing \"Wāḥī, ʻAlī ibn Ibrāhīm, active 18th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bracciolini, Giovan Battista,‏ ‎ 1440-1470",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3766057",
+      "name": "Giovan Battista Bracciolini",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovan Battista Bracciolini (Q3766057) for cells containing \"Bracciolini, Giovan Battista,‏ ‎ 1440-1470\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-human: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-human",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "‎Ponchier‏, Étienne‏,‎ 1446-1524",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3592337",
+      "name": "Étienne de Poncher",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Étienne de Poncher (Q3592337) for cells containing \"‎Ponchier‏, Étienne‏,‎ 1446-1524\" in column recon-human"
   }
 ]
