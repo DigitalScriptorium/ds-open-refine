@@ -244,5 +244,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Calendars (http://id.worldcat.org/fast/1423764) for cells containing \"Calendar\" in column recon-genre"
-  }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Charts, diagrams, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423732",
+      "name": "Charts, diagrams, etc.",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charts, diagrams, etc. (http://id.worldcat.org/fast/1423732) for cells containing \"Charts, diagrams, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Problems, exercises, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423783",
+      "name": "Problems and exercises",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Problems and exercises (http://id.worldcat.org/fast/1423783) for cells containing \"Problems, exercises, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Ouvrages avant 1800",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1411636",
+      "name": "Early works",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Ouvrages avant 1800\" in column recon-genre"
+  },
 ]
