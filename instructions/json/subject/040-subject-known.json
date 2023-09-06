@@ -14734,4 +14734,164 @@
     "shareNewTopics": false,
     "description": "Match item Signs and symbols (http://id.worldcat.org/fast/1118355) for cells containing \"Symbolic aspects\" in column recon-subject"
   },
-]
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "French occupation, 1798-1801",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353130",
+      "name": "French Occupation of Egypt (Egypt : 1798-1801)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item French Occupation of Egypt (Egypt : 1798-1801) (http://id.worldcat.org/fast/1353130) for cells containing \"French occupation, 1798-1801\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Persian",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1058466",
+      "name": "Persian language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Persian language (http://id.worldcat.org/fast/1058466) for cells containing \"Persian\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkish",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1159411",
+      "name": "Turkish language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkish language (http://id.worldcat.org/fast/1159411) for cells containing \"Turkish\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabic",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812287",
+      "name": "Arabic language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language (http://id.worldcat.org/fast/812287) for cells containing \"Arabic\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "19th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1037841",
+      "name": "Nineteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nineteenth century (http://id.worldcat.org/fast/1037841) for cells containing \"19th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "15e siècle",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/923962",
+      "name": "Fifteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fifteenth century (http://id.worldcat.org/fast/923962) for cells containing \"15e siècle\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Customs and practices",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1007815",
+      "name": "Manners and customs",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manners and customs (http://id.worldcat.org/fast/1007815) for cells containing \"Customs and practices\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "16e siècle",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1119851",
+      "name": "Sixteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sixteenth century (http://id.worldcat.org/fast/1119851) for cells containing \"16e siècle\" in column recon-subject"
+  }
+  
