@@ -13514,4 +13514,1224 @@
     "shareNewTopics": false,
     "description": "Match item Romances (http://id.worldcat.org/fast/1099892) for cells containing \"Romances\" in column recon-subject"
   },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīʻah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1117946",
+      "name": "Shīʻah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah (http://id.worldcat.org/fast/1117946) for cells containing \"Shīʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jumʻah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/984834",
+      "name": "Jumʻah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jumʻah (http://id.worldcat.org/fast/984834) for cells containing \"Jumʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Chansons arabes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1126251",
+      "name": "Songs, Arabic",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Songs, Arabic (http://id.worldcat.org/fast/1126251) for cells containing \"Chansons arabes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabes--Musique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1424542",
+      "name": "Arabs--Music",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabs--Music (http://id.worldcat.org/fast/1424542) for cells containing \"Arabes--Musique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Prédestination--Islam",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1075015",
+      "name": "Predestination (Islam)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Predestination (Islam) (http://id.worldcat.org/fast/1075015) for cells containing \"Prédestination--Islam\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Acre (Israel)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1207296",
+      "name": "Israel--Acre",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Israel--Acre (http://id.worldcat.org/fast/1207296) for cells containing \"Acre (Israel)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabia, Southern",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1692642",
+      "name": "Southern Arabia",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Southern Arabia (http://id.worldcat.org/fast/1692642) for cells containing \"Arabia, Southern\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Damascus (Syria)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1207112",
+      "name": "Syria--Damascus",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Syria--Damascus (http://id.worldcat.org/fast/1207112) for cells containing \"Damascus (Syria)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Samarqand (Uzbekistan)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1210007",
+      "name": "Uzbekistan--Samarqand",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Uzbekistan--Samarqand (http://id.worldcat.org/fast/1210007) for cells containing \"Samarqand (Uzbekistan)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Syrie",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1208757",
+      "name": "Syria",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Syria (http://id.worldcat.org/fast/1208757) for cells containing \"Syrie\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Glastonbury (England)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1210183",
+      "name": "England--Glastonbury",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Glastonbury (http://id.worldcat.org/fast/1210183) for cells containing \"Glastonbury (England)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥimyar (Yemen)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1879898",
+      "name": "Yemen (Republic)--Ḥimyar",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yemen (Republic)--Ḥimyar (http://id.worldcat.org/fast/1879898) for cells containing \"Ḥimyar (Yemen)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Liban",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1206063",
+      "name": "Lebanon",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 67
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lebanon (http://id.worldcat.org/fast/1206063) for cells containing \"Liban\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rawdah Island (Egypt)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1888088",
+      "name": "Egypt--Rawdah Island",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Egypt--Rawdah Island (http://id.worldcat.org/fast/1888088) for cells containing \"Rawdah Island (Egypt)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Badr, Battle of, Badr Ḥunayn, Saudi Arabia, 624",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1709746",
+      "name": "Battle of Badr (Badr Ḥunayn, Saudi Arabia : 624)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Battle of Badr (Badr Ḥunayn, Saudi Arabia : 624) (http://id.worldcat.org/fast/1709746) for cells containing \"Badr, Battle of, Badr Ḥunayn, Saudi Arabia, 624\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cairo (Egypt)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205204",
+      "name": "Egypt--Cairo",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Egypt--Cairo (http://id.worldcat.org/fast/1205204) for cells containing \"Cairo (Egypt)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Zabīd (Yemen)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1216424",
+      "name": "Yemen (Republic)--Zabīd",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 71
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yemen (Republic)--Zabīd (http://id.worldcat.org/fast/1216424) for cells containing \"Zabīd (Yemen)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Pens",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1057037",
+      "name": "Pens",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pens (http://id.worldcat.org/fast/1057037) for cells containing \"Pens\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits arabes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008278",
+      "name": "Manuscripts, Arabic",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Arabic (http://id.worldcat.org/fast/1008278) for cells containing \"Manuscrits arabes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Morale politique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1069286",
+      "name": "Political ethics",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Political ethics (http://id.worldcat.org/fast/1069286) for cells containing \"Morale politique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Musulmans",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1031029",
+      "name": "Muslims",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muslims (http://id.worldcat.org/fast/1031029) for cells containing \"Musulmans\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Prose arabe",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812549",
+      "name": "Arabic prose literature",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic prose literature (http://id.worldcat.org/fast/812549) for cells containing \"Prose arabe\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Soufisme",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1137257",
+      "name": "Sufism",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sufism (http://id.worldcat.org/fast/1137257) for cells containing \"Soufisme\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Voyages",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1169308",
+      "name": "Voyages and travels",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Voyages and travels (http://id.worldcat.org/fast/1169308) for cells containing \"Voyages\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Dieu (Islam)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/944142",
+      "name": "God (Islam)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item God (Islam) (http://id.worldcat.org/fast/944142) for cells containing \"Dieu (Islam)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Empire islamique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1244134",
+      "name": "Islamic Empire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Islamic Empire (http://id.worldcat.org/fast/1244134) for cells containing \"Empire islamique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jugement dernier (Islam)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/984597",
+      "name": "Judgment Day (Islam)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Judgment Day (Islam) (http://id.worldcat.org/fast/984597) for cells containing \"Jugement dernier (Islam)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīʻah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1117946",
+      "name": "Shīʻah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah (http://id.worldcat.org/fast/1117946) for cells containing \"Shīʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jumʻah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/984834",
+      "name": "Jumʻah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jumʻah (http://id.worldcat.org/fast/984834) for cells containing \"Jumʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Karbalāʼ (Iraq)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1232324",
+      "name": "Iraq--Karbalāʼ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iraq--Karbalāʼ (http://id.worldcat.org/fast/1232324) for cells containing \"Karbalāʼ (Iraq)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Laylat al-Barāʼah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/994486",
+      "name": "Laylat al-Barāʼah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Laylat al-Barāʼah (http://id.worldcat.org/fast/994486) for cells containing \"Laylat al-Barāʼah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Littérature arabe",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812478",
+      "name": "Arabic literature",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic literature (http://id.worldcat.org/fast/812478) for cells containing \"Littérature arabe\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Logique médiévale",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1002062",
+      "name": "Logic, Medieval",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Logic, Medieval (http://id.worldcat.org/fast/1002062) for cells containing \"Logique médiévale\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Éthiopiens",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/915906",
+      "name": "Ethiopians",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ethiopians (http://id.worldcat.org/fast/915906) for cells containing \"Éthiopiens\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mamelouks",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1006922",
+      "name": "Mamelukes",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mamelukes (http://id.worldcat.org/fast/1006922) for cells containing \"Mamelouks\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits persans",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008462",
+      "name": "Manuscripts, Persian",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Persian (http://id.worldcat.org/fast/1008462) for cells containing \"Manuscrits persans\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Testaments moraux",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1175541",
+      "name": "Wills, Ethical",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wills, Ethical (http://id.worldcat.org/fast/1175541) for cells containing \"Testaments moraux\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Poésie arabe",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812533",
+      "name": "Arabic poetry",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic poetry (http://id.worldcat.org/fast/812533) for cells containing \"Poésie arabe\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Morale islamique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/979936",
+      "name": "Islamic ethics",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Islamic ethics (http://id.worldcat.org/fast/979936) for cells containing \"Morale islamique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Muʻtazilites",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1026830",
+      "name": "Motazilites",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Motazilites (http://id.worldcat.org/fast/1026830) for cells containing \"Muʻtazilites\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Poésie soufie",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1137220",
+      "name": "Sufi poetry",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sufi poetry (http://id.worldcat.org/fast/1137220) for cells containing \"Poésie soufie\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīʿah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1117946",
+      "name": "Shīʻah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah (http://id.worldcat.org/fast/1117946) for cells containing \"Shīʿah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Saints musulmans",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1030977",
+      "name": "Muslim saints",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muslim saints (http://id.worldcat.org/fast/1030977) for cells containing \"Saints musulmans\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabe (Langue)--Étymologie",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812326",
+      "name": "Arabic language--Etymology",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language--Etymology (http://id.worldcat.org/fast/812326) for cells containing \"Arabe (Langue)--Étymologie\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabe (Langue)--Flexion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812360",
+      "name": "Arabic language--Inflection",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language--Inflection (http://id.worldcat.org/fast/812360) for cells containing \"Arabe (Langue)--Flexion\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabe (Langue)--Grammaire",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812341",
+      "name": "Arabic language--Grammar",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language--Grammar (http://id.worldcat.org/fast/812341) for cells containing \"Arabe (Langue)--Grammaire\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabe (Langue)--Rhétorique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812415",
+      "name": "Arabic language--Rhetoric",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language--Rhetoric (http://id.worldcat.org/fast/812415) for cells containing \"Arabe (Langue)--Rhétorique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabe (Langue)--Syntaxe",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812441",
+      "name": "Arabic language--Syntax",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language--Syntax (http://id.worldcat.org/fast/812441) for cells containing \"Arabe (Langue)--Syntaxe\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Arabe (Langue)--Métrique et rythmique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/812378",
+      "name": "Arabic language--Metrics and rhythmics",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic language--Metrics and rhythmics (http://id.worldcat.org/fast/812378) for cells containing \"Arabe (Langue)--Métrique et rythmique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Débats et controverses--Aspect religieux",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/888748",
+      "name": "Debates and debating--Religious aspects",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Debates and debating--Religious aspects (http://id.worldcat.org/fast/888748) for cells containing \"Débats et controverses--Aspect religieux\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥadīth--Autorités",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/950115",
+      "name": "Hadith--Authorities",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hadith--Authorities (http://id.worldcat.org/fast/950115) for cells containing \"Ḥadīth--Autorités\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rois et souverains--Devoirs",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/987703",
+      "name": "Kings and rulers--Duties",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kings and rulers--Duties (http://id.worldcat.org/fast/987703) for cells containing \"Rois et souverains--Devoirs\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Islam--Coutumes et pratiques",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/979785",
+      "name": "Islam--Customs and practices",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Islam--Customs and practices (http://id.worldcat.org/fast/979785) for cells containing \"Islam--Coutumes et pratiques\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Islam--Rituel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/979845",
+      "name": "Islam--Rituals",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Islam--Rituals (http://id.worldcat.org/fast/979845) for cells containing \"Islam--Rituel\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Geography, Historical",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/958122",
+      "name": "Historical geography",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Historical geography (http://id.worldcat.org/fast/958122) for cells containing \"Geography, Historical\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "11e siècle",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/908096",
+      "name": "Eleventh century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eleventh century (http://id.worldcat.org/fast/908096) for cells containing \"11e siècle\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/908096",
+      "name": "Eleventh century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eleventh century (http://id.worldcat.org/fast/908096) for cells containing \"11th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "12e siècle",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1159791",
+      "name": "Twelfth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Twelfth century (http://id.worldcat.org/fast/1159791) for cells containing \"12e siècle\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "13e siècle",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1150138",
+      "name": "Thirteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thirteenth century (http://id.worldcat.org/fast/1150138) for cells containing \"13e siècle\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Histoire",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/958235",
+      "name": "History",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item History (http://id.worldcat.org/fast/958235) for cells containing \"Histoire\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Symbolic aspects",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1118355",
+      "name": "Signs and symbols",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Signs and symbols (http://id.worldcat.org/fast/1118355) for cells containing \"Symbolic aspects\" in column recon-subject"
+  },
 ]
