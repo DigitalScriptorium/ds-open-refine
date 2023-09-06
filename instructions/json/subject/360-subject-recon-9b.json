@@ -72,11 +72,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"SUBJECT RECON, STEP 37: START SUBJECT RECON 9b \"+now()",
+    "expression": "grel:\"SUBJECT RECON, STEP 36: START SUBJECT RECON 9b \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 37: START SUBJECT RECON 9b \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 36: START SUBJECT RECON 9b \"+now()"
   },
   {
     "op": "core/text-transform",
