@@ -260,11 +260,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"SUBJECT RECON, STEP 46: FINALIZED \"+now()",
+    "expression": "grel:\"SUBJECT RECON, STEP 45: FINALIZED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 46: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"SUBJECT RECON, STEP 45: FINALIZED \"+now()"
   },
   {
     "op": "core/text-transform",
