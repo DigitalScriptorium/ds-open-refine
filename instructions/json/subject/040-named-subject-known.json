@@ -5687,4 +5687,1404 @@
     "shareNewTopics": false,
     "description": "Match item History (http://id.worldcat.org/fast/958235) for cells containing \"History\" in column recon-subject"
   },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Isaiah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808068",
+      "name": "Bible. Isaiah",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Isaiah (http://id.worldcat.org/fast/1808068) for cells containing \"Bible Isaiah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Prophets",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892941",
+      "name": "Bible. Prophets",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Prophets (http://id.worldcat.org/fast/1892941) for cells containing \"Bible Prophets\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Galen De pulsibus libellus ad tirones",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1402379",
+      "name": "De pulsibus libellus ad tirones (Galen)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De pulsibus libellus ad tirones (Galen) (http://id.worldcat.org/fast/1402379) for cells containing \"Galen De pulsibus libellus ad tirones\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Abū al-Jaysh, Muḥammad ibn Ḥusayn, -1228 or 1229 ʻArūḍ al-Andalusī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058679",
+      "name": "ʻArūḍ al-Andalusī (Abū al-Jaysh, Muḥammad ibn Ḥusayn)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item ʻArūḍ al-Andalusī (Abū al-Jaysh, Muḥammad ibn Ḥusayn) (http://id.worldcat.org/fast/2058679) for cells containing \"Abū al-Jaysh, Muḥammad ibn Ḥusayn, -1228 or 1229 ʻArūḍ al-Andalusī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Abū Ḥanīfah, -767 or 768 Fiqh al-akbar",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1374867",
+      "name": "Fiqh al-akbar (Abū Ḥanīfah)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fiqh al-akbar (Abū Ḥanīfah) (http://id.worldcat.org/fast/1374867) for cells containing \"Abū Ḥanīfah, -767 or 768 Fiqh al-akbar\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Akhḍarī, ʻAbd al-Raḥmān ibn Muḥammad, 1512 or 1513-1575 or 1576 Sullam",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058152",
+      "name": "Sullam (Akhḍarī, ʻAbd al-Raḥmān ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sullam (Akhḍarī, ʻAbd al-Raḥmān ibn Muḥammad) (http://id.worldcat.org/fast/2058152) for cells containing \"Akhḍarī, ʻAbd al-Raḥmān ibn Muḥammad, 1512 or 1513-1575 or 1576 Sullam\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Anṣārī, Zakarīyā ibn Muḥammad, approximately 1423-approximately 1520 Fatḥ al-Wahhāb bi-sharḥ Manhaj al-ṭullāb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1378040",
+      "name": "Fatḥ al-Wahhāb bi-sharḥ Manhaj al-ṭullāb (Anṣārī, Zakarīyā ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fatḥ al-Wahhāb bi-sharḥ Manhaj al-ṭullāb (Anṣārī, Zakarīyā ibn Muḥammad) (http://id.worldcat.org/fast/1378040) for cells containing \"Anṣārī, Zakarīyā ibn Muḥammad, approximately 1423-approximately 1520 Fatḥ al-Wahhāb bi-sharḥ Manhaj al-ṭullāb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Athīr al-Dīn al-Abharī, al-Mufaḍḍal ibn ʻUmar, -1265 Īsāghūjī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1918514",
+      "name": "Īsāghūjī (Athīr al-Dīn al-Abharī, al-Mufaḍḍal ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Īsāghūjī (Athīr al-Dīn al-Abharī, al-Mufaḍḍal ibn ʻUmar) (http://id.worldcat.org/fast/1918514) for cells containing \"Athīr al-Dīn al-Abharī, al-Mufaḍḍal ibn ʻUmar, -1265 Īsāghūjī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Barzanjī, Jaʻfar ibn Ḥasan, -1763 or 1764 Mawlid al-Nabī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1389179",
+      "name": "Mawlid al-Nabī (Barzanjī, Jaʻfar ibn Ḥasan)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mawlid al-Nabī (Barzanjī, Jaʻfar ibn Ḥasan) (http://id.worldcat.org/fast/1389179) for cells containing \"Barzanjī, Jaʻfar ibn Ḥasan, -1763 or 1764 Mawlid al-Nabī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Birgivî Mehmet Efendi, approximately 1522-1573 Iẓhār al-asrār",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057905",
+      "name": "Iẓhār al-asrār (Birgivî Mehmet Efendi)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iẓhār al-asrār (Birgivî Mehmet Efendi) (http://id.worldcat.org/fast/2057905) for cells containing \"Birgivî Mehmet Efendi, approximately 1522-1573 Iẓhār al-asrār\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Boethius, -524 De consolatione philosophiae--Liber 3",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357455",
+      "name": "De consolatione philosophiae (Boethius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item De consolatione philosophiae (Boethius) (http://id.worldcat.org/fast/1357455) for cells containing \"Boethius, -524 De consolatione philosophiae--Liber 3\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cassiodorus, Senator, approximately 487-approximately 580 Expositio Psalmorum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1387690",
+      "name": "Expositio Psalmorum (Cassiodorus, Senator)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Expositio Psalmorum (Cassiodorus, Senator) (http://id.worldcat.org/fast/1387690) for cells containing \"Cassiodorus, Senator, approximately 487-approximately 580 Expositio Psalmorum\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Dawwānī, Muḥammad ibn Asʻad, 1426 or 1427-1512 or 1513 Sharḥ Tahdhīb al-manṭiq",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058406",
+      "name": "Sharḥ Tahdhīb al-manṭiq (Dawwānī, Muḥammad ibn Asʻad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sharḥ Tahdhīb al-manṭiq (Dawwānī, Muḥammad ibn Asʻad) (http://id.worldcat.org/fast/2058406) for cells containing \"Dawwānī, Muḥammad ibn Asʻad, 1426 or 1427-1512 or 1513 Sharḥ Tahdhīb al-manṭiq\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Fīrūzābādī, Muḥammad ibn Yaʻqūb, 1329-1414 or 1415 Qāmūs al-muḥīṭ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1368549",
+      "name": "Qāmūs al-muḥīṭ (Fīrūzābādī, Muḥammad ibn Yaʻqūb)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qāmūs al-muḥīṭ (Fīrūzābādī, Muḥammad ibn Yaʻqūb) (http://id.worldcat.org/fast/1368549) for cells containing \"Fīrūzābādī, Muḥammad ibn Yaʻqūb, 1329-1414 or 1415 Qāmūs al-muḥīṭ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ghazzālī, 1058-1111 Wajīz",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1918111",
+      "name": "Wajīz (Ghazzālī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wajīz (Ghazzālī) (http://id.worldcat.org/fast/1918111) for cells containing \"Ghazzālī, 1058-1111 Wajīz\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ghazzī, ʻĪsá ibn ʻUthmān, -1397 Ādāb al-ḥukkām",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1375644",
+      "name": "Ādāb al-ḥukkām (Ghazzī, ʻĪsá ibn ʻUthmān)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ādāb al-ḥukkām (Ghazzī, ʻĪsá ibn ʻUthmān) (http://id.worldcat.org/fast/1375644) for cells containing \"Ghazzī, ʻĪsá ibn ʻUthmān, -1397 Ādāb al-ḥukkām\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ghazzī, Muḥammad ibn Qāsim, 1454 or 1455-1512 or 1513 Fatḥ al-qarīb al-mujīb fī sharḥ alfāẓ al-taqrīb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2059231",
+      "name": "Fatḥ al-qarīb al-mujīb fī sharḥ alfāẓ al-taqrīb (Ghazzī, Muḥammad ibn Qāsim)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fatḥ al-qarīb al-mujīb fī sharḥ alfāẓ al-taqrīb (Ghazzī, Muḥammad ibn Qāsim) (http://id.worldcat.org/fast/2059231) for cells containing \"Ghazzī, Muḥammad ibn Qāsim, 1454 or 1455-1512 or 1513 Fatḥ al-qarīb al-mujīb fī sharḥ alfāẓ al-taqrīb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Hüsrev, Molla, -1480 Mirqāt al-wuṣūl",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057315",
+      "name": "Mirqāt al-wuṣūl (Hüsrev, Molla)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mirqāt al-wuṣūl (Hüsrev, Molla) (http://id.worldcat.org/fast/2057315) for cells containing \"Hüsrev, Molla, -1480 Mirqāt al-wuṣūl\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥarīrī, 1054-1122 Maqāmāt",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356801",
+      "name": "Maqāmāt (Ḥarīrī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Maqāmāt (Ḥarīrī) (http://id.worldcat.org/fast/1356801) for cells containing \"Ḥarīrī, 1054-1122 Maqāmāt\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥaṣkafī, Muḥammad ibn ʻAlī, approximately 1616-1677 Durr al-mukhtār",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2056672",
+      "name": "Durr al-mukhtār (Ḥaṣkafī, Muḥammad ibn ʻAlī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Durr al-mukhtār (Ḥaṣkafī, Muḥammad ibn ʻAlī) (http://id.worldcat.org/fast/2056672) for cells containing \"Ḥaṣkafī, Muḥammad ibn ʻAlī, approximately 1616-1677 Durr al-mukhtār\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Ājurrūm, Muḥammad ibn Muḥammad, 1273 or 1274-1323 Ajurrūmīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1911422",
+      "name": "Ajurrūmīyah (Ibn Ājurrūm, Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ajurrūmīyah (Ibn Ājurrūm, Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1911422) for cells containing \"Ibn Ājurrūm, Muḥammad ibn Muḥammad, 1273 or 1274-1323 Ajurrūmīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Durayd, Muḥammad ibn al-Ḥasan, 837 or 838-933 Maqṣūrah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1372716",
+      "name": "Maqṣūrah (Ibn Durayd, Muḥammad ibn al-Ḥasan)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Maqṣūrah (Ibn Durayd, Muḥammad ibn al-Ḥasan) (http://id.worldcat.org/fast/1372716) for cells containing \"Ibn Durayd, Muḥammad ibn al-Ḥasan, 837 or 838-933 Maqṣūrah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Faraḥ, Aḥmad ibn Muḥammad, -1300 Gharāmī ṣaḥīḥ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057256",
+      "name": "Gharāmī ṣaḥīḥ (Ibn Faraḥ, Aḥmad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gharāmī ṣaḥīḥ (Ibn Faraḥ, Aḥmad ibn Muḥammad) (http://id.worldcat.org/fast/2057256) for cells containing \"Ibn Faraḥ, Aḥmad ibn Muḥammad, -1300 Gharāmī ṣaḥīḥ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Hishām, ʻAbd al-Malik, -834 Sīrat Rasūl Allāh",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1358100",
+      "name": "Sīrat Rasūl Allāh (Ibn Hishām, ʻAbd al-Malik)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sīrat Rasūl Allāh (Ibn Hishām, ʻAbd al-Malik) (http://id.worldcat.org/fast/1358100) for cells containing \"Ibn Hishām, ʻAbd al-Malik, -834 Sīrat Rasūl Allāh\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Hishām, ʻAbd Allāh ibn Yūsuf, 1309-1360 Qaṭr al-nadá wa-ball al-ṣadá",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057843",
+      "name": "Qaṭr al-nadá wa-ball al-ṣadá (Ibn Hishām, ʻAbd Allāh ibn Yūsuf)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qaṭr al-nadá wa-ball al-ṣadá (Ibn Hishām, ʻAbd Allāh ibn Yūsuf) (http://id.worldcat.org/fast/2057843) for cells containing \"Ibn Hishām, ʻAbd Allāh ibn Yūsuf, 1309-1360 Qaṭr al-nadá wa-ball al-ṣadá\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Hishām, ʻAbd al-Malik, -834 Sīrat Rasūl Allāh",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1358100",
+      "name": "Sīrat Rasūl Allāh (Ibn Hishām, ʻAbd al-Malik)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sīrat Rasūl Allāh (Ibn Hishām, ʻAbd al-Malik) (http://id.worldcat.org/fast/1358100) for cells containing \"Ibn Hishām, ʻAbd al-Malik, -834 Sīrat Rasūl Allāh\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Masʻūd, Aḥmad ibn ʻAlī, active 13th century Marāḥ al-arwāḥ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380148",
+      "name": "Marāḥ al-arwāḥ (Ibn Masʻūd, Aḥmad ibn ʻAlī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Marāḥ al-arwāḥ (Ibn Masʻūd, Aḥmad ibn ʻAlī) (http://id.worldcat.org/fast/1380148) for cells containing \"Ibn Masʻūd, Aḥmad ibn ʻAlī, active 13th century Marāḥ al-arwāḥ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Fāriḍ, ʻUmar ibn ʻAlī, 1181 or 1182-1235 Khamrīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1370934",
+      "name": "Khamrīyah (Ibn al-Fāriḍ, ʻUmar ibn ʻAlī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Khamrīyah (Ibn al-Fāriḍ, ʻUmar ibn ʻAlī) (http://id.worldcat.org/fast/1370934) for cells containing \"Ibn al-Fāriḍ, ʻUmar ibn ʻAlī, 1181 or 1182-1235 Khamrīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274 Alfīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360506",
+      "name": "Alfīyah (Ibn Mālik, Muḥammad ibn ʻAbd Allāh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfīyah (Ibn Mālik, Muḥammad ibn ʻAbd Allāh) (http://id.worldcat.org/fast/1360506) for cells containing \"Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274 Alfīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274 Alfīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360506",
+      "name": "Alfīyah (Ibn Mālik, Muḥammad ibn ʻAbd Allāh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfīyah (Ibn Mālik, Muḥammad ibn ʻAbd Allāh) (http://id.worldcat.org/fast/1360506) for cells containing \"Ibn Mālik, Muḥammad ibn ʻAbd Allāh, -1274 Alfīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Fāriḍ, ʻUmar ibn ʻAlī, 1181 or 1182-1235 Naẓm al-sulūk",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1788079",
+      "name": "Naẓm al-sulūk (Ibn al-Fāriḍ, ʻUmar ibn ʻAlī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naẓm al-sulūk (Ibn al-Fāriḍ, ʻUmar ibn ʻAlī) (http://id.worldcat.org/fast/1788079) for cells containing \"Ibn al-Fāriḍ, ʻUmar ibn ʻAlī, 1181 or 1182-1235 Naẓm al-sulūk\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Kāfiyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1366739",
+      "name": "Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar) (http://id.worldcat.org/fast/1366739) for cells containing \"Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Kāfiyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Kāfiyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1366739",
+      "name": "Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar) (http://id.worldcat.org/fast/1366739) for cells containing \"Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Kāfiyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Shāfiyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057825",
+      "name": "Shāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar) (http://id.worldcat.org/fast/2057825) for cells containing \"Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Shāfiyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Ḥājib, ʿUthmān ibn ʿUmar, 1175-1249 Kāfiyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1366739",
+      "name": "Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar) (http://id.worldcat.org/fast/1366739) for cells containing \"Ibn al-Ḥājib, ʿUthmān ibn ʿUmar, 1175-1249 Kāfiyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Jazarī, Muḥammad ibn Muḥammad, 1350-1429 Muqaddimah al-Jazarīyah fī al-tajwīd",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1399744",
+      "name": "Muqaddimah al-Jazarīyah fī al-tajwīd (Ibn al-Jazarī, Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muqaddimah al-Jazarīyah fī al-tajwīd (Ibn al-Jazarī, Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1399744) for cells containing \"Ibn al-Jazarī, Muḥammad ibn Muḥammad, 1350-1429 Muqaddimah al-Jazarīyah fī al-tajwīd\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Mutafanninah, Muḥammad ibn ʻAlī, 1103 or 1104-1181 or 1182 Urjūzah al-Raḥbīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1716187",
+      "name": "Urjūzah al-Raḥbīyah (Ibn al-Mutafanninah, Muḥammad ibn ʻAlī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Urjūzah al-Raḥbīyah (Ibn al-Mutafanninah, Muḥammad ibn ʻAlī) (http://id.worldcat.org/fast/1716187) for cells containing \"Ibn al-Mutafanninah, Muḥammad ibn ʻAlī, 1103 or 1104-1181 or 1182 Urjūzah al-Raḥbīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Naḥwī, Yūsuf ibn Muḥammad, approximately 1041-1119 or 1120 Munfarijah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058137",
+      "name": "Munfarijah (Ibn al-Naḥwī, Yūsuf ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Munfarijah (Ibn al-Naḥwī, Yūsuf ibn Muḥammad) (http://id.worldcat.org/fast/2058137) for cells containing \"Ibn al-Naḥwī, Yūsuf ibn Muḥammad, approximately 1041-1119 or 1120 Munfarijah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar, -1349 Bahjah al-Wardīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058450",
+      "name": "Bahjah al-Wardīyah (Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bahjah al-Wardīyah (Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar) (http://id.worldcat.org/fast/2058450) for cells containing \"Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar, -1349 Bahjah al-Wardīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar, -1349 Bahjah al-Wardīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058450",
+      "name": "Bahjah al-Wardīyah (Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bahjah al-Wardīyah (Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar) (http://id.worldcat.org/fast/2058450) for cells containing \"Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar, -1349 Bahjah al-Wardīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar, -1349 Naṣīḥat al-ikhwān wa-murshidat al-khillān",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1787943",
+      "name": "Naṣīḥat al-ikhwān wa-murshidat al-khillān (Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naṣīḥat al-ikhwān wa-murshidat al-khillān (Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar) (http://id.worldcat.org/fast/1787943) for cells containing \"Ibn al-Wardī, Zayn al-Dīn ʻUmar ibn al-Muẓaffar, -1349 Naṣīḥat al-ikhwān wa-murshidat al-khillān\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Yāsamīn, ʻAbd Allāh ibn Ḥajjāj, -1204 Yāsamīnīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1938262",
+      "name": "Yāsamīnīyah (Ibn al-Yāsamīn, ʻAbd Allāh ibn Ḥajjāj)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yāsamīnīyah (Ibn al-Yāsamīn, ʻAbd Allāh ibn Ḥajjāj) (http://id.worldcat.org/fast/1938262) for cells containing \"Ibn al-Yāsamīn, ʻAbd Allāh ibn Ḥajjāj, -1204 Yāsamīnīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-ʻArabī, 1165-1240 Fuṣūṣ al-ḥikam",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1371634",
+      "name": "Fuṣūṣ al-ḥikam (Ibn al-ʻArabī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fuṣūṣ al-ḥikam (Ibn al-ʻArabī) (http://id.worldcat.org/fast/1371634) for cells containing \"Ibn al-ʻArabī, 1165-1240 Fuṣūṣ al-ḥikam\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Kāfiyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1366739",
+      "name": "Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kāfiyah (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar) (http://id.worldcat.org/fast/1366739) for cells containing \"Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Kāfiyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Mukhtaṣar al-Muntahá",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057011",
+      "name": "Mukhtaṣar al-Muntahá al-uṣūlī (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mukhtaṣar al-Muntahá al-uṣūlī (Ibn al-Ḥājib, ʻUthmān ibn ʻUmar) (http://id.worldcat.org/fast/2057011) for cells containing \"Ibn al-Ḥājib, ʻUthmān ibn ʻUmar, 1175-1249 Mukhtaṣar al-Muntahá\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn Ḥajar al-ʻAsqalānī, Aḥmad ibn ʻAlī, 1372-1449 Nukhbat al-fikar fī muṣṭalaḥ ahl al-athar",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1372699",
+      "name": "Nukhbat al-fikar fī muṣṭalaḥ ahl al-athar (Ibn Ḥajar al-ʻAsqalānī, Aḥmad ibn ʻAlī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nukhbat al-fikar fī muṣṭalaḥ ahl al-athar (Ibn Ḥajar al-ʻAsqalānī, Aḥmad ibn ʻAlī) (http://id.worldcat.org/fast/1372699) for cells containing \"Ibn Ḥajar al-ʻAsqalānī, Aḥmad ibn ʻAlī, 1372-1449 Nukhbat al-fikar fī muṣṭalaḥ ahl al-athar\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Kaʻb ibn Zuhayr Qaṣīdat al-Burdah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1376087",
+      "name": "Qaṣīdat al-Burdah (Kaʻb ibn Zuhayr)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qaṣīdat al-Burdah (Kaʻb ibn Zuhayr) (http://id.worldcat.org/fast/1376087) for cells containing \"Kaʻb ibn Zuhayr Qaṣīdat al-Burdah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Khaṭīb al-Tamartāshī, Muḥammad ibn ʻAbd Allāh, 1532 or 1533-1595 or 1596 Tanwīr al-abṣār",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2057835",
+      "name": "Tanwīr al-abṣār (Khaṭīb al-Tamartāshī, Muḥammad ibn ʻAbd Allāh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tanwīr al-abṣār (Khaṭīb al-Tamartāshī, Muḥammad ibn ʻAbd Allāh) (http://id.worldcat.org/fast/2057835) for cells containing \"Khaṭīb al-Tamartāshī, Muḥammad ibn ʻAbd Allāh, 1532 or 1533-1595 or 1596 Tanwīr al-abṣār\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Marghīnānī, ʻAlī ibn Abī Bakr, -1196 or 1197 Hidāyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1370806",
+      "name": "Hidāyah (Marghīnānī, ʻAlī ibn Abī Bakr)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hidāyah (Marghīnānī, ʻAlī ibn Abī Bakr) (http://id.worldcat.org/fast/1370806) for cells containing \"Marghīnānī, ʻAlī ibn Abī Bakr, -1196 or 1197 Hidāyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Maḥbūbī, ʻUbayd Allāh ibn Masʻūd, -1346 or 1347 Sharḥ al-Wiqāyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1371415",
+      "name": "Sharḥ al-Wiqāyah (Maḥbūbī, ʻUbayd Allāh ibn Masʻūd)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sharḥ al-Wiqāyah (Maḥbūbī, ʻUbayd Allāh ibn Masʻūd) (http://id.worldcat.org/fast/1371415) for cells containing \"Maḥbūbī, ʻUbayd Allāh ibn Masʻūd, -1346 or 1347 Sharḥ al-Wiqāyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Maḥbūbī, ʻUbayd Allāh ibn Masʻūd, -1346 or 1347 Tanqīḥ al-uṣūl",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1381675",
+      "name": "Tanqīḥ al-uṣūl (Maḥbūbī, ʻUbayd Allāh ibn Masʻūd)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tanqīḥ al-uṣūl (Maḥbūbī, ʻUbayd Allāh ibn Masʻūd) (http://id.worldcat.org/fast/1381675) for cells containing \"Maḥbūbī, ʻUbayd Allāh ibn Masʻūd, -1346 or 1347 Tanqīḥ al-uṣūl\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nawawī, 1233-1277 Minhāj al-ṭālibīn",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363943",
+      "name": "Minhāj al-ṭālibīn (Nawawī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Minhāj al-ṭālibīn (Nawawī) (http://id.worldcat.org/fast/1363943) for cells containing \"Nawawī, 1233-1277 Minhāj al-ṭālibīn\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nawawī, 1233-1277 Minhāj al-ṭālibīn",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1363943",
+      "name": "Minhāj al-ṭālibīn (Nawawī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Minhāj al-ṭālibīn (Nawawī) (http://id.worldcat.org/fast/1363943) for cells containing \"Nawawī, 1233-1277 Minhāj al-ṭālibīn\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Nawawī, 1233-1277 Sharḥ Ṣaḥīḥ Muslim",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058240",
+      "name": "Sharḥ Ṣaḥīḥ Muslim (Nawawī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sharḥ Ṣaḥīḥ Muslim (Nawawī) (http://id.worldcat.org/fast/2058240) for cells containing \"Nawawī, 1233-1277 Sharḥ Ṣaḥīḥ Muslim\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Qazwīnī, ʻAlī ibn ʻUmar, 1203 or 1204-1276 or 1277 Shamsīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2058240",
+      "name": "Shamsīyah (Qazwīnī, ʻAlī ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shamsīyah (Qazwīnī, ʻAlī ibn ʻUmar) (http://id.worldcat.org/fast/2058240) for cells containing \"Qazwīnī, ʻAlī ibn ʻUmar, 1203 or 1204-1276 or 1277 Shamsīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad, 1294 or 1295-1364 or 1365 Sharḥ Shamsīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1916876",
+      "name": "Sharḥ Shamsīyah (Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sharḥ Shamsīyah (Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1916876) for cells containing \"Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad, 1294 or 1295-1364 or 1365 Sharḥ Shamsīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad, 1294 or 1295-1364 or 1365 Sharḥ al-Shamsīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1916876",
+      "name": "Sharḥ Shamsīyah (Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sharḥ Shamsīyah (Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad) (http://id.worldcat.org/fast/1916876) for cells containing \"Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad, 1294 or 1295-1364 or 1365 Sharḥ al-Shamsīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Quḍāʻī, Muḥammad ibn Salāmah, -1062 Shihāb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1938125",
+      "name": "Shihāb (Quḍāʻī, Muḥammad ibn Salāmah)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shihāb (Quḍāʻī, Muḥammad ibn Salāmah) (http://id.worldcat.org/fast/1938125) for cells containing \"Quḍāʻī, Muḥammad ibn Salāmah, -1062 Shihāb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sakkākī, Yūsuf ibn Abī Bakr, 1160- Miftāḥ al-ʻulūm",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1915402",
+      "name": "Miftāḥ al-ʻulūm (Sakkākī, Yūsuf ibn Abī Bakr)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Miftāḥ al-ʻulūm (Sakkākī, Yūsuf ibn Abī Bakr) (http://id.worldcat.org/fast/1915402) for cells containing \"Sakkākī, Yūsuf ibn Abī Bakr, 1160- Miftāḥ al-ʻulūm\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Saʻdī Gulistān",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1361914",
+      "name": "Gulistān (Saʻdī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gulistān (Saʻdī) (http://id.worldcat.org/fast/1361914) for cells containing \"Saʻdī Gulistān\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shāṭibī, al-Qāsim ibn Fīrruh, 1144-1194 Ḥirz al-amānī wa-wajh al-tahānī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1369357",
+      "name": "Ḥirz al-amānī wa-wajh al-tahānī (Shāṭibī, al-Qāsim ibn Fīrruh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ḥirz al-amānī wa-wajh al-tahānī (Shāṭibī, al-Qāsim ibn Fīrruh) (http://id.worldcat.org/fast/1369357) for cells containing \"Shāṭibī, al-Qāsim ibn Fīrruh, 1144-1194 Ḥirz al-amānī wa-wajh al-tahānī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shāfiʻī, Muḥammad ibn Idrīs, 767 or 768-820 Musnad",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1375730",
+      "name": "Musnad (Shāfiʻī, Muḥammad ibn Idrīs)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Musnad (Shāfiʻī, Muḥammad ibn Idrīs) (http://id.worldcat.org/fast/1375730) for cells containing \"Shāfiʻī, Muḥammad ibn Idrīs, 767 or 768-820 Musnad\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shāṭibī, al-Qāsim ibn Fīrruh, 1144-1194 Ḥirz al-amānī wa-wajh al-tahānī",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1369357",
+      "name": "Ḥirz al-amānī wa-wajh al-tahānī (Shāṭibī, al-Qāsim ibn Fīrruh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ḥirz al-amānī wa-wajh al-tahānī (Shāṭibī, al-Qāsim ibn Fīrruh) (http://id.worldcat.org/fast/1369357) for cells containing \"Shāṭibī, al-Qāsim ibn Fīrruh, 1144-1194 Ḥirz al-amānī wa-wajh al-tahānī\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Suyūṭī, 1445-1505 Nuqāyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1938024",
+      "name": "Nuqāyah (Suyūṭī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nuqāyah (Suyūṭī) (http://id.worldcat.org/fast/1938024) for cells containing \"Suyūṭī, 1445-1505 Nuqāyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Thaʻlab, Aḥmad ibn Yaḥyá, 815-904 Faṣīḥ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1370827",
+      "name": "Faṣīḥ (Thaʻlab, Aḥmad ibn Yaḥyá)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Faṣīḥ (Thaʻlab, Aḥmad ibn Yaḥyá) (http://id.worldcat.org/fast/1370827) for cells containing \"Thaʻlab, Aḥmad ibn Yaḥyá, 815-904 Faṣīḥ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Zamakhsharī, Maḥmūd ibn ʻUmar, 1075-1144 Unmūdhaj fī al-naḥw",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380101",
+      "name": "Unmūdhaj fī al-naḥw (Zamakhsharī, Maḥmūd ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Unmūdhaj fī al-naḥw (Zamakhsharī, Maḥmūd ibn ʻUmar) (http://id.worldcat.org/fast/1380101) for cells containing \"Zamakhsharī, Maḥmūd ibn ʻUmar, 1075-1144 Unmūdhaj fī al-naḥw\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Zamakhsharī, Maḥmūd ibn ʿUmar, 1075-1144 Unmūdhaj fī al-naḥw",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380101",
+      "name": "Unmūdhaj fī al-naḥw (Zamakhsharī, Maḥmūd ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Unmūdhaj fī al-naḥw (Zamakhsharī, Maḥmūd ibn ʻUmar) (http://id.worldcat.org/fast/1380101) for cells containing \"Zamakhsharī, Maḥmūd ibn ʿUmar, 1075-1144 Unmūdhaj fī al-naḥw\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Zamakhsharī, Maḥmūd ibn ʻUmar, 1075-1144 Kashshāf",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1368611",
+      "name": "Kashshāf (Zamakhsharī, Maḥmūd ibn ʻUmar)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kashshāf (Zamakhsharī, Maḥmūd ibn ʻUmar) (http://id.worldcat.org/fast/1368611) for cells containing \"Zamakhsharī, Maḥmūd ibn ʻUmar, 1075-1144 Kashshāf\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "ʻĀmilī, Bahāʾ al-Dīn Muḥammad ibn Ḥusayn, 1547-1621 Khulāṣat al-ḥisāb",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1378728",
+      "name": "Khulāṣat al-ḥisāb (ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Khulāṣat al-ḥisāb (ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn) (http://id.worldcat.org/fast/1378728) for cells containing \"ʻĀmilī, Bahāʾ al-Dīn Muḥammad ibn Ḥusayn, 1547-1621 Khulāṣat al-ḥisāb\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "ʻIrāqī, ʻAbd al-Raḥīm ibn al-Ḥusayn, 1325-1404 Naẓm al-durar al-sanīyah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1396597",
+      "name": "Naẓm al-durar al-sanīyah (ʻIrāqī, ʻAbd al-Raḥīm ibn al-Ḥusayn)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naẓm al-durar al-sanīyah (ʻIrāqī, ʻAbd al-Raḥīm ibn al-Ḥusayn) (http://id.worldcat.org/fast/1396597) for cells containing \"ʻIrāqī, ʻAbd al-Raḥīm ibn al-Ḥusayn, 1325-1404 Naẓm al-durar al-sanīyah\" in column recon-subject"
+  }
 ]
