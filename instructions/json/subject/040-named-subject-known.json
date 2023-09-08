@@ -7086,5 +7086,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Naẓm al-durar al-sanīyah (ʻIrāqī, ʻAbd al-Raḥīm ibn al-Ḥusayn) (http://id.worldcat.org/fast/1396597) for cells containing \"ʻIrāqī, ʻAbd al-Raḥīm ibn al-Ḥusayn, 1325-1404 Naẓm al-durar al-sanīyah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Muḥammad, Prophet, -632--Companions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352525",
+      "name": "Companions of the Prophet Muhammad",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Companions of the Prophet Muhammad (http://id.worldcat.org/fast/1352525) for cells containing \"Muḥammad, Prophet, -632--Companions\" in column recon-subject"
   }
 ]
