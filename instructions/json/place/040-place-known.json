@@ -22582,5 +22582,94 @@
     },
     "shareNewTopics": false,
     "description": "Match item Syria (tgn/7594765) for cells containing \"Baldat Shām\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-place: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-place",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Western Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4003761",
+      "name": "Western Europe",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.408792
+    },
+    "shareNewTopics": false,
+    "description": "Match item Western Europe (tgn/4003761) for cells containing \"Western Europe\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Besançon",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008356",
+      "name": "Besancon",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Besancon (tgn/7008356) for cells containing \"Besançon\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Northern Iberian Peninsula",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7016676",
+      "name": "Iberian Peninsula",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iberian Peninsula (tgn/7016676) for cells containing \"Northern Iberian Peninsula\" in column recon-place"
   }
 ]
