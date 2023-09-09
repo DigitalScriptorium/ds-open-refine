@@ -7662,5 +7662,125 @@
     },
     "shareNewTopics": false,
     "description": "Match item Qurʼan. Sūrat al-Baqarah (http://id.worldcat.org/fast/1842891) for cells containing \"Qurʼan Sūrat al-Baqarah,\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Military leadership",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/869220",
+      "name": "Command of troops",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 76
+    },
+    "shareNewTopics": false,
+    "description": "Match item Command of troops (http://id.worldcat.org/fast/869220) for cells containing \"Military leadership\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Recitation",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1091407",
+      "name": "Recitations",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Recitations (http://id.worldcat.org/fast/1091407) for cells containing \"Recitation\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Birth",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1185270",
+      "name": "Birth of a person",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Birth of a person (http://id.worldcat.org/fast/1185270) for cells containing \"Birth\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Isrāʼ and Miʻrāj",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/994487",
+      "name": "Laylat al-Miʻrāj",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Laylat al-Miʻrāj (http://id.worldcat.org/fast/994487) for cells containing \"Isrāʼ and Miʻrāj\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Knowledge and learning",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/994857",
+      "name": "Learning and scholarship",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Learning and scholarship (http://id.worldcat.org/fast/994857) for cells containing \"Knowledge and learning\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Criticism, interpretation, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1198648",
+      "name": "Criticism and interpretation",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Criticism and interpretation (http://id.worldcat.org/fast/1198648) for cells containing \"Criticism, interpretation, etc\" in column recon-subject"
   }
 ]
