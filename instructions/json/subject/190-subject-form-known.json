@@ -305,4 +305,44 @@
     "shareNewTopics": false,
     "description": "Match item Early works (http://id.worldcat.org/fast/1411636) for cells containing \"Ouvrages avant 1800\" in column recon-genre"
   },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Abridgment",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1726571",
+      "name": "Abridgments",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abridgments (http://id.worldcat.org/fast/1726571) for cells containing \"Abridgment\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Biographie",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1919896",
+      "name": "Biographies",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biographies (http://id.worldcat.org/fast/1919896) for cells containing \"Biographie\" in column recon-genre"
+  }
 ]
