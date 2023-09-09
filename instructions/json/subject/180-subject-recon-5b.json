@@ -44,6 +44,19 @@
     "description": "Create column recon-genre at index 6 based on column subject-placeholder using expression grel:if(cells[\"code-filter 2\"].value==\"v\",value,\"\")"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "expression": "grel:if(cells[\"code-filter 2\"].value==\"k\",cells[\"subject-placeholder\"].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-genre using expression grel:if(cells[\"code-filter 2\"].value==\"k\",cells[\"subject-placeholder\"].value,value)"
+  }
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
