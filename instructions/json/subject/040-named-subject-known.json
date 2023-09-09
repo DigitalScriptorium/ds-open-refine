@@ -7782,5 +7782,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Criticism and interpretation (http://id.worldcat.org/fast/1198648) for cells containing \"Criticism, interpretation, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Language, style",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1136323",
+      "name": "Literary style",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Literary style (http://id.worldcat.org/fast/1136323) for cells containing \"Language, style\" in column recon-subject"
   }
 ]
