@@ -3618,4 +3618,85 @@
     "shareNewTopics": false,
     "description": "Match item Yucatec Maya (Q13354) for cells containing \"myn\" in column recon-language"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Ancient Greek (to 1453)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9129",
+      "name": "Greek",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Greek (Q9129) for cells containing \"Ancient Greek (to 1453)\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Old Bulgarian",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35499",
+      "name": "Old Church Slavonic",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Old Church Slavonic (Q35499) for cells containing \"Old Bulgarian\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Low Saxon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q168446",
+      "name": "Low Saxon",
+      "types": [
+        "Q34770"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Low Saxon (Q168446) for cells containing \"Low Saxon\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Middle Dutch (ca 1050-1350)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q178806",
+      "name": "Middle Dutch",
+      "types": [
+        "Q34770",
+        "Q2315359"
+      ],
+      "score": 65
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middle Dutch (Q178806) for cells containing \"Middle Dutch (ca 1050-1350)\" in column recon-language"
+  }
 ]
