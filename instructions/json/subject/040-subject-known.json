@@ -14893,5 +14893,246 @@
     },
     "shareNewTopics": false,
     "description": "Match item Sixteenth century (http://id.worldcat.org/fast/1119851) for cells containing \"16e siècle\" in column recon-subject"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Guerre de Jugurtha, 111-105 av J-C",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/984778",
+      "name": "Jugurthine War (111-105 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jugurthine War (111-105 B.C.) (http://id.worldcat.org/fast/984778) for cells containing \"Guerre de Jugurtha, 111-105 av J-C\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Immortalité",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/967853",
+      "name": "Immortality",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Immortality (http://id.worldcat.org/fast/967853) for cells containing \"Immortalité\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Livres d'heures",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/836484",
+      "name": "Books of hours",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Books of hours (http://id.worldcat.org/fast/836484) for cells containing \"Livres d'heures\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits français",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008338",
+      "name": "Manuscripts, French",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, French (http://id.worldcat.org/fast/1008338) for cells containing \"Manuscrits français\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits latins médiévaux et modernes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008399",
+      "name": "Manuscripts, Latin (Medieval and modern)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Latin (Medieval and modern) (http://id.worldcat.org/fast/1008399) for cells containing \"Manuscrits latins médiévaux et modernes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits médiévaux",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008422",
+      "name": "Manuscripts, Medieval",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Medieval (http://id.worldcat.org/fast/1008422) for cells containing \"Manuscrits médiévaux\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008230",
+      "name": "Manuscripts",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts (http://id.worldcat.org/fast/1008230) for cells containing \"Manuscrits\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Papauté",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1052284",
+      "name": "Papacy",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Papacy (http://id.worldcat.org/fast/1052284) for cells containing \"Papauté\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Papes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1071262",
+      "name": "Popes",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Popes (http://id.worldcat.org/fast/1071262) for cells containing \"Papes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rome (Italie)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204500",
+      "name": "Italy--Rome",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Rome (http://id.worldcat.org/fast/1204500) for cells containing \"Rome (Italie)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Théologie dogmatique",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1149617",
+      "name": "Theology, Doctrinal",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Theology, Doctrinal (http://id.worldcat.org/fast/1149617) for cells containing \"Théologie dogmatique\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Théologie",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1149559",
+      "name": "Theology",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Theology (http://id.worldcat.org/fast/1149559) for cells containing \"Théologie\" in column recon-subject"
   }
+]
   
