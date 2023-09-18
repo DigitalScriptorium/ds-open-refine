@@ -7802,5 +7802,105 @@
     },
     "shareNewTopics": false,
     "description": "Match item Literary style (http://id.worldcat.org/fast/1136323) for cells containing \"Language, style\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Numbers",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892933",
+      "name": "Bible. Numbers",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Numbers (http://id.worldcat.org/fast/1892933) for cells containing \"Bible Numbers\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Conspiracy of Catiline (Rome : 65-62 BC)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352536",
+      "name": "Conspiracy of Catiline (Rome : 65-62 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 99
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conspiracy of Catiline (Rome : 65-62 B.C.) (http://id.worldcat.org/fast/1352536) for cells containing \"Conspiracy of Catiline (Rome : 65-62 BC)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "600-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355938",
+      "name": "500-1500",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 500-1500 (http://id.worldcat.org/fast/1355938) for cells containing \"600-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gregory I, Pope, approximately 540-604 Dialogi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362212",
+      "name": "Dialogi (Gregory I, Pope)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dialogi (Gregory I, Pope) (http://id.worldcat.org/fast/1362212) for cells containing \"Gregory I, Pope, approximately 540-604 Dialogi\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gregory IX, Pope, approximately 1170-1241 Decretales D Gregorii Papæ IX",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1361356",
+      "name": "Decretales Gregorii IX (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Decretales Gregorii IX (Catholic Church) (http://id.worldcat.org/fast/1361356) for cells containing \"Gregory IX, Pope, approximately 1170-1241 Decretales D Gregorii Papæ IX\" in column recon-subject"
   }
 ]
