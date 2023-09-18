@@ -15193,6 +15193,105 @@
     },
     "shareNewTopics": false,
     "description": "Match item Antiquities (http://id.worldcat.org/fast/810745) for cells containing \"Antiquités\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "510-30 av J-C (République)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355940",
+      "name": "510-30 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 510-30 B.C. (http://id.worldcat.org/fast/1355940) for cells containing \"510-30 av J-C (République)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "65-62 av J-C (Conjuration de Catilina)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352536",
+      "name": "Conspiracy of Catiline (Rome : 65-62 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conspiracy of Catiline (Rome : 65-62 B.C.) (http://id.worldcat.org/fast/1352536) for cells containing \"65-62 av J-C (Conjuration de Catilina)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "753-510 av J-C (Rois)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355964",
+      "name": "753-510 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 753-510 B.C. (http://id.worldcat.org/fast/1355964) for cells containing \"753-510 av J-C (Rois)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Kings, 753-510 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355964",
+      "name": "753-510 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 753-510 B.C. (http://id.worldcat.org/fast/1355964) for cells containing \"Kings, 753-510 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "600-1500 (Moyen Âge)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355938",
+      "name": "500-1500",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 500-1500 (http://id.worldcat.org/fast/1355938) for cells containing \"600-1500 (Moyen Âge)\" in column recon-subject"
   }
 ]
-  
