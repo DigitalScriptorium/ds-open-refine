@@ -7942,5 +7942,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Speeches (Cicero, Marcus Tullius) (http://id.worldcat.org/fast/1357310) for cells containing \"Cicero, Marcus Tullius Speeches\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Latin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/993125",
+      "name": "Latin language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 53
+    },
+    "shareNewTopics": false,
+    "description": "Match item Latin language (http://id.worldcat.org/fast/993125) for cells containing \"Latin\" in column recon-subject"
   }
 ]
