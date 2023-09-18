@@ -7922,5 +7922,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Nativity of Jesus Christ (http://id.worldcat.org/fast/1353868) for cells containing \"Jesus Christ--Nativity\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cicero, Marcus Tullius Speeches",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357310",
+      "name": "Speeches (Cicero, Marcus Tullius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Speeches (Cicero, Marcus Tullius) (http://id.worldcat.org/fast/1357310) for cells containing \"Cicero, Marcus Tullius Speeches\" in column recon-subject"
   }
 ]
