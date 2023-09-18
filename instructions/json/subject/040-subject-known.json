@@ -15133,6 +15133,26 @@
     },
     "shareNewTopics": false,
     "description": "Match item Theology (http://id.worldcat.org/fast/1149559) for cells containing \"Théologie\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Papes--Primauté",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1071284",
+      "name": "Popes--Primacy",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Popes--Primacy (http://id.worldcat.org/fast/1071284) for cells containing \"Papes--Primauté\" in column recon-subject"
   }
 ]
   
