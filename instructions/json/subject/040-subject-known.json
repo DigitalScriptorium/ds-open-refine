@@ -15153,6 +15153,46 @@
     },
     "shareNewTopics": false,
     "description": "Match item Popes--Primacy (http://id.worldcat.org/fast/1071284) for cells containing \"Papes--Primauté\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Allemagne",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1210272",
+      "name": "Germany",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Germany (http://id.worldcat.org/fast/1210272) for cells containing \"Allemagne\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Antiquités",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/810745",
+      "name": "Antiquities",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Antiquities (http://id.worldcat.org/fast/810745) for cells containing \"Antiquités\" in column recon-subject"
   }
 ]
   
