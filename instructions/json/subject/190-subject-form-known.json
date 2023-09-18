@@ -344,5 +344,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Biographies (http://id.worldcat.org/fast/1919896) for cells containing \"Biographie\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Prières et dévotions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423909",
+      "name": "Prayers and devotions",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prayers and devotions (http://id.worldcat.org/fast/1423909) for cells containing \"Prières et dévotions\" in column recon-genre"
   }
 ]
