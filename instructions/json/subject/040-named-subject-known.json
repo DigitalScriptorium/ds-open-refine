@@ -7902,5 +7902,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Decretales Gregorii IX (Catholic Church) (http://id.worldcat.org/fast/1361356) for cells containing \"Gregory IX, Pope, approximately 1170-1241 Decretales D Gregorii Papæ IX\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Nativity",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353868",
+      "name": "Nativity of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nativity of Jesus Christ (http://id.worldcat.org/fast/1353868) for cells containing \"Jesus Christ--Nativity\" in column recon-subject"
   }
 ]
