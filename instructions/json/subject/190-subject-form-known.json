@@ -364,5 +364,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Prayers and devotions (http://id.worldcat.org/fast/1423909) for cells containing \"Prières et dévotions\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "In art",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423702",
+      "name": "Art",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Art (http://id.worldcat.org/fast/1423702) for cells containing \"In art\" in column recon-genre"
   }
 ]
