@@ -3637,5 +3637,66 @@
     },
     "shareNewTopics": false,
     "description": "Match item Aramaic (Q28602) for cells containing \"Aramaic translation\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Old Bulgarian",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35499",
+      "name": "Old Church Slavonic",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Old Church Slavonic (Q35499) for cells containing \"Old Bulgarian\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Low Saxon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q168446",
+      "name": "Low Saxon",
+      "types": [
+        "Q34770"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Low Saxon (Q168446) for cells containing \"Low Saxon\" in column recon-language"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Middle Dutch (ca 1050-1350)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q178806",
+      "name": "Middle Dutch",
+      "types": [
+        "Q34770",
+        "Q2315359"
+      ],
+      "score": 65
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middle Dutch (Q178806) for cells containing \"Middle Dutch (ca 1050-1350)\" in column recon-language"
   }
 ]
