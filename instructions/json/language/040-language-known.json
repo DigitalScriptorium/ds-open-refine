@@ -3618,4 +3618,24 @@
     "shareNewTopics": false,
     "description": "Match item Yucatec Maya (Q13354) for cells containing \"myn\" in column recon-language"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Aramaic translation",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28602",
+      "name": "Aramaic",
+      "types": [
+        "Q34770"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aramaic (Q28602) for cells containing \"Aramaic translation\" in column recon-language"
+  }
 ]
