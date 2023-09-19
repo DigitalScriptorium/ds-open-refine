@@ -3617,7 +3617,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Yucatec Maya (Q13354) for cells containing \"myn\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
