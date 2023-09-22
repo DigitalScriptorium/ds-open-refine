@@ -22672,4 +22672,809 @@
     "shareNewTopics": false,
     "description": "Match item Iberian Peninsula (tgn/7016676) for cells containing \"Northern Iberian Peninsula\" in column recon-place"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Amiens",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7010588",
+      "name": "Amiens",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.129457
+    },
+    "shareNewTopics": false,
+    "description": "Match item Amiens (tgn/7010588) for cells containing \"Amiens\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Belém",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7010773",
+      "name": "Belém",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.129457
+    },
+    "shareNewTopics": false,
+    "description": "Match item Belém (tgn/7010773) for cells containing \"Belém\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Berkshire",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008101",
+      "name": "Berkshire",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 28.14642
+    },
+    "shareNewTopics": false,
+    "description": "Match item Berkshire (tgn/7008101) for cells containing \"Berkshire\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Besançon",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008356",
+      "name": "Besançon",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 34.213757
+    },
+    "shareNewTopics": false,
+    "description": "Match item Besançon (tgn/7008356) for cells containing \"Besançon\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Abbey of Saint-Amand",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7610229",
+      "name": "Saint-Amand",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 17.392101
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Amand (tgn/7610229) for cells containing \"Abbey of Saint-Amand\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Bourges",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7017415",
+      "name": "Bourges",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 27.625683
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bourges (tgn/7017415) for cells containing \"Bourges\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Brussels",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007868",
+      "name": "Brussels",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.223236
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brussels (tgn/7007868) for cells containing \"Brussels\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Cambrai",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008456",
+      "name": "Cambrai",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.841433
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cambrai (tgn/7008456) for cells containing \"Cambrai\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Châlons",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7657983",
+      "name": "Châlons",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.947943
+    },
+    "shareNewTopics": false,
+    "description": "Match item Châlons (tgn/7657983) for cells containing \"Châlons\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Cirencester",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7011127",
+      "name": "Cirencester",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 34.28498
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cirencester (tgn/7011127) for cells containing \"Cirencester\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Constance",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7005174",
+      "name": "Konstanz",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 27.928566
+    },
+    "shareNewTopics": false,
+    "description": "Match item Konstanz (tgn/7005174) for cells containing \"Constance\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Cuijk",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7006847",
+      "name": "Cuyk",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 34.28498
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cuyk (tgn/7006847) for cells containing \"Cuijk\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Eastern Netherlands",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7016845",
+      "name": "Netherlands",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 12.560133
+    },
+    "shareNewTopics": false,
+    "description": "Match item Netherlands (tgn/7016845) for cells containing \"Eastern Netherlands\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Rimini",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7004929",
+      "name": "Rimini",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.317038
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rimini (tgn/7004929) for cells containing \"Rimini\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Emilia-Romagna",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008516",
+      "name": "Emilia-Romagna",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 34.56217
+    },
+    "shareNewTopics": false,
+    "description": "Match item Emilia-Romagna (tgn/7008516) for cells containing \"Emilia-Romagna\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Emilia",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7015397",
+      "name": "Emilia",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.572517
+    },
+    "shareNewTopics": false,
+    "description": "Match item Emilia (tgn/7015397) for cells containing \"Emilia\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Hamburg",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7005289",
+      "name": "Hamburg",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.129457
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hamburg (tgn/7005289) for cells containing \"Hamburg\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Franco-Flemish",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7024097",
+      "name": "Flanders",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 18.133385
+    },
+    "shareNewTopics": false,
+    "description": "Match item Flanders (tgn/7024097) for cells containing \"Franco-Flemish\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Hildesheim",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7005248",
+      "name": "Hildesheim",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.293447
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hildesheim (tgn/7005248) for cells containing \"Hildesheim\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Lancashire",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008154",
+      "name": "Lancashire",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 32.37361
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lancashire (tgn/7008154) for cells containing \"Lancashire\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Langres",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008343",
+      "name": "Langres",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.066025
+    },
+    "shareNewTopics": false,
+    "description": "Match item Langres (tgn/7008343) for cells containing \"Langres\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Leiden",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7006809",
+      "name": "Leyden",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 33.20482
+    },
+    "shareNewTopics": false,
+    "description": "Match item Leyden (tgn/7006809) for cells containing \"Leiden\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Limbourg",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003461",
+      "name": "Limburg",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 27.91431
+    },
+    "shareNewTopics": false,
+    "description": "Match item Limburg (tgn/7003461) for cells containing \"Limbourg\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Lombardi",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7054607",
+      "name": "Lombardi",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.825813
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lombardi (tgn/7054607) for cells containing \"Lombardi\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Massa Marittima",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7006080",
+      "name": "Massa Marittima",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 38.2215
+    },
+    "shareNewTopics": false,
+    "description": "Match item Massa Marittima (tgn/7006080) for cells containing \"Massa Marittima\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Melk",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003193",
+      "name": "Melk",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.881966
+    },
+    "shareNewTopics": false,
+    "description": "Match item Melk (tgn/7003193) for cells containing \"Melk\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Mons",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007961",
+      "name": "Mons",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 25.47723
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mons (tgn/7007961) for cells containing \"Mons\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Nuremburg",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7004334",
+      "name": "Nuremberg",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 33.12294
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nuremberg (tgn/7004334) for cells containing \"Nuremburg\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Saint Amand",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7610229",
+      "name": "Saint-Amand",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 17.392101
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Amand (tgn/7610229) for cells containing \"Saint Amand\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Southern England",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002445",
+      "name": "England",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 13.720858
+    },
+    "shareNewTopics": false,
+    "description": "Match item England (tgn/7002445) for cells containing \"Southern England\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Somerset",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7012032",
+      "name": "Somerset",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.129457
+    },
+    "shareNewTopics": false,
+    "description": "Match item Somerset (tgn/7012032) for cells containing \"Somerset\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Troyes",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008350",
+      "name": "Troyes",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.177473
+    },
+    "shareNewTopics": false,
+    "description": "Match item Troyes (tgn/7008350) for cells containing \"Troyes\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Warwick",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7010957",
+      "name": "Warwick",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.129457
+    },
+    "shareNewTopics": false,
+    "description": "Match item Warwick (tgn/7010957) for cells containing \"Warwick\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Würzburg",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7004335",
+      "name": "Würzburg",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 35.573624
+    },
+    "shareNewTopics": false,
+    "description": "Match item Würzburg (tgn/7004335) for cells containing \"Würzburg\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Neuberg",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7124482",
+      "name": "Neuberg",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 28.682663
+    },
+    "shareNewTopics": false,
+    "description": "Match item Neuberg (tgn/7124482) for cells containing \"Neuberg\" in column recon-place"
+  }
 ]
