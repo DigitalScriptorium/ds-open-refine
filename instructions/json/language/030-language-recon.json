@@ -175,6 +175,19 @@
     "repeatCount": 10,
     "description": "Text transform on cells in column recon-language using expression grel:if(cells[\"recon-language\"].value.contains(\"Middle French\"),\"Middle French\",value)"
   },
+   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "expression": "grel:value.replace(\"with some Middle English\",\"Middle English\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recon-language using expression grel:value.replace(\"with some Middle English\",\"Middle English\")"
+  },
   {
     "op": "core/text-transform",
     "engineConfig": {
