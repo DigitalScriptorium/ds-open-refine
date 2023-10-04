@@ -11765,5 +11765,1405 @@
     },
     "shareNewTopics": false,
     "description": "Match item Edward Payson Roe (Q5344791) for cells containing \"Roe, Edward Payson, 1838-1888\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Accursius, glossator, approximately 1182-approximately 1260",
+    "judgment": "matched",
+    "match": {
+      "id": "Q339824",
+      "name": "Accursius",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Accursius (Q339824) for cells containing \"Accursius, glossator, approximately 1182-approximately 1260\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Adam, of Buckfield, approximately 1220-approximately 1294",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2824030",
+      "name": "Adam of Bockenfield",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Adam of Bockenfield (Q2824030) for cells containing \"Adam, of Buckfield, approximately 1220-approximately 1294\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bridget, of Sweden, Saint, approximately 1303-1373",
+    "judgment": "matched",
+    "match": {
+      "id": "Q204996",
+      "name": "Bridget of Sweden",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bridget of Sweden (Q204996) for cells containing \"Bridget, of Sweden, Saint, approximately 1303-1373\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Milis, Joannes Nicolaus, active 15th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6216858",
+      "name": "Johannes Milis",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Johannes Milis (Q6216858) for cells containing \"Milis, Joannes Nicolaus, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Matthew, of Vendôme, approximately 1130-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1238197",
+      "name": "Matthew of Vendôme",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matthew of Vendôme (Q1238197) for cells containing \"Matthew, of Vendôme, approximately 1130-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Cherubino, da Siena, frate, -1484",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18945146",
+      "name": "Cherubino da Spoleto",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cherubino da Spoleto (Q18945146) for cells containing \"Cherubino, da Siena, frate, -1484\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Clement V, Pope, approximately 1260-1314",
+    "judgment": "matched",
+    "match": {
+      "id": "Q131463",
+      "name": "Clement V",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clement V (Q131463) for cells containing \"Clement V, Pope, approximately 1260-1314\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Epiphanius, Saint, Bishop of Constantia in Cyprus, approximately 310-403",
+    "judgment": "matched",
+    "match": {
+      "id": "Q313922",
+      "name": "Epiphanius of Salamis",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Epiphanius of Salamis (Q313922) for cells containing \"Epiphanius, Saint, Bishop of Constantia in Cyprus, approximately 310-403\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Eutropius, active 4th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q314694",
+      "name": "Eutropius",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eutropius (Q314694) for cells containing \"Eutropius, active 4th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Germain, Jean, 1397-1461",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3172288",
+      "name": "Jean Germain",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jean Germain (Q3172288) for cells containing \"Germain, Jean, 1397-1461\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gregory X, Pope, -1276",
+    "judgment": "matched",
+    "match": {
+      "id": "Q161740",
+      "name": "Gregory X",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gregory X (Q161740) for cells containing \"Gregory X, Pope, -1276\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Guido, de Monte Rocherii, active 14th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5615652",
+      "name": "Guido de Monte Rochen",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Guido de Monte Rochen (Q5615652) for cells containing \"Guido, de Monte Rocherii, active 14th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "John XXII, Pope, -1334",
+    "judgment": "matched",
+    "match": {
+      "id": "Q165568",
+      "name": "John XXII",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John XXII (Q165568) for cells containing \"John XXII, Pope, -1334\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "John, de Seccheville, active 13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18671712",
+      "name": "John de Seccheville",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John de Seccheville (Q18671712) for cells containing \"John, de Seccheville, active 13th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jordan, von Quedlinburg, approximately 1299-1380",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1703666",
+      "name": "Jordan von Quedlinburg",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jordan von Quedlinburg (Q1703666) for cells containing \"Jordan, von Quedlinburg, approximately 1299-1380\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Justinian I, Emperor of the East, 483?-565",
+    "judgment": "matched",
+    "match": {
+      "id": "Q41866",
+      "name": "Justinian I",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Justinian I (Q41866) for cells containing \"Justinian I, Emperor of the East, 483?-565\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maillard, Olivier, approximately 1430-1502",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3351180",
+      "name": "Oliver Maillard",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Oliver Maillard (Q3351180) for cells containing \"Maillard, Olivier, approximately 1430-1502\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Matthias de Liegnitz ca. um 1379",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1910432",
+      "name": "Matthias von Liegnitz",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matthias von Liegnitz (Q1910432) for cells containing \"Matthias de Liegnitz ca. um 1379\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maximus, of Turin, Saint, active 4th century-5th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1230495",
+      "name": "Maximus of Turin",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Maximus of Turin (Q1230495) for cells containing \"Maximus, of Turin, Saint, active 4th century-5th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Petrus, Comestor, active 12th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q785250",
+      "name": "Petrus Comestor",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Petrus Comestor (Q785250) for cells containing \"Petrus, Comestor, active 12th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Raymond, of Peñafort, Saint, 1175?-1275",
+    "judgment": "matched",
+    "match": {
+      "id": "Q318980",
+      "name": "Raymond of Penyafort",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Raymond of Penyafort (Q318980) for cells containing \"Raymond, of Peñafort, Saint, 1175?-1275\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Titus Livius of Forli",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2436996",
+      "name": "Tito Livio Frulovisi",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tito Livio Frulovisi (Q2436996) for cells containing \"Titus Livius of Forli\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Waleys, Thomas, approximately 1287-1350?i",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7794824",
+      "name": "Thomas Waleys",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Waleys (Q7794824) for cells containing \"Waleys, Thomas, approximately 1287-1350?i\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Waleys, Thomas, approximately 1287-1350?",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7794824",
+      "name": "Thomas Waleys",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Waleys (Q7794824) for cells containing \"Waleys, Thomas, approximately 1287-1350?\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "William, of Malmesbury, approximately 1090-1143",
+    "judgment": "matched",
+    "match": {
+      "id": "Q345524",
+      "name": "William of Malmesbury",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item William of Malmesbury (Q345524) for cells containing \"William, of Malmesbury, approximately 1090-1143\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Anne, of Brittany, Queen, consort of Louis XII, King of France, 1476-1514",
+    "judgment": "matched",
+    "match": {
+      "id": "Q201143",
+      "name": "Anne of Brittany",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anne of Brittany (Q201143) for cells containing \"Anne, of Brittany, Queen, consort of Louis XII, King of France, 1476-1514\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Birago, Giovan Pietro, active 1471-1513",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1901175",
+      "name": "Giovanni Pietro Birago",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovanni Pietro Birago (Q1901175) for cells containing \"Birago, Giovan Pietro, active 1471-1513\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Boucicaut Master, active 15th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q894982",
+      "name": "Master of Boucicaut",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Master of Boucicaut (Q894982) for cells containing \"Boucicaut Master, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Egerton Master, active 1410",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29609",
+      "name": "Master of Egerton",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Master of Egerton (Q29609) for cells containing \"Egerton Master, active 1410\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fastolf Master, active 1420-1460",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19955782",
+      "name": "Fastolf Master",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fastolf Master (Q19955782) for cells containing \"Fastolf Master, active 1420-1460\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gold Scrolls Group (active c. 1415-1455)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23888760",
+      "name": "Masters of the Gold Scrolls",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Masters of the Gold Scrolls (Q23888760) for cells containing \"Gold Scrolls Group (active c. 1415-1455)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Harford, Frederick Kill, 1832-1906",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54364085",
+      "name": "Frederick Kill Harford",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Frederick Kill Harford (Q54364085) for cells containing \"Harford, Frederick Kill, 1832-1906\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hurst, J. F. (John Fletcher), 1834-1903",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6233452",
+      "name": "John Fletcher Hurst",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Fletcher Hurst (Q6233452) for cells containing \"Hurst, J. F. (John Fletcher), 1834-1903\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Illuminator, Master of the Vitae Imperatorum, active 1402-1459",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1673214",
+      "name": "Meister der Vitae Imperatorum",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Meister der Vitae Imperatorum (Q1673214) for cells containing \"Illuminator, Master of the Vitae Imperatorum, active 1402-1459\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jarman, John Boykett, 1782-1864",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94297523",
+      "name": "John Boykett Jarman",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Boykett Jarman (Q94297523) for cells containing \"Jarman, John Boykett, 1782-1864\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Karl W. Hiersemann (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1473427",
+      "name": "Karl Wilhelm Hiersemann",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Karl Wilhelm Hiersemann (Q1473427) for cells containing \"Karl W. Hiersemann (Firm)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Krauth, Charles P. (Charles Porterfield), 1823-1883",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5081716",
+      "name": "Charles Porterfield Krauth",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles Porterfield Krauth (Q5081716) for cells containing \"Krauth, Charles P. (Charles Porterfield), 1823-1883\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Lallemant, Jean, -1548",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120898626",
+      "name": "Jean Lallemant",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jean Lallemant (Q120898626) for cells containing \"Lallemant, Jean, -1548\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Laurence Witten (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6500535",
+      "name": "Laurence Claiborne Witten II",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Laurence Claiborne Witten II (Q6500535) for cells containing \"Laurence Witten (Firm)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Lewis, Anne Baker, 1868-1937",
+    "judgment": "matched",
+    "match": {
+      "id": "Q114242421",
+      "name": "Anne Baker Lewis",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anne Baker Lewis (Q114242421) for cells containing \"Lewis, Anne Baker, 1868-1937\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Liberale, da Verona, approximately 1445-1529",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1374872",
+      "name": "Liberale da Verona",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Liberale da Verona (Q1374872) for cells containing \"Liberale, da Verona, approximately 1445-1529\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Majorana, Cristoforo (Italian illuminator, active ca. 1480-1494)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5186484",
+      "name": "Cristoforo Majorana",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cristoforo Majorana (Q5186484) for cells containing \"Majorana, Cristoforo (Italian illuminator, active ca. 1480-1494)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Master of Edward IV, active 1470-1490",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23085454",
+      "name": "Master of Edward IV",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Master of Edward IV (Q23085454) for cells containing \"Master of Edward IV, active 1470-1490\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "St. John-Mildmay, Henry St. John Carew, Sir, 1791-1845",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24568845",
+      "name": "Sir Henry St John-Mildmay, 4th Baronet",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sir Henry St John-Mildmay, 4th Baronet (Q24568845) for cells containing \"St. John-Mildmay, Henry St. John Carew, Sir, 1791-1845\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vauvré, Jean-Louis Girardin seigneur de 1647-1724",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3166789",
+      "name": "Jean-Louis Girardin de Vauvré",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jean-Louis Girardin de Vauvré (Q3166789) for cells containing \"Vauvré, Jean-Louis Girardin seigneur de 1647-1724\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vrelant, Guillaume, -1481, workshop",
+    "judgment": "matched",
+    "match": {
+      "id": "Q363720",
+      "name": "Willem Vrelant",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Willem Vrelant (Q363720) for cells containing \"Vrelant, Guillaume, -1481, workshop\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Widener, Joseph E. (Joseph Early), 1872-1943",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4468398",
+      "name": "Joseph E. Widener",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Joseph E. Widener (Q4468398) for cells containing \"Widener, Joseph E. (Joseph Early), 1872-1943\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Workshop of the Master of Jacques de Besançon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1918551",
+      "name": "Master of Jacques de Besançon",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Master of Jacques de Besançon (Q1918551) for cells containing \"Workshop of the Master of Jacques de Besançon\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "de Foix, Constance, wife of Jean de Lévis, Seigneur de Mirepoix",
+    "judgment": "matched",
+    "match": {
+      "id": "Q97784749",
+      "name": "Constance de Foix",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Constance de Foix (Q97784749) for cells containing \"de Foix, Constance, wife of Jean de Lévis, Seigneur de Mirepoix\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "de Lévis, Isabelle, daughter of Constance de Foix",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96243734",
+      "name": "Isabelle de Lévis",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Isabelle de Lévis (Q96243734) for cells containing \"de Lévis, Isabelle, daughter of Constance de Foix\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Abezier, Johann",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95771",
+      "name": "Johannes Abezier",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Johannes Abezier (Q95771) for cells containing \"Abezier, Johann\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bedford Master Workshop",
+    "judgment": "matched",
+    "match": {
+      "id": "Q726437",
+      "name": "Bedford Master",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bedford Master (Q726437) for cells containing \"Bedford Master Workshop\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Brodrick, Charles",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5075798",
+      "name": "Charles Brodrick",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles Brodrick (Q5075798) for cells containing \"Brodrick, Charles\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bourguet, Louis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q975237",
+      "name": "Louis Bourguet",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Louis Bourguet (Q975237) for cells containing \"Bourguet, Louis\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Count Archinto, of Milan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q665628",
+      "name": "Carlo Archinto",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Carlo Archinto (Q665628) for cells containing \"Count Archinto, of Milan\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fontaine, Charles, approximately 1514-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17992861",
+      "name": "Charles Fontaine",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles Fontaine (Q17992861) for cells containing \"Fontaine, Charles, approximately 1514-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "G. Michelmore & Co.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q114242531",
+      "name": "G. Michelmore",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item G. Michelmore (Q114242531) for cells containing \"G. Michelmore & Co.\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hawkins, Rush C",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7380701",
+      "name": "Rush Hawkins",
+      "types": [
+        "Q5"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rush Hawkins (Q7380701) for cells containing \"Hawkins, Rush C\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Henry Young & Sons",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120869253",
+      "name": "Henry Young and Sons",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry Young and Sons (Q120869253) for cells containing \"Henry Young & Sons\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hurault de Chivernay",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3380037",
+      "name": "Philippe Hurault de Cheverny",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Philippe Hurault de Cheverny (Q3380037) for cells containing \"Hurault de Chivernay\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "J. and J. Leighton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113850145",
+      "name": "J. & J. Leighton",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item J. & J. Leighton (Q113850145) for cells containing \"J. and J. Leighton\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Master of Morgan 85, active 1490-1520",
+    "judgment": "matched",
+    "match": {
+      "id": "Q122753998",
+      "name": "Master of Morgan 85",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Master of Morgan 85 (Q122753998) for cells containing \"Master of Morgan 85, active 1490-1520\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Marguerite de Lorraine",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22132552",
+      "name": "Marguerite of Lorraine",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Marguerite of Lorraine (Q22132552) for cells containing \"Marguerite de Lorraine\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Master of the Suffrages (North Netherlandish illuminator, active circa 1520)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q122754074",
+      "name": "Master of the Suffrages",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Master of the Suffrages (Q122754074) for cells containing \"Master of the Suffrages (North Netherlandish illuminator, active circa 1520)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Servais, Gaspar-Joseph de, 1735-1807",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21608705",
+      "name": "Gaspard Joseph de Servais",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gaspard Joseph de Servais (Q21608705) for cells containing \"Servais, Gaspar-Joseph de, 1735-1807\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Renesse-Breidbach, Clément Wenceslas de 1776-1833",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3323218",
+      "name": "Clément de Renesse-Breidbach",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clément de Renesse-Breidbach (Q3323218) for cells containing \"Renesse-Breidbach, Clément Wenceslas de 1776-1833\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Wing, C. W. (Charles William), active 1826-1860",
+    "judgment": "matched",
+    "match": {
+      "id": "Q115182706",
+      "name": "Charles William Wing",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles William Wing (Q115182706) for cells containing \"Wing, C. W. (Charles William), active 1826-1860\" in column recon-human"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-name",
+    "similarValue": "Sneyd, Walter",
+    "judgment": "matched",
+    "match": {
+      "id": "Q62619661",
+      "name": "Walter Sneyd",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Walter Sneyd (Q62619661) for cells containing \"Sneyd, Walter\" in column recon-name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-name",
+    "similarValue": "Thomas, George C. (George Clifford)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q76520101",
+      "name": "George C. Thomas",
+      "types": [
+        "Q5"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item George C. Thomas (Q76520101) for cells containing \"Thomas, George C. (George Clifford)\" in column recon-name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-name",
+    "similarValue": "Williams, Theodore",
+    "judgment": "matched",
+    "match": {
+      "id": "Q114242423",
+      "name": "Theodore Williams",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Theodore Williams (Q114242423) for cells containing \"Williams, Theodore\" in column recon-name"
   }
 ]
