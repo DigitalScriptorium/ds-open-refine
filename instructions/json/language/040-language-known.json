@@ -3719,4 +3719,24 @@
     "shareNewTopics": false,
     "description": "Match item Ancient Greek (Q35497) for cells containing \"Ancient Greek (to 1453)\" in column recon-language"
   },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "mul",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20923490",
+      "name": "multiple languages",
+      "types": [
+        "Q34770"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item multiple languages (Q20923490) for cells containing \"mul\" in column recon-language"
+  }
 ]
