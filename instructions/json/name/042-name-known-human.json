@@ -11625,7 +11625,7 @@
     "shareNewTopics": false,
     "description": "Match item Étienne de Poncher (Q3592337) for cells containing \"‎Ponchier‏, Étienne‏,‎ 1446-1524\" in column recon-human"
   },
-    {
+  {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
       "facets": [],
