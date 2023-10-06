@@ -23476,5 +23476,189 @@
     },
     "shareNewTopics": false,
     "description": "Match item Neuberg (tgn/7124482) for cells containing \"Neuberg\" in column recon-place"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Beijing",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7001758",
+      "name": "Beijing",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Beijing (tgn/7001758) for cells containing \"Beijing\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Hanshan Xian",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/8203227",
+      "name": "Hanshan",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hanshan (tgn/8203227) for cells containing \"Hanshan Xian\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Henan",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7016672",
+      "name": "Henan",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henan (tgn/7016672) for cells containing \"Henan\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Shaanxi Sheng",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002084",
+      "name": "Shaanxi",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shaanxi (tgn/7002084) for cells containing \"Shaanxi Sheng\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "St Albans",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7011871",
+      "name": "Saint Albans",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint Albans (tgn/7011871) for cells containing \"St Albans\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Ōmi no kuni Takashima-gun",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/8743324",
+      "name": "Takashima-shi",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Takashima-shi (tgn/8743324) for cells containing \"Ōmi no kuni Takashima-gun\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Place of publication not identified",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7544559",
+      "name": "undetermined",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item undetermined (tgn/7544559) for cells containing \"Place of publication not identified\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Zhejiang",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002076",
+      "name": "Zhejiang",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Zhejiang (tgn/7002076) for cells containing \"Zhejiang\" in column recon-place"
   }
 ]
