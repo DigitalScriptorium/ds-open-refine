@@ -15301,26 +15301,6 @@
       "mode": "row-based"
     },
     "columnName": "recon-subject",
-    "similarValue": "English language--Old English, ca 450-1100",
-    "judgment": "matched",
-    "match": {
-      "id": "http://id.worldcat.org/fast/1710958",
-      "name": "English language--Old English",
-      "types": [
-        "/fast/all"
-      ],
-      "score": 0
-    },
-    "shareNewTopics": false,
-    "description": "Match item English language--Old English (http://id.worldcat.org/fast/1710958) for cells containing \"English language--Old English, ca 450-1100\" in column recon-subject"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "recon-subject",
     "similarValue": "United States Naval Expedition to Japan, 1852-1853",
     "judgment": "matched",
     "match": {
