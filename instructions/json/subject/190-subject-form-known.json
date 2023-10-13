@@ -384,5 +384,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Art (http://id.worldcat.org/fast/1423702) for cells containing \"In art\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Maps, Manuscript",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1752677",
+      "name": "Manuscript maps",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscript maps (http://id.worldcat.org/fast/1752677) for cells containing \"Maps, Manuscript\" in column recon-genre"
   }
 ]
