@@ -15713,5 +15713,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Therapeutics (http://id.worldcat.org/fast/1149694) for cells containing \"Therapy\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1147737",
+      "name": "Tenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tenth century (http://id.worldcat.org/fast/1147737) for cells containing \"10th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Norman period, 1066-1154",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355367",
+      "name": "1066-1154",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1066-1154 (http://id.worldcat.org/fast/1355367) for cells containing \"Norman period, 1066-1154\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Warring States, 403-221 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/2010884",
+      "name": "403-221 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 403-221 B.C. (http://id.worldcat.org/fast/2010884) for cells containing \"Warring States, 403-221 BC\" in column recon-subject"
   }
 ]
