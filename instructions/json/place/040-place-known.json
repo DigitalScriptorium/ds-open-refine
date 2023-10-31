@@ -23660,5 +23660,189 @@
     },
     "shareNewTopics": false,
     "description": "Match item Zhejiang (tgn/7002076) for cells containing \"Zhejiang\" in column recon-place"
+  },
+   {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Pesaro",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003991",
+      "name": "Pesaro",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pesaro (tgn/7003991) for cells containing \"Pesaro\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Carpi",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7004950",
+      "name": "Carpi",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Carpi (tgn/7004950) for cells containing \"Carpi\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Calais",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7009002",
+      "name": "Calais",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calais (tgn/7009002) for cells containing \"Calais\" in column recon-place"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Barcelona",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007426",
+      "name": "Barcelona",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Barcelona (tgn/7007426) for cells containing \"Barcelona\" in column recon-place"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Speyer",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7012341",
+      "name": "Speyer",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Speyer (tgn/7012341) for cells containing \"Speyer\" in column recon-place"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Ruden",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7103299",
+      "name": "Rüden",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rüden (tgn/7103299) for cells containing \"Ruden\" in column recon-place"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Rennes",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008263",
+      "name": "Rennes",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rennes (tgn/7008263) for cells containing \"Rennes\" in column recon-place"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Delft",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7006804",
+      "name": "Delft",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Delft (tgn/7006804) for cells containing \"Delft\" in column recon-place"
   }
 ]
