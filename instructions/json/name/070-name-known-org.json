@@ -5890,4 +5890,564 @@
     "shareNewTopics": false,
     "description": "Match item Basilica Gößweinstein (Q810087) for cells containing \"Wallfahrtskirche zur Heiligsten Dreifaltigkeit (Gössweinstein, Germany)\" in column recon-organization"
   },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Gilhofer & Ranschburg (Vienna, Austria)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q60403581",
+      "name": "Gilhofer & Ranschburg. Lucerne, Suisse",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gilhofer & Ranschburg. Lucerne, Suisse (Q60403581) for cells containing \"Gilhofer & Ranschburg (Vienna, Austria)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Philip C. Duschnes (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q67614357",
+      "name": "Philip C. Duschnes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Philip C. Duschnes (Q67614357) for cells containing \"Philip C. Duschnes (Firm)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Augustinerkloster Ramsau",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1321580",
+      "name": "Ramsau Monastery",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ramsau Monastery (Q1321580) for cells containing \"Augustinerkloster Ramsau\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bruce P. Ferrini (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123283916",
+      "name": "Bruce P. Ferrini",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bruce P. Ferrini (Q123283916) for cells containing \"Bruce P. Ferrini (Firm)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Cathédrale Saint-Pierre (Beauvais, France)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q513300",
+      "name": "Beauvais Cathedral",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Beauvais Cathedral (Q513300) for cells containing \"Cathédrale Saint-Pierre (Beauvais, France)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Charles W. Traylen (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26280431",
+      "name": "C Traylen Bookshop",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item C Traylen Bookshop (Q26280431) for cells containing \"Charles W. Traylen (Firm)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Chartreuse de Valenciennes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q78728910",
+      "name": "Notre-Dame de Macourt monastery",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Notre-Dame de Macourt monastery (Q78728910) for cells containing \"Chartreuse de Valenciennes\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Château d'Anet",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2032524",
+      "name": "Château d'Anet",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Château d'Anet (Q2032524) for cells containing \"Château d'Anet\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Couvent Notre-Dame-des Célestines (Ambert, France)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123284071",
+      "name": "Notre-Dame monastery (Ambert, France)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Notre-Dame monastery (Ambert, France) (Q123284071) for cells containing \"Couvent Notre-Dame-des Célestines (Ambert, France)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Deighton, Bell, and Co",
+    "judgment": "matched",
+    "match": {
+      "id": "Q117019928",
+      "name": "Deighton, Bell, & Company",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Deighton, Bell, & Company (Q117019928) for cells containing \"Deighton, Bell, and Co\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Franciscan Convent (Montepulciano, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3689542",
+      "name": "San Francesco",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Francesco (Q3689542) for cells containing \"Franciscan Convent (Montepulciano, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Gascoigne family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5526390",
+      "name": "Gascoigne baronets",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gascoigne baronets (Q5526390) for cells containing \"Gascoigne family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Hotel Druot",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3145483",
+      "name": "Hôtel Drouot",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hôtel Drouot (Q3145483) for cells containing \"Hotel Druot\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "John F. Fleming, Incorporated",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94274404",
+      "name": "John F. Fleming",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John F. Fleming (Q94274404) for cells containing \"John F. Fleming, Incorporated\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Kloster Bredelar (Bredelar, Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1775083",
+      "name": "Kloster Bredelar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kloster Bredelar (Q1775083) for cells containing \"Kloster Bredelar (Bredelar, Germany)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Libreria antiquaria Hoepli",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3831782",
+      "name": "Libreria antiquaria Hoepli",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Libreria antiquaria Hoepli (Q3831782) for cells containing \"Libreria antiquaria Hoepli\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ludwig Rosenthal's Antiquariat",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120442752",
+      "name": "Ludwig Rosenthal's Antiquariaat",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ludwig Rosenthal's Antiquariaat (Q120442752) for cells containing \"Ludwig Rosenthal's Antiquariat\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Nicolas Rauch S.A",
+    "judgment": "matched",
+    "match": {
+      "id": "Q72938126",
+      "name": "Nicolas Rauch",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nicolas Rauch (Q72938126) for cells containing \"Nicolas Rauch S.A\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Nijhoff, Martinus, firm, booksellers, The Hague",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1905756",
+      "name": "Martinus Nijhoff",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Martinus Nijhoff (Q1905756) for cells containing \"Nijhoff, Martinus, firm, booksellers, The Hague\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Otto Haas (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1595206",
+      "name": "Otto Haas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Otto Haas (Q1595206) for cells containing \"Otto Haas (Firm)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Phillip J. Pirages (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q116790542",
+      "name": "Phillip J. Pirages Fine Books & Manuscripts",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Phillip J. Pirages Fine Books & Manuscripts (Q116790542) for cells containing \"Phillip J. Pirages (Firm)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "San Sisto (Church : Piacenza, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1687296",
+      "name": "San Sisto, Piacenza",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Sisto, Piacenza (Q1687296) for cells containing \"San Sisto (Church : Piacenza, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Venice (Republic : to 1797). Doge (1523-1538 : Gritti)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q345506",
+      "name": "Andrea Gritti",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Andrea Gritti (Q345506) for cells containing \"Venice (Republic : to 1797). Doge (1523-1538 : Gritti)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Walter R. Benjamin Autographs, Inc",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94538169",
+      "name": "Walter Romeyn Benjamin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Walter Romeyn Benjamin (Q94538169) for cells containing \"Walter R. Benjamin Autographs, Inc\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Weiss & Co. (Firm)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110558338",
+      "name": "Weiss & Co.",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Weiss & Co. (Q110558338) for cells containing \"Weiss & Co. (Firm)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Winifred A. Myers (Autographs) Ltd",
+    "judgment": "matched",
+    "match": {
+      "id": "Q112509951",
+      "name": "Winifred Myers",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Winifred Myers (Q112509951) for cells containing \"Winifred A. Myers (Autographs) Ltd\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Collegio di San Barnaba (Milan, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24277",
+      "name": "San Barnaba Church",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Barnaba Church (Q24277) for cells containing \"Collegio di San Barnaba (Milan, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Fitzwilliam (Wentworth) Estates",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7983040",
+      "name": "Wentworth Woodhouse",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wentworth Woodhouse (Q7983040) for cells containing \"Fitzwilliam (Wentworth) Estates\" in column recon-organization"
+  }
 ]
