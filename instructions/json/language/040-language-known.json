@@ -3738,5 +3738,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item multiple languages (Q20923490) for cells containing \"mul\" in column recon-language"
+  },
+   {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Anglo-Norman",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35214",
+      "name": "Anglo-Norman",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anglo-Norman (Q35214) for cells containing \"Anglo-Norman\" in column recon-language"
   }
 ]
