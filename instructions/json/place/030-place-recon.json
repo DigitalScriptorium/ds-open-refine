@@ -43,6 +43,15 @@
     "regex": false,
     "description": "Split multi-valued cells in column recon-place"
   },
+    {
+    "op": "core/multivalued-cell-split",
+    "columnName": "recon-place",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": " and/or ",
+    "regex": false,
+    "description": "Split multi-valued cells in column recon-place"
+  },
   {
     "op": "core/multivalued-cell-split",
     "columnName": "recon-place",
