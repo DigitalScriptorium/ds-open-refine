@@ -6449,5 +6449,185 @@
     },
     "shareNewTopics": false,
     "description": "Match item Wentworth Woodhouse (Q7983040) for cells containing \"Fitzwilliam (Wentworth) Estates\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Augustinians of Rebsdorf",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1775841",
+      "name": "Kloster Rebdorf",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kloster Rebdorf (Q1775841) for cells containing \"Augustinians of Rebsdorf\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Carthusian Charterhouse (Erfurt)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1734672",
+      "name": "Kartause Erfurt",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kartause Erfurt (Q1734672) for cells containing \"Carthusian Charterhouse (Erfurt)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "D chauss es de la Croix-Rousse, Augustins",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3581003",
+      "name": "Église Saint-Augustin de Lyon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Église Saint-Augustin de Lyon (Q3581003) for cells containing \"D chauss es de la Croix-Rousse, Augustins\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "General Court of the Colony of Massachusetts",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1453540",
+      "name": "Massachusetts General Court",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Massachusetts General Court (Q1453540) for cells containing \"General Court of the Colony of Massachusetts\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Hospital de Jes s Nazareno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5908694",
+      "name": "Hospital de Jesús Nazareno",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hospital de Jesús Nazareno (Q5908694) for cells containing \"Hospital de Jes s Nazareno\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Julien Peridier Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3189627",
+      "name": "Julien Peridier",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Julien Peridier (Q3189627) for cells containing \"Julien Peridier Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Mantell family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24449797",
+      "name": "Mantell",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mantell (Q24449797) for cells containing \"Mantell family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Santa Caterina d'Alessandria (Padua)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3672907",
+      "name": "church of St. Catherine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item church of St. Catherine (Q3672907) for cells containing \"Santa Caterina d'Alessandria (Padua)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "St. Katerinenkloster",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1736108",
+      "name": "Katharinenkirche",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Katharinenkirche (Q1736108) for cells containing \"St. Katerinenkloster\" in column recon-organization"
   }
 ]
