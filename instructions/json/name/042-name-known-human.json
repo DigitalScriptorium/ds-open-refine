@@ -964,5 +964,505 @@
     },
     "shareNewTopics": false,
     "description": "Match item Eduardo Juan Bullrich (Q120648316) for cells containing \"Bullrich, Eduardo J\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Raleigh, Walter, Sir, 1552?-1618",
+    "judgment": "matched",
+    "match": {
+      "id": "Q189144",
+      "name": "Walter Raleigh",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Walter Raleigh (Q189144) for cells containing \"Raleigh, Walter, Sir, 1552?-1618\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bingley, Wil",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110226271",
+      "name": "William Bingley",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item William Bingley (Q110226271) for cells containing \"Bingley, Wil\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Elsynge, Henry, 1577-1635 or 1636",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18730405",
+      "name": "Henry Elsynge",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry Elsynge (Q18730405) for cells containing \"Elsynge, Henry, 1577-1635 or 1636\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Firmin-Didot, Ambrose, 1790-1876",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2842379",
+      "name": "Ambroise Firmin Didot",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ambroise Firmin Didot (Q2842379) for cells containing \"Firmin-Didot, Ambrose, 1790-1876\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gifford, Andrew, 1700-1784",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4757086",
+      "name": "Andrew Gifford",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Andrew Gifford (Q4757086) for cells containing \"Gifford, Andrew, 1700-1784\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gonzaga, Ludovico, Bishop of Mantua, 1458-1511",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1874025",
+      "name": "Luigi Gonzaga",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Luigi Gonzaga (Q1874025) for cells containing \"Gonzaga, Ludovico, Bishop of Mantua, 1458-1511\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Heber, Richard, Sir",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4502479",
+      "name": "Richard Heber",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Richard Heber (Q4502479) for cells containing \"Heber, Richard, Sir\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "King-Harman, L. H",
+    "judgment": "matched",
+    "match": {
+      "id": "Q61959623",
+      "name": "Laurence Harman King-Harman",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Laurence Harman King-Harman (Q61959623) for cells containing \"King-Harman, L. H\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Louis, Cardinal of Guise, 1556-1588",
+    "judgment": "matched",
+    "match": {
+      "id": "Q510693",
+      "name": "Louis II of Lorraine, cardinal of Guise",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Louis II of Lorraine, cardinal of Guise (Q510693) for cells containing \"Louis, Cardinal of Guise, 1556-1588\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Mostyn, Roger, Sir, 1675-1739",
+    "judgment": "matched",
+    "match": {
+      "id": "Q14945669",
+      "name": "Sir Roger Mostyn, 3rd Baronet",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sir Roger Mostyn, 3rd Baronet (Q14945669) for cells containing \"Mostyn, Roger, Sir, 1675-1739\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Philips, Katherine, 1631-1664",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2172000",
+      "name": "Katherine Philips",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Katherine Philips (Q2172000) for cells containing \"Philips, Katherine, 1631-1664\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Sanvito, Bartolomeo, 1433-1511",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4865517",
+      "name": "Bartolomeo Sanvito",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bartolomeo Sanvito (Q4865517) for cells containing \"Sanvito, Bartolomeo, 1433-1511\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Sergeant, John, 1622-1707, attributed author",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6257310",
+      "name": "John Sergeant",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Sergeant (Q6257310) for cells containing \"Sergeant, John, 1622-1707, attributed author\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Carter, John W., 1905-1975",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6225343",
+      "name": "John Carter",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Carter (Q6225343) for cells containing \"Carter, John W., 1905-1975\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Farmer, Richard",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7325613",
+      "name": "Richard Farmer",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Richard Farmer (Q7325613) for cells containing \"Farmer, Richard\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Marquis of Astorga",
+    "judgment": "matched",
+    "match": {
+      "id": "Q112225539",
+      "name": "Marquis of Astorga",
+      "types": [
+        "Q2554364"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Marquis of Astorga (Q112225539) for cells containing \"Marquis of Astorga\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Martin, Thomas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7792204",
+      "name": "Thomas Martin",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Martin (Q7792204) for cells containing \"Martin, Thomas\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Taylor, Thomas, Sir",
+    "judgment": "matched",
+    "match": {
+      "id": "Q76374589",
+      "name": "Thomas Taylor",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Taylor (Q76374589) for cells containing \"Taylor, Thomas, Sir\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Treherne, George, -1528",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19325841",
+      "name": "George Treherne",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item George Treherne (Q19325841) for cells containing \"Treherne, George, -1528\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Upton, Nicholas, 1400?-1457",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1217759",
+      "name": "Nicholas Upton",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nicholas Upton (Q1217759) for cells containing \"Upton, Nicholas, 1400?-1457\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Brudenell, G. L. T",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5537353",
+      "name": "George Brudenell, 3rd Earl of Cardigan",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item George Brudenell, 3rd Earl of Cardigan (Q5537353) for cells containing \"Brudenell, G. L. T\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kloss, George",
+    "judgment": "matched",
+    "match": {
+      "id": "Q214047",
+      "name": "Georg Kloss",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Georg Kloss (Q214047) for cells containing \"Kloss, George\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ros, Bernard",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94805275",
+      "name": "Bernard M. Rosenthal",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bernard M. Rosenthal (Q94805275) for cells containing \"Ros, Bernard\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Wolf, Gustave",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15453601",
+      "name": "Gustav Wolf",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gustav Wolf (Q15453601) for cells containing \"Wolf, Gustave\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "de Belleville, Marie, after 1428-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q116006119",
+      "name": "Marguerite de Belleville",
+      "types": [
+        "Q5"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Marguerite de Belleville (Q116006119) for cells containing \"de Belleville, Marie, after 1428-\" in column recon-human"
   }
 ]
