@@ -15773,5 +15773,105 @@
     },
     "shareNewTopics": false,
     "description": "Match item 403-221 B.C. (http://id.worldcat.org/fast/2010884) for cells containing \"Warring States, 403-221 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Prayers for the dead",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1074749",
+      "name": "Prayers for the dead",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prayers for the dead (http://id.worldcat.org/fast/1074749) for cells containing \"Prayers for the dead\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gloucestershire (England)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1207541",
+      "name": "England--Gloucestershire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Gloucestershire (http://id.worldcat.org/fast/1207541) for cells containing \"Gloucestershire (England)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscripts, Medieval,",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008422",
+      "name": "Manuscripts, Medieval",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Medieval (http://id.worldcat.org/fast/1008422) for cells containing \"Manuscripts, Medieval,\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscripts,Medieval",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008422",
+      "name": "Manuscripts, Medieval",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Medieval (http://id.worldcat.org/fast/1008422) for cells containing \"Manuscripts,Medieval\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Verona (Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204568",
+      "name": "Italy--Verona",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy--Verona (http://id.worldcat.org/fast/1204568) for cells containing \"Verona (Italy)\" in column recon-subject"
   }
 ]
