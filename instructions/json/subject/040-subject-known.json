@@ -15881,7 +15881,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-subject",
-    "similarValue": "Massachussetts--Boston",
+    "similarValue": " Massachusetts -- Boston",
     "judgment": "matched",
     "match": {
       "id": "http://id.worldcat.org/fast/1205012",
@@ -15893,5 +15893,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Massachusetts--Boston (http://id.worldcat.org/fast/1205012) for cells containing \" Massachusetts -- Boston\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Massachussetts--Boston",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205012",
+      "name": "Massachusetts--Boston",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Massachusetts--Boston (http://id.worldcat.org/fast/1205012) for cells containing \"Massachussetts--Boston\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Quotations, maxims, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1086132",
+      "name": "Quotations",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Quotations (http://id.worldcat.org/fast/1086132) for cells containing \"Quotations, maxims, etc\" in column recon-subject"
   }
 ]
