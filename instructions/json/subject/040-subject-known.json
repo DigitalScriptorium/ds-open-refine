@@ -15873,5 +15873,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Italy--Verona (http://id.worldcat.org/fast/1204568) for cells containing \"Verona (Italy)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Massachussetts--Boston",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205012",
+      "name": "Massachusetts--Boston",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Massachusetts--Boston (http://id.worldcat.org/fast/1205012) for cells containing \" Massachusetts -- Boston\" in column recon-subject"
   }
 ]
