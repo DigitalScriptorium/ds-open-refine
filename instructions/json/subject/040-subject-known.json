@@ -15993,5 +15993,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item 265-30 B.C. (http://id.worldcat.org/fast/1355900) for cells containing \"Republic, 265-30 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Adriatic Sea",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1239504",
+      "name": "Mediterranean Sea--Adriatic Sea",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 57
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mediterranean Sea--Adriatic Sea (http://id.worldcat.org/fast/1239504) for cells containing \"Adriatic Sea\" in column recon-subject"
   }
 ]
