@@ -15933,5 +15933,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Quotations (http://id.worldcat.org/fast/1086132) for cells containing \"Quotations, maxims, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Trials, litigation, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423712",
+      "name": "Trials, litigation, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trials, litigation, etc. (http://id.worldcat.org/fast/1423712) for cells containing \"Trials, litigation, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Empire, 30 BC-476 AD",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355908",
+      "name": "30 B.C.-476 A.D.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 30 B.C.-476 A.D. (http://id.worldcat.org/fast/1355908) for cells containing \"Empire, 30 BC-476 AD\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Republic, 265-30 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355900",
+      "name": "265-30 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 265-30 B.C. (http://id.worldcat.org/fast/1355900) for cells containing \"Republic, 265-30 BC\" in column recon-subject"
   }
 ]
