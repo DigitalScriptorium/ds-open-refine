@@ -8082,5 +8082,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Spain. Armada (http://id.worldcat.org/fast/533161) for cells containing \"Spain Armada\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Trials, litigation, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423712",
+      "name": "Trials, litigation, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trials, litigation, etc. (http://id.worldcat.org/fast/1423712) for cells containing \"Trials, litigation, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Physical appearance",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353982",
+      "name": "Physical appearance of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Physical appearance of Jesus Christ (http://id.worldcat.org/fast/1353982) for cells containing \"Jesus Christ--Physical appearance\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mary, Blessed Virgin, Saint--Devotion to",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352703",
+      "name": "Devotion to the Blessed Virgin Mary",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Devotion to the Blessed Virgin Mary (http://id.worldcat.org/fast/1352703) for cells containing \"Mary, Blessed Virgin, Saint--Devotion to\" in column recon-subject"
   }
 ]
