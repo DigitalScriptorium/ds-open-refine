@@ -8002,5 +8002,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item Third Order Regular of St. Francis (http://id.worldcat.org/fast/538533) for cells containing \"Third Order Regular of St Francis\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Acts",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892885",
+      "name": "Bible. Acts",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Acts (http://id.worldcat.org/fast/1892885) for cells containing \"Bible Acts\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Esther",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892901",
+      "name": "Bible. Esther",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Esther (http://id.worldcat.org/fast/1892901) for cells containing \"Bible Esther\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Revelation",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892943",
+      "name": "Bible. Revelation",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Revelation (http://id.worldcat.org/fast/1892943) for cells containing \"Bible Revelation\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Spain Armada",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/533161",
+      "name": "Spain. Armada",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain. Armada (http://id.worldcat.org/fast/533161) for cells containing \"Spain Armada\" in column recon-subject"
   }
 ]
