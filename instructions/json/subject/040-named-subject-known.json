@@ -7962,5 +7962,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Latin language (http://id.worldcat.org/fast/993125) for cells containing \"Latin\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Benedict, Saint Abbot of Monte Cassino Regula",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357012",
+      "name": "Regula (Benedict, Saint, Abbot of Monte Cassino)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Regula (Benedict, Saint, Abbot of Monte Cassino) (http://id.worldcat.org/fast/1357012) for cells containing \"Benedict, Saint Abbot of Monte Cassino Regula\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Third Order Regular of St Francis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/538533",
+      "name": "Third Order Regular of St. Francis",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Third Order Regular of St. Francis (http://id.worldcat.org/fast/538533) for cells containing \"Third Order Regular of St Francis\" in column recon-subject"
   }
 ]
