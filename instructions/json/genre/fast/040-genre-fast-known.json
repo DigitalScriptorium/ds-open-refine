@@ -1625,5 +1625,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Coptic manuscripts (http://id.worldcat.org/fast/1734594) for cells containing \"Manuscripts, Coptic\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Scrolls",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1109413",
+      "name": "Scrolls",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Scrolls (http://id.worldcat.org/fast/1109413) for cells containing \"Scrolls\" in column recon-genre"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Bibles",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356024",
+      "name": "Bible",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible (http://id.worldcat.org/fast/1356024) for cells containing \"Bibles\" in column recon-genre"
   }
 ]
