@@ -4018,5 +4018,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Samaritan Aramaic (Q56612) for cells containing \"Samaritan Aramaic\" in column recon-language"
+  },
+     {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-language: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-language",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "English",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1860",
+      "name": "English",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item English (Q1860) for cells containing \"English\" in column recon-language"
   }
 ]
