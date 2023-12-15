@@ -1466,19 +1466,6 @@
     "description": "Match item Marguerite de Belleville (Q116006119) for cells containing \"de Belleville, Marie, after 1428-\" in column recon-human"
   },
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "name_as_recorded",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "name",
-    "columnInsertIndex": 4,
-    "description": "Create column name at index 4 based on column name_as_recorded using expression grel:value"
-  },
-  {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
       "facets": [],
