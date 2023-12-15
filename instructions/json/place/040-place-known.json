@@ -24373,5 +24373,258 @@
     },
     "shareNewTopics": false,
     "description": "Match item Muradiye (tgn/1140822) for cells containing \"Muradiye\" in column recon-place"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Tabriz",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002156",
+      "name": "Tabriz",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tabriz (tgn/7002156) for cells containing \"Tabriz\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Tangier",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7000442",
+      "name": "Tangier",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tangier (tgn/7000442) for cells containing \"Tangier\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "the Balkans",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7011636",
+      "name": "Balkan Peninsula",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Balkan Peninsula (tgn/7011636) for cells containing \"the Balkans\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Yazd",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002173",
+      "name": "Yazd",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yazd (tgn/7002173) for cells containing \"Yazd\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Lahore",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7001560",
+      "name": "Lahore",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lahore (tgn/7001560) for cells containing \"Lahore\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Algeria",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7016752",
+      "name": "Algeria",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Algeria (tgn/7016752) for cells containing \"Algeria\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "New York",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007567",
+      "name": "New York",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item New York (tgn/7007567) for cells containing \"New York\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Palermo",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003928",
+      "name": "Palermo",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Palermo (tgn/7003928) for cells containing \"Palermo\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Shīrāz",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002148",
+      "name": "Shiraz",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shiraz (tgn/7002148) for cells containing \"Shīrāz\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Agra",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7001493",
+      "name": "Āgra",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Āgra (tgn/7001493) for cells containing \"Agra\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Surat",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7001592",
+      "name": "Sūrat",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sūrat (tgn/7001592) for cells containing \"Surat\" in column recon-place"
   }
 ]
