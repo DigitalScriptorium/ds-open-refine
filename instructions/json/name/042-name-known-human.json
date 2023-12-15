@@ -1464,5 +1464,318 @@
     },
     "shareNewTopics": false,
     "description": "Match item Marguerite de Belleville (Q116006119) for cells containing \"de Belleville, Marie, after 1428-\" in column recon-human"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "name_as_recorded",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "name",
+    "columnInsertIndex": 4,
+    "description": "Create column name at index 4 based on column name_as_recorded using expression grel:value"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Burton, John E. 1847-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123553095",
+      "name": "John E. Burton",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item John E. Burton (Q123553095) for cells containing \"Burton, John E. 1847-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Clark, Clarence H. 1833-1906",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5126591",
+      "name": "Clarence Howard Clark, Sr.",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clarence Howard Clark, Sr. (Q5126591) for cells containing \"Clark, Clarence H. 1833-1906\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Goldsmid, Isaac L. 1778-1859",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1641641",
+      "name": "Sir Isaac Goldsmid, 1st Baronet",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sir Isaac Goldsmid, 1st Baronet (Q1641641) for cells containing \"Goldsmid, Isaac L. 1778-1859\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Keene, H. G. 1781-1864",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17421425",
+      "name": "Henry George Keene",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry George Keene (Q17421425) for cells containing \"Keene, H. G. 1781-1864\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kevorkian, H. 1872-1962",
+    "judgment": "matched",
+    "match": {
+      "id": "Q970441",
+      "name": "Hagop Kevorkian",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hagop Kevorkian (Q970441) for cells containing \"Kevorkian, H. 1872-1962\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Morton, Eden, active 1880",
+    "judgment": "matched",
+    "match": {
+      "id": "Q58401953",
+      "name": "Morton Parker Eden",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Morton Parker Eden (Q58401953) for cells containing \"Morton, Eden, active 1880\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Mahdī Khān Astarābādī, active 1733-1759",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3107525",
+      "name": "Mirza Mehdi Khan Astarabadi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mirza Mehdi Khan Astarabadi (Q3107525) for cells containing \"Mahdī Khān Astarābādī, active 1733-1759\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maktabī Shīrāzī, -1510 or 1511",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5911431",
+      "name": "Maktabi Shirazi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Maktabi Shirazi (Q5911431) for cells containing \"Maktabī Shīrāzī, -1510 or 1511\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Dāmād, Muḥammad Bāqir ibn Muḥammad, -1631?",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3315763",
+      "name": "Mir Damad",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mir Damad (Q3315763) for cells containing \"Dāmād, Muḥammad Bāqir ibn Muḥammad, -1631?\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Muʻtamad Khān, Muḥammad Sharīf, -1639 or 1640",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11937829",
+      "name": "Muhàmmad Xarif Khwaja Taki",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muhàmmad Xarif Khwaja Taki (Q11937829) for cells containing \"Muʻtamad Khān, Muḥammad Sharīf, -1639 or 1640\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nābhādāsa, active 1585",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113723200",
+      "name": "Nābhādāsa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nābhādāsa (Q113723200) for cells containing \"Nābhādāsa, active 1585\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Viṣāl Shīrāzī, Muḥammad Shafīʻ ibn Muḥammad Ismāʻīl, 1782 or 1783-1845 or 1846",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5960972",
+      "name": "Mohammad Shafi' Visal-i Shirazi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mohammad Shafi' Visal-i Shirazi (Q5960972) for cells containing \"Viṣāl Shīrāzī, Muḥammad Shafīʻ ibn Muḥammad Ismāʻīl, 1782 or 1783-1845 or 1846\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Zarnūjī, Burhān al-Dīn, active 12th century-13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55989354",
+      "name": "Burhan al-Din Al-Zarnuyi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Burhan al-Din Al-Zarnuyi (Q55989354) for cells containing \"Zarnūjī, Burhān al-Dīn, active 12th century-13th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻAṭṭār, Farīd al-Dīn, -approximately 1230",
+    "judgment": "matched",
+    "match": {
+      "id": "Q194091",
+      "name": "Attar of Nishapur",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Attar of Nishapur (Q194091) for cells containing \"ʻAṭṭār, Farīd al-Dīn, -approximately 1230\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ṭanṭarānī, Aḥmad ibn ʻAbd al-Razzāq, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96758067",
+      "name": "Ahmad ibn Abd al-Razzaq al-Tantarani",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ahmad ibn Abd al-Razzaq al-Tantarani (Q96758067) for cells containing \"Ṭanṭarānī, Aḥmad ibn ʻAbd al-Razzāq, active 11th century\" in column recon-human"
   }
 ]
