@@ -4089,15 +4089,15 @@
     "similarValue": "Provençal language",
     "judgment": "matched",
     "match": {
-      "id": "Q2779185",
-      "name": "Old Occitan",
+      "id": "Q241243",
+      "name": "Provençal",
       "types": [
         ""
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Old Occitan (Q2779185) for cells containing \"Provençal language\" in column recon-language"
+    "description": "Match item Provençal (Q241243) for cells containing \"Provençal language\" in column recon-language"
   },
 {
     "op": "core/recon-judge-similar-cells",
