@@ -16013,5 +16013,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Mediterranean Sea--Adriatic Sea (http://id.worldcat.org/fast/1239504) for cells containing \"Adriatic Sea\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Abraham (Biblical patriarch) in the Qurʼan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1864769",
+      "name": "Abraham (Biblical patriarch) in the Qurʼan",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abraham (Biblical patriarch) in the Qurʼan (http://id.worldcat.org/fast/1864769) for cells containing \"Abraham (Biblical patriarch) in the Qurʼan\" in column recon-subject"
   }
 ]
