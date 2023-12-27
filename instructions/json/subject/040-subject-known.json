@@ -16753,5 +16753,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Agama (http://id.worldcat.org/fast/800080) for cells containing \"Agama\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Kamrup (India : District)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1335354",
+      "name": "India--Kamrup (District)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Kamrup (District) (http://id.worldcat.org/fast/1335354) for cells containing \"Kamrup (India : District)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Malwa (Madhya Pradesh and Rajasthan, India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1333657",
+      "name": "India--Malwa (Madhya Pradesh and Rajasthan)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Malwa (Madhya Pradesh and Rajasthan) (http://id.worldcat.org/fast/1333657) for cells containing \"Malwa (Madhya Pradesh and Rajasthan, India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ganges River (India and Bangladesh)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1310068",
+      "name": "Asia--Ganges River",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Asia--Ganges River (http://id.worldcat.org/fast/1310068) for cells containing \"Ganges River (India and Bangladesh)\" in column recon-subject"
   }
 ]
