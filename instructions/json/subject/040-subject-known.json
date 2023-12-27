@@ -16253,5 +16253,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Iraq--Karbalāʼ (http://id.worldcat.org/fast/1232324) for cells containing \"Iraq--Karbalāʼ\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "English",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/910920",
+      "name": "English language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item English language (http://id.worldcat.org/fast/910920) for cells containing \"English\" in column recon-subject"
   }
 ]
