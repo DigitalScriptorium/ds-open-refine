@@ -16033,5 +16033,125 @@
     },
     "shareNewTopics": false,
     "description": "Match item Abraham (Biblical patriarch) in the Qurʼan (http://id.worldcat.org/fast/1864769) for cells containing \"Abraham (Biblical patriarch) in the Qurʼan\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shī'ah--Customs and practices",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1117947",
+      "name": "Shīʻah--Customs and practices",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah--Customs and practices (http://id.worldcat.org/fast/1117947) for cells containing \"Shī'ah--Customs and practices\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīah--Prayers and devotions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1426601",
+      "name": "Shīʻah--Prayers and devotions",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah--Prayers and devotions (http://id.worldcat.org/fast/1426601) for cells containing \"Shīah--Prayers and devotions\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīʻah--Customs and practices",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1117947",
+      "name": "Shīʻah--Customs and practices",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah--Customs and practices (http://id.worldcat.org/fast/1117947) for cells containing \"Shīʻah--Customs and practices\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīʻah--Customs and practices",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1117947",
+      "name": "Shīʻah--Customs and practices",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah--Customs and practices (http://id.worldcat.org/fast/1117947) for cells containing \"Shīʻah--Customs and practices\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Religious life--Shīʻah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1094119",
+      "name": "Religious life--Islam",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Religious life--Islam (http://id.worldcat.org/fast/1094119) for cells containing \"Religious life--Shīʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Shīʻah--Prayers and devotions",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1426601",
+      "name": "Shīʻah--Prayers and devotions",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shīʻah--Prayers and devotions (http://id.worldcat.org/fast/1426601) for cells containing \"Shīʻah--Prayers and devotions\" in column recon-subject"
   }
 ]
