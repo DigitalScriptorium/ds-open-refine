@@ -16333,5 +16333,425 @@
     },
     "shareNewTopics": false,
     "description": "Match item Formulas, recipes, etc. (http://id.worldcat.org/fast/1753650) for cells containing \"Formulas, recipes, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Allahabad (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1278576",
+      "name": "India--Allahabad",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Allahabad (http://id.worldcat.org/fast/1278576) for cells containing \"Allahabad (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ayodhya (Faizabad, India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1317185",
+      "name": "India--Ayodhya (Faizabad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Ayodhya (Faizabad) (http://id.worldcat.org/fast/1317185) for cells containing \"Ayodhya (Faizabad, India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Chidambaram (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1212557",
+      "name": "India--Chidambaram",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Chidambaram (http://id.worldcat.org/fast/1212557) for cells containing \"Chidambaram (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Deccan (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1242608",
+      "name": "India--Deccan",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Deccan (http://id.worldcat.org/fast/1242608) for cells containing \"Deccan (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gaya (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1228226",
+      "name": "India--Gaya",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Gaya (http://id.worldcat.org/fast/1228226) for cells containing \"Gaya (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mathurā (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1218679",
+      "name": "India--Mathurā",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Mathurā (http://id.worldcat.org/fast/1218679) for cells containing \"Mathurā (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Narmada River (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1241321",
+      "name": "India--Narmada River",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Narmada River (http://id.worldcat.org/fast/1241321) for cells containing \"Narmada River (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Pandharpur (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1233759",
+      "name": "India--Pandharpur",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Pandharpur (http://id.worldcat.org/fast/1233759) for cells containing \"Pandharpur (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Saraswati River (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1305278",
+      "name": "India--Saraswati River",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Saraswati River (http://id.worldcat.org/fast/1305278) for cells containing \"Saraswati River (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Telangana (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1230004",
+      "name": "India--Telangana",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Telangana (http://id.worldcat.org/fast/1230004) for cells containing \"Telangana (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tirupati (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1202947",
+      "name": "India--Tirupati",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Tirupati (http://id.worldcat.org/fast/1202947) for cells containing \"Tirupati (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Vārānasi (Uttar Pradesh, India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1313078",
+      "name": "India--Vārānasi (Uttar Pradesh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Vārānasi (Uttar Pradesh) (http://id.worldcat.org/fast/1313078) for cells containing \"Vārānasi (Uttar Pradesh, India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "West Bengal (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1213722",
+      "name": "India--West Bengal",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--West Bengal (http://id.worldcat.org/fast/1213722) for cells containing \"West Bengal (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Yamuna River (India)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1241399",
+      "name": "India--Yamuna River",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Yamuna River (http://id.worldcat.org/fast/1241399) for cells containing \"Yamuna River (India)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bagalā (Hindu deity)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/825379",
+      "name": "Bagalāmukhī (Hindu deity)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bagalāmukhī (Hindu deity) (http://id.worldcat.org/fast/825379) for cells containing \"Bagalā (Hindu deity)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Om",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1045622",
+      "name": "Om",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Om (http://id.worldcat.org/fast/1045622) for cells containing \"Om\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sati",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1105662",
+      "name": "Sati",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sati (http://id.worldcat.org/fast/1105662) for cells containing \"Sati\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Soma",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1125698",
+      "name": "Soma",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Soma (http://id.worldcat.org/fast/1125698) for cells containing \"Soma\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Water",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1171139",
+      "name": "Water",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Water (http://id.worldcat.org/fast/1171139) for cells containing \"Water\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1119194",
+      "name": "Sin",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sin (http://id.worldcat.org/fast/1119194) for cells containing \"Sin\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Agama",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/800080",
+      "name": "Agama",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Agama (http://id.worldcat.org/fast/800080) for cells containing \"Agama\" in column recon-subject"
   }
 ]
