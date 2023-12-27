@@ -24626,5 +24626,97 @@
     },
     "shareNewTopics": false,
     "description": "Match item Sūrat (tgn/7001592) for cells containing \"Surat\" in column recon-place"
+  },
+   {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Vale of Kashmir",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1111685",
+      "name": "Kashmir, Vale of",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kashmir, Vale of (tgn/1111685) for cells containing \"Vale of Kashmir\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Nangis",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1034615",
+      "name": "Nangis",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nangis (tgn/1034615) for cells containing \"Nangis\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "East Francia",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7024345",
+      "name": "Francia Orientalis",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Francia Orientalis (tgn/7024345) for cells containing \"East Francia\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Arabian Peninsula",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1012700",
+      "name": "Arabian Peninsula",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabian Peninsula (tgn/1012700) for cells containing \"Arabian Peninsula\" in column recon-place"
   }
 ]
