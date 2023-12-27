@@ -16233,5 +16233,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Qurʼan stories (http://id.worldcat.org/fast/1861320) for cells containing \"Qurʼan stories\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Iraq--Karbalāʼ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1232324",
+      "name": "Iraq--Karbalāʼ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iraq--Karbalāʼ (http://id.worldcat.org/fast/1232324) for cells containing \"Iraq--Karbalāʼ\" in column recon-subject"
   }
 ]
