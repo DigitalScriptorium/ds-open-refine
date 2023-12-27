@@ -16153,5 +16153,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item Shīʻah--Prayers and devotions (http://id.worldcat.org/fast/1426601) for cells containing \"Shīʻah--Prayers and devotions\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Africa, North",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1239515",
+      "name": "North Africa",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Africa (http://id.worldcat.org/fast/1239515) for cells containing \"Africa, North\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mecca (Saudi Arabia)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204780",
+      "name": "Saudi Arabia--Mecca",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saudi Arabia--Mecca (http://id.worldcat.org/fast/1204780) for cells containing \"Mecca (Saudi Arabia)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medina (Saudi Arabia)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1213531",
+      "name": "Saudi Arabia--Medina",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saudi Arabia--Medina (http://id.worldcat.org/fast/1213531) for cells containing \"Medina (Saudi Arabia)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Qurʼan stories",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1861320",
+      "name": "Qurʼan stories",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qurʼan stories (http://id.worldcat.org/fast/1861320) for cells containing \"Qurʼan stories\" in column recon-subject"
   }
 ]
