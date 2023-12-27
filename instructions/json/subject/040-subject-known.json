@@ -16293,5 +16293,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item 1288-1918 (http://id.worldcat.org/fast/1355456) for cells containing \"Ottoman Empire, 1288-1918\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Formulas, recipes, etc--Manuscripts",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1753654",
+      "name": "Formulas, recipes, etc.--Manuscripts",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Formulas, recipes, etc.--Manuscripts (http://id.worldcat.org/fast/1753654) for cells containing \"Formulas, recipes, etc--Manuscripts\" in column recon-subject"
   }
 ]
