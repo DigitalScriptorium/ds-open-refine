@@ -404,5 +404,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Manuscript maps (http://id.worldcat.org/fast/1752677) for cells containing \"Maps, Manuscript\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Dictionary",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423826",
+      "name": "Dictionaries",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dictionaries (http://id.worldcat.org/fast/1423826) for cells containing \"Dictionary\" in column recon-genre"
   }
 ]
