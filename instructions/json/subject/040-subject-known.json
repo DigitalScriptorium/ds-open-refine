@@ -16973,5 +16973,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Scrolls (http://id.worldcat.org/fast/1109413) for cells containing \"Scrolls\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Stuarts, 1603-1714",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355645",
+      "name": "1603-1714",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1603-1714 (http://id.worldcat.org/fast/1355645) for cells containing \"Stuarts, 1603-1714\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Republic, 510-265 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355939",
+      "name": "510-265 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 510-265 B.C. (http://id.worldcat.org/fast/1355939) for cells containing \"Republic, 510-265 BC\" in column recon-subject"
   }
 ]
