@@ -16813,5 +16813,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Asia--Ganges River (http://id.worldcat.org/fast/1310068) for cells containing \"Ganges River (India and Bangladesh)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Hinduisum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/957121",
+      "name": "Hinduism",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hinduism (http://id.worldcat.org/fast/957121) for cells containing \"Hinduisum\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Vārānasi (Uttar Pradesh)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1313078",
+      "name": "India--Vārānasi (Uttar Pradesh)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item India--Vārānasi (Uttar Pradesh) (http://id.worldcat.org/fast/1313078) for cells containing \"Vārānasi (Uttar Pradesh)\" in column recon-subject"
   }
 ]
