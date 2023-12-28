@@ -8142,5 +8142,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Devotion to the Blessed Virgin Mary (http://id.worldcat.org/fast/1352703) for cells containing \"Mary, Blessed Virgin, Saint--Devotion to\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Breviary",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357439",
+      "name": "Breviary (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Breviary (Catholic Church) (http://id.worldcat.org/fast/1357439) for cells containing \"Catholic Church Breviary\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Missal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356512",
+      "name": "Missal (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Missal (Catholic Church) (http://id.worldcat.org/fast/1356512) for cells containing \"Catholic Church Missal\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cicero, Marcus Tullius De finibus bonorum et malorum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360446",
+      "name": "De finibus bonorum et malorum (Cicero, Marcus Tullius)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item De finibus bonorum et malorum (Cicero, Marcus Tullius) (http://id.worldcat.org/fast/1360446) for cells containing \"Cicero, Marcus Tullius De finibus bonorum et malorum\" in column recon-subject"
   }
 ]
