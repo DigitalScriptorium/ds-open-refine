@@ -8202,5 +8202,245 @@
     },
     "shareNewTopics": false,
     "description": "Match item De finibus bonorum et malorum (Cicero, Marcus Tullius) (http://id.worldcat.org/fast/1360446) for cells containing \"Cicero, Marcus Tullius De finibus bonorum et malorum\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Daniel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892893",
+      "name": "Bible. Daniel",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Daniel (http://id.worldcat.org/fast/1892893) for cells containing \"Bible Daniel\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Deuteronomy",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808024",
+      "name": "Bible. Deuteronomy",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Deuteronomy (http://id.worldcat.org/fast/1808024) for cells containing \"Bible Deuteronomy\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Ephesians",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892895",
+      "name": "Bible. Ephesians",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Ephesians (http://id.worldcat.org/fast/1892895) for cells containing \"Bible Ephesians\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Epistles of John",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892900",
+      "name": "Bible. Epistles of John",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Epistles of John (http://id.worldcat.org/fast/1892900) for cells containing \"Bible Epistles of John\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Ezekiel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892903",
+      "name": "Bible. Ezekiel",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Ezekiel (http://id.worldcat.org/fast/1892903) for cells containing \"Bible Ezekiel\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Galatians",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892906",
+      "name": "Bible. Galatians",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Galatians (http://id.worldcat.org/fast/1892906) for cells containing \"Bible Galatians\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Judges",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892921",
+      "name": "Bible. Judges",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Judges (http://id.worldcat.org/fast/1892921) for cells containing \"Bible Judges\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Luke",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892926",
+      "name": "Bible. Luke",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Luke (http://id.worldcat.org/fast/1892926) for cells containing \"Bible Luke\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Mark",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892928",
+      "name": "Bible. Mark",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Mark (http://id.worldcat.org/fast/1892928) for cells containing \"Bible Mark\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Ruth",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892945",
+      "name": "Bible. Ruth",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Ruth (http://id.worldcat.org/fast/1892945) for cells containing \"Bible Ruth\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Tobit",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808020",
+      "name": "Bible. Tobit",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Tobit (http://id.worldcat.org/fast/1808020) for cells containing \"Bible Tobit\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Isidore, of Seville, Saint, -636 Etymologiae",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359998",
+      "name": "Etymologiae (Isidore, of Seville, Saint)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Etymologiae (Isidore, of Seville, Saint) (http://id.worldcat.org/fast/1359998) for cells containing \"Isidore, of Seville, Saint, -636 Etymologiae\" in column recon-subject"
   }
 ]
