@@ -464,5 +464,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Outlines and syllabi (http://id.worldcat.org/fast/1423836) for cells containing \"Outlines, syllabi, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Selections",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1692837",
+      "name": "Excerpts",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 69
+    },
+    "shareNewTopics": false,
+    "description": "Match item Excerpts (http://id.worldcat.org/fast/1692837) for cells containing \"Selections\" in column recon-genre"
   }
 ]
