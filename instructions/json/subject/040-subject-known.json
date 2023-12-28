@@ -16893,5 +16893,85 @@
     },
     "shareNewTopics": false,
     "description": "Match item Punic War (2nd) (218-201 B.C.) (http://id.worldcat.org/fast/1084093) for cells containing \"Punic War, 2nd, 218-201 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Blois (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1210260",
+      "name": "France--Blois",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item France--Blois (http://id.worldcat.org/fast/1210260) for cells containing \"Blois (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Great Dunmow (England)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1221249",
+      "name": "England--Great Dunmow",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England--Great Dunmow (http://id.worldcat.org/fast/1221249) for cells containing \"Great Dunmow (England)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Orléanais (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1223823",
+      "name": "France--Orléanais",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item France--Orléanais (http://id.worldcat.org/fast/1223823) for cells containing \"Orléanais (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Scrolls",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1109413",
+      "name": "Scrolls",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Scrolls (http://id.worldcat.org/fast/1109413) for cells containing \"Scrolls\" in column recon-subject"
   }
 ]
