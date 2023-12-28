@@ -424,5 +424,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Dictionaries (http://id.worldcat.org/fast/1423826) for cells containing \"Dictionary\" in column recon-genre"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Examinations, questions, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423780",
+      "name": "Examinations",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Examinations (http://id.worldcat.org/fast/1423780) for cells containing \"Examinations, questions, etc\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Outlines, syllabi, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1423836",
+      "name": "Outlines and syllabi",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Outlines and syllabi (http://id.worldcat.org/fast/1423836) for cells containing \"Outlines, syllabi, etc\" in column recon-genre"
   }
 ]
