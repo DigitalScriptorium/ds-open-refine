@@ -12432,5 +12432,564 @@
     },
     "shareNewTopics": false,
     "description": "Match item Protogothic (aat/300379143) for cells containing \"Protogothic\" in column recon-genre"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Adventure stories",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300254790",
+      "name": "adventure stories",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item adventure stories (aat/300254790) for cells containing \"Adventure stories\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Animal stories",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300254800",
+      "name": "animal stories",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item animal stories (aat/300254800) for cells containing \"Animal stories\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Astronomical charts",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300028164",
+      "name": "astronomical charts",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item astronomical charts (aat/300028164) for cells containing \"Astronomical charts\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Citation indexes",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300026579",
+      "name": "citation indexes",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item citation indexes (aat/300026579) for cells containing \"Citation indexes\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Comedies",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300201014",
+      "name": "comedies",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item comedies (aat/300201014) for cells containing \"Comedies\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Epic poems",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300253035",
+      "name": "epic poems",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item epic poems (aat/300253035) for cells containing \"Epic poems\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Epics",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300404209",
+      "name": "epic literature",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item epic literature (aat/300404209) for cells containing \"Epics\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Fables",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300055917",
+      "name": "fables",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item fables (aat/300055917) for cells containing \"Fables\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Illuminations (visual materials)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300264522",
+      "name": "illuminations (paintings)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item illuminations (paintings) (aat/300264522) for cells containing \"Illuminations (visual materials)\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Manual (instructional materials)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300026395",
+      "name": "manuals (instructional materials)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item manuals (instructional materials) (aat/300026395) for cells containing \"Manual (instructional materials)\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Merchandise inventories",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300027146",
+      "name": "merchandise inventories",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item merchandise inventories (aat/300027146) for cells containing \"Merchandise inventories\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Notebooks",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300264354",
+      "name": "notebooks",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item notebooks (aat/300264354) for cells containing \"Notebooks\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-genre: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Songs (documents)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300167056",
+      "name": "songs (musical compositions)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 10.8268
+    },
+    "shareNewTopics": false,
+    "description": "Match item songs (musical compositions) (aat/300167056) for cells containing \"Songs (documents)\" in column recon-genre"
   }
 ]
