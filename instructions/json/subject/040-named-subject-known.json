@@ -8442,5 +8442,385 @@
     },
     "shareNewTopics": false,
     "description": "Match item Etymologiae (Isidore, of Seville, Saint) (http://id.worldcat.org/fast/1359998) for cells containing \"Isidore, of Seville, Saint, -636 Etymologiae\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscript maps",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1754087",
+      "name": "Manuscript maps",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscript maps (http://id.worldcat.org/fast/1754087) for cells containing \"Manuscript maps\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Early maps",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/900640",
+      "name": "Early maps",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Early maps (http://id.worldcat.org/fast/900640) for cells containing \"Early maps\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscripts",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008230",
+      "name": "Manuscripts",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts (http://id.worldcat.org/fast/1008230) for cells containing \"Manuscripts\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Poetry",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008230",
+      "name": "Poetry",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poetry (http://id.worldcat.org/fast/1008230) for cells containing \"Poetry\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Biography",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/832149",
+      "name": "Biography",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biography (http://id.worldcat.org/fast/832149) for cells containing \"Biography\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Calendars",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/832149",
+      "name": "Calendars",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calendars (http://id.worldcat.org/fast/832149) for cells containing \"Calendars\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Genealogy",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/939652",
+      "name": "Genealogy",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Genealogy (http://id.worldcat.org/fast/939652) for cells containing \"Genealogy\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Indexes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/968973",
+      "name": "Indexes",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Indexes (http://id.worldcat.org/fast/968973) for cells containing \"Indexes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Inventories",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/978024",
+      "name": "Inventories",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Inventories (http://id.worldcat.org/fast/978024) for cells containing \"Inventories\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Meditations",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1015445",
+      "name": "Meditations",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Meditations (http://id.worldcat.org/fast/1015445) for cells containing \"Meditations\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Privileges and immunities",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1077674",
+      "name": "Privileges and immunities",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Privileges and immunities (http://id.worldcat.org/fast/1077674) for cells containing \"Privileges and immunities\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Prophecies",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1079193",
+      "name": "Prophecies",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prophecies (http://id.worldcat.org/fast/1079193) for cells containing \"Prophecies\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Romances",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1099892",
+      "name": "Romances",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Romances (http://id.worldcat.org/fast/1099892) for cells containing \"Romances\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sacramentaries",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1103077",
+      "name": "Sacramentaries",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sacramentaries (http://id.worldcat.org/fast/1103077) for cells containing \"Sacramentaries\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Satire",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1105668",
+      "name": "Satire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Satire (http://id.worldcat.org/fast/1105668) for cells containing \"Satire\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sermons",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1113216",
+      "name": "Sermons",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sermons (http://id.worldcat.org/fast/1113216) for cells containing \"Sermons\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tables",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1141766",
+      "name": "Tables",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tables (http://id.worldcat.org/fast/1141766) for cells containing \"Tables\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tales",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1142246",
+      "name": "Tales",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tales (http://id.worldcat.org/fast/1142246) for cells containing \"Tales\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Trials",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1156290",
+      "name": "Trials",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trials (http://id.worldcat.org/fast/1156290) for cells containing \"Trials\" in column recon-subject"
   }
 ]
