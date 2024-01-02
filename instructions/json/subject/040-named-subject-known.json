@@ -8862,5 +8862,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Chronology (http://id.worldcat.org/fast/860197) for cells containing \"Chronology\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Abraham (Biblical patriarch)--In the Qurʼan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1864769",
+      "name": "Abraham (Biblical patriarch) in the Qurʼan",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abraham (Biblical patriarch) in the Qurʼan (http://id.worldcat.org/fast/1864769) for cells containing \"Abraham (Biblical patriarch)--In the Qurʼan\" in column recon-subject"
   }
 ]
