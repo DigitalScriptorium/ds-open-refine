@@ -8513,7 +8513,7 @@
     "similarValue": "Poetry",
     "judgment": "matched",
     "match": {
-      "id": "http://id.worldcat.org/fast/1008230",
+      "id": "http://id.worldcat.org/fast/1067691",
       "name": "Poetry",
       "types": [
         "/fast/all"
@@ -8521,7 +8521,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Poetry (http://id.worldcat.org/fast/1008230) for cells containing \"Poetry\" in column recon-subject"
+    "description": "Match item Poetry (http://id.worldcat.org/fast/1067691) for cells containing \"Poetry\" in column recon-subject"
   },
   {
     "op": "core/recon-judge-similar-cells",
