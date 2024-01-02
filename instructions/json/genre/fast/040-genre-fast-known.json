@@ -1665,5 +1665,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Bible (http://id.worldcat.org/fast/1356024) for cells containing \"Bibles\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Manuscripts, India",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008370",
+      "name": "Manuscripts, Indic",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Indic (http://id.worldcat.org/fast/1008370) for cells containing \"Manuscripts, India\" in column recon-genre"
   }
 ]
