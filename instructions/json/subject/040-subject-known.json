@@ -17393,5 +17393,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item Trials (http://id.worldcat.org/fast/1156290) for cells containing \"Trials\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bulls, Papal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/841552",
+      "name": "Bulls, Papal",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bulls, Papal (http://id.worldcat.org/fast/841552) for cells containing \"Bulls, Papal\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Chronology",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/860197",
+      "name": "Chronology",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chronology (http://id.worldcat.org/fast/860197) for cells containing \"Chronology\" in column recon-subject"
   }
 ]
