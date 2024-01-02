@@ -8882,5 +8882,205 @@
     },
     "shareNewTopics": false,
     "description": "Match item Abraham (Biblical patriarch) in the Qurʼan (http://id.worldcat.org/fast/1864769) for cells containing \"Abraham (Biblical patriarch)--In the Qurʼan\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Būṣīrī, Sharaf al-Dīn Muḥammad ibn Saʻīd, 1213?-1296? Burdah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1362420",
+      "name": "Burdah (Būṣīrī, Sharaf al-Dīn Muḥammad ibn Saʻīd)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Burdah (Būṣīrī, Sharaf al-Dīn Muḥammad ibn Saʻīd) (http://id.worldcat.org/fast/1362420) for cells containing \"Būṣīrī, Sharaf al-Dīn Muḥammad ibn Saʻīd, 1213?-1296? Burdah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ibn al-Hāʼim, Aḥmad ibn Muḥammad, -1412 Muqniʻ fī ʻilm al-jabr wa-al-muqābalah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1915582",
+      "name": "Muqniʻ fī ʻilm al-jabr wa-al-muqābalah (Ibn al-Hāʼim, Aḥmad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muqniʻ fī ʻilm al-jabr wa-al-muqābalah (Ibn al-Hāʼim, Aḥmad ibn Muḥammad) (http://id.worldcat.org/fast/1915582) for cells containing \"Ibn al-Hāʼim, Aḥmad ibn Muḥammad, -1412 Muqniʻ fī ʻilm al-jabr wa-al-muqābalah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jighmīnī, Maḥmūd ibn Muḥammad, -1221? Mulakhkhaṣ fī al-hayʼah",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380591",
+      "name": "Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad) (http://id.worldcat.org/fast/1380591) for cells containing \"Jighmīnī, Maḥmūd ibn Muḥammad, -1221? Mulakhkhaṣ fī al-hayʼah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mulakhkhaṣ fī al-hayʼah (Jighmīnī, Maḥmūd ibn Muḥammad)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1380591",
+      "name": "Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mulakhkhaṣ fī al-hayʼah (Jaghmīnī, Maḥmūd ibn Muḥammad) (http://id.worldcat.org/fast/1380591) for cells containing \"Mulakhkhaṣ fī al-hayʼah (Jighmīnī, Maḥmūd ibn Muḥammad)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Khulāṣat al-ḥisāb (ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1378728",
+      "name": "Khulāṣat al-ḥisāb (ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Khulāṣat al-ḥisāb (ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn) (http://id.worldcat.org/fast/1378728) for cells containing \"Khulāṣat al-ḥisāb (ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Muqniʻ fī ʻilm al-jabr wa-al-muqābalah (Ibn al-Hāʼim, Aḥmad ibn Muḥammad)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1915582",
+      "name": "Muqniʻ fī ʻilm al-jabr wa-al-muqābalah (Ibn al-Hāʼim, Aḥmad ibn Muḥammad)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muqniʻ fī ʻilm al-jabr wa-al-muqābalah (Ibn al-Hāʼim, Aḥmad ibn Muḥammad) (http://id.worldcat.org/fast/1915582) for cells containing \"Muqniʻ fī ʻilm al-jabr wa-al-muqābalah (Ibn al-Hāʼim, Aḥmad ibn Muḥammad)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥāfiẓ, active 14th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1822361",
+      "name": "Ḥāfiẓ, active 14th century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ḥāfiẓ, active 14th century (http://id.worldcat.org/fast/1822361) for cells containing \"Ḥāfiẓ, active 14th century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ḥusayn ibn ʻAlī, -680",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1825184",
+      "name": "Ḥusayn ibn ʻAlī, -680",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ḥusayn ibn ʻAlī, -680 (http://id.worldcat.org/fast/1825184) for cells containing \"Ḥusayn ibn ʻAlī, -680\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1804105",
+      "name": "ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661 (http://id.worldcat.org/fast/1804105) for cells containing \"ʻAlī ibn Abī Ṭālib, Caliph, approximately 600-661\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Sakkākī, Yūsuf ibn Abī Bakr, 1160- Miftāḥ al-ʻulūm",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1915402",
+      "name": "Miftāḥ al-ʻulūm (Sakkākī, Yūsuf ibn Abī Bakr)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Miftāḥ al-ʻulūm (Sakkākī, Yūsuf ibn Abī Bakr) (http://id.worldcat.org/fast/1915402) for cells containing \"Sakkākī, Yūsuf ibn Abī Bakr, 1160- Miftāḥ al-ʻulūm\" in column recon-subject"
   }
 ]
