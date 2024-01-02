@@ -9082,5 +9082,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Miftāḥ al-ʻulūm (Sakkākī, Yūsuf ibn Abī Bakr) (http://id.worldcat.org/fast/1915402) for cells containing \"Sakkākī, Yūsuf ibn Abī Bakr, 1160- Miftāḥ al-ʻulūm\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Africa, North",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1239515",
+      "name": "North Africa",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Africa (http://id.worldcat.org/fast/1239515) for cells containing \"Africa, North\" in column recon-subject"
   }
 ]
