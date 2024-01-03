@@ -12482,5 +12482,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Dakṣiṇāmūrtistotra (Śaṅkarācārya) (http://id.worldcat.org/fast/1359318) for cells containing \"Śaṅkarācārya Dakṣiṇāmūrtistotra\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cult",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/884980",
+      "name": "Cults",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cults (http://id.worldcat.org/fast/884980) for cells containing \"Cult\" in column recon-subject"
   }
 ]
