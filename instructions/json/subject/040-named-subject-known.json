@@ -12274,5 +12274,213 @@
     },
     "shareNewTopics": false,
     "description": "Match item Bhaktisūtra (Śāṇḍilya) (http://id.worldcat.org/fast/1383285) for cells containing \"Śāṇḍilya Bhaktisūtra\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Brahmanas Śatapathabrāhmaṇa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357644",
+      "name": "Brahmanas. Śatapathabrāhmaṇa",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brahmanas. Śatapathabrāhmaṇa (http://id.worldcat.org/fast/1357644) for cells containing \"Brahmanas Śatapathabrāhmaṇa\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Kālidāsa Kumārasambhava",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1364820",
+      "name": "Kumārasambhava (Kālidāsa)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kumārasambhava (Kālidāsa) (http://id.worldcat.org/fast/1364820) for cells containing \"Kālidāsa Kumārasambhava\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Yājñavalkya Yājñavalkyasmr̥ti",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1360784",
+      "name": "Yājñavalkyasmr̥ti (Yājñavalkya)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yājñavalkyasmr̥ti (Yājñavalkya) (http://id.worldcat.org/fast/1360784) for cells containing \"Yājñavalkya Yājñavalkyasmr̥ti\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Śaṅkarācārya Dakṣiṇāmūrtistotra",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1359318",
+      "name": "Dakṣiṇāmūrtistotra (Śaṅkarācārya)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dakṣiṇāmūrtistotra (Śaṅkarācārya) (http://id.worldcat.org/fast/1359318) for cells containing \"Śaṅkarācārya Dakṣiṇāmūrtistotra\" in column recon-subject"
   }
 ]
