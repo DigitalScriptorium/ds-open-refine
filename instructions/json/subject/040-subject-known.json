@@ -17433,5 +17433,105 @@
     },
     "shareNewTopics": false,
     "description": "Match item Chronology (http://id.worldcat.org/fast/860197) for cells containing \"Chronology\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Brutus the Trojan (Legendary character)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/839895",
+      "name": "Brutus, the Trojan (Legendary character)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brutus, the Trojan (Legendary character) (http://id.worldcat.org/fast/839895) for cells containing \"Brutus the Trojan (Legendary character)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Law reports, digests, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/994106",
+      "name": "Law reports, digests, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Law reports, digests, etc. (http://id.worldcat.org/fast/994106) for cells containing \"Law reports, digests, etc\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Mercia (Kingdom)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1232208",
+      "name": "Europe--Mercia (Kingdom)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe--Mercia (Kingdom) (http://id.worldcat.org/fast/1232208) for cells containing \"Mercia (Kingdom)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Magi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1005463",
+      "name": "Magi",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Magi (http://id.worldcat.org/fast/1005463) for cells containing \"Magi\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Motion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1027064",
+      "name": "Motion",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Motion (http://id.worldcat.org/fast/1027064) for cells containing \"Motion\" in column recon-subject"
   }
 ]
