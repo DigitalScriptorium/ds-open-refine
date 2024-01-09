@@ -17533,5 +17533,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Motion (http://id.worldcat.org/fast/1027064) for cells containing \"Motion\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Discovery and exploration--Spanish",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1695187",
+      "name": "Discoveries in geography--Spanish",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Discoveries in geography--Spanish (http://id.worldcat.org/fast/1695187) for cells containing \"Discovery and exploration--Spanish\" in column recon-subject"
   }
 ]
