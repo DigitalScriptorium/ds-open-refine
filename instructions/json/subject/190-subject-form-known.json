@@ -484,5 +484,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Excerpts (http://id.worldcat.org/fast/1692837) for cells containing \"Selections\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Charters, grants, privileges",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1027064",
+      "name": "Charters and articles of incorporation",
+      "types": [
+        "/fast/form"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charters and articles of incorporation (http://id.worldcat.org/fast/1027064) for cells containing \"Charters, grants, privileges\" in column recon-genre"
   }
 ]
