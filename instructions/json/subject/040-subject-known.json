@@ -17553,5 +17553,145 @@
     },
     "shareNewTopics": false,
     "description": "Match item Discoveries in geography--Spanish (http://id.worldcat.org/fast/1695187) for cells containing \"Discovery and exploration--Spanish\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Henry IV, 1589-1610",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355632",
+      "name": "1589-1610",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1589-1610 (http://id.worldcat.org/fast/1355632) for cells containing \"Henry IV, 1589-1610\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Anglo-Saxon period, 449-1066",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355931",
+      "name": "449-1066",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 449-1066 (http://id.worldcat.org/fast/1355931) for cells containing \"Anglo-Saxon period, 449-1066\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Edward III, 1327-1377",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355476",
+      "name": "1327-1377",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1327-1377 (http://id.worldcat.org/fast/1355476) for cells containing \"Edward III, 1327-1377\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Empire, 30 BC-284 AD",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355908",
+      "name": "30 B.C.-476 A.D.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 30 B.C.-476 A.D. (http://id.worldcat.org/fast/1355908) for cells containing \"Empire, 30 BC-284 AD\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Lancaster and York, 1399-1485",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355517",
+      "name": "1399-1485",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1399-1485 (http://id.worldcat.org/fast/1355517) for cells containing \"Lancaster and York, 1399-1485\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Plantagenents, 1154-1399",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355402",
+      "name": "1154-1399",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1154-1399 (http://id.worldcat.org/fast/1355402) for cells containing \"Plantagenents, 1154-1399\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Richard II, 1377-1399",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355500",
+      "name": "1377-1399",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1377-1399 (http://id.worldcat.org/fast/1355500) for cells containing \"Richard II, 1377-1399\" in column recon-subject"
   }
 ]
