@@ -12682,5 +12682,305 @@
     },
     "shareNewTopics": false,
     "description": "Match item Passion of Jesus Christ (http://id.worldcat.org/fast/1353950) for cells containing \"Jesus Christ--Passion\" in column recon-subject"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Passion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353950",
+      "name": "Passion of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Passion of Jesus Christ (http://id.worldcat.org/fast/1353950) for cells containing \"Jesus Christ--Passion\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Catholic Epistles",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892888",
+      "name": "Bible. Catholic Epistles",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Catholic Epistles (http://id.worldcat.org/fast/1892888) for cells containing \"Bible Catholic Epistles\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Ecclesiastes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892894",
+      "name": "Bible. Ecclesiastes",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Ecclesiastes (http://id.worldcat.org/fast/1892894) for cells containing \"Bible Ecclesiastes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Epistles of Paul",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1808029",
+      "name": "Bible. Epistles of Paul",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Epistles of Paul (http://id.worldcat.org/fast/1808029) for cells containing \"Bible Epistles of Paul\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Bible Epistles",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1892899",
+      "name": "Bible. Epistles",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bible. Epistles (http://id.worldcat.org/fast/1892899) for cells containing \"Bible Epistles\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "England Parliament",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/611825",
+      "name": "England. Parliament",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England. Parliament (http://id.worldcat.org/fast/611825) for cells containing \"England Parliament\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Crescenzi, Pietro de', approximately 1233-approximately 1320 Ruralia commoda",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1791586",
+      "name": "Ruralia commoda (Crescenzi, Pietro de')",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ruralia commoda (Crescenzi, Pietro de') (http://id.worldcat.org/fast/1791586) for cells containing \"Crescenzi, Pietro de', approximately 1233-approximately 1320 Ruralia commoda\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Lucan, 39-65 Pharsalia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356201",
+      "name": "Pharsalia (Lucan)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pharsalia (Lucan) (http://id.worldcat.org/fast/1356201) for cells containing \"Lucan, 39-65 Pharsalia\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Thomas, Aquinas, Saint, 1225?-1274 Summa theologica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1357563",
+      "name": "Summa theologica (Thomas, Aquinas, Saint)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Summa theologica (Thomas, Aquinas, Saint) (http://id.worldcat.org/fast/1357563) for cells containing \"Thomas, Aquinas, Saint, 1225?-1274 Summa theologica\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Pizarro, Pedro, active 16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1841678",
+      "name": "Pizarro, Pedro, active 16th century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pizarro, Pedro, active 16th century (http://id.worldcat.org/fast/1841678) for cells containing \"Pizarro, Pedro, active 16th century\" in column recon-subject"
   }
 ]
