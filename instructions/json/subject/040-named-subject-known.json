@@ -12662,5 +12662,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Ripley, George, -1490? (http://id.worldcat.org/fast/1844109) for cells containing \"Ripley, George, -1490\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Passion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353950",
+      "name": "Passion of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Passion of Jesus Christ (http://id.worldcat.org/fast/1353950) for cells containing \"Jesus Christ--Passion\" in column recon-subject"
   }
 ]
