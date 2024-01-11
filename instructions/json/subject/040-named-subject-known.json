@@ -12502,5 +12502,165 @@
     },
     "shareNewTopics": false,
     "description": "Match item Cults (http://id.worldcat.org/fast/884980) for cells containing \"Cult\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Brutus, Marcus Junius, 85 BC?-42 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1810097",
+      "name": "Brutus, Marcus Junius, 85 B.C.?-42 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brutus, Marcus Junius, 85 B.C.?-42 B.C. (http://id.worldcat.org/fast/1810097) for cells containing \"Brutus, Marcus Junius, 85 BC?-42 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Burlaeus, Gualterus, 1275-1345",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/53644",
+      "name": "Burlaeus, Gualterus, 1275-1345?",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Burlaeus, Gualterus, 1275-1345? (http://id.worldcat.org/fast/53644) for cells containing \"Burlaeus, Gualterus, 1275-1345\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church Book of hours",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1365973",
+      "name": "Book of hours (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Book of hours (Catholic Church) (http://id.worldcat.org/fast/1365973) for cells containing \"Catholic Church Book of hours\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Cyprian, Saint, Bishop of Carthage--Correspondence",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1779696",
+      "name": "Correspondence (Cyprian, Saint, Bishop of Carthage)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Correspondence (Cyprian, Saint, Bishop of Carthage) (http://id.worldcat.org/fast/1779696) for cells containing \"Cyprian, Saint, Bishop of Carthage--Correspondence\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Dion, approximately 408 BC-354 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1815948",
+      "name": "Dion, approximately 408 B.C.-354 B.C.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dion, approximately 408 B.C.-354 B.C. (http://id.worldcat.org/fast/1815948) for cells containing \"Dion, approximately 408 BC-354 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Hoccleve, Thomas, 1370?-1450",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/99039",
+      "name": "Hoccleve, Thomas, 1370?-1450?",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hoccleve, Thomas, 1370?-1450? (http://id.worldcat.org/fast/99039) for cells containing \"Hoccleve, Thomas, 1370?-1450\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Lydgate, John, 1370?-1451",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/43943",
+      "name": "Lydgate, John, 1370?-1451?",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lydgate, John, 1370?-1451? (http://id.worldcat.org/fast/43943) for cells containing \"Lydgate, John, 1370?-1451\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Ripley, George, -1490",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1844109",
+      "name": "Ripley, George, -1490?",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ripley, George, -1490? (http://id.worldcat.org/fast/1844109) for cells containing \"Ripley, George, -1490\" in column recon-subject"
   }
 ]
