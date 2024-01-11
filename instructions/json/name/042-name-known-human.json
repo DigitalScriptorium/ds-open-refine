@@ -1765,4 +1765,2444 @@
     "shareNewTopics": false,
     "description": "Match item Ahmad ibn Abd al-Razzaq al-Tantarani (Q96758067) for cells containing \"Ṭanṭarānī, Aḥmad ibn ʻAbd al-Razzāq, active 11th century\" in column recon-human"
   }
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Christopher, of Paris, active 15th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2966523",
+      "name": "Christophe de Paris",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Conduit, Catherine Barton, 1679-1740",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1050921",
+      "name": "Catherine Barton",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catherine Barton (Q1050921) for cells containing \"Conduit, Catherine Barton, 1679-1740\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Cycurius, Johannes, Theatinus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123822926",
+      "name": "Johannes Theatinus Cycurius",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Johannes Theatinus Cycurius (Q123822926) for cells containing \"Cycurius, Johannes, Theatinus\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fabius, Emmanuel, (1895-1984)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123822947",
+      "name": "Emmanuel Fabius",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Emmanuel Fabius (Q123822947) for cells containing \"Fabius, Emmanuel, (1895-1984)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Laborya de Mossach, Johan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123822957",
+      "name": "Johan Laborya de Mossach",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Johan Laborya de Mossach (Q123822957) for cells containing \"Laborya de Mossach, Johan\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Pseudo-Llull",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123850987",
+      "name": "Pseudo-Llull",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pseudo-Llull (Q123850987) for cells containing \"Pseudo-Llull\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Puccius, Petrus Joseph",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123851949",
+      "name": "Petrus Joseph Puccius",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Petrus Joseph Puccius (Q123851949) for cells containing \"Puccius, Petrus Joseph\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Räbeln, Andreas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123851958",
+      "name": "Andreas Räbeln",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Andreas Räbeln (Q123851958) for cells containing \"Räbeln, Andreas\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Wadsworth, Frederick Arthur, 1871-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123852067",
+      "name": "Frederick Arthur Wadsworth",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Frederick Arthur Wadsworth (Q123852067) for cells containing \"Wadsworth, Frederick Arthur, 1871-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Witten, Laurence C",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6500535",
+      "name": "Laurence Claiborne Witten II",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Laurence Claiborne Witten II (Q6500535) for cells containing \"Witten, Laurence C\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Curlo, Giacomo, active 1423-1467",
+    "judgment": "matched",
+    "match": {
+      "id": "Q88467297",
+      "name": "Giacomo Curlo",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giacomo Curlo (Q88467297) for cells containing \"Curlo, Giacomo, active 1423-1467\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Eucherius, of Lyon, Saint, -449",
+    "judgment": "matched",
+    "match": {
+      "id": "Q671419",
+      "name": "Eucherius of Lyon",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eucherius of Lyon (Q671419) for cells containing \"Eucherius, of Lyon, Saint, -449\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Faustus, of Riez, active 5th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2351792",
+      "name": "Faustus of Riez",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Faustus of Riez (Q2351792) for cells containing \"Faustus, of Riez, active 5th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Giorgio, d'Alemagna, active 1441-1476",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3106916",
+      "name": "Giorgio d'Alemagna",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giorgio d'Alemagna (Q3106916) for cells containing \"Giorgio, d'Alemagna, active 1441-1476\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Paschasius Radbertus, Saint, 786-approximately 860",
+    "judgment": "matched",
+    "match": {
+      "id": "Q654858",
+      "name": "Paschasius Radbertus",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Babington, William, Sir, approximately 1370-1454",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8004897",
+      "name": "William Babington",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Benedict XII, Pope, -1342",
+    "judgment": "matched",
+    "match": {
+      "id": "Q170389",
+      "name": "Benedict XII",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bernardus, Abbot of Monte Cassino, -1282",
+    "judgment": "matched",
+    "match": {
+      "id": "Q622900",
+      "name": "Bernhard Ayglerius",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Catholic Church. Pope (1305-1314 : Clement V)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q131463",
+      "name": "Clement V",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Charles VI, King of France, 1368-1422",
+    "judgment": "matched",
+    "match": {
+      "id": "Q160349",
+      "name": "Charles VI of France",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Oglerio, di Lucedio, -1214",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3881214",
+      "name": "Oglerio di Lucedio",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Urban V, Pope, 1310-1370",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133046",
+      "name": "Urban V",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hauchamps, Jean-Baptiste",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123910022",
+      "name": "Jean-Baptiste Hauchamps",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Cotheal, Alexander Isaac, 1804-1894",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15627277",
+      "name": "Alexander Isaac Cotheal",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Anṭākī, Dāʼūd ibn ʻUmar, -1599",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6768027",
+      "name": "Dawud al-Antaki",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Delacorte, George T. 1893-1991",
+    "judgment": "matched",
+    "match": {
+      "id": "Q615982",
+      "name": "George T. Delacorte Jr.",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hull, Helen R. 1888-1971",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23303108",
+      "name": "Helen Rose Hull",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Abī Zayd al-Qayrawānī, ʻAbd Allāh ibn ʻAbd al-Raḥmān, active 10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5984167",
+      "name": "Ibn Abi Zayd al-Qayrawani",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Ghāzī, Muḥammad ibn Aḥmad, 1437 or 1438-1513",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10299689",
+      "name": "Ibn Ghazi al-Miknasi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn al-Humām, Muḥammad ibn ʻAbd al-Wāḥid, 1388-1456 or 1457",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20384774",
+      "name": "Muḥammad ibn ʻAbd al-Wāḥid Ibn al-Humām",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Ḥabīb al-Ḥalabī, Badr al-Dīn al-Ḥasan ibn ʻUmar, 1310-1377",
+    "judgment": "matched",
+    "match": {
+      "id": "Q42298972",
+      "name": "Ibn Habib al-Halabi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Khuwārizmī, Muḥammad ibn Mūsá, active 813-846",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9038",
+      "name": "Al-Khwarizmi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maghribī, Muḥyī al-Dīn, -approximately 1281",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2474377",
+      "name": "Muhyi al-Dīn al-Maghribī",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Majlisī, Muḥammad Bāqir ibn Muḥammad Taqī, 1627 or 1628-approximately 1699",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755939",
+      "name": "Muhammad Baqir Majlisi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Manesca, John, approximately 1780-1838",
+    "judgment": "matched",
+    "match": {
+      "id": "Q108641807",
+      "name": "Jean Manesca",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+{
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maḥallī, Jalāl al-Dīn Muḥammad ibn Aḥmad, 1389-1459",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6758211",
+      "name": "Jalaluddin al-Mahalli",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maḥmud Mīrzā Qājār, 1799-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5946297",
+      "name": "Mahmud Mirza Qajar",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Muʻaẓẓam, Sultan of Damascus, 1180-1227",
+    "judgment": "matched",
+    "match": {
+      "id": "Q286553",
+      "name": "Al-Mu'azzam Isa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nafīsī, Saʻīd, 1895-1966",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4816509",
+      "name": "Saeed Nafisi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Reinhardt, Carl, 1856-1903",
+    "judgment": "matched",
+    "match": {
+      "id": "Q109853441",
+      "name": "Carl Reinhardt",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Shanawānī, Abū Bakr ibn Ismāʻīl, 1551 or 1552-1610 or 1611",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28715208",
+      "name": "Abū Bakr ibn Ismāʻīl Shanawānī",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Tabrīzī, ʻAlāʼ al-Dīn, active 1602",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5772284",
+      "name": "Alaeddin Tabrizi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Turner, William W. 1810-1859",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6217159",
+      "name": "William Wadden Turner",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Yohannan, Abraham, 1853-1925",
+    "judgment": "matched",
+    "match": {
+      "id": "Q109854399",
+      "name": "Abraham Yohannan",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Şahidî İbrahim Dede, 1470-1550",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8084312",
+      "name": "Shahidi Ibrahim Dede",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻInāyat Allāh, -approximately 1671",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4212231",
+      "name": "Shaikh Inayat Allah Kamboh",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻBāz̲il, Muhammad Rafīʻ ibn Muḥammad al-Mashhadī, -1712",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12240512",
+      "name": "Mohammed Rafie Al-Mashhadi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fuhrmann, Otto W",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110215361",
+      "name": "Otto Walter Fuhrmann",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻIbn Nāṣir al-Darʻī, Aḥmad ibn Muḥammad, 1647-1717",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4696101",
+      "name": "Ahmed ibn Nasir",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "ʻIsḥāqī, Fatḥ Allāh ibn Shaykh Muṣṭafá ibn Shaykh ʻAbd al-Shakūr Fārūqī",
+    "judgment": "matched",
+    "match": {
+      "id": "Q114242419",
+      "name": "Fatḥ Allāh ibn Muṣṭafá ibn ʻAbd al-Shakūr Fārūqī",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jagannātha, 1652-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17081645",
+      "name": "Jagannatha Panditaraja",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kramrisch, Stella, 1898-1993",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3972910",
+      "name": "Stella Kramrish",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kṣemendra, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3817868",
+      "name": "Kshemendra",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kṣemarāja, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3200157",
+      "name": "Kshemaraja",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Makarandācārya, active 1438-1478",
+    "judgment": "matched",
+    "match": {
+      "id": "Q115723168",
+      "name": "Makaranda",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Mathurānātha Tarkavāgīśa, 1600-1675",
+    "judgment": "matched",
+    "match": {
+      "id": "Q66774021",
+      "name": "Mathuranath Tarkabagish",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Mādhava, -1386",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2726403",
+      "name": "Vidyaranya",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Māgha",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2372718",
+      "name": "Magha",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nana Sahib, 1820?-1859",
+    "judgment": "matched",
+    "match": {
+      "id": "Q951444",
+      "name": "Nana Sahib",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nārāyaṇa Bhaṭṭa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12443344",
+      "name": "Bhatta Narayana",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nārāyaṇa Bhaṭṭa, active 16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12443344",
+      "name": "Bhatta Narayana",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vācaspatimiśra, 1420-1490",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113399956",
+      "name": "Vācaspatimiśra",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vāsudevānandasarasvatī, Swami, 1854-1914",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94573251",
+      "name": "Vāsudevānandasarasvatī",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Varadarāja, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7915392",
+      "name": "Varadarāja",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Pārthasārathimiśra, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q112080969",
+      "name": "Parthasarathi Mishra",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vādirāja, active 16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7377731",
+      "name": "Vadiraja Teertharu",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Viśvanātha Kavirāja",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7936667",
+      "name": "Viswanatha Kaviraja",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Pāṇini",
+    "judgment": "matched",
+    "match": {
+      "id": "Q189725",
+      "name": "Panini",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Sāyaṇa, -1387",
+    "judgment": "matched",
+    "match": {
+      "id": "Q737932",
+      "name": "Sayana",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bhojarāja, King of Malwa, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3630446",
+      "name": "Bhoja",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jñānadeva, active 1290",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1033695",
+      "name": "Dnyaneshwar",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Daṇḍin, active 7th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1190757",
+      "name": "Daṇḍin",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Madhva, active 13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q335371",
+      "name": "Madhvacharya",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Hemacandra, 1088-1172",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2723463",
+      "name": "Hemachandra",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jayadeva, active 12th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q335015",
+      "name": "Jayadeva",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gopālabhaṭṭa Gosvāmī, 1500-1587",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4143328",
+      "name": "Gopala Bhatta Goswami",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gaṅgeśa, active 13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3635187",
+      "name": "Gangesha Upadhyaya",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Manu (Lawgiver)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q178744",
+      "name": "Manu",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Muʻīn al-Dīn Yazdī, -1387",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11938144",
+      "name": "Muín-ad-Din",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Muṣliḥ al-Dīn al-Lārī, Muḥammad ibn Ṣalāḥ, -1571 or 1572",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16162398",
+      "name": "Al-Larí",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vehbi, approximately 1719-1809",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2382139",
+      "name": "Sünbülzade Vehbi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Āz̲ar Baygdilī, Luṭf ʻAlī ibn Āqā Khān, 1721 or 1722-1780 or 1781",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4116548",
+      "name": "Azar Bigdeli",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ibn Nāṣir al-Darʻī, Aḥmad ibn Muḥammad, 1647-1717",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4696101",
+      "name": "Ahmed ibn Nasir",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gulāb Rāʼī, Fadwá, active 19th century,
+    "judgment": "matched",
+    "match": {
+      "id": "Q124130457",
+      "name": "Fadwá Gulāb Rāʼī",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paschasius Radbertus (Q654858) for cells containing \"Paschasius Radbertus, Saint, 786-approximately 860\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Aṣṭāvakra",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2722992",
+      "name": "Ashtavakra",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nīlakaṇṭha, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17012114",
+      "name": "Nīlakaṇṭha",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bhāskararāya, active 1675-1751",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4901368",
+      "name": "Bhaskararaya",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Rudradeva, active 18th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113814683",
+      "name": "Rudradeva",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Pran Nath, Dr",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7238288",
+      "name": "Pran Nath",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kauṇḍabhaṭṭa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q105948194",
+      "name": "Kauṇḍa Bhaṭṭa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Harirāmatarkavāgīśa, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113812072",
+      "name": "Harirāmatarkavāgīśa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Caṇḍeśvara, active 14th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q97959519",
+      "name": "Caṇḍeśvara Ṭhakkura",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kātyāyana (Author on Smr̥tiśāstra)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1196778",
+      "name": "Kātyāyana",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Raghunandana Bhaṭṭācārya, active 16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q98210627",
+      "name": "Raghunandana Bhattacaryaya",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bhāsarvajña, active 10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27925768",
+      "name": "Bhasarvajna",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Abhinanda, active 9th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q99972294",
+      "name": "Abhinanda",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Lallācārya",
+    "judgment": "matched",
+    "match": {
+      "id": "Q335296",
+      "name": "Lalla",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Jayadeva, active 13th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q335015",
+      "name": "Jayadeva",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gaṇeśadaivajña, active 1520-1554",
+    "judgment": "matched",
+    "match": {
+      "id": "Q31314971",
+      "name": "Gaṇeśadaivajña",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Govardhana, active 12th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30608321",
+      "name": "Govardhana",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Śrīcandrasūri, active 12th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113723848",
+      "name": "Śrīcandrasūri",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Somadeva, 1934-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q61940680",
+      "name": "Somdev",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Rāmacandra, active 16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3943262",
+      "name": "Rāmacandra",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bilhaṇa, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3561001",
+      "name": "Bilhana",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Baba",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24867611",
+      "name": "Baba",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Tryambaka Māṭe, active 19th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113821021",
+      "name": "Tryambaka Māṭe",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kamalākara Bhaṭṭa, active 18th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113723310",
+      "name": "Kamalākara Bhaṭṭa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Aniruddha, active 15th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3306373",
+      "name": "Aniruddha",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Annambhaṭṭa, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9155893",
+      "name": "Annambhatta",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bhaṭṭotpala, active 10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113400276",
+      "name": "Bhaṭṭotpala",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Brahmānandasarasvatī, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113400059",
+      "name": "Brahmānanda Giri",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Halāyudha, active 10th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3635178",
+      "name": "Halayudha",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Kr̥ṣṇānanda Āgamavāgīśa Bhaṭṭācārya, active 16th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113777815",
+      "name": "Kṛṣṇānanda Āgamavāgīśa Bhaṭṭācārya",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Lakṣmīdhara, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q122343224",
+      "name": "Lakṣmīdhara",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vijñāneśvara, active 11th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16886346",
+      "name": "Vijñāneśvara",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vāmana, Paṇḍita, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113796181",
+      "name": "Vāmanapaṇḍita",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Śrīharṣa, active 12th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4526632",
+      "name": "Sriharsha",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Anantabhaṭṭa, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124252805",
+      "name": "Anantabhaṭṭa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Anantadeva, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124252806",
+      "name": "Anantadeva",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Balabhadra, active 17th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124252810",
+      "name": "Balabhadra Daivajña",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Basavaraja, King of Keladi, approximately 1684-approximately 1745",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124252811",
+      "name": "Basavaraja, King of Keladi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bhaṭṭa, Yajñeśvara, active 19th century",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124252817",
+      "name": "Yajñeśvara Bhaṭṭa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Christophe de Paris (Q2966523) for cells containing \"Christopher, of Paris, active 15th century\" in column recon-human"
+  },
 ]
