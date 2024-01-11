@@ -24718,5 +24718,235 @@
     },
     "shareNewTopics": false,
     "description": "Match item Arabian Peninsula (tgn/1012700) for cells containing \"Arabian Peninsula\" in column recon-place"
+  },
+   {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Paderborn",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7005101",
+      "name": "Paderborn",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paderborn (tgn/7005101) for cells containing \"Paderborn\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Messina",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003897",
+      "name": "Messina",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Messina (tgn/7003897) for cells containing \"Messina\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Marseilles",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008781",
+      "name": "Marseilles",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Marseilles (tgn/7008781) for cells containing \"Marseilles\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Majorca",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7007959",
+      "name": "Mallorca",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mallorca (tgn/7007959) for cells containing \"Majorca\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Lübeck",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7012327",
+      "name": "Lubeck",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lubeck (tgn/7012327) for cells containing \"Lübeck\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Le Conquet",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7634755",
+      "name": "Le Conquet",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Le Conquet (tgn/7634755) for cells containing \"Le Conquet\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Edinburgh",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7009546",
+      "name": "Edinburgh",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Edinburgh (tgn/7009546) for cells containing \"Edinburgh\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Dieppe",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008922",
+      "name": "Dieppe",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dieppe (tgn/7008922) for cells containing \"Dieppe\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Bury St Edmunds",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7010914",
+      "name": "Bury Saint Edmunds",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bury Saint Edmunds (tgn/7010914) for cells containing \"Bury St Edmunds\" in column recon-place"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Arequipa",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7005825",
+      "name": "Arequipa",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arequipa (tgn/7005825) for cells containing \"Arequipa\" in column recon-place"
   }
 ]
