@@ -6,7 +6,7 @@
 3. Select `TRUE` for applied facet to `structured_value` column
 4. On the `structured_value_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 5. Select `FALSE` for applied facet to `structured_value_add` column
-6. `Export -> Comma separated value` file from OpenRefine
+6. `Export -> Comma-separated value` file from OpenRefine to local machine
 
 ### Integrating new values from enriched data with data dictionaries
 
@@ -29,8 +29,8 @@
 
 #### Removing working columns and merging new reconciliations with previous ones in data dictionaries
 13. Apply JSON recipe to remove unnecessary columns, merge new data values into existing data, remove whitespace: [JSON][merge-clean-recon-data]
-14.  `Export -> Comma separated value` file from OpenRefine
-15.  Add exported `VALUE-new.csv` to ds-data/reconciled/terms repository
+14.  `Export -> Comma-separated value` file from OpenRefine to local machine
+15.  Add exported `VALUE-new.csv` to ds-data/reconciled/terms repository from local machine
 16.  Deprecate/archive old version to `Batch` directory
 17.  Rename `VALUE-new.csv` to `VALUE.csv` 
 
