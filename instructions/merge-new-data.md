@@ -31,7 +31,7 @@
 13. Apply JSON recipe to remove unnecessary columns, merge new data values into existing data, remove whitespace: [JSON][merge-clean-recon-data]
 14.  `Export -> Comma-separated value` file from OpenRefine to local machine
 
-### Update data dictionaries in ds-data repository
+### Updating data dictionaries in ds-data repository
 15.  Add exported `VALUE-new.csv` to [`ds-data/terms/reconciled`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled) repository from local machine
 16.  Deprecate/archive old version of `VALUE.csv` by moving to [`ds-data/terms/batch`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/batch) and under the appropriately dated directory
 17.  Rename `VALUE-new.csv` to `VALUE.csv` 
