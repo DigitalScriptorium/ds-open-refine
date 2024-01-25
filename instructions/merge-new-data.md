@@ -10,7 +10,7 @@
 
 ### Integrating new values from enriched data with data dictionaries
 
-1. Copy `VALUE.csv` from ds-data reconciled repository to local machine for the type of metadata to be merged
+1. Copy `VALUE.csv` from [`ds-data/terms/reconciled`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled) repository to local machine for the type of metadata to be merged
 2. Load `VALUE.csv` and `VALUE-add.csv` simultaneously into OpenRefine
 3. Name file `VALUE-new`
 
@@ -30,8 +30,8 @@
 #### Removing working columns and merging new reconciliations with previous ones in data dictionaries
 13. Apply JSON recipe to remove unnecessary columns, merge new data values into existing data, remove whitespace: [JSON][merge-clean-recon-data]
 14.  `Export -> Comma-separated value` file from OpenRefine to local machine
-15.  Add exported `VALUE-new.csv` to ds-data/reconciled/terms repository from local machine
-16.  Deprecate/archive old version to `Batch` directory
+15.  Add exported `VALUE-new.csv` to [`ds-data/terms/reconciled`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled) repository from local machine
+16.  Deprecate/archive old version to [`ds-data/terms/batch`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/batch) under the appropriately dated directory
 17.  Rename `VALUE-new.csv` to `VALUE.csv` 
 
 
