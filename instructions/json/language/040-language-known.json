@@ -5179,4 +5179,244 @@
     "shareNewTopics": false,
     "description": "Match item Anglo-Norman (Q35214) for cells containing \"Anglo Norman\" in column recon-language"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Headings of each Star Chamber report",
+    "judgment": "matched",
+    "match": {
+      "id": "Q397",
+      "name": "Latin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Latin (Q397) for cells containing \"Headings of each Star Chamber report\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "each verse translated into English prose",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1860",
+      "name": "English",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item English (Q1860) for cells containing \"each verse translated into English prose\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "English commentary",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1860",
+      "name": "English",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item English (Q1860) for cells containing \"English commentary\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "French on end flyleaf",
+    "judgment": "matched",
+    "match": {
+      "id": "Q150",
+      "name": "French",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item French (Q150) for cells containing \"French on end flyleaf\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Greek characters",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9129",
+      "name": "Greek",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Greek (Q9129) for cells containing \"Greek characters\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Karshuni",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1494558",
+      "name": "Garshuni",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Garshuni (Q1494558) for cells containing \"Karshuni\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Karshuni)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1494558",
+      "name": "Garshuni",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Garshuni (Q1494558) for cells containing \"Karshuni)\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "legal French",
+    "judgment": "matched",
+    "match": {
+      "id": "Q150",
+      "name": "French",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item French (Q150) for cells containing \"legal French\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Middle English (f 1)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q36395",
+      "name": "Middle English",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middle English (Q36395) for cells containing \"Middle English (f 1)\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "roa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19814",
+      "name": "Romance languages",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Romance languages (Q19814) for cells containing \"roa\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "the Alemannic region (Switzerland)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q131339",
+      "name": "Alemannic",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alemannic (Q131339) for cells containing \"the Alemannic region (Switzerland)\" in column recon-language"
+  }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-language",
+    "similarValue": "Devanagari script",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38592",
+      "name": "Devanagari",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Devanagari (Q38592) for cells containing \"Devanagari script\" in column recon-language"
+  }
 ]
