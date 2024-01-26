@@ -48,6 +48,6 @@ Examples of correctly formatted file names:
 
 [Subject reconciliation instructions](/instructions/subjects.md)
 
-## Instructions for merging new reconciliations with previous
+## Instructions for integrating new reconciliations with previously reconciled data
 
 [Merging newly enriched data with data dictionaries](instructions/merge_new_data.md)
