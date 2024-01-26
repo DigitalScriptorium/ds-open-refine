@@ -50,4 +50,4 @@ Examples of correctly formatted file names:
 
 ## Instructions for integrating new reconciliations with previously reconciled data
 
-[Merging newly enriched data with data dictionaries](instructions/merge_new_data.md)
+[Merging newly enriched data with data dictionaries](instructions/merge-new-data.md)
