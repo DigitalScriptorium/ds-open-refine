@@ -1,6 +1,6 @@
 # Digital Scriptorium Data Reconciliation Process through OpenRefine
 
-Digital Scriptorium OpenRefine documentation and JSON recipes for data reconciliation
+Digital Scriptorium OpenRefine documentation and JSON recipes for data reconciliation and management
 
 ## General instructions
 
