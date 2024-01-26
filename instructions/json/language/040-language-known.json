@@ -5178,27 +5178,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Anglo-Norman (Q35214) for cells containing \"Anglo Norman\" in column recon-language"
-  }
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "recon-language",
-    "similarValue": "Headings of each Star Chamber report",
-    "judgment": "matched",
-    "match": {
-      "id": "Q397",
-      "name": "Latin",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Latin (Q397) for cells containing \"Headings of each Star Chamber report\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5218,7 +5198,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item English (Q1860) for cells containing \"each verse translated into English prose\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5238,7 +5218,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item English (Q1860) for cells containing \"English commentary\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5258,7 +5238,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item French (Q150) for cells containing \"French on end flyleaf\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5278,7 +5258,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Greek (Q9129) for cells containing \"Greek characters\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5298,7 +5278,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Garshuni (Q1494558) for cells containing \"Karshuni\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5318,7 +5298,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Garshuni (Q1494558) for cells containing \"Karshuni)\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5338,7 +5318,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item French (Q150) for cells containing \"legal French\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5358,7 +5338,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Middle English (Q36395) for cells containing \"Middle English (f 1)\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5378,7 +5358,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Romance languages (Q19814) for cells containing \"roa\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
@@ -5398,7 +5378,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Alemannic (Q131339) for cells containing \"the Alemannic region (Switzerland)\" in column recon-language"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
