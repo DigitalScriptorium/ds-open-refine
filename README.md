@@ -10,6 +10,7 @@ Facets and filters can also be used on the data by using drop-down menus availab
 
 The following notes apply to file naming conventions for editing file name variables found in the [instructions in this repository](/instructions/) (use all lowercase letters where applicable):
 - DATE = the date the file/dataset was generated/created/extracted in `YYYYMMDD` format
+- VALUE = the type of metadata values or metadata element extracted and enriched, such as `genres` or `languages` or `names` 
 - INSTITUTION = the code for the name of the institutional source for the data, such as `penn` or `kansas` or `csl`
 - DATATYPE = the type of encoding standard or technical format of the metadata source, such as `marcxml` or `mets` or `csv`
 - One or more DIFFERENTIATORS may also be added on the file name to disambiguate files, using sources names of collections or databases, such as `bibliophilly` or `muslimworld`, or batch numbers, such as `batch-1`, `batch-2`, etc.
@@ -46,3 +47,7 @@ Examples of correctly formatted file names:
 ### Subjects
 
 [Subject reconciliation instructions](/instructions/subjects.md)
+
+## Instructions for merging new reconciliations with previous
+
+[Merging newly enriched data with data dictionaries](instructions/merge_new_data.md)
