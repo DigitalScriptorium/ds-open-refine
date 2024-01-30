@@ -6,6 +6,11 @@
   },
   {
     "op": "core/column-removal",
+    "columnName": "duplicate_check",
+    "description": "Remove column duplicate_check"
+  },
+  {
+    "op": "core/column-removal",
     "columnName": "row_index",
     "description": "Remove column row_index"
   },
