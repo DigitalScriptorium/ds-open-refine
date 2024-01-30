@@ -6630,4 +6630,624 @@
     "shareNewTopics": false,
     "description": "Match item Katharinenkirche (Q1736108) for cells containing \"St. Katerinenkloster\" in column recon-organization"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bridgewater House Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4966853",
+      "name": "Bridgewater Library",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bridgewater Library (Q4966853) for cells containing \"Bridgewater House Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Cathedral Church of St. James (Bury St. Edmunds, England)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1989407",
+      "name": "St Edmundsbury Cathedral",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item St Edmundsbury Cathedral (Q1989407) for cells containing \"Cathedral Church of St. James (Bury St. Edmunds, England)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Kloster Riddagshausen",
+    "judgment": "matched",
+    "match": {
+      "id": "Q896558",
+      "name": "Riddagshausen Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Riddagshausen Abbey (Q896558) for cells containing \"Kloster Riddagshausen\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "St. Werburgh's Abbey (Chester, England)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q33101787",
+      "name": "St Werburgh's Abbey, Chester",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item St Werburgh's Abbey, Chester (Q33101787) for cells containing \"St. Werburgh's Abbey (Chester, England)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Syon Abbey (Isleworth, London, England)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7662966",
+      "name": "Syon Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Syon Abbey (Q7662966) for cells containing \"Syon Abbey (Isleworth, London, England)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bristol Baptist College",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26514873",
+      "name": "Bristol Baptist College",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bristol Baptist College (Q26514873) for cells containing \"Bristol Baptist College\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Klosterkirche von Sayn",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18654880",
+      "name": "Sayn Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sayn Abbey (Q18654880) for cells containing \"Klosterkirche von Sayn\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Law Society (Great Britain)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120044135",
+      "name": "Law Society",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Law Society (Q120044135) for cells containing \"Law Society (Great Britain)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Long Island Historical Society. Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q71863962",
+      "name": "Long Island Historical Society, Maine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Long Island Historical Society, Maine (Q71863962) for cells containing \"Long Island Historical Society. Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Park Abbey (Louvain, Belgium)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q476178",
+      "name": "Park Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Park Abbey (Q476178) for cells containing \"Park Abbey (Louvain, Belgium)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Abbey of Bury St. Edmunds",
+    "judgment": "matched",
+    "match": {
+      "id": "Q334286",
+      "name": "Bury St Edmunds Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bury St Edmunds Abbey (Q334286) for cells containing \"Abbey of Bury St. Edmunds\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Angelus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106413482",
+      "name": "Banda Angelus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Banda Angelus (Q106413482) for cells containing \"Angelus\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ashridge Priory",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15192660",
+      "name": "Ashridge Priory",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ashridge Priory (Q15192660) for cells containing \"Ashridge Priory\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Aulne Abbey",
+    "judgment": "matched",
+    "match": {
+      "id": "Q333832",
+      "name": "Aulne Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aulne Abbey (Q333832) for cells containing \"Aulne Abbey\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bari Atelier",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124380397",
+      "name": "Bari Atelier",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bari Atelier (Q124380397) for cells containing \"Bari Atelier\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Battle Abbey",
+    "judgment": "matched",
+    "match": {
+      "id": "Q810981",
+      "name": "Battle Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Battle Abbey (Q810981) for cells containing \"Battle Abbey\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Canterbury/Rochester school",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124380402",
+      "name": "Canterbury/Rochester schools",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Canterbury/Rochester school (Q124380402) for cells containing \"Canterbury/Rochester school\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Coggeshall Abbey",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1106952",
+      "name": "Coggeshall Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Coggeshall Abbey(Q1106952) for cells containing \"Coggeshall Abbey\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Gautier Lebaube Atelier",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124380412",
+      "name": "Gautier Lebaube Atelier",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gautier Lebaube Atelier (Q124380412) for cells containing \"Gautier Lebaube Atelier\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Hastings (Family)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4134121",
+      "name": "Hastings family",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hastings family (Q4134121) for cells containing \"Hastings (Family)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Johannes Philomena atelier",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124380422",
+      "name": "Johannes Philomena atelier",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Johannes Philomena atelier (Q124380422) for cells containing \"Johannes Philomena atelier\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Klosterkirche von Sayn",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18654880",
+      "name": "Sayn Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sayn Abbey (Q18654880) for cells containing \"Klosterkirche von Sayn\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Law Society (Great Britain)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120044135",
+      "name": "Law Society",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Law Society (Q120044135) for cells containing \"Law Society (Great Britain)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Long Island Historical Society. Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q71863962",
+      "name": "Long Island Historical Society, Maine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Long Island Historical Society, Maine (Q71863962) for cells containing \"Long Island Historical Society. Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Nonnberg (Abbey)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q693876",
+      "name": "Nonnberg Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nonnberg Abbey (Q693876) for cells containing \"Nonnberg (Abbey)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Normandy (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18677875",
+      "name": "Normandy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Normandy (Q18677875) for cells containing \"Normandy (France)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Park Abbey (Louvain, Belgium)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q476178",
+      "name": "Park Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Park Abbey (Q476178) for cells containing \"Park Abbey (Louvain, Belgium)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Rugby School",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1143281",
+      "name": "Rugby School",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rugby School (Q1143281) for cells containing \"Rugby School\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Sion College. Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7525349",
+      "name": "Sion College",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sion College (Q7525349) for cells containing \"Sion College. Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Soissons Atelier",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124380440",
+      "name": "Soissons Atelier",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Soissons Atelier (Q124380440) for cells containing \"Soissons Atelier\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Angelus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106413482",
+      "name": "Banda Angelus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Banda Angelus (Q106413482) for cells containing \"Angelus\" in column recon-organization"
+  }
 ]
