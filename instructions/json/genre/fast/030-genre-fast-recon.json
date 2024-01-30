@@ -86,8 +86,8 @@
       "identifierSpace": "http://localhost/identifier",
       "schemaSpace": "http://localhost/schema",
       "type": {
-        "id": "/fast/all",
-        "name": "/fast/all"
+        "id": "/fast/form",
+        "name": "Form"
       },
       "autoMatch": true,
       "columnDetails": [],
