@@ -23,7 +23,7 @@
 7. Within the join columns menu, choose all columns that apply which may render the row unique, select `Write result in new column named` and type into the text box `duplicate_check`
 8. On the newly created `duplicate_check` column, facet by selecting `Facet -> Customized facets -> Duplicates facet`
 9. Select `TRUE` for applied facet on `duplicate_check` column to find any duplicate rows
-10. Star one of each duplicate row, and on the `All` column, facet by selecting `Facet -> Facet by star`
+10. Star one of each duplicate row to be removed, and on the `All` column, facet by selecting `Facet -> Facet by star`
 11. Select `TRUE` for applied facet on starred rows
 12. On `All` column, select `Edit rows -> Remove matching rows`
 
