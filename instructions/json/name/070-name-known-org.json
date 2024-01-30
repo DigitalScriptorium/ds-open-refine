@@ -6629,7 +6629,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Katharinenkirche (Q1736108) for cells containing \"St. Katerinenkloster\" in column recon-organization"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
