@@ -2083,15 +2083,15 @@
     "similarValue": "Samaritan (f 1v-7v",
     "judgment": "matched",
     "match": {
-      "id": "Q56502",
-      "name": "Samaritan Hebrew",
+      "id": "Q56612",
+      "name": "Samaritan Aramaic",
       "types": [
         ""
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Samaritan Hebrew (Q56502) for cells containing \"Samaritan (f 1v-7v\" in column recon-language"
+    "description": "Match item Samaritan Aramaic (Q56612) for cells containing \"Samaritan (f 1v-7v\" in column recon-language"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2123,15 +2123,15 @@
     "similarValue": "marginal notes on Samaritan bifolia)",
     "judgment": "matched",
     "match": {
-      "id": "Q56502",
-      "name": "Samaritan Hebrew",
+      "id": "Q56612",
+      "name": "Samaritan Aramaic",
       "types": [
         ""
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Samaritan Hebrew (Q56502) for cells containing \"marginal notes on Samaritan bifolia)\" in column recon-language"
+    "description": "Match item Samaritan Aramaic (Q56612) for cells containing \"marginal notes on Samaritan bifolia)\" in column recon-language"
   },
   {
     "op": "core/recon-judge-similar-cells",
