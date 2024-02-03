@@ -3669,14 +3669,14 @@
     "judgment": "matched",
     "match": {
       "id": "Q168446",
-      "name": "Low Saxon",
+      "name": "Low Eastern Saxon",
       "types": [
         "Q34770"
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Low Saxon (Q168446) for cells containing \"Low Saxon\" in column recon-language"
+    "description": "Match item Low Eastern Saxon (Q168446) for cells containing \"Low Saxon\" in column recon-language"
   },
   {
     "op": "core/recon-judge-similar-cells",
