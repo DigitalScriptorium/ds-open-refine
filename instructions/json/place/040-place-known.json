@@ -2877,7 +2877,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/7002996",
-      "name": "Treviso",
+      "name": "Treviso (province)",
       "types": [
         "/ulan",
         "/tgn",
@@ -2887,7 +2887,7 @@
       "score": 16.699558
     },
     "shareNewTopics": false,
-    "description": "Match item Treviso (tgn/7002996) for cells containing \"Diocese of Treviso\" in column recon-place"
+    "description": "Match item Treviso (province) (tgn/7002996) for cells containing \"Diocese of Treviso\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -18086,7 +18086,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/7002243",
-      "name": "Herāt",
+      "name": "Herat",
       "types": [
         "/ulan",
         "/tgn",
@@ -18096,7 +18096,7 @@
       "score": 29.378437
     },
     "shareNewTopics": false,
-    "description": "Match item Herāt (tgn/7002243) for cells containing \"Herat\" in column recon-place"
+    "description": "Match item Herat (tgn/7002243) for cells containing \"Herat\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -18430,7 +18430,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/7002471",
-      "name": "Al-Mawṣil",
+      "name": "Mosul",
       "types": [
         "/ulan",
         "/tgn",
@@ -18440,7 +18440,7 @@
       "score": 31.79386
     },
     "shareNewTopics": false,
-    "description": "Match item Al-Mawṣil (tgn/7002471) for cells containing \"Mosul\" in column recon-place"
+    "description": "Match item Mosul (tgn/7002471) for cells containing \"Mosul\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -24223,7 +24223,7 @@
     "similarValue": "Bobbio",
     "judgment": "matched",
     "match": {
-      "id": "tgn/77004992",
+      "id": "tgn/7004992",
       "name": "Bobbio",
       "types": [
         "/ulan",
