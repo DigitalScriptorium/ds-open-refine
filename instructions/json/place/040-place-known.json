@@ -22571,7 +22571,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/7594765",
-      "name": "Syria",
+      "name": "Syria (region)",
       "types": [
         "/ulan",
         "/tgn",
@@ -22581,7 +22581,7 @@
       "score": 0
     },
     "shareNewTopics": false,
-    "description": "Match item Syria (tgn/7594765) for cells containing \"Baldat Shām\" in column recon-place"
+    "description": "Match item Syria (region) (tgn/7594765) for cells containing \"Baldat Shām\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
