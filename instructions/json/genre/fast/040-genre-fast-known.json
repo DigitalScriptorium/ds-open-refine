@@ -1705,5 +1705,285 @@
     },
     "shareNewTopics": false,
     "description": "Match item Writing, Gothic (http://id.worldcat.org/fast/1181685) for cells containing \"Gothic scripts\" in column recon-genre"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "16th cent",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1119851",
+      "name": "Sixteenth century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sixteenth century (http://id.worldcat.org/fast/1119851) for cells containing \"16th cent\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Holy Roman Empire",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1205344",
+      "name": "Europe--Holy Roman Empire",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe--Holy Roman Empire (http://id.worldcat.org/fast/1205344) for cells containing \"Holy Roman Empire\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Austrian",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204901",
+      "name": "Austria",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Austria (http://id.worldcat.org/fast/1204901) for cells containing \"Austrian\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "English",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1219920",
+      "name": "England",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England (http://id.worldcat.org/fast/1219920) for cells containing \"English\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Italian",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204565",
+      "name": "Italy",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy (http://id.worldcat.org/fast/1204565) for cells containing \"Italian\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Bruges",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1204513",
+      "name": "Belgium--Bruges",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Belgium--Bruges (http://id.worldcat.org/fast/1204513) for cells containing \"Bruges\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Manuscripts, Medieval",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008422",
+      "name": "Manuscripts, Medieval",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Medieval (http://id.worldcat.org/fast/1008422) for cells containing \"Manuscripts, Medieval\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Manuscripts, Renaissance",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008472",
+      "name": "Manuscripts, Renaissance",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Renaissance (http://id.worldcat.org/fast/1008472) for cells containing \"Manuscripts, Renaissance\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Neumes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1036242",
+      "name": "Neumes",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Neumes (http://id.worldcat.org/fast/1036242) for cells containing \"Neumes\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Calligraphy",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/844368",
+      "name": "Calligraphy",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calligraphy (http://id.worldcat.org/fast/844368) for cells containing \"Calligraphy\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Latin poetry",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/993373",
+      "name": "Latin poetry",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Latin poetry (http://id.worldcat.org/fast/993373) for cells containing \"Latin poetry\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Letters patent",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/996795",
+      "name": "Letters patent",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Letters patent (http://id.worldcat.org/fast/996795) for cells containing \"Letters patent\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Library catalogues",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/997669",
+      "name": "Library catalogues",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Library catalogues (http://id.worldcat.org/fast/997669) for cells containing \"Library catalogues\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Sermons, Latin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1113283",
+      "name": "Sermons, Latin",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sermons, Latin (http://id.worldcat.org/fast/1113283) for cells containing \"Sermons, Latin\" in column recon-genre"
   }
 ]
