@@ -19193,5 +19193,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item Shīʻah (http://id.worldcat.org/fast/1117946) for cells containing \"Shīʻah\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Rustam (Iranian mythology)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1748817",
+      "name": "Rustam (Legendary character)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rustam (Legendary character) (http://id.worldcat.org/fast/1748817) for cells containing \"Rustam (Iranian mythology)\" in column recon-subject"
   }
 ]
