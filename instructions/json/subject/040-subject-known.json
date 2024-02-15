@@ -19133,5 +19133,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item France--Strasbourg (http://id.worldcat.org/fast/1205765) for cells containing \"Strasbourg (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Turkey, Eastern",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1692659",
+      "name": "Eastern Turkey",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eastern Turkey (http://id.worldcat.org/fast/1692659) for cells containing \"Turkey, Eastern\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Würzburg (Ecclesiastical principality)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1232462",
+      "name": "Europe--Würzburg (Ecclesiastical principality)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe--Würzburg (Ecclesiastical principality) (http://id.worldcat.org/fast/1232462) for cells containing \"Würzburg (Ecclesiastical principality)\" in column recon-subject"
   }
 ]
