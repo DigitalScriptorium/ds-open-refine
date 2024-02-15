@@ -18161,5 +18161,57 @@
     },
     "shareNewTopics": false,
     "description": "Match item England--Stockton (Norfolk) (http://id.worldcat.org/fast/1728730) for cells containing \"Stockton (Norfolk, England)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 33,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Accounting--Handbooks, manuals, etc",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1424436",
+      "name": "Accounting--Handbooks, manuals, etc.",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Accounting--Handbooks, manuals, etc. (http://id.worldcat.org/fast/1424436) for cells containing \"Accounting--Handbooks, manuals, etc\" in column recon-subject"
   }
 ]
