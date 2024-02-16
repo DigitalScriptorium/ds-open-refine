@@ -19213,5 +19213,205 @@
     },
     "shareNewTopics": false,
     "description": "Match item Rustam (Legendary character) (http://id.worldcat.org/fast/1748817) for cells containing \"Rustam (Iranian mythology)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Primitive and early church, ca 30-600",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355906",
+      "name": "30-600",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 30-600 (http://id.worldcat.org/fast/1355906) for cells containing \"Primitive and early church, ca 30-600\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Loudun (France)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1251966",
+      "name": "France--Loudun",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item France--Loudun (http://id.worldcat.org/fast/1251966) for cells containing \"Loudun (France)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Middle English, 1100-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355376",
+      "name": "1100-1500",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1100-1500 (http://id.worldcat.org/fast/1355376) for cells containing \"Middle English, 1100-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "History, Naval",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1035004",
+      "name": "Naval history",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naval history (http://id.worldcat.org/fast/1035004) for cells containing \"History, Naval\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Court and courtiers",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/881829",
+      "name": "Courts and courtiers",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 67
+    },
+    "shareNewTopics": false,
+    "description": "Match item Courts and courtiers (http://id.worldcat.org/fast/881829) for cells containing \"Court and courtiers\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Charters, grants, privileges",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/852538",
+      "name": "Charters",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charters (http://id.worldcat.org/fast/852538) for cells containing \"Charters, grants, privileges\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Middle High German, 1050-1500",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355360",
+      "name": "1050-1500",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1050-1500 (http://id.worldcat.org/fast/1355360) for cells containing \"Middle High German, 1050-1500\" in column recon-subject"
   }
 ]
