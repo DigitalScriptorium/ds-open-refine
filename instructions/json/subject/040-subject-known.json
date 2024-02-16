@@ -19413,5 +19413,125 @@
     },
     "shareNewTopics": false,
     "description": "Match item 1050-1500 (http://id.worldcat.org/fast/1355360) for cells containing \"Middle High German, 1050-1500\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Wars of the Huguenots, 1562-1598",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355311",
+      "name": "Wars of the Huguenots (France : 1562-1598)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 90
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wars of the Huguenots (France : 1562-1598) (http://id.worldcat.org/fast/1355311) for cells containing \"Wars of the Huguenots, 1562-1598\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Civil War, 43 BC-31 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352313",
+      "name": "Roman Civil War (Rome : 43-31 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 75
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roman Civil War (Rome : 43-31 B.C.) (http://id.worldcat.org/fast/1352313) for cells containing \"Civil War, 43 BC-31 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-subject: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Conspiracy of Catiline, 65 BC-62 BC",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1352536",
+      "name": "Conspiracy of Catiline (Rome : 65-62 B.C.)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 90
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conspiracy of Catiline (Rome : 65-62 B.C.) (http://id.worldcat.org/fast/1352536) for cells containing \"Conspiracy of Catiline, 65 BC-62 BC\" in column recon-subject"
   }
 ]
