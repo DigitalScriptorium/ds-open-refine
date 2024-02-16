@@ -19533,5 +19533,105 @@
     },
     "shareNewTopics": false,
     "description": "Match item Conspiracy of Catiline (Rome : 65-62 B.C.) (http://id.worldcat.org/fast/1352536) for cells containing \"Conspiracy of Catiline, 65 BC-62 BC\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Henry VI, 1422-1461",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355528",
+      "name": "1422-1461",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1422-1461 (http://id.worldcat.org/fast/1355528) for cells containing \"Henry VI, 1422-1461\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Medieval period, 1066-1485",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355368",
+      "name": "1066-1485",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1066-1485 (http://id.worldcat.org/fast/1355368) for cells containing \"Medieval period, 1066-1485\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tudors, 1485-1603",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355561",
+      "name": "1485-1603",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1485-1603 (http://id.worldcat.org/fast/1355561) for cells containing \"Tudors, 1485-1603\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Gothic period, 414-711",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355928",
+      "name": "414-711",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 414-711 (http://id.worldcat.org/fast/1355928) for cells containing \"Gothic period, 414-711\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "James IV, 1488-1513",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1355562",
+      "name": "1488-1513",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1488-1513 (http://id.worldcat.org/fast/1355562) for cells containing \"James IV, 1488-1513\" in column recon-subject"
   }
 ]
