@@ -10325,4 +10325,644 @@
     "shareNewTopics": false,
     "description": "Match item Charles Chardin (Q95219642) for cells containing \"Chardin, Charles (Bookseller)\" in column recon-human"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Bargagli, Scipione, -1612",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3952391",
+      "name": "Scipione Bargagli",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Scipione Bargagli (Q3952391) for cells containing \"Bargagli, Scipione, -1612\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Carafa, Vincenzo Maria, principe di Roccella, 1739-1814",
+    "judgment": "matched",
+    "match": {
+      "id": "Q109335129",
+      "name": "Vincenzo Maria Carafa, principe di Roccella",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vincenzo Maria Carafa, principe di Roccella (Q109335129) for cells containing \"Carafa, Vincenzo Maria, principe di Roccella, 1739-1814\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Fenestella, L. -1452",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20010809",
+      "name": "Lucius Fenestella",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lucius Fenestella (Q20010809) for cells containing \"Fenestella, L. -1452\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Giovio, Giambatista, conte, 1748-1814",
+    "judgment": "matched",
+    "match": {
+      "id": "Q45189682",
+      "name": "Giovanni Battista Giovio",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovanni Battista Giovio (Q45189682) for cells containing \"Giovio, Giambatista, conte, 1748-1814\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Koch-Sternfeld, J. E. Ritter von, 1778-1866",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1706939",
+      "name": "Joseph Ernst Koch-Sternfeld",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Joseph Ernst Koch-Sternfeld (Q1706939) for cells containing \"Koch-Sternfeld, J. E. Ritter von, 1778-1866\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Morante, Joachím Gómez de la Cortina, marqués de, 1808-1868",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17635357",
+      "name": "Joaquín Gómez de la Cortina",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Joaquín Gómez de la Cortina (Q17635357) for cells containing \"Morante, Joachím Gómez de la Cortina, marqués de, 1808-1868\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Muʻizzī, Amīr ʻAbd Allāh Muḥammad, 1048 or 1049-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2997261",
+      "name": "Mu'izzi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mu'izzi (Q2997261) for cells containing \"Muʻizzī, Amīr ʻAbd Allāh Muḥammad, 1048 or 1049-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Muḥaqqiq al-Ḥillī, Jaʻfar ibn al-Ḥasan, 1205 or 1206-1277",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6932995",
+      "name": "Muhaqqiq al-Hilli",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Muhaqqiq al-Hilli (Q6932995) for cells containing \"Muḥaqqiq al-Ḥillī, Jaʻfar ibn al-Ḥasan, 1205 or 1206-1277\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Mülich, Jörg, 1430?-1501",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94785722",
+      "name": "Jörg Muelich",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jörg Muelich (Q94785722) for cells containing \"Mülich, Jörg, 1430?-1501\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Najm al-Dīn Rāzī, ʻAbd Allāh ibn Muḥammad, -1256 or 1257",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1963396",
+      "name": "Najm al-Din Razi",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Najm al-Din Razi (Q1963396) for cells containing \"Najm al-Dīn Rāzī, ʻAbd Allāh ibn Muḥammad, -1256 or 1257\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Nubāhī, ʻAlī ibn ʻAbd Allāh, 1313 or 1314-",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55875203",
+      "name": "Abu-'l-Ḥasan ʿAlī Ibn-ʿAbdallāh Ibn-Muḥammad an- Nubāhī",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abu-'l-Ḥasan ʿAlī Ibn-ʿAbdallāh Ibn-Muḥammad an- Nubāhī (Q55875203) for cells containing \"Nubāhī, ʻAlī ibn ʻAbd Allāh, 1313 or 1314-\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Riant, comte 1836-1888",
+    "judgment": "matched",
+    "match": {
+      "id": "Q53674",
+      "name": "Paul Riant",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paul Riant (Q53674) for cells containing \"Riant, comte 1836-1888\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Sekoundinos, Nikolaos, 1402-1464",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12881887",
+      "name": "Nikolaos Sagundino",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nikolaos Sagundino (Q12881887) for cells containing \"Sekoundinos, Nikolaos, 1402-1464\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Broadley, John",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4120058",
+      "name": "John Broadley",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Broadley (Q4120058) for cells containing \"Broadley, John\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Shahīd al-Thānī, Zayn al-Dīn ibn ʻAlī, 1506-1559",
+    "judgment": "matched",
+    "match": {
+      "id": "Q112511356",
+      "name": "Zayn al-Din al-Juba'i al'Amili",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Zayn al-Din al-Juba'i al'Amili (Q112511356) for cells containing \"Shahīd al-Thānī, Zayn al-Dīn ibn ʻAlī, 1506-1559\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Albicans, Juliuscaesar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q601248",
+      "name": "Antonio Carafa",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Antonio Carafa (Q601248) for cells containing \"Albicans, Juliuscaesar\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Atayde, Jorge de",
+    "judgment": "matched",
+    "match": {
+      "id": "Q64742464",
+      "name": "Jorge de Ataíde",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jorge de Ataíde (Q64742464) for cells containing \"Atayde, Jorge de\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Brissac, Louis-Hercule-Timoléon de Cossé, duc de",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3262180",
+      "name": "Louis Hercule Timoléon de Cossé-Brissac",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Louis Hercule Timoléon de Cossé-Brissac (Q3262180) for cells containing \"Brissac, Louis-Hercule-Timoléon de Cossé, duc de\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Cunliffe, Sir Henry",
+    "judgment": "matched",
+    "match": {
+      "id": "Q75631190",
+      "name": "Henry Cunliffe",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry Cunliffe (Q75631190) for cells containing \"Cunliffe, Sir Henry\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Derschau, Hans Albrect, Freiherr von, -1824",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55843668",
+      "name": "Hans Albrecht von Derschau",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hans Albrecht von Derschau (Q55843668) for cells containing \"Derschau, Hans Albrect, Freiherr von, -1824\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Ellsworth, James W",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2899004",
+      "name": "James Ellsworth",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item James Ellsworth (Q2899004) for cells containing \"Ellsworth, James W\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Emick, Gustave von",
+    "judgment": "matched",
+    "match": {
+      "id": "Q989300",
+      "name": "Gusztáv Emich",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gusztáv Emich (Q989300) for cells containing \"Emick, Gustave von\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Gaignet, Louis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52154179",
+      "name": "Louis Jean Gaignat",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Louis Jean Gaignat (Q52154179) for cells containing \"Gaignet, Louis\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Georg Albrecht, Graf zu Erbach",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11928267",
+      "name": "George Albert I of Erbach-Erbach",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item George Albert I of Erbach-Erbach (Q11928267) for cells containing \"Georg Albrecht, Graf zu Erbach\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Larmier, Charles",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94487705",
+      "name": "Charles Lormier",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles Lormier (Q94487705) for cells containing \"Larmier, Charles\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Little, Charles C",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5076359",
+      "name": "Charles Coffin Little",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles Coffin Little (Q5076359) for cells containing \"Little, Charles C\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Maglie, Giovanni Onorio de",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113795868",
+      "name": "Giovanni Onorio",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovanni Onorio (Q113795868) for cells containing \"Maglie, Giovanni Onorio de\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Payne, John Thomas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7793066",
+      "name": "Thomas Payne",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thomas Payne (Q7793066) for cells containing \"Payne, John Thomas\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Schennis, Friderici de",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24701295",
+      "name": "Hans Friedrich Emanuel Schennis",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hans Friedrich Emanuel Schennis (Q24701295) for cells containing \"Schennis, Friderici de\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Waterton, Eadmond, 1830-1887",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5339907",
+      "name": "Edmund Waterton",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Edmund Waterton (Q5339907) for cells containing \"Waterton, Eadmond, 1830-1887\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Weaver, Harold Bailie, -1926",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18821788",
+      "name": "Harold Baillie Weaver",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item Harold Baillie Weaver (Q18821788) for cells containing \"Weaver, Harold Bailie, -1926\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Woodin, William Hartmann",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2031553",
+      "name": "William H. Woodin",
+      "types": [
+        "Q5"
+      ],
+      "score": 74
+    },
+    "shareNewTopics": false,
+    "description": "Match item William H. Woodin (Q2031553) for cells containing \"Woodin, William Hartmann\" in column recon-human"
+  },
 ]
