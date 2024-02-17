@@ -14609,5 +14609,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Temple of Jerusalem (Jerusalem) in rabbinical literature (http://id.worldcat.org/fast/1907226) for cells containing \"Temple of Jerusalem (Jerusalem)--In rabbinical literature\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Kyi︠e︡vo-Pechersʹka lavra",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/532026",
+      "name": "Kyi︠e︡vo-Pechersʹka lavra",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kyi︠e︡vo-Pechersʹka lavra (http://id.worldcat.org/fast/532026) for cells containing \"Kyi︠e︡vo-Pechersʹka lavra\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Pilate, Pontius, active 1st century",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1841519",
+      "name": "Pilate, Pontius, active 1st century",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pilate, Pontius, active 1st century (http://id.worldcat.org/fast/1841519) for cells containing \"Pilate, Pontius, active 1st century\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Maimonides, Moses, 1135-1204 Dalālat al-ḥāʼirīn",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1356686",
+      "name": "Dalālat al-ḥāʼirīn (Maimonides, Moses)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dalālat al-ḥāʼirīn (Maimonides, Moses) (http://id.worldcat.org/fast/1356686) for cells containing \"Maimonides, Moses, 1135-1204 Dalālat al-ḥāʼirīn\" in column recon-subject"
   }
 ]
