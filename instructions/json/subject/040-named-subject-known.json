@@ -14510,5 +14510,104 @@
     },
     "shareNewTopics": false,
     "description": "Match item Waraqāt (Imām al-Ḥaramayn al-Juwaynī, ʻAbd al-Malik ibn ʻAbd Allāh) (http://id.worldcat.org/fast/1369305) for cells containing \"Waraqāt (Imām al-Ḥaramayn al-Juwaynī, ʻAbd al-Malik ibn ʻAbd Allāh)\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 64,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Catholic Church--Chaldean rite",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1695165",
+      "name": "Chaldean rite (Catholic Church)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chaldean rite (Catholic Church) (http://id.worldcat.org/fast/1695165) for cells containing \"Catholic Church--Chaldean rite\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 64,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Jesus Christ--Passion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1353950",
+      "name": "Passion of Jesus Christ",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Passion of Jesus Christ (http://id.worldcat.org/fast/1353950) for cells containing \"Jesus Christ--Passion\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "recon-subject: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "recon-subject",
+          "from": 64,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Temple of Jerusalem (Jerusalem)--In rabbinical literature",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1907226",
+      "name": "Temple of Jerusalem (Jerusalem) in rabbinical literature",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Temple of Jerusalem (Jerusalem) in rabbinical literature (http://id.worldcat.org/fast/1907226) for cells containing \"Temple of Jerusalem (Jerusalem)--In rabbinical literature\" in column recon-subject"
   }
 ]
