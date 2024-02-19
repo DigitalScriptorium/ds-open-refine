@@ -7250,4 +7250,704 @@
     "shareNewTopics": false,
     "description": "Match item Banda Angelus (Q106413482) for cells containing \"Angelus\" in column recon-organization"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Abbey of St. Mary of Oliva (Oliwa, Poland)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110621",
+      "name": "Santa María de la Oliva",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Santa María de la Oliva (Q110621) for cells containing \"Abbey of St. Mary of Oliva (Oliwa, Poland)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Accademia degli Humoristi (Rome, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3603986",
+      "name": "Accademia degli Umoristi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Accademia degli Umoristi (Q3603986) for cells containing \"Accademia degli Humoristi (Rome, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Antiquariat Weiss (München)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110558338",
+      "name": "Weiss & Co.",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Weiss & Co. (Q110558338) for cells containing \"Antiquariat Weiss (München)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Assemani family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q740453",
+      "name": "Assemani family",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Assemani family (Q740453) for cells containing \"Assemani family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Augustinerkloster Neuwerk bei Halle (Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1775714",
+      "name": "Neuwerk Nunnery",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Neuwerk Nunnery (Q1775714) for cells containing \"Augustinerkloster Neuwerk bei Halle (Germany)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bibliothek der Israelitischen Theologischen Lehranstalt (Vienna, Austria)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20502385",
+      "name": "Rabbinical Seminary Vienna",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rabbinical Seminary Vienna (Q20502385) for cells containing \"Bibliothek der Israelitischen Theologischen Lehranstalt (Vienna, Austria)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Birgittinessenklooster Mariënwater (Netherlands)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q107761518",
+      "name": "Birgittinessenklooster Mariënwater",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Birgittinessenklooster Mariënwater (Q107761518) for cells containing \"Birgittinessenklooster Mariënwater (Netherlands)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Catholic Church. Assemblée générale du clergé de France",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2867066",
+      "name": "Assembly of the French clergy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Assembly of the French clergy (Q2867066) for cells containing \"Catholic Church. Assemblée générale du clergé de France\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Cathédrale de Chartres",
+    "judgment": "matched",
+    "match": {
+      "id": "Q180274",
+      "name": "Notre-Dame de Chartres",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Notre-Dame de Chartres (Q180274) for cells containing \"Cathédrale de Chartres\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Congregazione di San Giorgio di Alga (Venice, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3655528",
+      "name": "Canons Regular of San Giorgio in Alga",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Canons Regular of San Giorgio in Alga (Q3655528) for cells containing \"Congregazione di San Giorgio di Alga (Venice, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Convento de S. Domingos de Benfica (Lisbon, Portugal)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9871965",
+      "name": "Convento de São Domingos de Benfica",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Convento de São Domingos de Benfica (Q9871965) for cells containing \"Convento de S. Domingos de Benfica (Lisbon, Portugal)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Convento di San Domenico (Perugia, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q644828",
+      "name": "San Domenico",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Domenico (Q644828) for cells containing \"Convento di San Domenico (Perugia, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Frescobaldi family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q45098386",
+      "name": "Frescobaldi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Frescobaldi (Q45098386) for cells containing \"Frescobaldi family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Fürsten- und Landesschule St. Augustin zu Grimma (Germany). Bibliothek",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1483333",
+      "name": "Fürstenschule",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fürstenschule (Q1483333) for cells containing \"Fürsten- und Landesschule St. Augustin zu Grimma (Germany). Bibliothek\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ghent Associates of the Master of Mary of Burgundy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1393823",
+      "name": "Vienna Master of Mary of Burgundy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vienna Master of Mary of Burgundy (Q1393823) for cells containing \"Ghent Associates of the Master of Mary of Burgundy\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Kloster Alpirsbach (Alpirsbach, Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q315631",
+      "name": "Alpirsbach Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alpirsbach Abbey (Q315631) for cells containing \"Kloster Alpirsbach (Alpirsbach, Germany)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Monasterio de Guadalupe (Hieronymite)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q750248",
+      "name": "Royal Monastery of Saint Mary of Guadalupe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Royal Monastery of Saint Mary of Guadalupe (Q750248) for cells containing \"Monasterio de Guadalupe (Hieronymite)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Monastery of Santa Grata (Bergamo, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24254219",
+      "name": "Santa Grata inter vites",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Santa Grata inter vites (Q24254219) for cells containing \"Monastery of Santa Grata (Bergamo, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Novacella (Abbey of Augustinian canons)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q385925",
+      "name": "Neustift Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Neustift Abbey (Q385925) for cells containing \"Novacella (Abbey of Augustinian canons)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Prague (Czech Republic)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1085",
+      "name": "Prague",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prague (Q1085) for cells containing \"Prague (Czech Republic)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Saint Mary's Abbey (Holme Cultram, England)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5883306",
+      "name": "Holmcultram Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Holmcultram Abbey (Q5883306) for cells containing \"Saint Mary's Abbey (Holme Cultram, England)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Saint-Riquier (Monastery : Saint-Riquier, France)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2248639",
+      "name": "Saint-Riquier",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Riquier (Q2248639) for cells containing \"Saint-Riquier (Monastery : Saint-Riquier, France)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "San Marco (Monastery : Florence, Italy)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q13453381",
+      "name": "Convent San Marco",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Convent San Marco (Q13453381) for cells containing \"San Marco (Monastery : Florence, Italy)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "San Pedro de Roda (Monastery : Puerto de la Selva, Spain)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q798606",
+      "name": "Sant Pere de Rodes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sant Pere de Rodes (Q798606) for cells containing \"San Pedro de Roda (Monastery : Puerto de la Selva, Spain)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Santa Maria de Aguiar (Monastery Sabugal Portugal)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1774933",
+      "name": "Igreja e Convento de Santa Maria de Aguiar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Igreja e Convento de Santa Maria de Aguiar (Q1774933) for cells containing \"Santa Maria de Aguiar (Monastery Sabugal Portugal)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Sarsden Parish Church (Oxfordshire, England)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26496134",
+      "name": "Church of St James, Sarsden",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Church of St James, Sarsden (Q26496134) for cells containing \"Sarsden Parish Church (Oxfordshire, England)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Schloss Nordkirchen (Germany)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q677420",
+      "name": "Schloss Nordkirchen",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Schloss Nordkirchen (Q677420) for cells containing \"Schloss Nordkirchen (Germany)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "St. Emmeram (Monastery : Regensburg, Germany). Bibliothek",
+    "judgment": "matched",
+    "match": {
+      "id": "Q260633",
+      "name": "St. Emmeram's Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item St. Emmeram's Abbey (Q260633) for cells containing \"St. Emmeram (Monastery : Regensburg, Germany). Bibliothek\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Universität Wien. Kollegium St. Nikolaus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1310128",
+      "name": "Kollegium Sankt Nikolaus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kollegium Sankt Nikolaus (Q1310128) for cells containing \"Universität Wien. Kollegium St. Nikolaus\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Veruela (Monastery : Tarazona de Aragón, Spain)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q125335",
+      "name": "Veruela Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Veruela Abbey (Q125335) for cells containing \"Veruela (Monastery : Tarazona de Aragón, Spain)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Whitby Abbey (Whitby, England)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1469493",
+      "name": "Whitby Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Whitby Abbey (Q1469493) for cells containing \"Whitby Abbey (Whitby, England)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Zavattari school",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3080890",
+      "name": "Franceschino Zavattari",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Franceschino Zavattari (Q3080890) for cells containing \"Zavattari school\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bibliotheca Billiana",
+    "judgment": "matched",
+    "match": {
+      "id": "Q60840320",
+      "name": "Nicolas Antoine Labbey de Billy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nicolas Antoine Labbey de Billy (Q60840320) for cells containing \"Bibliotheca Billiana\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ebersheimmünster",
+    "judgment": "matched",
+    "match": {
+      "id": "Q820619",
+      "name": "Ebersmunster Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ebersmunster Abbey (Q820619) for cells containing \"Ebersheimmünster\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Gräflich Erbachisches Gesamthaus-Archiv",
+    "judgment": "matched",
+    "match": {
+      "id": "Q315332",
+      "name": "Amorbach Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Amorbach Abbey (Q315332) for cells containing \"Gräflich Erbachisches Gesamthaus-Archiv\" in column recon-organization"
+  }
 ]
