@@ -10965,4 +10965,184 @@
     "shareNewTopics": false,
     "description": "Match item William H. Woodin (Q2031553) for cells containing \"Woodin, William Hartmann\" in column recon-human"
   },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Brambilla, Giovanni Alessandro, 1728-1800",
+    "judgment": "matched",
+    "match": {
+      "id": "Q142120",
+      "name": "Giovanni Alessandro Brambilla",
+      "types": [
+        "Q5"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giovanni Alessandro Brambilla (Q142120) for cells containing \"Brambilla, Giovanni Alessandro, 1728-1800\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Catholic Church. Pope (1294-1303 : Boniface VIII)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q134646",
+      "name": "Boniface VIII",
+      "types": [
+        "Q5"
+      ],
+      "score": 58
+    },
+    "shareNewTopics": false,
+    "description": "Match item Boniface VIII (Q134646) for cells containing \"Catholic Church. Pope (1294-1303 : Boniface VIII)\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Malacarne, Vincenzo, 1744-1816",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4013365",
+      "name": "Vincenzo Malacarne",
+      "types": [
+        "Q5"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vincenzo Malacarne (Q4013365) for cells containing \"Malacarne, Vincenzo, 1744-1816\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Vernon, George John Warren, 1803-1866",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5545476",
+      "name": "George Venables-Vernon, 5th Baron Vernon",
+      "types": [
+        "Q5"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item George Venables-Vernon, 5th Baron Vernon (Q5545476) for cells containing \"Vernon, George John Warren, 1803-1866\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Church of the East",
+    "judgment": "matched",
+    "match": {
+      "id": "Q989799",
+      "name": "Church of the East",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Church of the East (Q989799) for cells containing \"Church of the East\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Giorgio, d'Alemagna, active 1441-1479",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3106916",
+      "name": "Giorgio d'Alemagna",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Giorgio d'Alemagna (Q3106916) for cells containing \"Giorgio, d'Alemagna, active 1441-1479\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Giraldi, Guglielmo, -approximately 1480",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3119276",
+      "name": "Guglielmo Giraldi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Guglielmo Giraldi (Q3119276) for cells containing \"Giraldi, Guglielmo, -approximately 1480\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Grigor, Tatʻevatsʻi, Saint, 1346-1409",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2996527",
+      "name": "Gregory of Tatev",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gregory of Tatev (Q2996527) for cells containing \"Grigor, Tatʻevatsʻi, Saint, 1346-1409\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Pasti, Matteo de', approximately 1420-approximately 1467",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3367126",
+      "name": "Matteo di Andrea de' Pasti",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matteo di Andrea de' Pasti (Q3367126) for cells containing \"Pasti, Matteo de', approximately 1420-approximately 1467\" in column recon-human"
+  }
 ]
