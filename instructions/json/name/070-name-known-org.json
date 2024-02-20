@@ -7249,7 +7249,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Banda Angelus (Q106413482) for cells containing \"Angelus\" in column recon-organization"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
