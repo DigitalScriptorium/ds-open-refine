@@ -19633,5 +19633,45 @@
     },
     "shareNewTopics": false,
     "description": "Match item 1488-1513 (http://id.worldcat.org/fast/1355562) for cells containing \"James IV, 1488-1513\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Actes formalistes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/889460",
+      "name": "Deeds",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Deeds (http://id.worldcat.org/fast/889460) for cells containing \"Actes formalistes\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Manuscrits latins médiévaux et modernes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1008399",
+      "name": "Manuscripts, Latin (Medieval and modern)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuscripts, Latin (Medieval and modern) (http://id.worldcat.org/fast/1008399) for cells containing \"Manuscrits latins médiévaux et modernes\" in column recon-subject"
   }
 ]
