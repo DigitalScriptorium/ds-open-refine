@@ -14789,5 +14789,25 @@
     },
     "shareNewTopics": false,
     "description": "Match item YaʼItyop̣yā ʼortodoks tawāḥedo béta kerestiyān (http://id.worldcat.org/fast/520329) for cells containing \"YaʼItyop̣yā ʼortodoks tawāḥedo béta kerestiyān\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Tamil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1142467",
+      "name": "Tamil language",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tamil language (http://id.worldcat.org/fast/1142467) for cells containing \"Tamil\" in column recon-subject"
   }
 ]
