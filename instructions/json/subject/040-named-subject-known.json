@@ -14729,5 +14729,65 @@
     },
     "shareNewTopics": false,
     "description": "Match item Fasts and feasts (http://id.worldcat.org/fast/921741) for cells containing \"Feasts\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Grigor, Tatʻevatsʻi, Saint, 1346-1409",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1898121",
+      "name": "Grigor, Tatʻevatsʻi, Saint, 1346-1409",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Grigor, Tatʻevatsʻi, Saint, 1346-1409 (http://id.worldcat.org/fast/1898121) for cells containing \"Grigor, Tatʻevatsʻi, Saint, 1346-1409\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "Saʻdī Gulistan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/1361914",
+      "name": "Gulistān (Saʻdī)",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gulistān (Saʻdī) (http://id.worldcat.org/fast/1361914) for cells containing \"Saʻdī Gulistan\" in column recon-subject"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-subject",
+    "similarValue": "YaʼItyop̣yā ʼortodoks tawāḥedo béta kerestiyān",
+    "judgment": "matched",
+    "match": {
+      "id": "http://id.worldcat.org/fast/520329",
+      "name": "YaʼItyop̣yā ʼortodoks tawāḥedo béta kerestiyān",
+      "types": [
+        "/fast/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item YaʼItyop̣yā ʼortodoks tawāḥedo béta kerestiyān (http://id.worldcat.org/fast/520329) for cells containing \"YaʼItyop̣yā ʼortodoks tawāḥedo béta kerestiyān\" in column recon-subject"
   }
 ]
