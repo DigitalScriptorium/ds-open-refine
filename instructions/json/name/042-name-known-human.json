@@ -10324,7 +10324,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Charles Chardin (Q95219642) for cells containing \"Chardin, Charles (Bookseller)\" in column recon-human"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
