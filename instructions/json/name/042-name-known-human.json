@@ -11145,4 +11145,44 @@
     "shareNewTopics": false,
     "description": "Match item Matteo di Andrea de' Pasti (Q3367126) for cells containing \"Pasti, Matteo de', approximately 1420-approximately 1467\" in column recon-human"
   }
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "Slotkin, Stanley S",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7599952",
+      "name": "Stanley Slotkin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Stanley Slotkin (Q7599952) for cells containing \"Slotkin, Stanley S\" in column recon-human"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-human",
+    "similarValue": "England. Sovereign (1327-1377 : Edward III)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q129247",
+      "name": "Edward III of England",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Edward III of England (Q129247) for cells containing \"England. Sovereign (1327-1377 : Edward III)\" in column recon-human"
+  }
 ]
