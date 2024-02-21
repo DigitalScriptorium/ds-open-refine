@@ -15528,5 +15528,1089 @@
     },
     "shareNewTopics": false,
     "description": "Match item wafers (seals) (aat/300263433) for cells containing \"Wafers\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Arabic scripts",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300208615",
+      "name": "Arabic scripts",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 32.75985
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arabic scripts (aat/300208615) for cells containing \"Arabic scripts\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Bible",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300264513",
+      "name": "Bibles",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.056591
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bibles (aat/300264513) for cells containing \"Bible\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Calligraphy",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300266660",
+      "name": "calligraphy (visual works)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 11.864241
+    },
+    "shareNewTopics": false,
+    "description": "Match item calligraphy (visual works) (aat/300266660) for cells containing \"Calligraphy\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Coats of arms",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300126352",
+      "name": "coats of arms",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 21.685797
+    },
+    "shareNewTopics": false,
+    "description": "Match item coats of arms (aat/300126352) for cells containing \"Coats of arms\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Collective biographies",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300080111",
+      "name": "collective biographies",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 21.418488
+    },
+    "shareNewTopics": false,
+    "description": "Match item collective biographies (aat/300080111) for cells containing \"Collective biographies\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Decorated initials (Layout features)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300417548",
+      "name": "decorated initials",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 27.053205
+    },
+    "shareNewTopics": false,
+    "description": "Match item decorated initials (aat/300417548) for cells containing \"Decorated initials (Layout features)\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Fukuro-toji",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300263594",
+      "name": "fukuro-toji",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 35.905735
+    },
+    "shareNewTopics": false,
+    "description": "Match item fukuro-toji (aat/300263594) for cells containing \"Fukuro-toji\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Ge'ez",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300388341",
+      "name": "Geez (language)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.970724
+    },
+    "shareNewTopics": false,
+    "description": "Match item Geez (language) (aat/300388341) for cells containing \"Ge'ez\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Gregorian chant",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300265207",
+      "name": "Gregorian chants",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 35.663486
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gregorian chants (aat/300265207) for cells containing \"Gregorian chant\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Historiated initials (Layout features)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300194390",
+      "name": "historiated initials",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 25.239727
+    },
+    "shareNewTopics": false,
+    "description": "Match item historiated initials (aat/300194390) for cells containing \"Historiated initials (Layout features)\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Korans",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300265128",
+      "name": "Qur'ans",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.209818
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qur'ans (aat/300265128) for cells containing \"Korans\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Palm leaf",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300011894",
+      "name": "palm leaf (material)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 22.395641
+    },
+    "shareNewTopics": false,
+    "description": "Match item palm leaf (material) (aat/300011894) for cells containing \"Palm leaf\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Peciae",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300207627",
+      "name": "peciae",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 19.816584
+    },
+    "shareNewTopics": false,
+    "description": "Match item peciae (aat/300207627) for cells containing \"Peciae\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Prayer books",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300026476",
+      "name": "prayer books",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 21.117964
+    },
+    "shareNewTopics": false,
+    "description": "Match item prayer books (aat/300026476) for cells containing \"Prayer books\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Syriac scripts",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300379151",
+      "name": "Syriac scripts",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 47.111717
+    },
+    "shareNewTopics": false,
+    "description": "Match item Syriac scripts (aat/300379151) for cells containing \"Syriac scripts\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "vocabulary",
+          "expression": "value",
+          "columnName": "vocabulary",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aat",
+                "l": "aat"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "structured_value",
+          "expression": "isBlank(value)",
+          "columnName": "structured_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Illuminated initials (Layout features)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300417548",
+      "name": "decorated initials",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 15.099038
+    },
+    "shareNewTopics": false,
+    "description": "Match item decorated initials (aat/300417548) for cells containing \"Illuminated initials (Layout features)\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Initials (Layout features)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300168055",
+      "name": "initials (layout features)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item initials (layout features) (aat/300168055) for cells containing \"Initials (Layout features)\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Leaves",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300115833",
+      "name": "leaves (gathered matter)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item leaves (gathered matter) (aat/300115833) for cells containing \"Leaves\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "Poetry",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300055931",
+      "name": "poetry",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item poetry (aat/300055931) for cells containing \"Poetry\" in column recon-genre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-genre",
+    "similarValue": "leaf (plant material)",
+    "judgment": "matched",
+    "match": {
+      "id": "aat/300011892",
+      "name": "leaf (plant material)",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 0
+    },
+    "shareNewTopics": false,
+    "description": "Match item leaf (plant material) (aat/300011892) for cells containing \"leaf (plant material)\" in column recon-genre"
   }
 ]
