@@ -12,11 +12,17 @@ To that end, we have made an evolving series of decisions to guide Standard Titl
     - "Book of Hours : use of Rouen"
     - "Book of Hours, Use of Paris"
     - "Hours of the Virgin"
-should all be assigned the Standard Title "Book of hours"
+should all be assigned the Standard Title _Book of hours_
 5. Standard Titles should be formatted in sentence case, with appropriate capitalization for proper nouns.
 6. More than one Standard Title can be assigned to a title string. This should be done to represent as many works/texts/units as are represented in the original metadata. Examples include:
-    - string value from `title_as_recorded`: "Bible, Gospel of John"
-            - should be assigned 2 Standard Title values: Bible;Gospel of John
-    - string value from `title_as_recorded`: "Old Testament. Ezekiel, xix.12-xxxix.29" | string value from `uniform_title_as_recorded`: "Bible"
-            - should be assigned 3 Standard Title values: Bible;Old testament;Ezekiel
-7. TBD.
+    - record with string value from `title_as_recorded`: "Bible, Gospel of John" should be assigned 2 Standard Title values: _Bible;Gospel of John_
+    - record with string value from `title_as_recorded`: "Old Testament. Ezekiel, xix.12-xxxix.29" and string value from `uniform_title_as_recorded`: "Bible" should be assigned 3 Standard Title values: _Bible;Old testament;Ezekiel_
+7. When the term "miscellany" is used in the `title_as_recorded` this should be retained in the Standard Title:
+        - i.e., string value "Astrological Miscellany" should be assigned a Standard Title of _Astrological miscellany_
+8. When the term "work" or "works" is used in reference to the production of particular authors or writers, the term should be retained:
+        - i.e., string value "Collection of works by Saint Augustine" should be assigned a Standard Title of _Works of Augustine_
+        - i.e., string value "Works of Aristotle, Theophrastus, Ammonius, Porphyrius, and Pseudo-Galen" should be assigned the following Standard Titles: _Works of Aristotle;Works of Theophrastus;Works of Ammonius;Works of Porphyrius;Works of Pseudo-Galen_
+10. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
+        - i.e., string value "Collection of works on Arabic grammar" should be assigned a Standard Title of _Arabic grammar texts_
+
+
