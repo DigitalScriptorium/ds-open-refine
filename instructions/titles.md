@@ -16,7 +16,7 @@ should all be assigned the Standard Title "Book of hours"
 5. Standard Titles should be formatted in sentence case, with appropriate capitalization for proper nouns.
 6. More than one Standard Title can be assigned to a title string. This should be done to represent as many works/texts/units as are represented in the original metadata. Examples include:
     - string value from `title_as_recorded`: "Bible, Gospel of John"
-      -- should be assigned 2 Standard Title values: Bible;Gospel of John
+            - should be assigned 2 Standard Title values: Bible;Gospel of John
     - string value from `title_as_recorded`: "Old Testament. Ezekiel, xix.12-xxxix.29" | string value from `uniform_title_as_recorded`: "Bible"
-      -- should be assigned 3 Standard Title values: Bible;Old testament;Ezekiel
+            - should be assigned 3 Standard Title values: Bible;Old testament;Ezekiel
 7. TBD.
