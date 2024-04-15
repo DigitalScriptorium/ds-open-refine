@@ -17,12 +17,14 @@ should all be assigned the Standard Title _Book of hours_
 6. More than one Standard Title can be assigned to a title string. This should be done to represent as many works/texts/units as are represented in the original metadata. Examples include:
     - record with string value from `title_as_recorded`: "Bible, Gospel of John" should be assigned 2 Standard Title values: _Bible;Gospel of John_
     - record with string value from `title_as_recorded`: "Old Testament. Ezekiel, xix.12-xxxix.29" and string value from `uniform_title_as_recorded`: "Bible" should be assigned 3 Standard Title values: _Bible;Old testament;Ezekiel_
-7. When the term "miscellany" is used in the `title_as_recorded` this should be retained in the Standard Title:
-    - i.e., string value "Astrological Miscellany" should be assigned a Standard Title of _Astrological miscellany_
-8. When the term "work" or "works" is used in reference to the production of particular authors or writers, the term should be retained:
+7. When the term "work" or "works" is used in reference to the production of particular authors or writers, the term should be retained:
     - i.e., string value "Collection of works by Saint Augustine" should be assigned a Standard Title of _Works of Augustine_
     - i.e., string value "Works of Aristotle, Theophrastus, Ammonius, Porphyrius, and Pseudo-Galen" should be assigned the following Standard Titles: _Works of Aristotle;Works of Theophrastus;Works of Ammonius;Works of Porphyrius;Works of Pseudo-Galen_
-9. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
-    - i.e., string value "Collection of works on Arabic grammar" should be assigned a Standard Title of _Arabic grammar texts_
+8. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
+    - i.e., string value "Collection of works on Arabic grammar" should be assigned a Standard Title of _Arabic grammar texts_.
+9. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
+    - i.e., string value "Astrological Miscellany" should be assigned a Standard Title of _Astrological texts_
+    - i.e., string value "Medical treatise" should be assigned a Standard Title of _Medical text_
+    - i.e., string value "Theological and legal essays" should be assigned a Standard Title of _Theological texts;Legal texts_
 
 
