@@ -27,7 +27,7 @@ should all be assigned the Standard Title _Book of hours_
     - i.e., string value "Medical treatise" should be assigned a Standard Title of _Medical text_
     - i.e., string value "Theological and legal works" should be assigned a Standard Title of _Theological texts;Legal texts_
 10. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
-    - in the case of a single author's works, use the Standard Title _Commentary on..._, as in the example _Commentary on Aristotle_
+    - in the case of a named title within a single author's works, use the Standard Title _Commentary on..._, as in the example _Commentary on Aristotle_
     - in the case of biblical commentary, use the Standard Title _Bible commentary_ and _Commentary on..._, as in the examples _Commentary on John_ or _Commentary on Second Kings_
 
 
