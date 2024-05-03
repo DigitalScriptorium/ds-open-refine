@@ -5083,7 +5083,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/4004316",
-      "name": "South Germany",
+      "name": "Southern Germany",
       "types": [
         "/ulan",
         "/tgn",
@@ -5093,7 +5093,7 @@
       "score": 18.12636
     },
     "shareNewTopics": false,
-    "description": "Match item South Germany (tgn/4004316) for cells containing \"southern Germany\" in column recon-place"
+    "description": "Match item Southern Germany (tgn/4004316) for cells containing \"southern Germany\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -5427,7 +5427,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/4004316",
-      "name": "South Germany",
+      "name": "Southern Germany",
       "types": [
         "/ulan",
         "/tgn",
@@ -5437,7 +5437,7 @@
       "score": 32.6846
     },
     "shareNewTopics": false,
-    "description": "Match item South Germany (tgn/4004316) for cells containing \"Southern Germany\" in column recon-place"
+    "description": "Match item Southern Germany (tgn/4004316) for cells containing \"Southern Germany\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -12224,7 +12224,7 @@
     "similarValue": "Northwestern Germany",
     "judgment": "matched",
     "match": {
-      "id": "tgn/2348059",
+      "id": "tgn/7000084",
       "name": "Germany",
       "types": [
         "/ulan",
@@ -12235,7 +12235,7 @@
       "score": 14.267721
     },
     "shareNewTopics": false,
-    "description": "Match item Germany (tgn/2348059) for cells containing \"Northwestern Germany\" in column recon-place"
+    "description": "Match item Germany (tgn/7000084) for cells containing \"Northwestern Germany\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -12420,7 +12420,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/4004316",
-      "name": "South Germany",
+      "name": "Southern Germany",
       "types": [
         "/ulan",
         "/tgn",
@@ -12430,7 +12430,7 @@
       "score": 28.642105
     },
     "shareNewTopics": false,
-    "description": "Match item South Germany (tgn/4004316) for cells containing \"South Germany\" in column recon-place"
+    "description": "Match item Southern Germany (tgn/4004316) for cells containing \"South Germany\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -25005,7 +25005,7 @@
     "similarValue": "eastern Germany",
     "judgment": "matched",
     "match": {
-      "id": "tgn/2348059",
+      "id": "tgn/7000084",
       "name": "Germany",
       "types": [
         "/ulan",
@@ -25016,7 +25016,7 @@
       "score": 14.252647
     },
     "shareNewTopics": false,
-    "description": "Match item Germany (tgn/2348059) for cells containing \"eastern Germany\" in column recon-place"
+    "description": "Match item Germany (tgn/7000084) for cells containing \"eastern Germany\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
