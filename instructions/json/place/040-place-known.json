@@ -24948,5 +24948,810 @@
     },
     "shareNewTopics": false,
     "description": "Match item Arequipa (tgn/7005825) for cells containing \"Arequipa\" in column recon-place"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Agadir",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1091336",
+      "name": "Agadir",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 27.22804
+    },
+    "shareNewTopics": false,
+    "description": "Match item Agadir (tgn/1091336) for cells containing \"Agadir\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Anghiari",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7006115",
+      "name": "Anghiari",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 34.28588
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anghiari (tgn/7006115) for cells containing \"Anghiari\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "eastern Germany",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/2348059",
+      "name": "Germany",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 14.252647
+    },
+    "shareNewTopics": false,
+    "description": "Match item Germany (tgn/2348059) for cells containing \"eastern Germany\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "central Italy",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4005361",
+      "name": "Central Italy",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 16.53603
+    },
+    "shareNewTopics": false,
+    "description": "Match item Central Italy (tgn/4005361) for cells containing \"central Italy\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Dalmatia",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/2087680",
+      "name": "Dalmatia",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 32.038025
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dalmatia (tgn/2087680) for cells containing \"Dalmatia\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "E France",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/8716310",
+      "name": "Eastern France",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 19.813951
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eastern France (tgn/8716310) for cells containing \"E France\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "eastern France",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/8716310",
+      "name": "Eastern France",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 19.813951
+    },
+    "shareNewTopics": false,
+    "description": "Match item Eastern France (tgn/8716310) for cells containing \"eastern France\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Poissy",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008066",
+      "name": "Poissy",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 33.205677
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poissy (tgn/7008066) for cells containing \"Poissy\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Limoges",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008410",
+      "name": "Limoges",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.338781
+    },
+    "shareNewTopics": false,
+    "description": "Match item Limoges (tgn/7008410) for cells containing \"Limoges\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Poitou",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002891",
+      "name": "Poitou",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.166733
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poitou (tgn/7002891) for cells containing \"Poitou\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Soissons",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7010563",
+      "name": "Soissons",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.569233
+    },
+    "shareNewTopics": false,
+    "description": "Match item Soissons (tgn/7010563) for cells containing \"Soissons\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Beauvais",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7663655",
+      "name": "Beauvais",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 28.289532
+    },
+    "shareNewTopics": false,
+    "description": "Match item Beauvais (tgn/7663655) for cells containing \"Beauvais\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Rodez",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008423",
+      "name": "Rodez",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 32.374496
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rodez (tgn/7008423) for cells containing \"Rodez\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Mende",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7009335",
+      "name": "Mende",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 26.907227
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mende (tgn/7009335) for cells containing \"Mende\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "N France",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4004036",
+      "name": "Northern France",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 26.907227
+    },
+    "shareNewTopics": false,
+    "description": "Match item Northern France (tgn/4004036) for cells containing \"N France\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "N Italy",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4005363",
+      "name": "North Italy",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 26.907227
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Italy (tgn/4005363) for cells containing \"N Italy\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "NE France",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7669119",
+      "name": "Northeastern France",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 26.907227
+    },
+    "shareNewTopics": false,
+    "description": "Match item Northeastern France (tgn/7669119) for cells containing \"NE France\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "St Omer",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7011062",
+      "name": "Saint-Omer",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 16.200468
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Omer (tgn/7011062) for cells containing \"St Omer\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "the town of Firfol",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7649731",
+      "name": "Firfol",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 19.21411
+    },
+    "shareNewTopics": false,
+    "description": "Match item Firfol (tgn/7649731) for cells containing \"the town of Firfol\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "northeastern France",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7669119",
+      "name": "Northeastern France",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 23.47435
+    },
+    "shareNewTopics": false,
+    "description": "Match item Northeastern France (tgn/7669119) for cells containing \"northeastern France\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "southern Netherlands",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/8711669",
+      "name": "Southern Netherlands",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 17.101978
+    },
+    "shareNewTopics": false,
+    "description": "Match item Southern Netherlands (tgn/8711669) for cells containing \"southern Netherlands\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "northern Italy",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4005363",
+      "name": "Northern Italy",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 15.711935
+    },
+    "shareNewTopics": false,
+    "description": "Match item Northern Italy (tgn/4005363) for cells containing \"northern Italy\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "northern Spain",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1000095",
+      "name": "Spain",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 13.303148
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain (tgn/1000095) for cells containing \"northern Spain\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Northwest Italy",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/8725286",
+      "name": "Northwest Italy",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 36.97059
+    },
+    "shareNewTopics": false,
+    "description": "Match item Northwest Italy (tgn/8725286) for cells containing \"Northwest Italy\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Padova",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7002994",
+      "name": "Padova",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 28.182549
+    },
+    "shareNewTopics": false,
+    "description": "Match item Padova (tgn/7002994) for cells containing \"Padova\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "southern Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4003760",
+      "name": "Southern Europe",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 16.228739
+    },
+    "shareNewTopics": false,
+    "description": "Match item Southern Europe (tgn/4003760) for cells containing \"southern Europe\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "southern Austria",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/1000062",
+      "name": "Austria",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 14.657864
+    },
+    "shareNewTopics": false,
+    "description": "Match item Austria (tgn/1000062) for cells containing \"southern Austria\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "western France",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/4004039",
+      "name": "Western France",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 15.8178835
+    },
+    "shareNewTopics": false,
+    "description": "Match item Western France (tgn/4004039) for cells containing \"western France\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "the Tyrol",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7003029",
+      "name": "Tyrol",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 16.86097
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tyrol (tgn/7003029) for cells containing \"the Tyrol\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Poitiers",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7017418",
+      "name": "Poitiers",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 31.723274
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poitiers (tgn/7017418) for cells containing \"Poitiers\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Angers",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008480",
+      "name": "Angers",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.334988
+    },
+    "shareNewTopics": false,
+    "description": "Match item Angers (tgn/7008480) for cells containing \"Angers\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "St-Claude-du-Jura",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7009615",
+      "name": "Saint-Claude",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.334988
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Claude (tgn/7009615) for cells containing \"St-Claude-du-Jura\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Clermont",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7655362",
+      "name": "Clermont",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.334988
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clermont (tgn/7655362) for cells containing \"Clermont\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Montpellier",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7009369",
+      "name": "Montpellier",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 30.95782
+    },
+    "shareNewTopics": false,
+    "description": "Match item Montpellier (tgn/7009369) for cells containing \"Montpellier\" in column recon-place"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-place",
+    "similarValue": "Segovia",
+    "judgment": "matched",
+    "match": {
+      "id": "tgn/7008661",
+      "name": "Segovia",
+      "types": [
+        "/ulan",
+        "/tgn",
+        "/aat",
+        "/all"
+      ],
+      "score": 29.929657
+    },
+    "shareNewTopics": false,
+    "description": "Match item Segovia (tgn/7008661) for cells containing \"Segovia\" in column recon-place"
   }
 ]
