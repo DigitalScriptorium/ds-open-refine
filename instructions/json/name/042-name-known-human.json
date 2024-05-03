@@ -11144,7 +11144,7 @@
     },
     "shareNewTopics": false,
     "description": "Match item Matteo di Andrea de' Pasti (Q3367126) for cells containing \"Pasti, Matteo de', approximately 1420-approximately 1467\" in column recon-human"
-  }
+  },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
