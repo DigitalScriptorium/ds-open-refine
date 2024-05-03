@@ -59,6 +59,19 @@
     "description": "Text transform on cells in column instance_of using expression grel:coalesce(cells[\"instance_of\"].value,cells[\"instance_of_add\"].value)"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ds_qid",
+    "expression": "grel:coalesce(cells[\"ds_qid\"].value,cells[\"ds_qid_add\"].value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ds_qid using expression grel:coalesce(cells[\"ds_qid\"].value,cells[\"ds_qid_add\"].value)"
+  }
+  {
     "op": "core/column-removal",
     "columnName": "structured_value_add",
     "description": "Remove column structured_value_add"
@@ -72,6 +85,37 @@
     "op": "core/column-removal",
     "columnName": "authorized_label_add",
     "description": "Remove column authorized_label_add"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ds_qid_add",
+    "description": "Remove column ds_qid_add"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ds_qid",
+    "expression": "grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ds_qid using expression grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ds_qid",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ds_qid using expression value.trim()"
   },
   {
     "op": "core/text-transform",
@@ -111,6 +155,19 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column structured_value using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ds_qid",
+    "expression": "grel:value.replace(\"; \",\";\").replace(\" ;\",\";\").replace(\";;\",\";\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ds_qid using expression grel:value.replace(\"; \",\";\").replace(\" ;\",\";\").replace(\";;\",\";\")"
   },
   {
     "op": "core/text-transform",
