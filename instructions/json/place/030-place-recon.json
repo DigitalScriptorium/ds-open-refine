@@ -175,6 +175,7 @@
         "name": "TGN search"
       },
       "autoMatch": true,
+      "batchSize": 10,
       "columnDetails": [],
       "limit": 0
     },
