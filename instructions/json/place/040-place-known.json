@@ -25305,7 +25305,7 @@
     "judgment": "matched",
     "match": {
       "id": "tgn/4005363",
-      "name": "North Italy",
+      "name": "Northern Italy",
       "types": [
         "/ulan",
         "/tgn",
@@ -25315,7 +25315,7 @@
       "score": 26.907227
     },
     "shareNewTopics": false,
-    "description": "Match item North Italy (tgn/4005363) for cells containing \"N Italy\" in column recon-place"
+    "description": "Match item Northern Italy (tgn/4005363) for cells containing \"N Italy\" in column recon-place"
   },
   {
     "op": "core/recon-judge-similar-cells",
