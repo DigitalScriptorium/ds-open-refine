@@ -7949,5 +7949,505 @@
     },
     "shareNewTopics": false,
     "description": "Match item Amorbach Abbey (Q315332) for cells containing \"Gräflich Erbachisches Gesamthaus-Archiv\" in column recon-organization"
+  },
+    {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Abbey of Ste-Genevieve",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1766069",
+      "name": "Abbey of St Genevieve",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Abbey of St Genevieve (Q1766069) for cells containing \"Abbey of Ste-Genevieve\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Benedictine Abbey of St-Jacques, Liège",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3581844",
+      "name": "St James's Church, Liège",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item St James's Church, Liège (Q3581844) for cells containing \"Benedictine Abbey of St-Jacques, Liège\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bloomsbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124337557",
+      "name": "Bloomsbury Auctions",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bloomsbury Auctions (Q124337557) for cells containing \"Bloomsbury\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Bloomsbury's",
+    "judgment": "matched",
+    "match": {
+      "id": "Q124337557",
+      "name": "Bloomsbury Auctions",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bloomsbury Auctions (Q124337557) for cells containing \"Bloomsbury's\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Chicester Cathedral",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1736182",
+      "name": "Chichester Cathedral",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chichester Cathedral (Q1736182) for cells containing \"Chicester Cathedral\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Church of St. Botulph",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26492479",
+      "name": "Church of St Botolph",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Church of St Botolph (Q26492479) for cells containing \"Church of St. Botulph\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Dawson's Bookshop",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55609180",
+      "name": "Dawson's Book Shop",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dawson's Book Shop (Q55609180) for cells containing \"Dawson's Bookshop\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Dawson’s Book Shop",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55609180",
+      "name": "Dawson's Book Shop",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dawson's Book Shop (Q55609180) for cells containing \"Dawson’s Book Shop\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Leber atelier",
+    "judgment": "matched",
+    "match": {
+      "id": "Q122873662",
+      "name": "Leber Group",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Leber Group (Q122873662) for cells containing \"Leber atelier\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Lime Public Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q69487598",
+      "name": "Lima Public Library",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lima Public Library (Q69487598) for cells containing \"Lime Public Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "recon-organization: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "recon-organization",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Mansfeld family",
+    "judgment": "matched",
+    "match": {
+      "id": "Q454775",
+      "name": "House of Mansfeld",
+      "types": [
+        "Q13417114"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item House of Mansfeld (Q454775) for cells containing \"Mansfeld family\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Messrs. J. & J. Leighton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q113850145",
+      "name": "J. & J. Leighton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item J. & J. Leighton (Q113850145) for cells containing \"Messrs. J. & J. Leighton\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Parke-Bernet",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15435609",
+      "name": "Parke-Bernet",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Parke-Bernet (Q15435609) for cells containing \"Parke-Bernet\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Penzance Public Library",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54879181",
+      "name": "Penzance Library",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Penzance Library (Q54879181) for cells containing \"Penzance Public Library\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Capuchin convent in Barcelona",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17593024",
+      "name": "Sarrià Capuchins",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sarrià Capuchins (Q17593024) for cells containing \"Capuchin convent in Barcelona\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Convent of Santa Maria degli Angeli, Milan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1256546",
+      "name": "Sant'Angelo Church",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sant'Angelo Church (Q1256546) for cells containing \"Convent of Santa Maria degli Angeli, Milan\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Dominicans of St. Jacques, Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3001726",
+      "name": "Couvent des Jacobins de la rue Saint-Jacques",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Couvent des Jacobins de la rue Saint-Jacques (Q3001726) for cells containing \"Dominicans of St. Jacques, Paris\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Ferdinand Roten Galleries",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120442747",
+      "name": "Ferdinand Roten Incorporated",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ferdinand Roten Incorporated (Q120442747) for cells containing \"Ferdinand Roten Galleries\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Monastery of San Pietro in Savigliano",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3671682",
+      "name": "San Pietro Apostolo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Pietro Apostolo (Q3671682) for cells containing \"Monastery of San Pietro in Savigliano\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Monastery of Santa Maria della Colomba (Chiaravalle)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q477225",
+      "name": "Chiaravalle della Colomba Abbey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chiaravalle della Colomba Abbey (Q477225) for cells containing \"Monastery of Santa Maria della Colomba (Chiaravalle)\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Monastery of St. Stephan in Würzburg",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7591728",
+      "name": "St. Stephen's Abbey, Würzburg",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item St. Stephen's Abbey, Würzburg (Q7591728) for cells containing \"Monastery of St. Stephan in Würzburg\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Pacific Book Auctions",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7118388",
+      "name": "PBA Galleries",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item PBA Galleries (Q7118388) for cells containing \"Pacific Book Auctions\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Santo Tomás Aquino in Ávila",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6102071",
+      "name": "Real Monasterio de Santo Tomás",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Real Monasterio de Santo Tomás (Q6102071) for cells containing \"Santo Tomás Aquino in Ávila\" in column recon-organization"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recon-organization",
+    "similarValue": "Anderson & Gall",
+    "judgment": "matched",
+    "match": {
+      "id": "Q72940895",
+      "name": "Anderson Galleries",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Anderson Galleries (Q72940895) for cells containing \"Anderson & Gall\" in column recon-organization"
   }
 ]
