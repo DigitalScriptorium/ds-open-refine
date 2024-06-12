@@ -10,7 +10,7 @@
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
     "columnInsertIndex": 6,
-    "description": "Create column recon-genre at index 6 based on column term using expression grel:if(cells[\"vocabulary\"].value==\"aat\",value,\"\")"
+    "description": "Create column recon-genre at index 6 based on column term using expression grel:if(cells[\"vocab\"].value==\"aat\",value,\"\")"
   },
   {
     "op": "core/text-transform",
