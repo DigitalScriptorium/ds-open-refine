@@ -6,7 +6,7 @@
       "mode": "row-based"
     },
     "baseColumnName": "genre_as_recorded",
-    "expression": "grel:if(cells[\"vocabulary\"].value==\"aat\",value,\"\")",
+    "expression": "grel:if(cells[\"vocab\"].value==\"aat\",value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
     "columnInsertIndex": 6,
