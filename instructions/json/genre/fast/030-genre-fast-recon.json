@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "genre_as_recorded",
-    "expression": "grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"gsafd\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\",cells[\"vocabulary\"].value==null),value,\"\")",
+    "expression": "grel:if(or(cells[\"vocab\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"gsafd\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\",cells[\"vocabulary\"].value==null),value,\"\")",
     "onError": "set-to-blank",
     "newColumnName": "recon-genre",
     "columnInsertIndex": 6,
-    "description": "Create column recon-genre at index 6 based on column genre_as_recorded using expression grel:if(or(cells[\"vocabulary\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\",cells[\"vocabulary\"].value==null),value,\"\")"
+    "description": "Create column recon-genre at index 6 based on column genre_as_recorded using expression grel:if(or(cells[\"vocab\"].value==\"fast\",cells[\"vocabulary\"].value==\"gmgpc\",cells[\"vocabulary\"].value==\"lcgft\",cells[\"vocabulary\"].value==\"lcsh\",cells[\"vocabulary\"].value==\"local\",cells[\"vocabulary\"].value==null),value,\"\")"
   },
   {
     "op": "core/text-transform",
