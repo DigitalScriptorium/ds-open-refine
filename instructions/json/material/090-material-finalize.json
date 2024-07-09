@@ -466,7 +466,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "authorized_label_add",
+    "columnName": "structured_value_add",
     "expression": "grel:if(cells[\"authorized_label_add\"].value==\"bark\",\"http://vocab.getty.edu/aat/300011860\",value)",
     "onError": "keep-original",
     "repeat": false,
