@@ -27,16 +27,18 @@ should all be assigned the Standard Title _Book of hours_
 10. Defer to external sources for whether or not a Standard Title should be rendered in English or in another/original language.
     - i.e., string values "De coniuratione Catilinae" or "Bellum Catilinae" should be assigned the following Standard Title: _The Conspiracy of Catiline_
     - conversely, _Interpretationes nominum Hebraicorum_ is the preferred Standard Title for the text often translated as "Interpretation of Hebrew Names"
-12. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
+11. Spelling conventions should be standardized and modernized, unless convention/authorities dictate otherwise.
+    - i.e., the Latin _Judeaos_ is preferred over "Iudeos" and the Spanish _Historia_ rather than "Hystoria"
+13. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
     - i.e., string value "Collection of works on Arabic grammar" should be assigned a Standard Title of _Arabic grammatical texts_.
-13. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
+14. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
     - i.e., string value "Astrological Miscellany" should be assigned a Standard Title of _Astrological texts_
     - i.e., string value "Medical treatise" should be assigned a Standard Title of _Medical text_
     - i.e., string value "Theological and legal works" should be assigned a Standard Title of _Theological texts_;_Legal texts_
-14. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
+15. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
     - in the case of a named title within a single author's works, use the Standard Title _Commentary on..._, as in the example _Commentary on Aristotle_
     - in the case of biblical commentary, use the Standard Title _Bible commentary_ and _Commentary on..._, as in the examples _Commentary on John_ or _Commentary on Second Kings_
-15. 
+16. 
 
 
 
