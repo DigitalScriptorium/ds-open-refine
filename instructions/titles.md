@@ -6,7 +6,7 @@ To that end, we have made an evolving series of decisions to guide Standard Titl
 
 1. Examine the `title_as_recorded` and `uniform_title_as_recorded` fields. Determine if the title information can be standardized or if it is a specialized, unique, or highly descriptive title which does not lend itself to standardization and aggregation.
 2. Search in the [DS Catalog](https://catalog.digital-scriptorium.org/) or the [`title.csv` data dictionary](https://github.com/DigitalScriptorium/ds-data/blob/main/terms/reconciled/titles.csv) to see if a Standard Title has already been assigned to a similar title string.
-3. If a Standard Title is unavailable, search in commonly used name or title Authority files or controlled vocabularies, such as LCNAF or FAST to see if a suitable form of a title. Uniform title information from the original metadata, where available, may be helpful in determining how to standardize a title for enrichment.
+3. If a Standard Title is unavailable, search in [Wikidata](https://wikidata.org/), or commonly used name or title Authority files or controlled vocabularies, such as [FAST](https://fast.oclc.org/searchfast/) or [LCNAF](https://id.loc.gov/authorities/names.html) to see if a suitable form of a title. Uniform title information from the original metadata, where available, may be helpful in determining how to standardize a title for enrichment.
 4. Efforts should be made to aggregate works at the highest generic level possible. For instance:
     - "Book of Hours, use of Rome"
     - "Book of Hours : use of Rouen"
