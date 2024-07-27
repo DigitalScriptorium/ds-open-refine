@@ -4,31 +4,34 @@ DS does not use a title authority file for title string reconciliation. Rather, 
 
 To that end, we have made an evolving series of decisions to guide Standard Title creation and application (found below).
 
-1. Examine the `title_as_recorded` and `uniform_title_as_recorded` fields. Determine if the title information can be standardized or if it is a specialized, unique, or highly descriptive title which does not lend itself to standardization and aggregation.
+1. Examine the `title_as_recorded` and `uniform_title_as_recorded` fields. Determine if the title information can be standardized or if it is a specialized, unique, or highly descriptive title which does not lend itself to standardization and aggregation. Not all titles can or should be standardized.
 2. Search in the [DS Catalog](https://catalog.digital-scriptorium.org/) or the [`title.csv` data dictionary](https://github.com/DigitalScriptorium/ds-data/blob/main/terms/reconciled/titles.csv) to see if a Standard Title has already been assigned to a similar title string.
-3. If a Standard Title is unavailable, search in [Wikidata](https://wikidata.org/), or commonly used name or title Authority files or controlled vocabularies, such as [FAST](https://fast.oclc.org/searchfast/) or [LCNAF](https://id.loc.gov/authorities/names.html) to see if a suitable form of a title. Uniform title information from the original metadata, where available, may be helpful in determining how to standardize a title for enrichment.
+3. If a Standard Title is unavailable, search in [Wikidata](https://wikidata.org/), or commonly used name or title Authority files or controlled vocabularies, such as [FAST](https://fast.oclc.org/searchfast/) or [LCNAF](https://id.loc.gov/authorities/names.html), to see if a suitable form of a title exists. Uniform title information from the original metadata, where available, may be helpful in determining how to standardize a title for enrichment.
 4. Efforts should be made to aggregate works at the highest generic level possible. For instance:
     - "Book of Hours, use of Rome"
     - "Book of Hours : use of Rouen"
     - "Book of Hours, Use of Paris"
     - "Hours of the Virgin"
 should all be assigned the Standard Title _Book of hours_
-5. Standard Titles should be formatted in sentence case, with appropriate capitalization for proper nouns.
+5. Standard Titles should be formatted in sentence case, with appropriate capitalization for proper nouns, unless convention dictates otherwise.
 6. More than one Standard Title can be assigned to a title string. This should be done to represent as many works/texts/units as are represented in the original metadata. Examples include:
-    - record with string value from `title_as_recorded`: "Bible, Gospel of John" should be assigned 2 Standard Title values: _Bible;Gospel of John_
-    - record with string value from `title_as_recorded`: "Old Testament. Ezekiel, xix.12-xxxix.29" and string value from `uniform_title_as_recorded`: "Bible" should be assigned 3 Standard Title values: _Bible;Old testament;Book of Ezekiel_
-7. When the term "work" or "works" is used in reference to the production of particular authors or writers, the term should be retained:
+    - record with string value from `title_as_recorded`: "Bible, Gospel of John" should be assigned 2 Standard Title values: _Bible_;_Gospel of John_
+    - record with string value from `title_as_recorded`: "Old Testament. Ezekiel, xix.12-xxxix.29" and string value from `uniform_title_as_recorded`: "Bible" should be assigned 3 Standard Title values: _Bible_;_Old testament_;_Book of Ezekiel_
+7. When items have a well-known common or "trivial" name, assign that name as a Standard Title along with a more generic standard title, if applicable.
+    - record with string value from `title_as_recorded`: "Llangatock Breviary" should be assigned 2 Standard Title values: _Llangatock Breviary_;_Breviary_
+8. When the term "work" or "works" is used in reference to the production of particular authors or writers, the term "work(s)" should be retained:
     - i.e., string value "Collection of works by Saint Augustine" should be assigned a Standard Title of _Works of Augustine_
-    - i.e., string value "Works of Aristotle, Theophrastus, Ammonius, Porphyrius, and Pseudo-Galen" should be assigned the following Standard Titles: _Works of Aristotle;Works of Theophrastus;Works of Ammonius;Works of Porphyrius;Works of Pseudo-Galen_
-8. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
+    - i.e., string value "Works of Aristotle, Theophrastus, Ammonius, Porphyrius, and Pseudo-Galen" should be assigned the following Standard Titles: _Works of Aristotle_;_Works of Theophrastus_;_Works of Ammonius_;_Works of Porphyrius_;_Works of Pseudo-Galen_
+9. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
     - i.e., string value "Collection of works on Arabic grammar" should be assigned a Standard Title of _Arabic grammatical texts_.
-9. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
+10. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
     - i.e., string value "Astrological Miscellany" should be assigned a Standard Title of _Astrological texts_
     - i.e., string value "Medical treatise" should be assigned a Standard Title of _Medical text_
-    - i.e., string value "Theological and legal works" should be assigned a Standard Title of _Theological texts;Legal texts_
-10. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
+    - i.e., string value "Theological and legal works" should be assigned a Standard Title of _Theological texts_;_Legal texts_
+11. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
     - in the case of a named title within a single author's works, use the Standard Title _Commentary on..._, as in the example _Commentary on Aristotle_
     - in the case of biblical commentary, use the Standard Title _Bible commentary_ and _Commentary on..._, as in the examples _Commentary on John_ or _Commentary on Second Kings_
+12. 
 
 
 
