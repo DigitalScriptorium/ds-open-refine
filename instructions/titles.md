@@ -24,17 +24,19 @@ should all be assigned the Standard Title _Book of hours_
     - i.e., string value "Works of Aristotle, Theophrastus, Ammonius, Porphyrius, and Pseudo-Galen" should be assigned the following Standard Titles: _Works of Aristotle_;_Works of Theophrastus_;_Works of Ammonius_;_Works of Porphyrius_;_Works of Pseudo-Galen_
 9. When a well-known or specific title is given, assign the Standard Title to reflect that text. An additional generic Standard Title may be assigned to facilitate retrieval.
     - i.e., string value "Opusculum astrologicum, ex diversorum libris, summa cura pro studiosorum utilitate collectum" should be assigned the following Standard Title: _Opusculum astrologicum_ and may be supplemented as described in cases below (_Astrological text_)
-10. 
-11. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
+10. Defer to external sources for whether or not a Standard Title should be rendered in English or in another/original language.
+    - i.e., string values "De coniuratione Catilinae" or "Bellum Catilinae" should be assigned the following Standard Title: _The Conspiracy of Catiline_
+    - conversely, _Interpretationes nominum Hebraicorum_ is the preferred Standard Title for the text often translated as "Interpretation of Hebrew Names"
+12. When the terms "work" or "text" is used in reference to generic writings (no author represented), the term used should be "text":
     - i.e., string value "Collection of works on Arabic grammar" should be assigned a Standard Title of _Arabic grammatical texts_.
-12. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
+13. When a descriptive title is used in the `title_as_recorded` the singular or plural should be retained in the Standard Title, with each individual descriptor as a title:
     - i.e., string value "Astrological Miscellany" should be assigned a Standard Title of _Astrological texts_
     - i.e., string value "Medical treatise" should be assigned a Standard Title of _Medical text_
     - i.e., string value "Theological and legal works" should be assigned a Standard Title of _Theological texts_;_Legal texts_
-13. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
+14. When `title_as_recorded` is a commentary or other text written about a known work or body of work, the appropriate Standard Title should be used for such commentaries:
     - in the case of a named title within a single author's works, use the Standard Title _Commentary on..._, as in the example _Commentary on Aristotle_
     - in the case of biblical commentary, use the Standard Title _Bible commentary_ and _Commentary on..._, as in the examples _Commentary on John_ or _Commentary on Second Kings_
-14. 
+15. 
 
 
 
