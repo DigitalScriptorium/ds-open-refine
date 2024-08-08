@@ -10,8 +10,7 @@ To that end, we have made an evolving series of decisions to guide Standard Titl
 4. Efforts should be made to aggregate works at the highest generic level possible. For instance:
     - "Book of Hours, use of Rome"
     - "Book of Hours : use of Rouen"
-    - "Book of Hours, Use of Paris"<br><br>
-should all be assigned the Standard Title _Book of hours_
+    - "Book of Hours, Use of Paris"<br>should all be assigned the Standard Title _Book of hours_
 5. Standard Titles should be formatted in sentence case, with appropriate capitalization for proper nouns, unless convention/authorities dictate otherwise.
 6. More than one Standard Title can be assigned to a title string. This should be done to represent as many works/texts/units as are represented in the original metadata. Examples include:
     - record with string value from `title_as_recorded`: "Bible, Gospel of John" should be assigned 2 Standard Title values: _Bible_;_Gospel of John_
