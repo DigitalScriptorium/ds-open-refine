@@ -24,7 +24,7 @@
 #### Removing working columns and merging new reconciliations with previous ones in data dictionaries
 11. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 12. Select `FALSE` for applied facet to `ds_qid_add` column
-13. Apply JSON recipe to remove unnecessary columns, merge new data values into existing data, remove whitespace: [JSON][merge-clean-recon-data]
+13. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace: [JSON][merge-clean-recon-data]
 14.  `Export -> Comma-separated value` file from OpenRefine to local machine
 
 #### Sorting data values alphabetically by as_recorded strings
