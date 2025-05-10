@@ -25,11 +25,12 @@
 11. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 12. Select `FALSE` for applied facet to `ds_qid_add` column
 13. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace: [JSON][merge-clean-recon-data]
-14.  `Export -> Comma-separated value` file from OpenRefine to local machine
+
 
 #### Sorting data values alphabetically by as_recorded strings
-15. On `VALUE_as_recorded` column, apply `Sort...` with the following parameters: text, case sensitive, a-z
-16. From row view selector, find `Sort` and choose `Reorder rows permanently`
+14. On `VALUE_as_recorded` column, apply `Sort...` with the following parameters: text, case sensitive, a-z
+15. From row view selector, find `Sort` and choose `Reorder rows permanently`
+16. `Export -> Comma-separated value` file from OpenRefine to local machine
 
 ### Updating data dictionaries in ds-data repository
 17.  Add exported `VALUE-new-DATE.csv` to [`ds-data/terms/reconciled`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled) repository from local machine
