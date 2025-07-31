@@ -4,6 +4,8 @@ Digital Scriptorium OpenRefine documentation and JSON recipes for data reconcili
 
 ## General instructions
 
+### File naming conventions
+
 When utilizing the JSON instructions (also known as recipes) found in this repository for DS data in OpenRefine, find the left column, select the `Undo/Redo` tab, select `Apply`, paste the JSON code, and then select `Perform operations`. This will execute the prewritten commands which perform various actions on the data for the reconciliation process and when merging new datasets with previous ones.
 
 Facets and filters can also be used on the data by using drop-down menus available on each column header and displayed in the left column when selecting the `Facet/Filter` tab.
@@ -22,36 +24,40 @@ Examples of correctly formatted file names:
 - `20230816-languages-princeton-marcxml-batch-3-enriched.csv`
 - `20230901-places-hrc-csv-fragments-batch-1-enriched.csv`
 
-## Reconciliation instructions by metadata element / authority type
+### Manual reconciliation
+TBD.
 
-### Genres
+### Automated reconciliation instructions by metadata element / authority type
+Introductory text?
+
+#### Genres
 
 [Genre reconciliation instructions](/instructions/genres.md)
 
-### Languages
+#### Languages
 
 [Language reconciliation instructions](/instructions/languages.md)
 
-### Materials
+#### Materials
 
 [Material reconciliation instructions](/instructions/materials.md)
 
-### Names
+#### Names
 
 [Name reconciliation instructions](/instructions/names.md)
 
-### Places
+#### Places
 
 [Place reconciliation instructions](/instructions/places.md)
 
-### Subjects
+#### Subjects
 
 [Subject reconciliation instructions](/instructions/subjects.md)
 
-### Titles
+#### Titles
 
 [Title reconciliation instructions](instructions/titles.md)
 
-## Instructions for integrating new reconciliations with previously reconciled data
+### Instructions for integrating new reconciliations with previously reconciled data
 
 [Merging newly enriched data with data dictionaries](instructions/merge-new-data.md)
