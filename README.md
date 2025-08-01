@@ -23,9 +23,7 @@ The following instructions discuss management, handling, and processing of recon
 
 ### File naming conventions
 
-When utilizing the JSON instructions (also known as recipes) found in this repository for DS data in OpenRefine, find the left column, select the `Undo/Redo` tab, select `Apply`, paste the JSON code, and then select `Perform operations`. This will execute the prewritten commands which perform various actions on the data for the reconciliation process and when merging new datasets with previous ones.
-
-Facets and filters can also be used on the data by using drop-down menus available on each column header and displayed in the left column when selecting the `Facet/Filter` tab.
+Recon-extraction spreadsheets should be carefully named to track their source, their type, and date of contribution. This allows data to be properly archived and to follow up on workflow issues such as errors and discrepancies.
 
 The following notes apply to file naming conventions for editing file name variables found in the [instructions in this repository](/instructions/) (use all lowercase letters where applicable):
 - DATE = the date the file/dataset was generated/created/extracted in `YYYYMMDD` format
@@ -47,7 +45,9 @@ TBD.
 
 ### Automated reconciliation instructions by metadata element / authority type
 
-Introductory text
+When utilizing the JSON instructions (also known as recipes) found in this repository for DS data in OpenRefine, find the left column, select the `Undo/Redo` tab, select `Apply`, paste the JSON code, and then select `Perform operations`. This will execute the prewritten commands which perform various actions on the data for the reconciliation process and when merging new datasets with previous ones.
+
+Facets and filters can also be used on the data by using drop-down menus available on each column header and displayed in the left column when selecting the `Facet/Filter` tab.
 
 #### Genres
 
