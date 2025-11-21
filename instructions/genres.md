@@ -8,9 +8,8 @@
 ### to AAT
 
 3. Copy filtered `genre_as_recorded` column and reconcile new `recon-genre` column against AAT vocabulary: [JSON][genre_aat_recon]
-4. Apply list of previously reconciled or known AAT terms: [JSON][genre_aat_known]
-5. Manually reconcile and update known AAT genre terms: *edit [JSON][genre_aat_known] and submit pull request*
-6. Add `aat-label` and `genre-aat` columns: [JSON][genre_aat]
+4. Manually select matches for data values in `recon-genre` column.
+5. Add `aat-label` and `genre-aat` columns: [JSON][genre_aat]
 
 [genre_aat_recon]:   json/genre/aat/030-genre-aat-recon.json
 [genre_aat_known]:   json/genre/aat/040-genre-aat-known.json
