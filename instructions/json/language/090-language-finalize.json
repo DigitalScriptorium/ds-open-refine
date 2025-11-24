@@ -77,11 +77,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"LANGUAGE RECON, STEP 6: FINALIZED \"+now()",
+    "expression": "grel:\"LANGUAGE RECON, STEP 4: FINALIZED \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"LANGUAGE RECON, STEP 6: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"LANGUAGE RECON, STEP 4: FINALIZED \"+now()"
   },
   {
     "op": "core/text-transform",
