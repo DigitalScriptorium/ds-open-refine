@@ -20,4 +20,5 @@ json/language/010-language-workflow.json
 json/language/030-language-recon.json
 json/language/040-language-values.json
 json/language/090-language-finalize.json
+authorities/languages-ds-authority.csv
 ```
