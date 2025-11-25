@@ -1,16 +1,12 @@
 [
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "recon-place",
-    "expression": "grel:cell.recon.match.name",
-    "onError": "set-to-blank",
-    "newColumnName": "authorized_label_add",
-    "columnInsertIndex": 5,
-    "description": "Create column authorized_label_add at index 5 based on column recon-place using expression grel:cell.recon.match.name"
+    "op": "core/multivalued-cell-split",
+    "columnName": "structured_value_add",
+    "keyColumnName": "row_index",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column structured_value_add"
   },
   {
     "op": "core/column-addition",
@@ -18,64 +14,26 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "recon-place",
-    "expression": "grel:\"http://vocab.getty.edu/\"+cell.recon.match.id",
+    "baseColumnName": "structured_value_add",
+    "expression": "grel:cell.cross(\"places-ds-authority\",\"externalID\").cells[\"dsQID\"].value[0]",
     "onError": "set-to-blank",
-    "newColumnName": "structured_value_add",
+    "newColumnName": "ds_qid_add",
     "columnInsertIndex": 6,
-    "description": "Create column structured_value_add at index 6 based on column recon-place using expression grel:\"http://vocab.getty.edu/\"+cell.recon.match.id"
+    "description": "Create column ds_qid_add at index 6 based on column structured_value_add using expression grel:cell.cross(\"places-ds-authority\",\"externalID\").cells[\"dsQID\"].value[0]"
   },
   {
     "op": "core/multivalued-cell-join",
-    "columnName": "authorized_label_add",
+    "columnName": "ds_qid_add",
     "keyColumnName": "row_index",
     "separator": ";",
-    "description": "Join multi-valued cells in column authorized_label"
+    "description": "Join multi-valued cells in column ds_qid_add"
   },
   {
     "op": "core/multivalued-cell-join",
     "columnName": "structured_value_add",
     "keyColumnName": "row_index",
     "separator": ";",
-    "description": "Join multi-valued cells in column structured_value"
-  },
-  {
-    "op": "core/multivalued-cell-join",
-    "columnName": "recon-place",
-    "keyColumnName": "row_index",
-    "separator": ";",
-    "description": "Join multi-valued cells in column recon-place"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "recon-place",
-    "description": "Remove column recon-place"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "authorized_label_add",
-    "expression": "grel:value.split(\";\").uniques().join(\";\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column authorized_label_add using expression grel:value.split(\";\").uniques().join(\";\")"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "structured_value_add",
-    "expression": "grel:value.split(\";\").uniques().join(\";\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column structured_value_add using expression grel:value.split(\";\").uniques().join(\";\")"
+    "description": "Join multi-valued cells in column structured_value_add"
   },
   {
     "op": "core/text-transform",
@@ -84,11 +42,11 @@
       "mode": "row-based"
     },
     "columnName": "workflow_current",
-    "expression": "grel:\"PLACE RECON, STEP 6: FINALIZED \"+now()",
+    "expression": "grel:\"PLACE RECON, STEP 6: ADD DS QIDs & FINALIZE \"+now()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 6: FINALIZED \"+now()"
+    "description": "Text transform on cells in column workflow_current using expression grel:\"PLACE RECON, STEP 6: ADD DS QIDs & FINALIZE \"+now()"
   },
   {
     "op": "core/text-transform",
