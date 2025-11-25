@@ -19,7 +19,7 @@
       "mode": "row-based"
     },
     "columnName": "recon-place",
-    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")\"",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\")\",\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
