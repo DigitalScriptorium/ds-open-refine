@@ -13,7 +13,7 @@
 [language_recon]:     json/language/030-language-recon.json
 [language_values]:    json/language/040-language-values.json
 [language_finalize]:  json/language/090-language-finalize.json
-[language-authority]: json/language/120-language-authority.csv
+[language-authority]: authorities/languages-ds-authority.csv
 
 ```
 json/language/010-language-workflow.json
