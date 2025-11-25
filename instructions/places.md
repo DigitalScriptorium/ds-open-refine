@@ -5,7 +5,7 @@
 3. Copy `place_as_recorded` column and reconcile new `recon-place` column against TGN vocabulary: [JSON][place_recon]
 4. Add `authorized_label_add` and `structured_value_add` columns for newly reconciled values: [JSON][place_values]
 5. Open OpenRefine in another tab/window; load `places-ds-authority.csv` ([FILE][place_authority]) into this new OpenRefine tab
-6. Add `authorized_label_add` and `structured_value_add` columns; finalize workflow: [JSON][place_finalize]
+6. Add `ds_qid_add` column; finalize workflow: [JSON][place_finalize]
 7. Remove any facets and filters
 8. Export full CSV from OpenRefine (retain file name)
 
