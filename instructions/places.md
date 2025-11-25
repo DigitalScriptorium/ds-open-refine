@@ -13,10 +13,12 @@
 [place_recon]:       json/place/030-place-recon.json
 [place_values]:      json/place/040-place-values.json
 [place_finalize]:    json/place/090-place-finalize.json
+[place_authority]:   authorities/places-ds-authority.csv
 
 ```
 json/place/010-place-workflow.json
 json/place/030-place-recon.json
 json/place/040-place-values.json
 json/place/090-place-finalize.json
+authorities/places-ds-authority.csv
 ```
