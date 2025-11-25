@@ -4,7 +4,7 @@
 2. Add workflow columns: [JSON][language_workflow]
 3. Copy and clean `language_as_recorded` column and reconcile new `recon-language` column against language type (Q34770): [JSON][language_recon]
 4. Add `authorized_label_add` and `structured_value_add` columns for newly reconciled values: [JSON][language_values]
-5. Open OpenRefine in another tab/window; load `languages-ds-authority.csv` [FILE][language_authority] into this new OpenRefine tab
+5. Open OpenRefine in another tab/window; load [`languages-ds-authority.csv`] [language_authority] into this new OpenRefine tab
 6. Add `ds_qid_add` column for reconciled values and finalize reconciliation workflow: [JSON][language_finalize]
 7. Remove any facets and filters
 8. Export full CSV from OpenRefine (retain file name)
