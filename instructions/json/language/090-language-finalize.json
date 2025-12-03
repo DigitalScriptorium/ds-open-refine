@@ -15,11 +15,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "structured_value_add",
-    "expression": "grel:cell.cross(\"languages-ds-authority\",\"externalID\").cells[\"dsQID\"].value[0]",
+    "expression": "grel:cell.cross(\"languages ds authority csv\",\"externalID\").cells[\"dsQID\"].value[0]",
     "onError": "set-to-blank",
     "newColumnName": "ds_qid_add",
     "columnInsertIndex": 7,
-    "description": "Create column ds_qid_add at index 7 based on column structured_value_add using expression grel:cell.cross(\"languages-ds-authority\",\"externalID\").cells[\"dsQID\"].value[0]"
+    "description": "Create column ds_qid_add at index 7 based on column structured_value_add using expression grel:cell.cross(\"languages ds authority csv\",\"externalID\").cells[\"dsQID\"].value[0]"
   },
   {
     "op": "core/multivalued-cell-join",
