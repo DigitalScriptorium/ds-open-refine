@@ -13,7 +13,7 @@
 3. Name file `VALUE-new-DATE`
 
 #### Checking for duplicate rows
-4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column, and all other columns that may render the row unique
+4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column and all other columns that may render the row unique
   - for genre data:
   - for language data:
   - for name data: 
