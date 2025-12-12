@@ -13,7 +13,7 @@
 3. Name file `VALUE-new-DATE`
 
 #### Checking for duplicate rows
-4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column and all other columns that may render the row unique
+4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column and all other columns that may render the row unique:
 - for genre data: [JSON][duplicate_check_genre]
 - for language data: [JSON][duplicate_check_language]
 - for material data: [JSON][duplicate_check_material]
@@ -30,7 +30,7 @@
 #### Removing working columns and merging new reconciliations with previous ones in data dictionaries
 10. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 11. Select `FALSE` for applied facet to `ds_qid_add` column
-12. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace
+12. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace:
   - for name data: [JSON][merge-clean-name-recon-data]
   - for title data: [JSON][merge-clean-title-recon-data]
   - for all other data: [JSON][merge-clean-other-recon-data]
