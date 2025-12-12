@@ -14,12 +14,12 @@
 
 #### Checking for duplicate rows
 4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column and all other columns that may render the row unique
-* for genre data:
-* for language data:
-  -- for name data: 
-  -- for named-subject and subject data:
-  -- for title data:
-  -- for all other data: 
+- for genre data:
+- for language data:
+- for name data:
+- for named-subject and subject data:
+- for title data:
+- for all other data: 
 5. On the newly created `duplicate_check` column, facet by selecting `Facet -> Customized facets -> Duplicates facet`
 6. Select `TRUE` for applied facet on `duplicate_check` column to find any duplicate rows
 7. Star one of each duplicate row to be removed, and on the `All` column, facet by selecting `Facet -> Facet by star`
@@ -30,9 +30,9 @@
 10. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 11. Select `FALSE` for applied facet to `ds_qid_add` column
 12. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace
-  -- for name data: [JSON][merge-clean-name-recon-data]
-  -- for title data: [JSON][merge-clean-title-recon-data]
-  -- for all other data: [JSON][merge-clean-other-recon-data]
+  - for name data: [JSON][merge-clean-name-recon-data]
+  - for title data: [JSON][merge-clean-title-recon-data]
+  - for all other data: [JSON][merge-clean-other-recon-data]
 
 #### Sorting data values alphabetically by as_recorded strings
 13. On `VALUE_as_recorded` column, apply `Sort...` with the following parameters: text, case sensitive, a-z
