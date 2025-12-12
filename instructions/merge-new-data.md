@@ -14,8 +14,8 @@
 
 #### Checking for duplicate rows
 4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column and all other columns that may render the row unique
-  -- for genre data:
-  -- for language data:
+* for genre data:
+* for language data:
   -- for name data: 
   -- for named-subject and subject data:
   -- for title data:
