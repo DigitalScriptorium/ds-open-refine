@@ -1,0 +1,15 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "title_as_recorded",
+    "expression": "join ([cells['title_as_recorded'].value,cells['title_as_recorded_agr'].value,cells['uniform_title_as_recorded'].value,cells['uniform_title_as_recorded_agr'].value],'')",
+    "onError": "keep-original",
+    "newColumnName": "duplicate_check",
+    "columnInsertIndex": 2,
+    "description": "Create column duplicate_check at index 2 based on column title_as_recorded using expression join ([cells['title_as_recorded'].value,cells['title_as_recorded_agr'].value,cells['uniform_title_as_recorded'].value,cells['uniform_title_as_recorded_agr'].value],'')"
+  }
+]
