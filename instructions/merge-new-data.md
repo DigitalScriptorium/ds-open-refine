@@ -25,9 +25,9 @@
 11. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 12. Select `FALSE` for applied facet to `ds_qid_add` column
 13. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace
-- for name data: [JSON][merge-clean-name-recon-data]
-- for title data:
-- for all other data: 
+  - for name data: [JSON][merge-clean-name-recon-data]
+  - for title data: [JSON][merge-clean-title-recon-data]
+  - for all other data: [JSON][merge-clean-other-recon-data]
 
 
 #### Sorting data values alphabetically by as_recorded strings
@@ -41,8 +41,12 @@
 19.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
 
 
-[merge-clean-name-recon-data]: json/all/010-merge-clean-name-recon-data.json
+[merge-clean-name-recon-data]:  json/all/010-merge-clean-name-recon-data.json
+[merge-clean-title-recon-data]: json/all/020-merge-clean-title-recon-data.json
+[merge-clean-other-recon-data]: json/all/030-merge-clean-other-recon-data.json
 
 ```
 json/all/010-merge-clean-name-recon-data.json
+json/all/020-merge-clean-title-recon-data.json
+json/all/030-merge-clean-other-recon-data.json
 ```
