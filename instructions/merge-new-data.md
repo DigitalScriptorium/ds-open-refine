@@ -16,10 +16,12 @@
 4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column and all other columns that may render the row unique
 - for genre data: [JSON][duplicate_check_genre]
 - for language data: [JSON][duplicate_check_language]
+- for material data: [JSON][duplicate_check_material]
 - for name data: [JSON][duplicate_check_name]
-- for named-subject and subject data: [JSON][duplicate_check_subject]
+- for named-subject data: [JSON][duplicate_check_named-subject]
+- for place data: [JSON][duplicate_check_place]
+- for subject data: [JSON][duplicate_check_subject]
 - for title data: [JSON][duplicate_check_title]
-- for all other data: [JSON][duplicate_check_other]
 5. On the newly created `duplicate_check` column, facet by selecting `Facet -> Customized facets -> Duplicates facet`
 6. Select `TRUE` for applied facet on `duplicate_check` column to find any duplicate rows
 7. Star one of each duplicate row to be removed, and on the `All` column, facet by selecting `Facet -> Facet by star`
@@ -45,23 +47,27 @@
 18.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
 
 
-[duplicate_check_genre]:        json/all/check/010-duplicate-check-genre.json
-[duplicate_check_language]:     json/all/check/020-duplicate-check-language.json
-[duplicate_check_name]:         json/all/check/030-duplicate-check-name.json
-[duplicate_check_subject]:      json/all/check/040-duplicate-check-subject.json
-[duplicate_check_title]:        json/all/check/050-duplicate-check-title.json
-[duplicate_check_other]:        json/all/check/060-duplicate-check-other.json
-[merge-clean-name-recon-data]:  json/all/merge/010-merge-clean-name-recon-data.json
-[merge-clean-title-recon-data]: json/all/merge/020-merge-clean-title-recon-data.json
-[merge-clean-other-recon-data]: json/all/merge/030-merge-clean-other-recon-data.json
+[duplicate_check_genre]:          json/all/check/010-duplicate-check-genre.json
+[duplicate_check_language]:       json/all/check/020-duplicate-check-language.json
+[duplicate_check_material]:       json/all/check/030-duplicate-check-material.json
+[duplicate_check_name]:           json/all/check/040-duplicate-check-name.json
+[duplicate_check_named-subject]:  json/all/check/050-duplicate-check-named-subject.json
+[duplicate_check_place]:          json/all/check/060-duplicate-check-place.json
+[duplicate_check_subject]:        json/all/check/070-duplicate-check-subject.json
+[duplicate_check_title]:          json/all/check/080-duplicate-check-title.json
+[merge-clean-name-recon-data]:    json/all/merge/010-merge-clean-name-recon-data.json
+[merge-clean-title-recon-data]:   json/all/merge/020-merge-clean-title-recon-data.json
+[merge-clean-other-recon-data]:   json/all/merge/030-merge-clean-other-recon-data.json
 
 ```
 json/all/check/010-duplicate-check-genre.json
 json/all/check/020-duplicate-check-language.json
-json/all/check/030-duplicate-check-name.json
-json/all/check/040-duplicate-check-subject.json
-json/all/check/050-duplicate-check-title.json
-json/all/check/060-duplicate-check-other.json
+json/all/check/030-duplicate-check-material.json
+json/all/check/040-duplicate-check-name.json
+json/all/check/050-duplicate-check-named-subject.json
+json/all/check/060-duplicate-check-place.json
+json/all/check/070-duplicate-check-subject.json
+json/all/check/080-duplicate-check-title.json
 json/all/merge/010-merge-clean-name-recon-data.json
 json/all/merge/020-merge-clean-title-recon-data.json
 json/all/merge/030-merge-clean-other-recon-data.json
