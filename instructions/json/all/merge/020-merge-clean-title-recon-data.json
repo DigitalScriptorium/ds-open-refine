@@ -1,0 +1,121 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ds_qid_add",
+          "expression": "isBlank(value)",
+          "columnName": "ds_qid_add",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "authorized_label",
+    "expression": "grel:cells[\"authorized_label_add\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column authorized_label using expression grel:cells[\"authorized_label_add\"].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ds_qid_add",
+          "expression": "isBlank(value)",
+          "columnName": "ds_qid_add",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ds_qid",
+    "expression": "grel:cells[\"ds_qid_add\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ds_qid using expression grel:cells[\"ds_qid_add\"].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "authorized_label_add",
+    "description": "Remove column authorized_label_add"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ds_qid_add",
+    "description": "Remove column ds_qid_add"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ds_qid_add",
+          "expression": "isBlank(value)",
+          "columnName": "ds_qid_add",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ds_qid",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ds_qid using expression value.trim()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "duplicate_check",
+    "description": "Remove column duplicate_check"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "File",
+    "description": "Remove column File"
+  }
+]
