@@ -1,0 +1,15 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "language_as_recorded",
+    "expression": "join ([cells['language_as_recorded'].value,cells['language_code'].value],'')",
+    "onError": "keep-original",
+    "newColumnName": "duplicate_check",
+    "columnInsertIndex": 2,
+    "description": "Create column duplicate_check at index 2 based on column language_as_recorded using expression join ([cells['language_as_recorded'].value,cells['language_code'].value],'')"
+  }
+]
