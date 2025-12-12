@@ -41,7 +41,7 @@
 19.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
 
 
-[merge-clean-recon-data]: json/all/010-merge-clean-name-recon-data.json
+[merge-clean-name-recon-data]: json/all/010-merge-clean-name-recon-data.json
 
 ```
 json/all/010-merge-clean-name-recon-data.json
