@@ -24,7 +24,10 @@
 #### Removing working columns and merging new reconciliations with previous ones in data dictionaries
 11. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
 12. Select `FALSE` for applied facet to `ds_qid_add` column
-13. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace: [JSON][merge-clean-recon-data]
+13. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace
+- for name data: [JSON][merge-clean-name-recon-data]
+- for title data:
+- for all other data: 
 
 
 #### Sorting data values alphabetically by as_recorded strings
@@ -38,8 +41,8 @@
 19.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
 
 
-[merge-clean-recon-data]: json/all/010-merge-clean-recon-data.json
+[merge-clean-recon-data]: json/all/010-merge-clean-name-recon-data.json
 
 ```
-json/all/010-merge-clean-recon-data.json
+json/all/010-merge-clean-name-recon-data.json
 ```
