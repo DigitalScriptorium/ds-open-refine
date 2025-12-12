@@ -1,0 +1,15 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "genre_as_recorded",
+    "expression": "join ([cells['genre_as_recorded'].value,cells['vocab'].value,cells['source_authority_uri'].value],'')",
+    "onError": "keep-original",
+    "newColumnName": "duplicate_check",
+    "columnInsertIndex": 2,
+    "description": "Create column duplicate_check at index 2 based on column genre_as_recorded using expression join ([cells['genre_as_recorded'].value,cells['vocab'].value,cells['source_authority_uri'].value],'')"
+  }
+]
