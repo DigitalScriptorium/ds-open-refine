@@ -18,9 +18,8 @@
 - for language data: [JSON][duplicate_check_language]
 - for material data: [JSON][duplicate_check_material]
 - for name data: [JSON][duplicate_check_name]
-- for named-subject data: [JSON][duplicate_check_named-subject]
 - for place data: [JSON][duplicate_check_place]
-- for subject data: [JSON][duplicate_check_subject]
+- for subject and named-subject data: [JSON][duplicate_check_subject]
 - for title data: [JSON][duplicate_check_title]
 5. On the newly created `duplicate_check` column, facet by selecting `Facet -> Customized facets -> Duplicates facet`
 6. Select `TRUE` for applied facet on `duplicate_check` column to find any duplicate rows
@@ -51,10 +50,9 @@
 [duplicate_check_language]:       json/all/check/020-duplicate-check-language.json
 [duplicate_check_material]:       json/all/check/030-duplicate-check-material.json
 [duplicate_check_name]:           json/all/check/040-duplicate-check-name.json
-[duplicate_check_named-subject]:  json/all/check/050-duplicate-check-named-subject.json
-[duplicate_check_place]:          json/all/check/060-duplicate-check-place.json
-[duplicate_check_subject]:        json/all/check/070-duplicate-check-subject.json
-[duplicate_check_title]:          json/all/check/080-duplicate-check-title.json
+[duplicate_check_place]:          json/all/check/050-duplicate-check-place.json
+[duplicate_check_subject]:        json/all/check/060-duplicate-check-subject.json
+[duplicate_check_title]:          json/all/check/070-duplicate-check-title.json
 [merge-clean-name-recon-data]:    json/all/merge/010-merge-clean-name-recon-data.json
 [merge-clean-title-recon-data]:   json/all/merge/020-merge-clean-title-recon-data.json
 [merge-clean-other-recon-data]:   json/all/merge/030-merge-clean-other-recon-data.json
@@ -64,10 +62,9 @@ json/all/check/010-duplicate-check-genre.json
 json/all/check/020-duplicate-check-language.json
 json/all/check/030-duplicate-check-material.json
 json/all/check/040-duplicate-check-name.json
-json/all/check/050-duplicate-check-named-subject.json
-json/all/check/060-duplicate-check-place.json
-json/all/check/070-duplicate-check-subject.json
-json/all/check/080-duplicate-check-title.json
+json/all/check/050-duplicate-check-place.json
+json/all/check/060-duplicate-check-subject.json
+json/all/check/070-duplicate-check-title.json
 json/all/merge/010-merge-clean-name-recon-data.json
 json/all/merge/020-merge-clean-title-recon-data.json
 json/all/merge/030-merge-clean-other-recon-data.json
