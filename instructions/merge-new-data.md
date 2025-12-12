@@ -45,12 +45,24 @@
 18.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
 
 
-[merge-clean-name-recon-data]:  json/all/010-merge-clean-name-recon-data.json
-[merge-clean-title-recon-data]: json/all/020-merge-clean-title-recon-data.json
-[merge-clean-other-recon-data]: json/all/030-merge-clean-other-recon-data.json
+[duplicate_check_genre]:        json/all/010-duplicate-check-genre.json
+[duplicate_check_language]:     json/all/020-duplicate-check-language.json
+[duplicate_check_name]:         json/all/030-duplicate-check-name.json
+[duplicate_check_subject]:      json/all/040-duplicate-check-subject.json
+[duplicate_check_title]:        json/all/050-duplicate-check-title.json
+[duplicate_check_other]:        json/all/055-duplicate-check-other.json
+[merge-clean-name-recon-data]:  json/all/060-merge-clean-name-recon-data.json
+[merge-clean-title-recon-data]: json/all/070-merge-clean-title-recon-data.json
+[merge-clean-other-recon-data]: json/all/080-merge-clean-other-recon-data.json
 
 ```
-json/all/010-merge-clean-name-recon-data.json
-json/all/020-merge-clean-title-recon-data.json
-json/all/030-merge-clean-other-recon-data.json
+json/all/010-duplicate-check-genre.json
+json/all/020-duplicate-check-language.json
+json/all/030-duplicate-check-name.json
+json/all/040-duplicate-check-subject.json
+json/all/050-duplicate-check-title.json
+json/all/055-duplicate-check-other.json
+json/all/060-merge-clean-name-recon-data.json
+json/all/070-merge-clean-title-recon-data.json
+json/all/080-merge-clean-other-recon-data.json
 ```
