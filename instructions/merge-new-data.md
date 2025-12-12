@@ -13,32 +13,36 @@
 3. Name file `VALUE-new-DATE`
 
 #### Checking for duplicate rows
-4. On `VALUE_as_recorded` column, `Edit column -> Join columns...`
-5. Within the join columns menu, choose all columns that apply which may render the row unique, select `Write result in new column named` and type into the text box `duplicate_check`
-6. On the newly created `duplicate_check` column, facet by selecting `Facet -> Customized facets -> Duplicates facet`
-7. Select `TRUE` for applied facet on `duplicate_check` column to find any duplicate rows
-8. Star one of each duplicate row to be removed, and on the `All` column, facet by selecting `Facet -> Facet by star`
-9. Select `TRUE` for applied facet on starred rows
-10. On `All` column, select `Edit rows -> Remove matching rows`
+4. Apply JSON recipe to conduct a duplicate check based on the `VALUE_as_recorded` column, and all other columns that may render the row unique
+  - for genre data:
+  - for language data:
+  - for name data: 
+  - for named-subject and subject data:
+  - for title data:
+  - for all other data: 
+5. On the newly created `duplicate_check` column, facet by selecting `Facet -> Customized facets -> Duplicates facet`
+6. Select `TRUE` for applied facet on `duplicate_check` column to find any duplicate rows
+7. Star one of each duplicate row to be removed, and on the `All` column, facet by selecting `Facet -> Facet by star`
+8. Select `TRUE` for applied facet on starred rows
+9. On `All` column, select `Edit rows -> Remove matching rows`
 
 #### Removing working columns and merging new reconciliations with previous ones in data dictionaries
-11. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
-12. Select `FALSE` for applied facet to `ds_qid_add` column
-13. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace
+10. On the `ds_qid_add` column, facet by selecting `Facet -> Customized facets -> Facet by blank`
+11. Select `FALSE` for applied facet to `ds_qid_add` column
+12. Apply JSON recipe to merge new data values into existing data, remove unnecessary columns, remove whitespace
   - for name data: [JSON][merge-clean-name-recon-data]
   - for title data: [JSON][merge-clean-title-recon-data]
   - for all other data: [JSON][merge-clean-other-recon-data]
 
-
 #### Sorting data values alphabetically by as_recorded strings
-14. On `VALUE_as_recorded` column, apply `Sort...` with the following parameters: text, case sensitive, a-z
-15. From row view selector, find `Sort` and choose `Reorder rows permanently`
-16. `Export -> Comma-separated value` file from OpenRefine to local machine
+13. On `VALUE_as_recorded` column, apply `Sort...` with the following parameters: text, case sensitive, a-z
+14. From row view selector, find `Sort` and choose `Reorder rows permanently`
+15. `Export -> Comma-separated value` file from OpenRefine to local machine
 
 ### Updating data dictionaries in ds-data repository
-17.  Add exported `VALUE-new-DATE.csv` to [`ds-data/terms/reconciled`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled) repository from local machine
-18.  Deprecate/archive old version of `VALUE.csv` by moving to [`ds-data/terms/reconciled/deprecated`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled/deprecated) under the appropriately dated directory (i.e., create a new directory with the current date under the current year)
-19.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
+16.  Add exported `VALUE-new-DATE.csv` to [`ds-data/terms/reconciled`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled) repository from local machine
+17.  Deprecate/archive old version of `VALUE.csv` by moving to [`ds-data/terms/reconciled/deprecated`](https://github.com/DigitalScriptorium/ds-data/tree/main/terms/reconciled/deprecated) under the appropriately dated directory (i.e., create a new directory with the current date under the current year)
+18.  Return to `reconciled` directory and rename `VALUE-new-DATE.csv` to `VALUE.csv`
 
 
 [merge-clean-name-recon-data]:  json/all/010-merge-clean-name-recon-data.json
