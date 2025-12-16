@@ -1,0 +1,38 @@
+[
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "materialDS",
+    "keyColumnName": "signature",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column materialDS"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "materialDS",
+    "expression": "grel:cell.cross(\"materials-ds-aat-wikidata\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "materialWikidata",
+    "columnInsertIndex": 4,
+    "description": "Create column materialWikidata at index 4 based on column materialDS using expression grel:cell.cross(\"materials-ds-aat-wikidata\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "materialDS",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column materialDS"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "materialWikidata",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column materialWikidata"
+  }
+]
