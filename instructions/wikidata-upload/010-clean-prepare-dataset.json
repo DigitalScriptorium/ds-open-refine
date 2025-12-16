@@ -1,0 +1,54 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "materialDS",
+    "expression": "grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column materialDS using expression grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "centuryDS",
+    "expression": "grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column centuryDS using expression grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "placeDS",
+    "expression": "grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column placeDS using expression grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dsItemID",
+    "expression": "grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dsItemID using expression grel:value.replace(\"https://catalog.digital-scriptorium.org/entity/\",\"\")"
+  }
+]
