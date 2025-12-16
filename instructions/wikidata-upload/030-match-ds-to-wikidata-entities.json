@@ -34,5 +34,20 @@
     "keyColumnName": "signature",
     "separator": "|",
     "description": "Join multi-valued cells in column materialWikidata"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "materialWikidata",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column materialWikidata by separator"
   }
 ]
