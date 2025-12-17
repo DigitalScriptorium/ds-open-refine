@@ -15,11 +15,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "materialDS",
-    "expression": "grel:cell.cross(\"materials-ds-aat-wikidata\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
+    "expression": "grel:cell.cross(\"materials-ds-aat-wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
     "onError": "set-to-blank",
     "newColumnName": "materialWikidata",
     "columnInsertIndex": 4,
-    "description": "Create column materialWikidata at index 4 based on column materialDS using expression grel:cell.cross(\"materials-ds-aat-wikidata\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
+    "description": "Create column materialWikidata at index 4 based on column materialDS using expression grel:cell.cross(\"materials-ds-aat-wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
   },
   {
     "op": "core/multivalued-cell-join",
@@ -49,5 +49,223 @@
     "regex": false,
     "maxColumns": 0,
     "description": "Split column materialWikidata by separator"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "placeDS",
+    "keyColumnName": "signature",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column placeDS"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "placeDS",
+    "expression": "grel:cell.cross(\"places ds tgn wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "placeWikidata",
+    "columnInsertIndex": 10,
+    "description": "Create column placeWikidata at index 10 based on column placeDS using expression grel:cell.cross(\"places ds tgn wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "placeDS",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column placeDS"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "placeWikidata",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column placeWikidata"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "placeWikidata",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column placeWikidata by separator"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "centuryDS",
+    "keyColumnName": "signature",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column centuryDS"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "centuryDS",
+    "expression": "grel:cell.cross(\"centuries ds aat wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "centuryWikidata",
+    "columnInsertIndex": 7,
+    "description": "Create column centuryWikidata at index 7 based on column centuryDS using expression grel:cell.cross(\"centuries ds aat wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "centuryDS",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column centuryDS"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "centuryWikidata",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column centuryWikidata"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "centuryWikidata",
+    "expression": "grel:if(value.contains(\"|\"),value,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "centuryWikidataMultiple",
+    "columnInsertIndex": 8,
+    "description": "Create column centuryWikidataMultiple at index 8 based on column centuryWikidata using expression grel:if(value.contains(\"|\"),value,\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "centuryWikidataMultiple",
+          "columnName": "centuryWikidataMultiple",
+          "query": "Q7063|Q7061|Q7049|Q7034|Q7018|Q7017|Q7016|Q7015|Q6955|Q6927",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "centuryWikidataMultiple",
+    "expression": "grel:\"Q25860\"",
+    "onError": "set-to-blank",
+    "newColumnName": "2millennium",
+    "columnInsertIndex": 9,
+    "description": "Create column 2millennium at index 9 based on column centuryWikidataMultiple using expression grel:\"Q25860\""
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "centuryWikidataMultiple",
+          "columnName": "centuryWikidataMultiple",
+          "query": "Q8106|Q8103|Q8101|Q8099|Q8095|Q8090|Q8089|Q8086|Q8083|Q8052",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "centuryWikidataMultiple",
+    "expression": "grel:\"Q25868\"",
+    "onError": "set-to-blank",
+    "newColumnName": "1millennium",
+    "columnInsertIndex": 9,
+    "description": "Create column 1millennium at index 9 based on column centuryWikidataMultiple using expression grel:\"Q25868\""
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "centuryWikidataMultiple",
+    "expression": "grel:cells[\"1millennium\"].value+\"|\"+cells[\"2millennium\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "millenniumMultiple",
+    "columnInsertIndex": 9,
+    "description": "Create column millenniumMultiple at index 9 based on column centuryWikidataMultiple using expression grel:cells[\"1millennium\"].value+\"|\"+cells[\"2millennium\"].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "centuryWikidata",
+    "expression": "grel:if(isNonBlank(cells[\"2millennium\"]),cells[\"2millennium\"].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column centuryWikidata using expression grel:if(isNonBlank(cells[\"2millennium\"]),cells[\"2millennium\"].value,value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "centuryWikidata",
+    "expression": "grel:if(isNonBlank(cells[\"1millennium\"]),cells[\"1millennium\"].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column centuryWikidata using expression grel:if(isNonBlank(cells[\"1millennium\"]),cells[\"1millennium\"].value,value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "centuryWikidata",
+    "expression": "grel:if(isNonBlank(cells[\"millenniumMultiple\"]),cells[\"millenniumMultiple\"].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column centuryWikidata using expression grel:if(isNonBlank(cells[\"millenniumMultiple\"]),cells[\"millenniumMultiple\"].value,value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centuryWikidataMultiple",
+    "description": "Remove column centuryWikidataMultiple"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "millenniumMultiple",
+    "description": "Remove column millenniumMultiple"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "1millennium",
+    "description": "Remove column 1millennium"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "2millennium",
+    "description": "Remove column 2millennium"
   }
 ]
