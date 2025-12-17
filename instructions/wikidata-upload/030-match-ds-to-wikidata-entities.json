@@ -267,5 +267,33 @@
     "op": "core/column-removal",
     "columnName": "2millennium",
     "description": "Remove column 2millennium"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "scriptNotes",
+    "expression": "grel:cell.cross(\"scripts ds aat wikidata csv\",\"script_note_as_recorded\").cells[\"wikidata_qid\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "scriptWikidata",
+    "columnInsertIndex": 14,
+    "description": "Create column scriptWikidata at index 14 based on column scriptNotes using expression grel:cell.cross(\"scripts ds aat wikidata csv\",\"script_note_as_recorded\").cells[\"wikidata_qid\"].value[0]"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scriptWikidata",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column scriptWikidata by separator"
   }
 ]
