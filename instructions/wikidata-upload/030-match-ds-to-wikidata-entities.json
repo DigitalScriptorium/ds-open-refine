@@ -15,11 +15,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "materialDS",
-    "expression": "grel:cell.cross(\"materials-ds-aat-wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
+    "expression": "grel:cell.cross(\"materials ds aat wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]",
     "onError": "set-to-blank",
     "newColumnName": "materialWikidata",
     "columnInsertIndex": 4,
-    "description": "Create column materialWikidata at index 4 based on column materialDS using expression grel:cell.cross(\"materials-ds-aat-wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
+    "description": "Create column materialWikidata at index 4 based on column materialDS using expression grel:cell.cross(\"materials ds aat wikidata csv\",\"ds_qid\").cells[\"wikidata_qid\"].value[0]"
   },
   {
     "op": "core/multivalued-cell-join",
