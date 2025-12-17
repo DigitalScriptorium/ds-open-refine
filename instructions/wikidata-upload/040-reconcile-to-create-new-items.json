@@ -1,0 +1,52 @@
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "signature",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "itemWikidata",
+    "columnInsertIndex": 1,
+    "description": "Create column itemWikidata at index 1 based on column signature using expression grel:value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "itemWikidata",
+    "index": 0,
+    "description": "Move column itemWikidata to position 0"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "itemWikidata",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q35120",
+        "name": "entity"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column itemWikidata to type Q35120"
+  },
+  {
+    "op": "core/recon-mark-new-topics",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "itemWikidata",
+    "shareNewTopics": false,
+    "description": "Mark to create new items for cells in column itemWikidata, one item for each cell"
+  }
