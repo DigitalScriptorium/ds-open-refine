@@ -1,0 +1,145 @@
+[
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "instanceOf",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column instanceOf"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "materialWikidata 1",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column materialWikidata 1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "materialWikidata 2",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column materialWikidata 2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "placeWikidata 1",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column placeWikidata 1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "placeWikidata 2",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column placeWikidata 2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "placeWikidata 3",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column placeWikidata 3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "languageWikidata 1",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column languageWikidata 1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "languageWikidata 2",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column languageWikidata 2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "languageWikidata 3",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column languageWikidata 3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "languageWikidata 4",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column languageWikidata 4"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "languageWikidata 5",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column languageWikidata 5"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "languageWikidata 6",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column languageWikidata 6"
+  }
