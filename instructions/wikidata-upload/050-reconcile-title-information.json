@@ -1,0 +1,36 @@
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "titleStandard",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "titleWikidata",
+    "columnInsertIndex": 18,
+    "description": "Create column titleWikidata at index 18 based on column titleStandard using expression grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "titleWikidata",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q386724",
+        "name": "work"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column titleWikidata to type Q386724"
+  }
