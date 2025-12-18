@@ -1,10 +1,10 @@
 # Instructions for Using OpenRefine to Upload DS Data to Create Wikidata Items for Manuscripts
 
-The following instructions are used to automate uploads of manuscript metadata from DS records in order to represent DS member collections in Wikidata using OpenRefine. 
+The following instructions are used to automate uploads of manuscript metadata from DS records in order to represent DS member collections in Wikidata using OpenRefine. Datasets are generated through use of the DS Wikibase Query Service using a [query template][query-template] to extract data that matches the DS-developed implementation of the [WikiProject Manuscripts data model][https://www.wikidata.org/wiki/Wikidata:WikiProject_Manuscripts/Data_Model].
 
 ## Preparing and Formatting DS Data for Reuse in Wikidata
 
-1. Load input dataset into OpenRefine: [input datasets][inputs]
+1. Download input dataset to local machine and load input dataset into OpenRefine: [input datasets][inputs]
 2. Clean and prepare columns for materials, centuries, places, and DS Wikibase item IDs (QIDs) by removing URI formatting, leaving DS QIDs: [JSON][prepare-dataset]
 3. Split Wikidata-based columns from DS data (languages, scribes, artists, authors, owners) into separate columns: [JSON][split-wikidata-columns]
 4. Load data dictionaries used for matching DS QIDs to Wikidata QIDS into OpenRefine; delete any previous versions from OpenRefine projects
@@ -40,9 +40,10 @@ The following instructions are used to automate uploads of manuscript metadata f
 [new-wikidata-items]: 040-reconcile-to-create-new-items.json
 [title-wikidata-recon]: 050-reconcile-title-information.json
 
+[query-template]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/sparql-query-template
 [inputs]: https://github.com/DigitalScriptorium/ds-data/tree/main/ds-to-wikidata/datasets/inputs
-
 [schema-template]: https://github.com/DigitalScriptorium/ds-data/tree/main/ds-to-wikidata/wikibase-schemas/ds-to-wikibase-openrefine-schema-template.json
+
 [century-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/centuries-ds-aat-wikidata.csv
 [language-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/languages-ds-wikidata.csv
 [material-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/materials-ds-aat-wikidata.csv
