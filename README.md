@@ -80,3 +80,7 @@ Facets and filters can also be used on the data by using drop-down menus availab
 ### Instructions for integrating new reconciliations with previously reconciled data
 
 [Merging newly enriched data with data dictionaries](instructions/merge-new-data.md)
+
+### Instructions for Uploading DS data to Wikidata
+
+[Processing DS data to represent manuscript objects in Wikidata](instructions/wikidata-upload/ds-to-wikidata.md)
