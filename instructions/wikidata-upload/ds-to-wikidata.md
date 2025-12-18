@@ -1,6 +1,6 @@
 # Instructions for Using OpenRefine to Upload DS Data to Create Wikidata Items for Manuscripts
 
-The following instructions are used to automate uploads of manuscript metadata from DS records in order to represent DS member collections in Wikidata using OpenRefine. Datasets are generated through use of the DS Wikibase Query Service using a [query template][query-template] to extract data that matches the DS-developed implementation of the [WikiProject Manuscripts data model https://www.wikidata.org/wiki/Wikidata:WikiProject_Manuscripts/Data_Model].
+The following instructions are used to automate uploads of manuscript metadata from DS records in order to represent DS member collections in Wikidata using OpenRefine. Datasets are generated through use of the DS Wikibase Query Service using a [query template][query-template] to extract data that matches the DS-developed implementation of the [WikiProject Manuscripts data model][WPM-data-model].
 
 ## Preparing and Formatting DS Data for Reuse in Wikidata
 
@@ -39,6 +39,8 @@ The following instructions are used to automate uploads of manuscript metadata f
 [match-wikidata-values]: 030-match-ds-to-wikidata-entities.json
 [new-wikidata-items]: 040-reconcile-to-create-new-items.json
 [title-wikidata-recon]: 050-reconcile-title-information.json
+
+[WPM-data-model]: https://www.wikidata.org/wiki/Wikidata:WikiProject_Manuscripts/Data_Model
 
 [query-template]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/sparql-query-template
 [inputs]: https://github.com/DigitalScriptorium/ds-data/tree/main/ds-to-wikidata/datasets/inputs
