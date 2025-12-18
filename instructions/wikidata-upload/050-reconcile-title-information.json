@@ -1,3 +1,4 @@
+[
   {
     "op": "core/column-addition",
     "engineConfig": {
@@ -23,14 +24,11 @@
       "service": "https://wikidata.reconci.link/en/api",
       "identifierSpace": "http://www.wikidata.org/entity/",
       "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q386724",
-        "name": "work"
-      },
       "autoMatch": true,
       "batchSize": 10,
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column titleWikidata to type Q386724"
+    "description": "Reconcile cells in column titleWikidata to type null"
   }
+]
