@@ -4,7 +4,7 @@ The following instructions are used to automate uploads of manuscript metadata f
 
 ## Preparing and Formatting DS Data for Reuse in Wikidata
 
-1. Load input dataset into OpenRefine: [input datasets]
+1. Load input dataset into OpenRefine: [input datasets][inputs]
 2. Clean and prepare columns for materials, centuries, places, and DS Wikibase item IDs (QIDs) by removing URI formatting, leaving DS QIDs: [JSON][prepare-dataset]
 3. Split Wikidata-based columns from DS data (languages, scribes, artists, authors, owners) into separate columns: [JSON][split-wikidata-columns]
 4. Load data dictionaries used for matching DS QIDs to Wikidata QIDS into OpenRefine; delete any previous versions from OpenRefine projects
