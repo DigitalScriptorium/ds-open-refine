@@ -5,13 +5,14 @@ The following instructions are used to automate uploads of manuscript metadata f
 ## Preparing and Formatting DS Data for Reuse in Wikidata
 
 1. Load input dataset into OpenRefine
-2. Clean and prepare columns for materials, centuries, places, and DS Wikibase item IDs (QIDs) by removing URI formatting, leaving DS QIDs: [JSON]
+2. Clean and prepare columns for materials, centuries, places, and DS Wikibase item IDs (QIDs) by removing URI formatting, leaving DS QIDs: [JSON][prepare-dataset]
 3. Split Wikidata-based columns from DS data (languages, scribes, artists, authors, owners) into separate columns: [JSON]
 4. Load data dictionaries used for matching DS QIDs to Wikidata QIDS into OpenRefine; delete any previous versions from OpenRefine projects
   - [centuries][century-dictionary]
-  - dsahfkjhfds
-  - dkjhdkjhf
-  - fdkjhfkjhfds
+  - [languages][language-dictionary]
+  - [materials][material-dictionary]
+  - [places][place-dictionary]
+  - [scripts][script-dictionary]
 5. Match DS QID values for materials, centuries, places, and scripts to Wikidata QIDs using data dictionaries: [JSON]
 6. Run reconciliation to format dataset to create new Wikidata items: [JSON] 
 7. Download the DS to Wikidata OpenRefine schema template to local machine: [Schema JSON file]
@@ -32,4 +33,12 @@ The following instructions are used to automate uploads of manuscript metadata f
 16. In the `summary` field, enter the input dataset filename formatted `YYYYMMDD-institutionCode-ds-wikidata` (e.g., `20250807-bec-ds-wikidata`)
 17. Select `Upload edits`
 
+
+[prepare-dataset]: 010-clean-prepare-dataset.json
+
+
 [century-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/centuries-ds-aat-wikidata.csv
+[language-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/languages-ds-wikidata.csv
+[material-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/materials-ds-aat-wikidata.csv
+[place-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/places-ds-tgn-wikidata.csv
+[script-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/scripts-ds-aat-wikidata.csv
