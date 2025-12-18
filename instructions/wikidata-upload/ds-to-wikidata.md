@@ -1,10 +1,10 @@
 # Instructions for Using OpenRefine to Upload DS Data to Create Wikidata Items for Manuscripts
 
-The following instructions are used to automate uploads of manuscript metadata from DS records in order to represent DS member collections in Wikidata.
+The following instructions are used to automate uploads of manuscript metadata from DS records in order to represent DS member collections in Wikidata using OpenRefine. 
 
 ## Preparing and Formatting DS Data for Reuse in Wikidata
 
-1. Load input dataset into OpenRefine
+1. Load input dataset into OpenRefine: [input datasets]
 2. Clean and prepare columns for materials, centuries, places, and DS Wikibase item IDs (QIDs) by removing URI formatting, leaving DS QIDs: [JSON][prepare-dataset]
 3. Split Wikidata-based columns from DS data (languages, scribes, artists, authors, owners) into separate columns: [JSON][split-wikidata-columns]
 4. Load data dictionaries used for matching DS QIDs to Wikidata QIDS into OpenRefine; delete any previous versions from OpenRefine projects
@@ -39,6 +39,8 @@ The following instructions are used to automate uploads of manuscript metadata f
 [match-wikidata-values]: 030-match-ds-to-wikidata-entities.json
 [new-wikidata-items]: 040-reconcile-to-create-new-items.json
 [title-wikidata-recon]: 050-reconcile-title-information.json
+
+[inputs]: https://github.com/DigitalScriptorium/ds-data/tree/main/ds-to-wikidata/datasets/inputs
 
 [schema-template]: https://github.com/DigitalScriptorium/ds-data/tree/main/ds-to-wikidata/wikibase-schemas/ds-to-wikibase-openrefine-schema-template.json
 [century-dictionary]: https://github.com/DigitalScriptorium/ds-data/blob/main/ds-to-wikidata/crosswalks/entities/centuries-ds-aat-wikidata.csv
