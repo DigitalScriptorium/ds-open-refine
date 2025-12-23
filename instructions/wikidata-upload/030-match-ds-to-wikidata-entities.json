@@ -102,6 +102,34 @@
     "description": "Split column placeWikidata by separator"
   },
   {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "scriptNotes",
+    "expression": "grel:cell.cross(\"scripts ds aat wikidata csv\",\"script_note_as_recorded\").cells[\"wikidata_qid\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "scriptWikidata",
+    "columnInsertIndex": 14,
+    "description": "Create column scriptWikidata at index 14 based on column scriptNotes using expression grel:cell.cross(\"scripts ds aat wikidata csv\",\"script_note_as_recorded\").cells[\"wikidata_qid\"].value[0]"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scriptWikidata",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column scriptWikidata by separator"
+  },
+  {
     "op": "core/multivalued-cell-split",
     "columnName": "centuryDS",
     "keyColumnName": "signature",
@@ -269,31 +297,96 @@
     "description": "Remove column 2millennium"
   },
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "scriptNotes",
-    "expression": "grel:cell.cross(\"scripts ds aat wikidata csv\",\"script_note_as_recorded\").cells[\"wikidata_qid\"].value[0]",
-    "onError": "set-to-blank",
-    "newColumnName": "scriptWikidata",
-    "columnInsertIndex": 14,
-    "description": "Create column scriptWikidata at index 14 based on column scriptNotes using expression grel:cell.cross(\"scripts ds aat wikidata csv\",\"script_note_as_recorded\").cells[\"wikidata_qid\"].value[0]"
-  },
-  {
-    "op": "core/column-split",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "scriptWikidata",
-    "guessCellType": true,
-    "removeOriginalColumn": true,
+    "op": "core/multivalued-cell-split",
+    "columnName": "centuryWikidata",
+    "keyColumnName": "signature",
     "mode": "separator",
     "separator": "|",
     "regex": false,
-    "maxColumns": 0,
-    "description": "Split column scriptWikidata by separator"
+    "description": "Split multi-valued cells in column centuryWikidata"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "centuryWikidata",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column centuryWikidata"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "centuryWikidata",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "Len",
+          "name": "SPARQL: Len"
+        }
+      ]
+    },
+    "columnInsertIndex": 8,
+    "description": "Extend data at index 8 based on column centuryWikidata"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Len",
+    "expression": "grel:value.replace(\"th \",\"\").replace(\"st \",\"\").replace(\"nd \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Len using expression grel:value.replace(\"th \",\"\").replace(\"st \",\"\").replace(\"nd \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Len",
+    "expression": "grel:value.replace(\"century\",\"00C\").replace(\"millennium\",\"000M\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Len using expression grel:value.replace(\"century\",\"00C\").replace(\"millennium\",\"000M\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Len",
+    "newColumnName": "century",
+    "description": "Rename column Len to century"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "centuryWikidata",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column centuryWikidata"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "century",
+    "keyColumnName": "signature",
+    "separator": "|",
+    "description": "Join multi-valued cells in column century"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centuryWikidata",
+    "description": "Remove column centuryWikidata"
   }
 ]
