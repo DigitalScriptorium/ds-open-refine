@@ -17,8 +17,10 @@ The following instructions are used to automate uploads of manuscript metadata f
 6. Run reconciliation to format dataset to create new Wikidata items: [JSON][new-wikidata-items]
 7. Download the DS to Wikidata OpenRefine schema template to local machine: [Schema JSON file][schema-template]
 8. Apply the DS to Wikidata schema template to the project by selecting `Extensions -> Wikibase` in the top right menu options, then `Manage schemas` and `Import new schema` to select the downloaded file
-9. Review schema issues, resolve any missing or extra columns, and correct any invalid statement values 
-10. For every `valueWikidata` column present, reconcile to Wikidata by clicking on the down arrow, selecting `Reconcile -> Use values as identifiers` and choose the `Wikidata reconci.link` option
+9. Select `Extensions -> Wikibase` and choose `Edit Wikibase schema`
+10. On the Schema tab, from `Start from an existing schema` drop down menu, choose schema just uploaded
+11. Review schema issues, resolve any missing or extra columns, and correct any invalid statement values 
+12. For every `valueWikidata` column present, reconcile to Wikidata by clicking on the down arrow, selecting `Reconcile -> Use values as identifiers` and choose the `Wikidata reconci.link` option
 
 ## Matching Title Information to Wikidata Items
 
