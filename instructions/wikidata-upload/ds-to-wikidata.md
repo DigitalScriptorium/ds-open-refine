@@ -20,20 +20,20 @@ The following instructions are used to automate uploads of manuscript metadata f
 9. Select `Extensions -> Wikibase` and choose `Edit Wikibase schema`
 10. On the Schema tab, from `Start from an existing schema` drop down menu, choose schema just uploaded
 11. Review schema issues, resolve any missing or extra columns, and correct any invalid statement values 
-12. For every `valueWikidata` column present, reconcile to Wikidata by clicking on the down arrow, selecting `Reconcile -> Use values as identifiers` and choose the `Wikidata reconci.link` option
+12. For every `instanceOf` and `valueWikidata` column present, reconcile to Wikidata by clicking on the down arrow, selecting `Reconcile -> Use values as identifiers` and choose the `Wikidata reconci.link` option
 
 ## Matching Title Information to Wikidata Items
 
-11. Run reconciliation process on title information: [JSON][title-wikidata-recon]
-12. Review and make matches for title/work in Wikidata based on reconciliation information
-13. If necessary, split columns and edit schema to include title/work (`titleWikidata`) and matching author information (`authorWikidata`) as qualifier(s) for `exemplar of` property statements
+13. Run reconciliation process on title information: [JSON][title-wikidata-recon]
+14. Review and make matches for title/work in Wikidata based on reconciliation information
+15. If necessary, split columns and edit schema to include title/work (`titleWikidata`) and matching author information (`authorWikidata`) as qualifier(s) for `exemplar of` property statements
 
 ## Creating Wikidata Items for DS-Represented Manuscripts by Making Automated Edits
 
-14. Review and resolve any additional schema issues prior to Wikibase edit/upload
-15. Start process to push uploads to Wikidata by selecting `Extensions -> Wikibase` in the top right menu, then `Upload edits to Wikibase`
-16. In the `summary` field, enter the input dataset filename formatted `YYYYMMDD-institutionCode-ds-wikidata` (e.g., `20250807-bec-ds-wikidata`)
-17. Select `Upload edits`
+16. Review and resolve any additional schema issues prior to Wikibase edit/upload
+17. Start process to push uploads to Wikidata by selecting `Extensions -> Wikibase` in the top right menu, then `Upload edits to Wikibase`
+18. In the `summary` field, enter the input dataset filename formatted `YYYYMMDD-institutionCode-ds-wikidata` (e.g., `20250807-bec-ds-wikidata`)
+19. Select `Upload edits`
 
 
 [prepare-dataset]: 010-clean-prepare-dataset.json
