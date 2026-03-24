@@ -51,35 +51,35 @@ Facets and filters can also be used on the data by using drop-down menus availab
 
 #### Genres
 
-[Genre reconciliation instructions](/instructions/genres.md)
+[Genre reconciliation instructions](/instructions/recon-enrichment/genres.md)
 
 #### Languages
 
-[Language reconciliation instructions](/instructions/languages.md)
+[Language reconciliation instructions](/instructions/recon-enrichment/languages.md)
 
 #### Materials
 
-[Material reconciliation instructions](/instructions/materials.md)
+[Material reconciliation instructions](/instructions/recon-enrichment/materials.md)
 
 #### Names
 
-[Name reconciliation instructions](/instructions/names.md)
+[Name reconciliation instructions](/instructions/recon-enrichment/names.md)
 
 #### Places
 
-[Place reconciliation instructions](/instructions/places.md)
+[Place reconciliation instructions](/instructions/recon-enrichment/places.md)
 
 #### Subjects
 
-[Subject reconciliation instructions](/instructions/subjects.md)
+[Subject reconciliation instructions](/instructions/recon-enrichment/subjects.md)
 
 #### Titles
 
-[Title reconciliation instructions](instructions/titles.md)
+[Title reconciliation instructions](instructions/recon-enrichment/titles.md)
 
 ### Instructions for integrating new reconciliations with previously reconciled data
 
-[Merging newly enriched data with data dictionaries](instructions/merge-new-data.md)
+[Merging newly enriched data with data dictionaries](instructions/recon-enrichment/merge-new-data.md)
 
 ### Instructions for Uploading DS data to Wikidata
 
